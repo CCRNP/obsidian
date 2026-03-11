@@ -1,6 +1,16 @@
 {
 	"nodes":[
-		{"id":"66669811633210de","x":-140,"y":-300,"width":250,"height":60,"type":"text","text":"Obsidian git push test"}
+		{"id":"abeb7df4c736a350","type":"text","text":"HDFS 读流程","x":-540,"y":-500,"width":143,"height":60},
+		{"id":"66669811633210de","type":"text","text":"HDFS 写流程","x":240,"y":-500,"width":143,"height":60},
+		{"id":"50f4771f7ded2f46","type":"text","text":"客户端","x":-685,"y":-400,"width":97,"height":60},
+		{"id":"ebce9d26bf40e6b8","type":"text","text":"客户端的 \nFileSystem 类调用\n.open()方法 访问 NameNode","x":-790,"y":-300,"width":250,"height":115},
+		{"id":"1d537e5f8482f46b","type":"text","text":"NameNode","x":-960,"y":-131,"width":131,"height":60},
+		{"id":"2cfda7ac7d11800e","type":"text","text":"NameNode","x":-790,"y":-131,"width":131,"height":60},
+		{"id":"bd1e15bf6cd9ddb9","type":"text","text":"NameNode","x":-599,"y":-131,"width":131,"height":60},
+		{"id":"dbd3a550af5a7238","type":"text","text":"DataNode","x":-951,"y":20,"width":122,"height":60},
+		{"id":"a040a43125cd77db","type":"text","text":"DataNode","x":-781,"y":20,"width":122,"height":60},
+		{"id":"08221680812e0695","type":"text","text":"DataNode","x":-588,"y":20,"width":122,"height":60},
+		{"id":"2803c238031495c5","type":"text","text":"读流程\n\t客户端 通过FileSystem 类 调用 .open() 方法 访问 NameNode，NameNode 返回 元数据, 根据与客户端的距离 由近到远排序 DataNode 返回给客户端，客户端根据元数据与 DataNode 建立连接，读取 每个DataNode里的 Block，读完一个接着读下一个DataNode 的Block ，最后整合起来。","x":-303,"y":-297,"width":250,"height":346}
 	],
 	"edges":[]
 }
