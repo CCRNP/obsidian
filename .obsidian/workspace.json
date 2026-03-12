@@ -224,12 +224,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "ec7fe0f97f5f47bd",
+  "active": "39a25e17d586ad49",
   "lastOpenFiles": [
+    "2026-03-12.md",
+    "conflict-files-obsidian-git.md",
     "Foo.md",
     "MRS面评/3月11日/3月11日.md",
     "2026-03-11.md",
-    "2026-03-12.md",
     "Yarn.md",
     "HDFS RPC 偏高.md",
     "HDFS-yarn-MR 问题解答.md",
