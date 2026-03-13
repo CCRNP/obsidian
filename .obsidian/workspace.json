@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "windows push test.md",
+                "file": "HDFS/HDFS-yarn-MR 问题解答.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "windows push test 的出链列表"
+              "title": "HDFS-yarn-MR 问题解答 的出链列表"
             }
           },
           {
@@ -149,21 +149,6 @@
               },
               "icon": "lucide-tags",
               "title": "标签"
-            }
-          },
-          {
-            "id": "541302b2e900283d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "followCursor": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "conflict-files-obsidian-git 的大纲"
             }
           },
           {
@@ -199,13 +184,28 @@
               "icon": "message-square",
               "title": "Copilot"
             }
+          },
+          {
+            "id": "e55150af1d2193d1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HDFS/HDFS-yarn-MR 问题解答.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "HDFS-yarn-MR 问题解答 的大纲"
+            }
           }
         ],
         "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 486.5,
+    "width": 373.5,
     "collapsed": true
   },
   "left-ribbon": {
