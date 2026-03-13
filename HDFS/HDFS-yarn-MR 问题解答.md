@@ -3,9 +3,9 @@
 
 ### 1. 那些可以和namenode部署在一起？
 - **解答**：可与NameNode部署在一起的组件主要有JournalNode、ZooKeeper（小规模集群）、ResourceManager（非高负载场景）。
-- **自检**：避免与DataNode、NodeManager等IO密集型组件部署，防止资源竞争；JournalNode需与NameNode同节点保证数据同步效率。
+- **自检**：避免与DataNode、NodeManager 等IO密集型组件部署，防止资源竞争；JournalNode需与NameNode同节点保证数据同步效率。
 
-### 2. HDFS fsimage如何内部实现同步，hdfs fsimage文件的作用？
+### 2. HDFS fsimage 如何内部实现同步，hdfs fsimage文件的作用？
 - **解答**：
   1. **同步机制**：通过JournalNode集群实现主备NameNode同步，主NameNode将编辑操作写入JournalNode，备NameNode从JournalNode读取并应用到本地FSImage。
   2. **文件作用**：FSImage是HDFS文件系统元数据的快照，包含所有目录和文件的inode信息、权限、副本数等，用于快速恢复NameNode元数据。
