@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-03-12.md",
-                "mode": "source",
+                "file": "HDFS RPC 偏高.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-12"
+              "title": "HDFS RPC 偏高"
             }
           }
         ],
@@ -224,20 +224,21 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "39a25e17d586ad49",
+  "active": "ec7fe0f97f5f47bd",
   "lastOpenFiles": [
     "2026-03-12.md",
+    "2026-03-11.md",
+    "MRS面评/3月11日/3月11日.md",
+    "Android obsidian git push test.md",
+    "windows push test.md",
+    "未命名.base",
     "conflict-files-obsidian-git.md",
     "Foo.md",
-    "MRS面评/3月11日/3月11日.md",
-    "2026-03-11.md",
     "Yarn.md",
     "HDFS RPC 偏高.md",
     "HDFS-yarn-MR 问题解答.md",
     "HDFS 读流程 & 自问.md",
-    "未命名.base",
     "GIt push test.canvas",
-    "windows push test.md",
     "未命名.canvas",
     "欢迎.md",
     "MRS面评/3月11日",
@@ -255,8 +256,6 @@
     "copilot/copilot-custom-prompts/Explain like I am 5.md",
     "copilot/copilot-custom-prompts/Simplify.md",
     "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts",
     "copilot"
   ]
