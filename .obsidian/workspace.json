@@ -229,12 +229,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 373.5,
-    "collapsed": true
+    "width": 373.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,7 +248,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f543158008217dc9",
+  "active": "39a25e17d586ad49",
   "lastOpenFiles": [
     "Pasted image 20260325214729.png",
     "MRS 测试/组件基础功能/组件基础功能测试.md",
