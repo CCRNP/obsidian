@@ -2,3 +2,21 @@
 ECS create server failed or partial success, job_id: 8a8382839c3caf1b019d0ab7d63717b6, server_name:629f8c5c-c8a5-41ce-907e-b6e795db6e17_node_group_1xQCU, message:{"status":"FAIL","entities":{"sub_jobs_total":3,"sub_jobs":[{"status":"FAIL","entities":{"server":{"id":"a0520b96-0bbd-462c-9233-130f32918363"},"server_id":"a0520b96-0bbd-462c-9233-130f32918363"},"begin_time":"2026-03-20T10:08:33.712Z","job_type":"createSingleServer","end_time":"2026-03-20T10:20:52.914Z","error_code":"Ecs.0204","fail_reason":"CreateServerTask-fail:create server[a0520b96-0bbd-462c-9233-130f32918363] failed: status is error, errorCode is , errorMsg is 'No valid host was found. Retry hosts do not meet the requirements'","job_id":"8a8382839c3caf1b019d0ab7d7b417ba"},{"status":"FAIL","entities":{"server":{"id":"244f63c8-f139-4549-b255-4383840e343c"},"server_id":"244f63c8-f139-4549-b255-4383840e343c"},"begin_time":"2026-03-20T10:08:33.770Z","job_type":"createSingleServer","end_time":"2026-03-20T10:20:52.875Z","error_code":"Ecs.0204","fail_reason":"CreateServerTask-fail:create server[244f63c8-f139-4549-b255-4383840e343c] failed: status is error, errorCode is , errorMsg is 'No valid host was found. Retry hosts do not meet the requirements'","job_id":"8a8382839c3caf1b019d0ab7d7ee17bb"},{"status":"FAIL","entities":{"server":{"id":"585dc14b-23bd-4dc4-89e2-03e8e85ad92b"},"server_id":"585dc14b-23bd-4dc4-89e2-03e8e85ad92b"},"begin_time":"2026-03-20T10:08:33.839Z","job_type":"createSingleServer","end_time":"2026-03-20T10:21:04.923Z","error_code":"Ecs.0204","fail_reason":"CreateServerTask-fail:create server[585dc14b-23bd-4dc4-89e2-03e8e85ad92b] failed: status is error, errorCode is , errorMsg is 'No valid host was found. Retry hosts do not meet the requirements'","job_id":"8a8382839c3caf1b019d0ab7d83317bc"}]},"begin_time":"2026-03-20T10:08:33.330Z","job_type":"createServer","end_time":"2026-03-20T10:21:13.431Z","error_code":"Common.0021","fail_reason":"CollectInfoTask-fail:Sub job fail!","job_id":"8a8382839c3caf1b019d0ab7d63717b6"}. Failed nodes name is: [629f8c5c-c8a5-41ce-907e-b6e795db6e17_node_master3tyEV,629f8c5c-c8a5-41ce-907e-b6e795db6e17_node_master2nmsI,629f8c5c-c8a5-41ce-907e-b6e795db6e17_node_master1kNDU,629f8c5c-c8a5-41ce-907e-b6e795db6e17_node_group_1xQCU-0003,629f8c5c-c8a5-41ce-907e-b6e795db6e17_node_group_1xQCU-0002,629f8c5c-c8a5-41ce-907e-b6e795db6e17_node_group_1xQCU-0001]
 
 ![[Pasted image 20260320191105.png]]
+
+ECS 创建不出来，到 云服务控制台 查看 ECS 任务详情
+
+![[Pasted image 20260322205642.png]]
+
+点进去看，原因——要么资源不足，要么规格不一致
+![[Pasted image 20260322205821.png]]
+
+
+- 检查方向：
+1. 看磁盘——在seversOM 上的 主机组看 MRS 的主机：
+	IASS 那边没搞好，磁盘应为 直通盘 即为  密集存储型虚拟机的数据盘
+![[Pasted image 20260322212446.png]]
+
+2. 磁盘没问题，看各 主机的 cpu 跟 内存 是否满足 规格设置的 cpu 和 内存：
+	1. 主机总览看一下 cpu 和 内存：
+	![[Pasted image 20260322213106.png]]
+	2. 

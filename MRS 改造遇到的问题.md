@@ -3,7 +3,7 @@
 
 解决方法：
 ![[Pasted image 20260320111406.png]]
-这一行，上 server om 上看 MRS 的组
+这一行，上 server om 上看 MRS 的主机组，填那个 MRS 主机组名称
 
 2. 更新元数据信息 失败
 ![[Pasted image 20260320111529.png]]
