@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HDFS 读流程 & 自问.md",
+                "file": "Yarn.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HDFS 读流程 & 自问"
+              "title": "Yarn"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HDFS RPC 偏高.md",
+                "file": "2026-03-12.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HDFS RPC 偏高"
+              "title": "2026-03-12"
             }
           }
         ],
@@ -224,39 +224,55 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "ec7fe0f97f5f47bd",
+  "active": "39a25e17d586ad49",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "HDFS RPC 偏高.md",
+    "创建MRS自定义集群部分错误.md",
+    "创建 MRS 自定义集群.md",
+    "具身智能/运维配置.md",
+    "具身智能/登录.md",
+    "具身智能/各账号密码.md",
+    "具身智能",
+    "foo/BIG DATE.md",
+    "foo",
+    "ec3e7bd91774c9bc8bb23ec21b07f434.png",
+    "d793de09c21a7080d58a2bf378ff959d.png",
+    "copilot/copilot-conversations/分类整理整个文件里的所有内容@20260313_175046.md",
+    "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
+    "copilot/copilot-conversations",
+    "Pasted image 20260325214729.png",
+    "Pasted image 20260325211330.png",
+    "Pasted image 20260325211327.png",
+    "Pasted image 20260325210128.png",
+    "Pasted image 20260325210005.png",
+    "Pasted image 20260325201924.png",
+    "Pasted image 20260325201909.png",
+    "Pasted image 20260325200421.png",
+    "MRS 集群卸载/img/![[Pasted image 20260318201659.png]].md",
+    "MRS 集群卸载/sh postset.md",
+    "MRS 集群卸载/img",
+    "MRS 集群卸载",
+    "MRS 测试/组件基础功能/组件基础功能测试.md",
+    "MRS 测试/组件基础功能/ES 测试时遇到的一些问题 & 解决方法.md",
+    "MRS 测试/img/img.md",
+    "MRS 测试/组件基础功能",
+    "MRS 测试/img",
+    "MRS 测试",
+    "MRS 改造遇到的问题.md",
+    "MRS 创建集群 截图.md",
+    "HDFS/HDFS-yarn-MR 问题解答.md",
+    "HDFS/HDFS 读流程 & 自问.md",
+    "HDFS/HDFS RPC 偏高.md",
+    "HDFS",
+    "2026-03-25.md",
+    "2026-03-17.md",
+    "2026-03-16.md",
+    "2026-03-13.md",
     "2026-03-12.md",
     "2026-03-11.md",
-    "MRS面评/3月11日/3月11日.md",
-    "Android obsidian git push test.md",
-    "windows push test.md",
     "未命名.base",
-    "conflict-files-obsidian-git.md",
-    "Foo.md",
-    "Yarn.md",
-    "HDFS RPC 偏高.md",
-    "HDFS-yarn-MR 问题解答.md",
-    "HDFS 读流程 & 自问.md",
     "GIt push test.canvas",
-    "未命名.canvas",
-    "欢迎.md",
-    "MRS面评/3月11日",
-    "MRS面评",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
-    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts",
-    "copilot"
+    "未命名.canvas"
   ]
 }
