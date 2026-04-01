@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "具身智能/登录.md",
+                "file": "MRS面评/HDFS/HDFS 读流程 & 自问.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "登录"
+              "title": "HDFS 读流程 & 自问"
             }
           }
         ]
@@ -207,8 +207,8 @@
   },
   "active": "8778c68492c9686b",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "具身智能/登录.md",
+    "conflict-files-obsidian-git.md",
     "具身智能/各账号密码.md",
     "MRS面评/Hadoop脑裂与核心复习任务清单.md",
     "MRS面评/Hadoop核心复习与阶段小测任务清单.md",
