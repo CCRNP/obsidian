@@ -2,7 +2,7 @@
   "userId": "f1512ff1-7d99-42df-bed0-6ad40b739850",
   "isPlusUser": false,
   "plusLicenseKey": "",
-  "openAIApiKey": "",
+  "openAIApiKey": "sk-YgqQX6z8tUbmJakowodHhAIIPzt8nGFckmEKj2gNHf58x15w",
   "openAIOrgId": "",
   "huggingfaceApiKey": "",
   "cohereApiKey": "",
@@ -13,19 +13,19 @@
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
   "googleApiKey": "",
-  "openRouterAiApiKey": "",
+  "openRouterAiApiKey": "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",
   "xaiApiKey": "",
   "mistralApiKey": "",
   "deepseekApiKey": "sk-6806761f2a054acb981f02098a33980e",
   "amazonBedrockApiKey": "",
   "amazonBedrockRegion": "",
-  "siliconflowApiKey": "",
+  "siliconflowApiKey": "sk-lipxfqodrwobikzshdxcsbektrpeelobzohutpcmdjvtfnoz",
   "githubCopilotAccessToken": "",
   "githubCopilotToken": "",
   "githubCopilotTokenExpiresAt": 0,
   "defaultChainType": "vault_qa",
   "defaultModelKey": "deepseek-chat|deepseek",
-  "embeddingModelKey": "openai/text-embedding-3-small|openrouterai",
+  "embeddingModelKey": "BAAI/bge-m3|3rd party (openai-format)",
   "temperature": 0.1,
   "maxTokens": 6000,
   "contextTurns": 15,
@@ -41,7 +41,7 @@
   "defaultOpenArea": "view",
   "defaultSendShortcut": "enter",
   "customPromptsFolder": "copilot/copilot-custom-prompts",
-  "indexVaultToVectorStore": "ON MODE SWITCH",
+  "indexVaultToVectorStore": "ON STARTUP",
   "qaExclusions": "copilot",
   "qaInclusions": "",
   "chatNoteContextPath": "",
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "name": "gpt-5.2",
+      "name": "gpt-5.4",
       "provider": "openai",
       "enabled": true,
       "isBuiltIn": true,
@@ -88,6 +88,16 @@
     },
     {
       "name": "gpt-5-mini",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "gpt-5.2",
       "provider": "openai",
       "enabled": true,
       "isBuiltIn": true,
@@ -277,19 +287,45 @@
     {
       "name": "deepseek-ai/DeepSeek-V3",
       "provider": "siliconflow",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": false,
       "baseUrl": "https://api.siliconflow.com/v1"
     },
     {
       "name": "deepseek-ai/DeepSeek-R1",
       "provider": "siliconflow",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": false,
       "baseUrl": "https://api.siliconflow.com/v1",
       "capabilities": [
         "reasoning"
       ]
+    },
+    {
+      "name": "google/gemini-2.0-flash-001",
+      "provider": "openrouterai",
+      "enabled": true
+    },
+    {
+      "name": "deepseek/deepseek-v3.2-speciale",
+      "provider": "openrouterai",
+      "enabled": true,
+      "enableCors": false,
+      "baseUrl": "https://api.deepseek.com/v1",
+      "displayName": "",
+      "capabilities": []
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-V3",
+      "provider": "3rd party (openai-format)",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://api.siliconflow.cn/v1",
+      "apiKey": "sk-zrfsbvbkofmprnsjmlzhsqnfkoikjyskvirrpybzxrhpcqqy",
+      "isEmbeddingModel": false,
+      "capabilities": [],
+      "stream": true,
+      "displayName": "bge-m3"
     }
   ],
   "activeEmbeddingModels": [
@@ -348,6 +384,14 @@
       "core": true
     },
     {
+      "name": "gemini-embedding-2-preview",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true
+    },
+    {
       "name": "Qwen/Qwen3-Embedding-0.6B",
       "provider": "siliconflow",
       "enabled": true,
@@ -383,6 +427,17 @@
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true
+    },
+    {
+      "name": "BAAI/bge-m3",
+      "provider": "3rd party (openai-format)",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://api.siliconflow.cn/v1",
+      "apiKey": "sk-zrfsbvbkofmprnsjmlzhsqnfkoikjyskvirrpybzxrhpcqqy",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "displayName": "bge-m3"
     }
   ],
   "embeddingRequestsPerMin": 60,
@@ -399,11 +454,11 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [],
   "projectList": [],
-  "lastDismissedVersion": null,
+  "lastDismissedVersion": "3.2.6",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
-  "enableSemanticSearchV3": false,
+  "enableSemanticSearchV3": true,
   "enableSelfHostMode": false,
   "enableMiyo": false,
   "selfHostModeValidatedAt": null,
@@ -424,8 +479,8 @@
     "webSearch",
     "pomodoro",
     "youtubeTranscription",
-    "writeToFile",
-    "replaceInFile",
+    "writeFile",
+    "editFile",
     "updateMemory"
   ],
   "reasoningEffort": "low",
@@ -436,11 +491,12 @@
   "enableSavedMemory": true,
   "quickCommandIncludeNoteContext": true,
   "autoIncludeTextSelection": false,
-  "autoAddSelectionToContext": false,
+  "autoAddSelectionToContext": true,
   "autoAcceptEdits": false,
   "diffViewMode": "split",
   "userSystemPromptsFolder": "copilot/system-prompts",
   "defaultSystemPromptTitle": "",
   "autoCompactThreshold": 128000,
-  "convertedDocOutputFolder": ""
+  "convertedDocOutputFolder": "",
+  "miyoRemoteVaultPath": ""
 }

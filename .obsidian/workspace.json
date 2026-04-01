@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MRS面评/HDFS/HDFS 读流程 & 自问.md",
+                "file": "种草莓/种植日期记录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HDFS 读流程 & 自问"
+              "title": "种植日期记录"
+            }
+          },
+          {
+            "id": "df39a7a38646ba1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "种草莓/种植日期记录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "种植日期记录"
+            }
+          },
+          {
+            "id": "26e1522765184d9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/2026-03-17.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-03-17"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 307.5
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -186,11 +215,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 373.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,58 +232,59 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "8778c68492c9686b",
+  "active": "df39a7a38646ba1a",
   "lastOpenFiles": [
-    "具身智能/登录.md",
+    "[[.md",
+    "种草莓/种植日期记录.md",
+    "种草莓/img/2026_04_02_01_13_21.jpg",
+    "().md",
+    "MD Help/MD 基本语法.md",
+    "种草莓/img",
+    "XF/未命名.base",
+    "种草莓",
+    "XF/foo/BIG DATE.md",
+    "XF",
+    "XF/具身智能/2026-03-27 MA 测试.md",
+    "XF/2026-03-17.md",
+    "XF/2026-03-25.md",
+    "XF/2026-03-16.md",
+    "XF/具身智能/MRS 相关/MRS 改造遇到的问题.md",
+    "XF/具身智能/MRS 相关/MRS 创建集群 截图.md",
+    "XF/具身智能/img 1/Pasted image 20260329122353.png",
+    "XF/具身智能/img 1/Pasted image 20260325211327.png",
+    "XF/具身智能/img 1/Pasted image 20260325214729.png",
+    "XF/具身智能/img 1/Pasted image 20260325163927.png",
+    "XF/具身智能/img 1/Pasted image 20260325161512.png",
+    "XF/具身智能/img 1/Pasted image 20260325105857.png",
+    "XF/具身智能/img 1/Pasted image 20260322215717.png",
+    "XF/具身智能/img 1/Pasted image 20260322215701.png",
+    "XF/具身智能/img 1/Pasted image 20260322215653.png",
+    "MD Help",
+    "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
+    "XF/具身智能/登录.md",
     "conflict-files-obsidian-git.md",
-    "具身智能/各账号密码.md",
-    "MRS面评/Hadoop脑裂与核心复习任务清单.md",
-    "MRS面评/Hadoop核心复习与阶段小测任务清单.md",
-    "MRS面评/3月11日/HDFS进阶与Yarn基础任务清单.md",
-    "MRS面评/YARN核心概念与架构详解.md",
+    "XF/具身智能/各账号密码.md",
+    "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
+    "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
+    "XF/MRS面评/3月11日/HDFS进阶与Yarn基础任务清单.md",
+    "XF/MRS面评/YARN核心概念与架构详解.md",
     "MRS面评/3月11日/3月11日.md",
     "MRS面评/2026-03-11.md",
-    "未命名.base",
-    "GIt push test.canvas",
-    "具身智能/img 1/Pasted image 20260325214729.png",
-    "具身智能/img 1/Pasted image 20260325211327.png",
-    "2026-03-16.md",
-    "2026-03-17.md",
-    "2026-03-25.md",
-    "具身智能/img 1/Pasted image 20260325105857.png",
-    "具身智能/img 1/Pasted image 20260325163927.png",
-    "具身智能/img 1/Pasted image 20260329122353.png",
-    "具身智能/img 1/Pasted image 20260325161512.png",
-    "具身智能/img 1/d793de09c21a7080d58a2bf378ff959d.png",
-    "具身智能/img 1/Pasted image 20260317114114.png",
-    "具身智能/img/Pasted image 20260325172744.png",
-    "具身智能/img/Pasted image 20260324171250.png",
+    "XF/GIt push test.canvas",
     "MRS面评/2026-03-13.md",
     "MRS面评/2026-03-12.md",
     "MRS面评/Yarn.md",
-    "具身智能/2026-03-27 MA 测试.md",
-    "具身智能/运维配置.md",
-    "具身智能/MRS 相关/MRS 改造遇到的问题.md",
-    "具身智能/MRS 相关",
-    "具身智能/MRS 相关/MRS 创建集群 截图.md",
-    "具身智能/MRS 相关/创建MRS自定义集群部分错误.md",
-    "具身智能/MRS 相关/创建 MRS 自定义集群.md",
-    "MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
-    "MRS面评/HDFS/HDFS RPC 偏高.md",
-    "MRS面评/HDFS/HDFS 读流程 & 自问.md",
-    "foo/BIG DATE.md",
-    "copilot/copilot-conversations/分类整理整个文件里的所有内容@20260313_175046.md",
-    "具身智能/img 1",
-    "具身智能/img",
-    "具身智能/MRS 相关/MRS 测试/组件基础功能/img",
+    "XF/具身智能/运维配置.md",
+    "XF/具身智能/MRS 相关",
+    "XF/具身智能/MRS 相关/创建MRS自定义集群部分错误.md",
+    "XF/具身智能/img 1",
+    "XF/具身智能/img",
+    "XF/具身智能/MRS 相关/MRS 测试/组件基础功能/img",
     "未命名 1.base",
-    "具身智能/MRS 相关/MRS 测试/组件基础功能",
-    "具身智能/MRS 相关/MRS 测试/img",
-    "具身智能/MRS 相关/MRS 测试",
-    "具身智能/MRS 相关/MRS 集群卸载/img",
     "未命名.canvas"
   ]
 }
