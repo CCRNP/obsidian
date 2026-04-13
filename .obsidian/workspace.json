@@ -259,12 +259,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "XF/具身智能/MA 测试/2026-03-27 MA 测试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2026-03-27 MA 测试 的大纲"
             }
           }
         ],
@@ -272,7 +273,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 544.5
+    "width": 363.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -289,11 +290,12 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "39a25e17d586ad49",
+  "active": "96879f343860821e",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "XF/具身智能/MA 测试/2026-03-27 MA 测试.md",
     "XF/人员一对一意识梳理.md",
     "XF/具身智能/各账号密码.md",
-    "XF/具身智能/MA 测试/2026-03-27 MA 测试.md",
     "2026-04-13.md",
     "XF/具身智能/登录.md",
     "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
@@ -323,7 +325,6 @@
     "XF/报销/2026",
     "XF/报销",
     "MD Help/MD 基本语法.md",
-    "XF/具身智能/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "未命名",
     "XF/具身智能/MA 测试",
     "种草莓/img",
