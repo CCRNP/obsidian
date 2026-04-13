@@ -104,30 +104,6 @@
             }
           },
           {
-            "id": "57360f5b3d795f1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/各账号密码.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "各账号密码"
-            }
-          },
-          {
             "id": "c98b031751965718",
             "type": "leaf",
             "state": {
@@ -317,12 +293,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 373.5,
-    "collapsed": true
+    "width": 544.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -339,10 +314,10 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "57360f5b3d795f1a",
+  "active": "c98b031751965718",
   "lastOpenFiles": [
-    "XF/人员一对一意识梳理.md",
     "XF/具身智能/各账号密码.md",
+    "XF/人员一对一意识梳理.md",
     "XF/具身智能/MA 测试/2026-03-27 MA 测试.md",
     "2026-04-13.md",
     "XF/具身智能/登录.md",
