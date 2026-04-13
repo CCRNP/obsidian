@@ -8,31 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8778c68492c9686b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "种草莓/种植日期记录.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "种植日期记录"
-            }
-          },
-          {
             "id": "df39a7a38646ba1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 测试/2026-04-02 欢聚 MA.md",
+                "file": "XF/具身智能/MRS 相关/MRS 改造遇到的问题.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "2026-04-02 欢聚 MA"
+              "title": "MRS 改造遇到的问题"
             }
           },
           {
@@ -42,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -60,13 +56,13 @@
             }
           },
           {
-            "id": "b8f6aa5ad75b1fc1",
+            "id": "ff8a16ae36f42ed2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/报销/2026/3月.md",
-                "mode": "preview",
+                "file": "2026-04-13.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -80,11 +76,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3月"
+              "title": "2026-04-13"
+            }
+          },
+          {
+            "id": "96879f343860821e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/具身智能/MA 测试/2026-03-27 MA 测试.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-03-27 MA 测试"
+            }
+          },
+          {
+            "id": "57360f5b3d795f1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/具身智能/各账号密码.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "各账号密码"
+            }
+          },
+          {
+            "id": "c98b031751965718",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/人员一对一意识梳理.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "人员一对一意识梳理"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -271,38 +339,46 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "26e1522765184d9b",
+  "active": "57360f5b3d795f1a",
   "lastOpenFiles": [
-    "XF/2026-03-16.md",
-    "XF/2026-03-17.md",
+    "XF/人员一对一意识梳理.md",
+    "XF/具身智能/各账号密码.md",
+    "XF/具身智能/MA 测试/2026-03-27 MA 测试.md",
+    "2026-04-13.md",
+    "XF/具身智能/登录.md",
+    "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
+    "XF/报销/2026/3月.md",
+    "XF/具身智能/MRS 相关/MRS 改造遇到的问题.md",
+    "XF/具身智能/MRS 相关/MRS 创建集群 截图.md",
+    "XF/具身智能/MRS 相关/创建MRS自定义集群部分错误.md",
+    "XF/具身智能/MRS 相关/创建 MRS 自定义集群.md",
+    "XF/具身智能/MRS 相关/MRS 测试/组件基础功能/组件基础功能测试.md",
+    "XF/具身智能/MRS 相关/MRS 测试/组件基础功能/ES 测试时遇到的一些问题 & 解决方法.md",
+    "XF/MRS面评/YARN核心概念与架构详解.md",
+    "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
+    "XF/具身智能/MA 测试/2026-04-02 欢聚 MA.md",
+    "XF/GIt push test.canvas",
+    "XF/未命名.base",
     "XF/2026-03-25.md",
+    "XF/2026-03-17.md",
+    "XF/2026-03-16.md",
+    "XF/报销/2026/2026年3月市内交通报销.docx",
     "种草莓/种植日期记录.md",
     "种草莓/img/2026_04_02_01_13_21.jpg",
     "种草莓/img/2026_04_04_02_22_46.jpg",
-    "XF/报销/2026/3月.md",
     "XF/MRS面评/3月11日/HDFS进阶与Yarn基础任务清单.md",
     "XF/foo/big data.md",
     "XF/foo/BIG DATE.md",
     "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
-    "XF/具身智能/登录.md",
-    "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
-    "XF/具身智能/各账号密码.md",
     "XF/报销/2026",
     "XF/报销",
     "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
-    "XF/具身智能/MA 测试/2026-03-27 MA 测试.md",
-    "XF/具身智能/MA 测试/2026-04-02 欢聚 MA.md",
     "未命名",
     "XF/具身智能/MA 测试",
-    "[[.md",
-    "().md",
     "种草莓/img",
-    "XF/未命名.base",
     "种草莓",
     "XF",
-    "XF/具身智能/MRS 相关/MRS 改造遇到的问题.md",
-    "XF/具身智能/MRS 相关/MRS 创建集群 截图.md",
     "XF/具身智能/img 1/Pasted image 20260329122353.png",
     "XF/具身智能/img 1/Pasted image 20260325211327.png",
     "XF/具身智能/img 1/Pasted image 20260325214729.png",
@@ -312,13 +388,6 @@
     "XF/具身智能/img 1/Pasted image 20260322215717.png",
     "XF/具身智能/img 1/Pasted image 20260322215701.png",
     "MD Help",
-    "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
-    "conflict-files-obsidian-git.md",
-    "XF/MRS面评/YARN核心概念与架构详解.md",
-    "MRS面评/3月11日/3月11日.md",
-    "MRS面评/2026-03-11.md",
-    "XF/GIt push test.canvas",
-    "XF/具身智能/MRS 相关",
     "未命名.canvas"
   ]
 }
