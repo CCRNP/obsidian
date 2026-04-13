@@ -83,24 +83,14 @@
             "id": "96879f343860821e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "XF/具身智能/MA 测试/2026-03-27 MA 测试.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": ".obsidian/plugins/obsidian-git/data.json",
+                "bFile": ".obsidian/plugins/obsidian-git/data.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "2026-03-27 MA 测试"
+              "icon": "diff",
+              "title": "Diff: data.json  (Working Tree)"
             }
           }
         ],
@@ -161,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 304.5,
+    "collapsed": true
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -177,7 +168,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "windows push test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +177,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "windows push test 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -259,13 +249,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XF/具身智能/MA 测试/2026-03-27 MA 测试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-03-27 MA 测试 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -292,8 +281,8 @@
   },
   "active": "96879f343860821e",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 测试/2026-03-27 MA 测试.md",
+    "conflict-files-obsidian-git.md",
     "XF/人员一对一意识梳理.md",
     "XF/具身智能/各账号密码.md",
     "2026-04-13.md",
