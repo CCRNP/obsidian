@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -313,11 +313,11 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "64aa9975a85c3584",
+  "active": "dabb8a6f857888d6",
   "lastOpenFiles": [
+    "未命名.md",
     "XF/具身智能/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/各账号密码.md",
-    "未命名.md",
     "XF/具身智能/MA 测试/2026-04-02 欢聚 MA.md",
     "2026-04-13.md",
     "conflict-files-obsidian-git.md",
