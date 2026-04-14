@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-04-13.md",
+                "file": "XF/具身智能/各账号密码.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,25 +76,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-04-13"
+              "title": "各账号密码"
             }
           },
           {
-            "id": "96879f343860821e",
+            "id": "64aa9975a85c3584",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/obsidian-git/data.json",
-                "bFile": ".obsidian/plugins/obsidian-git/data.json",
-                "aRef": ""
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: data.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -151,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5,
-    "collapsed": true
+    "width": 304.5
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -280,13 +289,14 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "96879f343860821e",
+  "active": "ff8a16ae36f42ed2",
   "lastOpenFiles": [
+    "未命名.md",
+    "XF/具身智能/各账号密码.md",
+    "2026-04-13.md",
     "XF/具身智能/MA 测试/2026-03-27 MA 测试.md",
     "conflict-files-obsidian-git.md",
     "XF/人员一对一意识梳理.md",
-    "XF/具身智能/各账号密码.md",
-    "2026-04-13.md",
     "XF/具身智能/登录.md",
     "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
     "XF/报销/2026/3月.md",
@@ -314,7 +324,6 @@
     "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
     "XF/报销/2026",
     "XF/报销",
-    "MD Help/MD 基本语法.md",
     "未命名",
     "XF/具身智能/MA 测试",
     "种草莓/img",
