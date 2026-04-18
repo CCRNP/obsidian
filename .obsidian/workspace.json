@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "XF/具身智能/各账号密码.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "各账号密码"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "HDFS RPC 偏高"
             }
           }
         ],
@@ -315,10 +315,12 @@
   },
   "active": "dabb8a6f857888d6",
   "lastOpenFiles": [
+    "XF/MRS面评/YARN核心概念与架构详解.md",
+    "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
     "2026-04-13.md",
-    "XF/人员一对一意识梳理.md",
-    "XF/具身智能/各账号密码.md",
     "未命名.md",
+    "XF/具身智能/各账号密码.md",
+    "XF/人员一对一意识梳理.md",
     "XF/具身智能/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 测试/2026-04-02 欢聚 MA.md",
     "conflict-files-obsidian-git.md",
@@ -331,7 +333,6 @@
     "XF/具身智能/MRS 相关/创建 MRS 自定义集群.md",
     "XF/具身智能/MRS 相关/MRS 测试/组件基础功能/组件基础功能测试.md",
     "XF/具身智能/MRS 相关/MRS 测试/组件基础功能/ES 测试时遇到的一些问题 & 解决方法.md",
-    "XF/MRS面评/YARN核心概念与架构详解.md",
     "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
     "XF/GIt push test.canvas",
     "XF/未命名.base",
@@ -345,7 +346,6 @@
     "XF/MRS面评/3月11日/HDFS进阶与Yarn基础任务清单.md",
     "XF/foo/big data.md",
     "XF/foo/BIG DATE.md",
-    "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
     "XF/报销/2026",
     "XF/报销",
     "未命名",
