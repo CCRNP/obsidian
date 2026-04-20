@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
+                "file": "XF/具身智能/MA 测试/2026-03-27 MA 测试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HDFS RPC 偏高"
+              "title": "2026-03-27 MA 测试"
             }
           }
         ],
@@ -315,11 +315,12 @@
   },
   "active": "dabb8a6f857888d6",
   "lastOpenFiles": [
+    "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
+    "XF/具身智能/各账号密码.md",
     "XF/MRS面评/YARN核心概念与架构详解.md",
     "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
     "2026-04-13.md",
     "未命名.md",
-    "XF/具身智能/各账号密码.md",
     "XF/人员一对一意识梳理.md",
     "XF/具身智能/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 测试/2026-04-02 欢聚 MA.md",
@@ -345,7 +346,6 @@
     "种草莓/img/2026_04_04_02_22_46.jpg",
     "XF/MRS面评/3月11日/HDFS进阶与Yarn基础任务清单.md",
     "XF/foo/big data.md",
-    "XF/foo/BIG DATE.md",
     "XF/报销/2026",
     "XF/报销",
     "未命名",
