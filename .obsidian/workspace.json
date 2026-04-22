@@ -273,8 +273,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "copilot-chat-view"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           },
           {
@@ -292,7 +292,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -316,8 +316,9 @@
   },
   "active": "dabb8a6f857888d6",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "XF/具身智能/img 1/MA 模型训练流程.png",
     "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/交付文档",
     "XF/具身智能/MA 相关",
     "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
@@ -348,7 +349,6 @@
     "种草莓/种植日期记录.md",
     "种草莓/img/2026_04_02_01_13_21.jpg",
     "种草莓/img/2026_04_04_02_22_46.jpg",
-    "XF/MRS面评/3月11日/HDFS进阶与Yarn基础任务清单.md",
     "XF/报销/2026",
     "XF/报销",
     "未命名",
@@ -362,7 +362,6 @@
     "XF/具身智能/img 1/Pasted image 20260325161512.png",
     "XF/具身智能/img 1/Pasted image 20260325105857.png",
     "XF/具身智能/img 1/Pasted image 20260322215717.png",
-    "XF/具身智能/img 1/Pasted image 20260322215701.png",
     "未命名.canvas"
   ]
 }
