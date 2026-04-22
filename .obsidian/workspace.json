@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/各账号密码.md",
+                "file": "XF/报销/2026/4月.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "各账号密码"
+              "title": "4月"
             }
           },
           {
@@ -315,6 +315,9 @@
   },
   "active": "64aa9975a85c3584",
   "lastOpenFiles": [
+    "XF/报销/2026/3月.md",
+    "XF/报销/2026/4月.md",
+    "XF/具身智能/各账号密码.md",
     "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "XF/MRS面评/3月11日/HDFS进阶与Yarn基础任务清单.md",
     "XF/2026-03-17.md",
@@ -322,7 +325,6 @@
     "XF/MRS面评/YARN核心概念与架构详解.md",
     "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
-    "XF/具身智能/各账号密码.md",
     "XF/未命名.base",
     "XF/GIt push test.canvas",
     "2026-04-13.md",
@@ -339,13 +341,11 @@
     "conflict-files-obsidian-git.md",
     "XF/具身智能/登录.md",
     "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
-    "XF/报销/2026/3月.md",
     "XF/具身智能/MRS 相关/MRS 改造遇到的问题.md",
     "XF/具身智能/MRS 相关/MRS 创建集群 截图.md",
     "XF/具身智能/MRS 相关/创建MRS自定义集群部分错误.md",
     "XF/具身智能/MRS 相关/创建 MRS 自定义集群.md",
     "XF/具身智能/MRS 相关/MRS 测试/组件基础功能/组件基础功能测试.md",
-    "XF/具身智能/MRS 相关/MRS 测试/组件基础功能/ES 测试时遇到的一些问题 & 解决方法.md",
     "XF/报销/2026/2026年3月市内交通报销.docx",
     "种草莓/img/2026_04_02_01_13_21.jpg",
     "种草莓/img/2026_04_04_02_22_46.jpg",
