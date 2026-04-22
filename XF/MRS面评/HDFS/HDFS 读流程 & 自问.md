@@ -1,7 +1,7 @@
 ## 读流程
 
 1. **客户端发起读请求**  
-    客户端通过 `FileSystem.open()` 获取 `FSDataInputStream`，向 NameNode 请求打开文件。
+    客户端通过 `FileSystem.open()` 获取 `FSDataInputStream`，向 `NameNode` 请求打开文件。
 
 2. **NameNode 返回 LocatedBlocks**  
     NameNode 返回 **LocatedBlocks** 对象，包含：
