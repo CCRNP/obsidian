@@ -109,8 +109,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
-                "mode": "preview",
+                "file": "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA 模型的 训练 & 推理"
+              "title": "HDFS-yarn-MR 问题解答"
             }
           }
         ],
@@ -185,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5,
-    "collapsed": true
+    "width": 304.5
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -316,18 +315,26 @@
   },
   "active": "dabb8a6f857888d6",
   "lastOpenFiles": [
-    "XF/具身智能/img 1/MA 模型训练流程.png",
+    "XF/具身智能/各账号密码.md",
+    "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
+    "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
+    "XF/MRS面评/3月11日/HDFS进阶与Yarn基础任务清单.md",
+    "XF/未命名.base",
+    "XF/GIt push test.canvas",
+    "2026-04-13.md",
+    "XF/2026-03-16.md",
+    "XF/MRS面评/YARN核心概念与架构详解.md",
+    "XF/2026-03-17.md",
+    "XF/2026-03-25.md",
+    "XF/人员一对一意识梳理.md",
     "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
+    "XF/具身智能/img 1/MA 模型训练流程.png",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/交付文档",
     "XF/具身智能/MA 相关",
     "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
-    "XF/具身智能/各账号密码.md",
-    "XF/MRS面评/YARN核心概念与架构详解.md",
     "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
-    "2026-04-13.md",
     "未命名.md",
-    "XF/人员一对一意识梳理.md",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "conflict-files-obsidian-git.md",
     "XF/具身智能/登录.md",
@@ -339,14 +346,7 @@
     "XF/具身智能/MRS 相关/创建 MRS 自定义集群.md",
     "XF/具身智能/MRS 相关/MRS 测试/组件基础功能/组件基础功能测试.md",
     "XF/具身智能/MRS 相关/MRS 测试/组件基础功能/ES 测试时遇到的一些问题 & 解决方法.md",
-    "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
-    "XF/GIt push test.canvas",
-    "XF/未命名.base",
-    "XF/2026-03-25.md",
-    "XF/2026-03-17.md",
-    "XF/2026-03-16.md",
     "XF/报销/2026/2026年3月市内交通报销.docx",
-    "种草莓/种植日期记录.md",
     "种草莓/img/2026_04_02_01_13_21.jpg",
     "种草莓/img/2026_04_04_02_22_46.jpg",
     "XF/报销/2026",

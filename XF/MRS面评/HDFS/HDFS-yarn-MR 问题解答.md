@@ -1,7 +1,7 @@
 
 ## 一、HDFS相关问题解答（共43个）
 
-### 1. 那些可以和namenode部署在一起？
+### 1. 哪些可以和namenode部署在一起？
 - **解答**：可与NameNode部署在一起的组件主要有JournalNode、ZooKeeper（小规模集群）、ResourceManager（非高负载场景）。
 - **自检**：避免与DataNode、NodeManager 等IO密集型组件部署，防止资源竞争；JournalNode需与NameNode同节点保证数据同步效率。
 
