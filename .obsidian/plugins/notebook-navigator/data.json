@@ -14,11 +14,11 @@
       "periodicNotesFolder": "",
       "shortcuts": [],
       "navRainbow": {
-        "mode": "background",
+        "mode": "foreground",
         "balanceHueLuminance": true,
         "separateThemeColors": true,
         "shortcuts": {
-          "enabled": false,
+          "enabled": true,
           "firstColor": "#ef4444",
           "lastColor": "#8b5cf6",
           "darkFirstColor": "#ef4444",
@@ -26,7 +26,7 @@
           "transitionStyle": "rgb"
         },
         "recent": {
-          "enabled": false,
+          "enabled": true,
           "firstColor": "#ef4444",
           "lastColor": "#8b5cf6",
           "darkFirstColor": "#ef4444",
@@ -43,7 +43,7 @@
           "scope": "root"
         },
         "tags": {
-          "enabled": false,
+          "enabled": true,
           "firstColor": "#ef4444",
           "lastColor": "#8b5cf6",
           "darkFirstColor": "#fb7185",
@@ -52,7 +52,7 @@
           "scope": "root"
         },
         "properties": {
-          "enabled": false,
+          "enabled": true,
           "firstColor": "#ef4444",
           "lastColor": "#8b5cf6",
           "darkFirstColor": "#fb7185",
