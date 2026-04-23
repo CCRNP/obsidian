@@ -114,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -310,10 +310,10 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "dabb8a6f857888d6",
+  "active": "f7c077efdf72e510",
   "lastOpenFiles": [
-    "XF/具身智能/各账号密码.md",
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
+    "XF/具身智能/各账号密码.md",
     "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
     "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "XF/报销/2026/4月.md",
