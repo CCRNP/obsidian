@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/各账号密码.md",
+                "file": "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,21 +100,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "各账号密码"
+              "title": "2026-04-02 欢聚 MA"
             }
           },
           {
-            "id": "0eb92851180cc132",
+            "id": "d8deaf478b856840",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2026-04-24 制作 A100 镜像"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -309,10 +323,15 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "f7c077efdf72e510",
+  "active": "d8deaf478b856840",
   "lastOpenFiles": [
-    "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
+    "XF/具身智能/MA 相关/img",
+    "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
+    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
+    "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像.md",
+    "XF/具身智能/MA 相关/img/Pasted image 20260424124706.png",
     "XF/具身智能/各账号密码.md",
+    "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
     "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
     "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "XF/报销/2026/4月.md",
@@ -335,13 +354,9 @@
     "XF/具身智能/MA 相关",
     "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
     "未命名.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "conflict-files-obsidian-git.md",
     "XF/具身智能/登录.md",
     "XF/具身智能/MRS 相关/MRS 创建集群 截图.md",
-    "XF/具身智能/MRS 相关/创建MRS自定义集群部分错误.md",
-    "XF/具身智能/MRS 相关/创建 MRS 自定义集群.md",
-    "XF/具身智能/MRS 相关/MRS 测试/组件基础功能/组件基础功能测试.md",
     "XF/报销/2026/2026年3月市内交通报销.docx",
     "种草莓/img/2026_04_02_01_13_21.jpg",
     "种草莓/img/2026_04_04_02_22_46.jpg",
@@ -357,7 +372,6 @@
     "XF/具身智能/img 1/Pasted image 20260325163927.png",
     "XF/具身智能/img 1/Pasted image 20260325161512.png",
     "XF/具身智能/img 1/Pasted image 20260325105857.png",
-    "XF/具身智能/img 1/Pasted image 20260322215717.png",
     "未命名.canvas"
   ]
 }
