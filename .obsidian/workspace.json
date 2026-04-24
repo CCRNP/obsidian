@@ -127,7 +127,8 @@
               "title": "2026-04-24 制作 A100 镜像"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -322,8 +323,9 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "26e1522765184d9b",
+  "active": "d8deaf478b856840",
   "lastOpenFiles": [
+    "XF/具身智能/各账号密码.md",
     "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
     "XF/报销/2026/4月.md",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
@@ -333,7 +335,6 @@
     "XF/具身智能/MA 相关/img",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260424124706.png",
-    "XF/具身智能/各账号密码.md",
     "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "XF/具身智能/MRS 相关/MRS 改造遇到的问题.md",
     "XF/报销/2026/3月.md",
