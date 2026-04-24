@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
+                "file": "XF/具身智能/各账号密码.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034"
+              "title": "各账号密码"
             }
           },
           {
@@ -127,8 +127,7 @@
               "title": "2026-04-24 制作 A100 镜像"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -323,19 +322,19 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "d8deaf478b856840",
+  "active": "26e1522765184d9b",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
+    "XF/报销/2026/4月.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
+    "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
+    "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像.md",
     "Pasted image 20260424141404.png",
     "XF/具身智能/MA 相关/img",
-    "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
-    "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260424124706.png",
     "XF/具身智能/各账号密码.md",
-    "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
-    "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
     "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
-    "XF/报销/2026/4月.md",
     "XF/具身智能/MRS 相关/MRS 改造遇到的问题.md",
     "XF/报销/2026/3月.md",
     "XF/MRS面评/3月11日/HDFS进阶与Yarn基础任务清单.md",
@@ -371,7 +370,6 @@
     "XF/具身智能/img 1/Pasted image 20260325214729.png",
     "XF/具身智能/img 1/Pasted image 20260325163927.png",
     "XF/具身智能/img 1/Pasted image 20260325161512.png",
-    "XF/具身智能/img 1/Pasted image 20260325105857.png",
     "未命名.canvas"
   ]
 }
