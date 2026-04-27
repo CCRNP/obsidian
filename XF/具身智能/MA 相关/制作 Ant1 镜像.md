@@ -29,6 +29,24 @@ EulerOS 2.10 镜像ISO获取方式：
 	1. **sha256sum EulerOS-V2.0SP10-x86_64-dvd.iso**
 6. 进入EulerOS 2.10操作系统euleros2.0sp10文件夹中，修改eulerosv2sp10_x86_64_uefi.json配置文件中下述配置，需要保证中的sha256值与配置文件中的匹配
 
+7. 为镜像配置管理员初始密码
+	1. 进入相应版本的Linux操作系统文件夹中，如"/opt/ImageBuilder/euleros2.0sp10"，修改http目录下对应CPU架构的ks_xx.cfg配置文件，找到rootpw配置项，执行以下步骤
+		1. 执行以下命令，在回显的“Enter password:”后输入密码值，给pw变量赋值。
+	        **read -s -p "Enter password: " pw**
+	        Enter password:Jszn@2026
+	        执行以下命令，获取加密的密码。
+		    **python -c "import crypt; print(crypt.crypt('$pw'))"**
+		    获取的返回值即为加密的密码，如下所示：
+		    `$6$PX7DcIH88U2i.9HF$Li6WP/iYHJCQA8JsNWxrZygmQ1uKmMwnsXVXsbapylLHk93httpi81kqo1/xy.w4RrcvHkRlb.qLCiWfTaAjq0`
+		2. 对于HCE2.0、EulerOS V2.0SP9及以上系列，需要继续执行以下命令，设置系统grub密码。
+			1. [root@ecs-c66c http]# grub2-mkpasswd-pbkdf2
+			Enter password:Jszn@2026
+			Reenter password:Jszn@2026
+			PBKDF2 hash of your password is grub.pbkdf2.sha512.10000.D60AE8182F288B8CE2A8FE2584143F5B8089F10B6101EE0B9FAD0D2370734E32E94DA889B2EB9433975E41C3FA6D63EFF8614B8A6F9BF8E1A7EC8EA4C97EDFD9.A73D671D2ECF6F9579A397C657177E9C108E06D507F015DA4E5A531FC67698E49CC2C2AD1933272EE688B939CFE975B26EE0790F3842A755B568DD7B1A94598D
+			2. 输入两次密码，生成的加密后的密码信息为`grub.******`
+			3. 打开对应架构的ks*.cfg文件，找到%addon com_huawei_grub_safe --iscrypted --password='配置项'，在--password=' '中添加上一步生成的密码信息。
+
+
 
 
 ## 问题
@@ -37,6 +55,7 @@ EulerOS 2.10 镜像ISO获取方式：
 	1. 华为云Stack 8.6.0 技术中台与AI数据中台服务扩容指南 03， 该文档中制作 制作Ant1|Ant8和Hnt1|Hnt8裸金属镜像 ，操作步骤第九步，安装驱动： 请将驱动软件rpm包放在rpm文件夹下
 	2. 怎么确定安装什么驱动？
 	3. rpm 包放在哪？
+		1. 进入相应版本的Linux操作系统文件夹中，如 "/ImageBuilder/euleros2.0sp10"，ls 应会有 rpm 文件夹
 
 2. EulerOS 2.10 镜像ISO 无法下载，去哪里获取？他们叫我优先找你，下不了找TD
 
@@ -45,7 +64,9 @@ EulerOS 2.10 镜像ISO获取方式：
 IAM 账号名称：huaweitest
 密码：Guangdong@2025.
 
+ECS 登录
 root / Guangdong@2025
-首次登录需修改密码：
+
+IAM 登录——首次登录需修改密码：
 密码修改为：Guangdong@2025.
 ![[Pasted image 20260427155348.png]]
