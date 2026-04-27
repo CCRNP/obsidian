@@ -55,7 +55,7 @@ EulerOS 2.10 镜像ISO获取方式：
 	3. rpm 包放在哪？
 		1. 进入相应版本的Linux操作系统文件夹中，如 "/ImageBuilder/euleros2.0sp10"，ls 应会有 rpm 文件夹
 
-2. EulerOS 2.10 镜像ISO 无法下载，去哪里获取？他们叫我优先找你，下不了找TD
+2. EulerOS 2.10 镜像ISO 无法下载，去哪里获取？
 
 ## 账号密码
 1. 虚拟机
