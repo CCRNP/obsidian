@@ -41,9 +41,9 @@ EulerOS 2.10 镜像ISO获取方式：
 2. EulerOS 2.10 镜像ISO 无法下载，去哪里获取？他们叫我优先找你，下不了找TD
 
 ## 账号密码
-
+租户名称：ghdx-hdd
 IAM 账号名称：huaweitest
-密码：Guangdong@2025
+密码：Guangdong@2025.
 
 root / Guangdong@2025
 首次登录需修改密码：
