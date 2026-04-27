@@ -47,8 +47,6 @@ EulerOS 2.10 镜像ISO获取方式：
 			3. 打开对应架构的ks*.cfg文件，找到%addon com_huawei_grub_safe --iscrypted --password='配置项'，在--password=' '中添加上一步生成的密码信息。
 
 
-
-
 ## 问题
 
 1. 安装驱动有问题
@@ -60,6 +58,7 @@ EulerOS 2.10 镜像ISO获取方式：
 2. EulerOS 2.10 镜像ISO 无法下载，去哪里获取？他们叫我优先找你，下不了找TD
 
 ## 账号密码
+1. 虚拟机
 租户名称：gdhx-hdd
 IAM 账号名称：huaweitest
 密码：Guangdong@2025.
@@ -69,4 +68,7 @@ root / Guangdong@2025
 
 IAM 登录——首次登录需修改密码：
 密码修改为：Guangdong@2025.
-![[Pasted image 20260427155348.png]]
+![[做镜像的虚拟机 华为云 IAM 登录密码更新.png|689]]
+
+2. 镜像配置管理员初始密码、系统grub 明文密码 都是 ：`Jszn@2026`
+![[镜像配置管理员初始密码、系统grub密码.png]]
