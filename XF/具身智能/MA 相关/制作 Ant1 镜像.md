@@ -11,6 +11,13 @@
 
 ## 4.用于制作镜像的软件包
 
+EulerOS 2.10 镜像ISO获取方式：
+	https://support.huawei.com/enterprisesearch/#/index?keyword=EulerOS-V2.0SP10-x86_64-dvd.iso&lang=zh&searchType=SUPE_SW&sortType=Relevance
+	在上面网址上搜索 EulerOS-V2.0SP10-x86_64-dvd.iso ，申请下载。
+> [!info]
+> - **EulerOS 2.0 SP10**：是华为官方标准的命名格式，其中的 **SP10** 表示第10个补丁与服务包集合[](https://m.elecfans.com/zt/189336/)[](https://www.phpwp.cn/article/3351.html)。
+> - **EulerOS 2.10**：这个更口语化的版本号，可以理解为 **2.0 (SP10)** 的简写。它把 **2.0** 和 **SP10** 拼在了一起，两者指向的是同一个东西，这一点在搜索到的多个技术文章里都能得到印证[](https://wenku.csdn.net/answer/7mw3gopb8p)。
+
 ## 5.操作步骤
 
 1. 解压制作镜像的软件包
