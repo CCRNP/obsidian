@@ -45,3 +45,6 @@ IAM 账号名称：huaweitest
 密码：Guangdong@2025
 
 root / Guangdong@2025
+首次登录需修改密码：
+密码修改为：Guangdong@2025.
+![[Pasted image 20260427155348.png]]
