@@ -37,3 +37,11 @@ EulerOS 2.10 镜像ISO获取方式：
 	1. 华为云Stack 8.6.0 技术中台与AI数据中台服务扩容指南 03， 该文档中制作 制作Ant1|Ant8和Hnt1|Hnt8裸金属镜像 ，操作步骤第九步，安装驱动： 请将驱动软件rpm包放在rpm文件夹下
 	2. 安装啥驱动？
 	3. rpm 包在哪？
+
+
+## 账号密码
+
+IAM 账号名称：huaweitest
+密码：Guangdong@2025
+
+root / Guangdong@2025
