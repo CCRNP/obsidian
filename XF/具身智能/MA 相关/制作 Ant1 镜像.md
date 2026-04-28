@@ -56,6 +56,19 @@ EulerOS 2.10 镜像ISO获取方式：
 		1. 进入相应版本的Linux操作系统文件夹中，如 "/ImageBuilder/euleros2.0sp10"，ls 应会有 rpm 文件夹
 
 2. EulerOS 2.10 镜像ISO 无法下载，去哪里获取？
+	借账号申请下载
+
+3. 进入ImageBuilder文件夹，执行以下命令初始化环境。 执行命令：`dos2unix prepare.sh; sh prepare.sh linux` 报错
+
+- Failed ==========> please download the OVMF-X64-r15214.zip package and put it into online_packages_dep folder
+这个问题，是因为 `prepare.sh` 脚本在准备环境时，没有在它指定的 `online_packages_dep` 文件夹里找到所需的 `OVMF-X64-r15214.zip` 固件包。
+**SourceForge下载页**：访问该项目的官方发布地址，找到对应版本的文件，点击下载放到 `online_packages_dep` 文件夹下即可：
+[https://sourceforge.net/projects/edk2/files/OVMF/OVMF-X64-r15214.zip/download](https://sourceforge.net/projects/edk2/files/OVMF/OVMF-X64-r15214.zip/download)
+
+- Failed ==========> please download the openssl098e-0.9.8e-29.el7.centos.3.x86_64.rpm package and put it into online_packages_dep folder
+在此网站下载： https://crpm.cn/openssl098e-0-9-8e-29-el7-centos-3-x86_64-rpm/
+
+
 
 ## 账号密码
 1. 虚拟机
