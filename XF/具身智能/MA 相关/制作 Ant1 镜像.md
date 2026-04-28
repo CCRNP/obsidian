@@ -143,16 +143,37 @@ EulerOS 2.10 镜像ISO获取方式：
 	如果在后续 `packer build` 中遇到其他问题，再根据具体报错处理。现在环境准备已经成功。
 
 5. 执行以下命令，制作**eulerosv2sp10**的Ant1|Ant8和Hnt1|Hnt8镜像，执行命令报错，命令如下：
-    **packer build -var "password=$pw" eulerosv2sp10_x86_64_uefi.json** 
+**packer build -var "password=$pw" eulerosv2sp10_x86_64_uefi.json** 
+错误信息 1：
+Build 'qemu' errored: Failed creating Qemu driver: exec: "/usr/libexec/qemu-kvm"                                                                                                        : stat /usr/libexec/qemu-kvm: no such file or directory
 
-错误信息：
-	Build 'qemu' errored: Failed creating Qemu driver: exec: "/usr/libexec/qemu-kvm"                                                                                                        : stat /usr/libexec/qemu-kvm: no such file or directory
-	
-	==> Some builds didn't complete successfully and had errors:
-	--> qemu: Failed creating Qemu driver: exec: "/usr/libexec/qemu-kvm":stat /usr/libexec/qemu-kvm: no such file or directory
-	==> Builds finished but no artifacts were created.
+==> Some builds didn't complete successfully and had errors:
+--> qemu: Failed creating Qemu driver: exec: "/usr/libexec/qemu-kvm":stat /usr/libexec/qemu-kvm: no such file or directory
+==> Builds finished but no artifacts were created.
 ❓ 错误原因
 运行的 `packer build` 命令使用了 `qemu` 构建器，它会在本地创建一台临时的虚拟机来制作镜像[](https://developer.hashicorp.com/packer/integrations/hashicorp/qemu/latest/components/builder/qemu?optInFrom=packer-io)。要完成这项工作，需要虚拟机里有 QEMU 和 KVM 支持[](https://m.elecfans.com/zt/189642)。目前的报错信息正是缺少了相关的核心组件。
+
+当前操作系统环境是 欧拉2.0 需要换成 Centos7.8
+换了还是会报错，`/usr/libexec/qemu-kvm: no such file or directory` 错误，明确表示 **缺少 QEMU/KVM 虚拟化组件**。Packer 的 `qemu` 构建器依赖这些组件来创建临时虚拟机。
+不用安装这些依赖了，因为**当前使用的华为云ECS实例类型不支持“嵌套虚拟化”**。简单来说，就是这台虚拟机的“硬件”不支持在它之上再运行另一台虚拟机，而这正是Packer执行`qemu`构建器所必需的[](https://bbs.huaweicloud.com/blogs/292063)。
+两种解决方案：
+- 方案1：最快的方法，不需要换实例，只需调整`eulerosv2sp10_x86_64_uefi.json`的配置。
+	- **修改配置文件**：在`"variables"`代码块中找到`"add_drivers"`这一行。如果它不存在，需要手动创建，并修改或添加 **`"accelerator": "tcg"`** 项[](https://src.isharkfly.com/iSharkFly-Docs/packer-cn/commit/6c1ca3ad49a414565c91415017a773755f01911f.patch)。修改后类似这样，
+			```BASH
+			{
+				"variables": {
+				"accelerator": "tcg",
+				// ... 其他配置项保持不变 ...
+				}
+			}
+			```
+	  强行安装KVM模块并不可行，原因有两点：
+	  一是您当前实例的CPU很可能不支持硬件虚拟化（Intel VT-x/AMD-V），
+	  二是即使支持，在公有云环境中一般也默认不开启嵌套虚拟化。
+    - **性能影响**：`tcg`是纯软件模拟，速度会比KVM慢很多，但对最终镜像没有影响，只是构建过程耗时会增加。
+- 方案2：创建支持嵌套虚拟化的新实例
+
+
 
 
 ## 账号密码

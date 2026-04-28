@@ -110,7 +110,7 @@
               "type": "markdown",
               "state": {
                 "file": "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -150,9 +150,33 @@
               "icon": "lucide-file",
               "title": "2026-04-28 GaussDB告警"
             }
+          },
+          {
+            "id": "b5835981f528e146",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "未命名 1"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -347,8 +371,9 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "d8deaf478b856840",
+  "active": "b5835981f528e146",
   "lastOpenFiles": [
+    "未命名 1.md",
     "2026-04-28 GaussDB告警.md",
     "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
     "XF/具身智能/各账号密码.md",
