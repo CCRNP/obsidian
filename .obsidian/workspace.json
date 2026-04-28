@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
+                "file": "XF/具身智能/各账号密码.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-04-02 欢聚 MA"
+              "title": "各账号密码"
             }
           },
           {
@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "2026-04-28 GaussDB告警.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,11 +148,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "2026-04-28 GaussDB告警"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -347,20 +347,21 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "d8deaf478b856840",
+  "active": "1c77ffa5231be46f",
   "lastOpenFiles": [
-    "XF/报销/2026/4月.md",
+    "XF/具身智能/各账号密码.md",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
-    "未命名.md",
+    "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
     "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
+    "2026-04-28 GaussDB告警.md",
+    "未命名.md",
+    "XF/报销/2026/4月.md",
     "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像需求.md",
     "2026-04-13.md",
     "XF/具身智能/MA 相关/img/做镜像的虚拟机 华为云 IAM 登录密码更新.png",
     "XF/具身智能/MA 相关/img/镜像配置管理员初始密码、系统grub密码.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260424141404.png",
-    "XF/具身智能/各账号密码.md",
     "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
-    "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
     "XF/具身智能/MA 相关/img",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260424124706.png",
