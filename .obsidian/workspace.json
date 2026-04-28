@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -371,7 +371,7 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "b5835981f528e146",
+  "active": "f7c077efdf72e510",
   "lastOpenFiles": [
     "未命名 1.md",
     "2026-04-28 GaussDB告警.md",
