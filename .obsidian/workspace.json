@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -347,13 +347,14 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "1c77ffa5231be46f",
+  "active": "f7c077efdf72e510",
   "lastOpenFiles": [
+    "2026-04-28 GaussDB告警.md",
+    "Pasted image 20260428152137.png",
     "XF/具身智能/各账号密码.md",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
     "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
-    "2026-04-28 GaussDB告警.md",
     "未命名.md",
     "XF/报销/2026/4月.md",
     "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像需求.md",
@@ -384,7 +385,6 @@
     "XF/具身智能/MA 相关",
     "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
     "conflict-files-obsidian-git.md",
-    "XF/具身智能/登录.md",
     "XF/报销/2026/2026年3月市内交通报销.docx",
     "种草莓/img/2026_04_02_01_13_21.jpg",
     "种草莓/img/2026_04_04_02_22_46.jpg",
@@ -395,7 +395,6 @@
     "种草莓/img",
     "XF/具身智能/img 1/Pasted image 20260329122353.png",
     "XF/具身智能/img 1/Pasted image 20260325211327.png",
-    "XF/具身智能/img 1/Pasted image 20260325214729.png",
     "未命名.canvas"
   ]
 }
