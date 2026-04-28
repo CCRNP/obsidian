@@ -173,7 +173,8 @@ Build 'qemu' errored: Failed creating Qemu driver: exec: "/usr/libexec/qemu-kvm"
     - **性能影响**：`tcg`是纯软件模拟，速度会比KVM慢很多，但对最终镜像没有影响，只是构建过程耗时会增加。
 - 方案2：创建支持嵌套虚拟化的新实例
 
-
+7. mobaX 长时间无输入与 ECS 断开，无法运行结果
+8. 
 
 
 ## 账号密码
