@@ -175,7 +175,10 @@ Build 'qemu' errored: Failed creating Qemu driver: exec: "/usr/libexec/qemu-kvm"
 
 7. mobaX 长时间无输入与 ECS 断开，无法运行结果
 没有提前设置用 screen啥的 ，重连没办法看运行结果，只能重连看进程有没有在跑，连vnc看还在不在跑
-8. 
+8. 注册镜像问题
+	1. OBS地址不对，不是 JSZN 那个 OBS，ServerOM上注册的，OBS地址 桶名称是固定的，不用改
+
+9. 登录 OpenStack 首节点
 
 
 ## 账号密码
