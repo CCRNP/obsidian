@@ -174,33 +174,9 @@
               "icon": "lucide-file",
               "title": "未命名 1"
             }
-          },
-          {
-            "id": "808dcfbc3e3e2eaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-03-27 MA 测试"
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -395,14 +371,15 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "808dcfbc3e3e2eaf",
+  "active": "1c77ffa5231be46f",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
+    "未命名 1.md",
     "2026-04-28 GaussDB告警.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
     "Pasted image 20260429170752.png",
     "Pasted image 20260429170719.png",
-    "未命名 1.md",
     "Pasted image 20260429164552.png",
     "Pasted image 20260429164452.png",
     "XF/具身智能/各账号密码.md",
@@ -433,7 +410,6 @@
     "XF/人员一对一意识梳理.md",
     "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
     "XF/具身智能/img 1/MA 模型训练流程.png",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/交付文档",
     "XF/具身智能/MA 相关",
     "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
