@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -372,12 +372,12 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "b5835981f528e146",
+  "active": "f7c077efdf72e510",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
-    "XF/具身智能/各账号密码.md",
-    "2026-04-28 GaussDB告警.md",
     "未命名 1.md",
+    "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
+    "2026-04-28 GaussDB告警.md",
+    "XF/具身智能/各账号密码.md",
     "Pasted image 20260428152137.png",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
