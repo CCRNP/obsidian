@@ -83,7 +83,7 @@ EulerOS 2.10 镜像ISO获取方式：
  `glance image-update {imageId} --property __os_version="EulerOS 2.10 64bit"`
  ID：	e0018dde-24bc-4b34-a319-db6d9f451396
 `glance image-update e0018dde-24bc-4b34-a319-db6d9f451396 --property __os_version="EulerOS 2.10 64bit"`
-
+![[Pasted image 20260429164452.png|857]]
 
 
 ## 问题
@@ -95,8 +95,8 @@ EulerOS 2.10 镜像ISO获取方式：
 		1. 进入相应版本的Linux操作系统文件夹中，如 "/ImageBuilder/euleros2.0sp10"，ls 应会有 rpm 文件夹
 
 2. EulerOS 2.10 镜像ISO 无法下载，去哪里获取？
-	借账号申请下载
-
+	借账号申请下载，软件申请信息填写如下：
+![[Pasted image 20260429170752.png]]
 3. 进入ImageBuilder文件夹，执行以下命令初始化环境。 执行命令：`dos2unix prepare.sh; sh prepare.sh linux` 报错
 
 - Failed ==========> please download the OVMF-X64-r15214.zip package and put it into online_packages_dep folder
@@ -195,6 +195,9 @@ Build 'qemu' errored: Failed creating Qemu driver: exec: "/usr/libexec/qemu-kvm"
 		1.输入“1”，使用内置DC管理员（dc_admin）的OpenStack Keystone V3鉴权。
 		2.输入“OS_USERNAME”的密码。
 		默认密码：参见《华为云Stack 8.6.0 账户一览表》的“B类（FusionSphere OpenStack）”页签中“OpenStack节点”的账户“dc_admin”的默认密码。（可申请）
+		过程不要退出
+		![[Pasted image 20260429164552.png|620]]
+		输入 env | grep OS_  有类似结果显示说明导入成功了
 	
 
 
