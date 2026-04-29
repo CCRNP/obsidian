@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -243,7 +243,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 304.5,
+    "collapsed": true
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -371,10 +372,10 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "d8deaf478b856840",
+  "active": "b5835981f528e146",
   "lastOpenFiles": [
-    "XF/具身智能/各账号密码.md",
     "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
+    "XF/具身智能/各账号密码.md",
     "2026-04-28 GaussDB告警.md",
     "未命名 1.md",
     "Pasted image 20260428152137.png",
