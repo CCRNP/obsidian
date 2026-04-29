@@ -174,6 +174,7 @@ Build 'qemu' errored: Failed creating Qemu driver: exec: "/usr/libexec/qemu-kvm"
 - 方案2：创建支持嵌套虚拟化的新实例
 
 7. mobaX 长时间无输入与 ECS 断开，无法运行结果
+没有提前设置用 screen啥的 ，重连没办法看运行结果，只能重连看进程有没有在跑，连vnc看还在不在跑
 8. 
 
 
