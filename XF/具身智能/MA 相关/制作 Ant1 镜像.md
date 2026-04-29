@@ -77,6 +77,13 @@ EulerOS 2.10 镜像ISO获取方式：
 			2. 输入两次密码，生成的加密后的密码信息为`grub.******`
 			3. 打开对应架构的ks*.cfg文件，找到%addon com_huawei_grub_safe --iscrypted --password='配置项'，在--password=' '中添加上一步生成的密码信息。
 
+8. 注册镜像：
+登录 OpenStack 首节点
+执行以下命令，更新镜像OS Version。
+ `glance image-update {imageId} --property __os_version="EulerOS 2.10 64bit"`
+ ID：	e0018dde-24bc-4b34-a319-db6d9f451396
+`glance image-update e0018dde-24bc-4b34-a319-db6d9f451396 --property __os_version="EulerOS 2.10 64bit"`
+
 
 
 ## 问题
@@ -177,8 +184,20 @@ Build 'qemu' errored: Failed creating Qemu driver: exec: "/usr/libexec/qemu-kvm"
 没有提前设置用 screen啥的 ，重连没办法看运行结果，只能重连看进程有没有在跑，连vnc看还在不在跑
 8. 注册镜像问题
 	1. OBS地址不对，不是 JSZN 那个 OBS，ServerOM上注册的，OBS地址 桶名称是固定的，不用改
+	进入注册页面，该页面有默认的已经填了的OBS地址，去ping一下得到 ip，去obs-Browser 登录用这个，AK/SK 陈向明给的，不知道哪里来的
+	2. 登录问题：
+	登录 OpenStack 首节点，登录CSP，去概览页面找节点类型是控制节点，主机名称是什么GLJD—01，记一下这台的 管理IP，去申请密码
+	3. 输入注册命令报错
+		1. You must provide a username via either --os-username or env[OS_USERNAME]
+		2. 这个错误是因为登录到服务器后，没有加载 OpenStack 的环境变量。
+		3. iii.执行以下命令，完成环境变量的导入。
+		source set_env
+		1.输入“1”，使用内置DC管理员（dc_admin）的OpenStack Keystone V3鉴权。
+		2.输入“OS_USERNAME”的密码。
+		默认密码：参见《华为云Stack 8.6.0 账户一览表》的“B类（FusionSphere OpenStack）”页签中“OpenStack节点”的账户“dc_admin”的默认密码。（可申请）
+	
 
-9. 登录 OpenStack 首节点
+
 
 
 ## 账号密码
@@ -198,6 +217,15 @@ IAM 登录——首次登录需修改密码：
 ![[镜像配置管理员初始密码、系统grub密码.png]]
 
 OpenStack 首节点登录：
-登一下bssadmin运营面，选cps，节点类型是控制节点，主机名称是什么GLJD—01，
+登一下bssadmin运营面，选cps，节点类型是控制节点，主机名称是什么GLJD—01，记一下这台的 管理IP，去申请密码
+	ip：10.3.2.251
+2026-05-28 15:53:29 过期
 fsp / 0a711R6&x%iIyZD
-root /
+root / $01SVdZKF3R(y0g
+
+iii.执行以下命令，完成环境变量的导入。
+source set_env
+1.输入“1”，使用内置DC管理员（dc_admin）的OpenStack Keystone V3鉴权。
+2.输入“OS_USERNAME”的密码。
+默认密码：参见《华为云Stack 8.6.0 账户一览表》的“B类（FusionSphere OpenStack）”页签中“OpenStack节点”的账户“dc_admin”的默认密码。
+dc_admin / BngU1ER_B*+iLasZ
