@@ -243,7 +243,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 304.5,
+    "collapsed": true
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -373,6 +374,9 @@
   },
   "active": "1c77ffa5231be46f",
   "lastOpenFiles": [
+    "Pasted image 20260430164638.png",
+    "Pasted image 20260430163754.png",
+    "Pasted image 20260430163533.png",
     "XF/具身智能/各账号密码.md",
     "2026-04-28 GaussDB告警.md",
     "未命名 1.md",
@@ -395,7 +399,6 @@
     "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
     "XF/具身智能/MA 相关/img",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
-    "XF/具身智能/MA 相关/img/Pasted image 20260424124706.png",
     "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "XF/具身智能/MRS 相关/MRS 改造遇到的问题.md",
     "XF/报销/2026/3月.md",
@@ -409,7 +412,6 @@
     "XF/2026-03-25.md",
     "XF/人员一对一意识梳理.md",
     "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
-    "XF/具身智能/img 1/MA 模型训练流程.png",
     "XF/具身智能/MA 相关/交付文档",
     "XF/具身智能/MA 相关",
     "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
