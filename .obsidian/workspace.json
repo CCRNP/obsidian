@@ -239,7 +239,8 @@
               "title": "笔记本导航器"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
