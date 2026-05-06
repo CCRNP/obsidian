@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/各账号密码.md",
+                "file": "2026-04-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "各账号密码"
+              "title": "2026-04-13"
             }
           },
           {
@@ -373,9 +373,14 @@
   },
   "active": "1c77ffa5231be46f",
   "lastOpenFiles": [
+    "Pasted image 20260506190155.png",
+    "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
+    "2026-04-13.md",
+    "XF/具身智能/运维配置.md",
+    "XF/具身智能/各账号密码.md",
+    "XF/具身智能/MA 相关/2026-05-06 测试记录.md",
     "Pasted image 20260506173832.png",
     "MD Help/MD 基本语法.md",
-    "XF/具身智能/MA 相关/2026-05-06 测试记录.md",
     "2026-04-28 GaussDB告警.md",
     "华为云发布CloudRobo具身智能平台.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
@@ -391,15 +396,11 @@
     "Pasted image 20260430170657.png",
     "Pasted image 20260430170654.png",
     "Pasted image 20260430170500.png",
-    "Pasted image 20260430170436.png",
-    "XF/具身智能/各账号密码.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
-    "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
     "XF/报销/2026/4月.md",
     "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像需求.md",
-    "2026-04-13.md",
     "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
     "XF/具身智能/MA 相关/img",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
@@ -410,7 +411,6 @@
     "XF/2026-03-17.md",
     "XF/2026-03-16.md",
     "XF/MRS面评/YARN核心概念与架构详解.md",
-    "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
     "XF/未命名.base",
     "XF/GIt push test.canvas",
     "XF/具身智能/MA 相关/交付文档",
