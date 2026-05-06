@@ -133,30 +133,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-04-28 GaussDB告警.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-04-28 GaussDB告警"
-            }
-          },
-          {
-            "id": "b5835981f528e146",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "XF/具身智能/MA 相关/2026-05-06 测试记录.md",
                 "mode": "source",
                 "source": false,
@@ -174,9 +150,33 @@
               "icon": "lucide-file",
               "title": "2026-05-06 测试记录"
             }
+          },
+          {
+            "id": "b5835981f528e146",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD Help/MD 基本语法.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MD 基本语法"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -371,14 +371,16 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "b5835981f528e146",
+  "active": "1c77ffa5231be46f",
   "lastOpenFiles": [
+    "MD Help/MD 基本语法.md",
+    "XF/具身智能/MA 相关/2026-05-06 测试记录.md",
+    "2026-04-28 GaussDB告警.md",
+    "华为云发布CloudRobo具身智能平台.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
-    "XF/具身智能/MA 相关/2026-05-06 测试记录.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img",
     "未命名.md",
-    "2026-04-28 GaussDB告警.md",
     "未命名 1.md",
     "Pasted image 20260430172314.png",
     "Pasted image 20260430171918.png",
@@ -411,7 +413,6 @@
     "XF/未命名.base",
     "XF/GIt push test.canvas",
     "XF/2026-03-25.md",
-    "XF/人员一对一意识梳理.md",
     "XF/具身智能/MA 相关/交付文档",
     "XF/具身智能/MA 相关",
     "XF/报销/2026/2026年3月市内交通报销.docx",
