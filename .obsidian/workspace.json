@@ -155,28 +155,16 @@
             "id": "b5835981f528e146",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "未命名 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png"
               },
-              "icon": "lucide-file",
-              "title": "未命名 1"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260506150646"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -239,13 +227,11 @@
               "title": "笔记本导航器"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 304.5,
-    "collapsed": true
+    "width": 304.5
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -373,10 +359,15 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "1c77ffa5231be46f",
+  "active": "b5835981f528e146",
   "lastOpenFiles": [
-    "未命名 1.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
+    "XF/具身智能/MA 相关/2026-05-06 测试记录.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img",
+    "未命名.md",
     "2026-04-28 GaussDB告警.md",
+    "未命名 1.md",
     "Pasted image 20260430172314.png",
     "Pasted image 20260430171918.png",
     "Pasted image 20260430171736.png",
@@ -386,13 +377,11 @@
     "Pasted image 20260430170654.png",
     "Pasted image 20260430170500.png",
     "Pasted image 20260430170436.png",
-    "Pasted image 20260430164638.png",
     "XF/具身智能/各账号密码.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
-    "未命名.md",
     "XF/报销/2026/4月.md",
     "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像需求.md",
     "2026-04-13.md",
@@ -411,16 +400,13 @@
     "XF/GIt push test.canvas",
     "XF/2026-03-25.md",
     "XF/人员一对一意识梳理.md",
-    "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
     "XF/具身智能/MA 相关/交付文档",
     "XF/具身智能/MA 相关",
-    "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
     "XF/报销/2026/2026年3月市内交通报销.docx",
     "XF/报销/2026",
     "XF/报销",
     "未命名",
     "XF/具身智能/MA 相关/MA 测试",
-    "种草莓/img",
     "未命名.canvas"
   ]
 }
