@@ -155,12 +155,24 @@
             "id": "b5835981f528e146",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png"
+                "file": "XF/具身智能/MA 相关/2026-05-06 测试记录.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260506150646"
+              "icon": "lucide-file",
+              "title": "2026-05-06 测试记录"
             }
           }
         ],
@@ -361,8 +373,8 @@
   },
   "active": "b5835981f528e146",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
+    "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
     "XF/具身智能/MA 相关/2026-05-06 测试记录.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img",
     "未命名.md",
