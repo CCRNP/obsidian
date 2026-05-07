@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-05-07.md",
+                "file": "XF/具身智能/MA 相关/算力切分.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-07"
+              "title": "算力切分"
             }
           }
         ],
@@ -263,7 +263,8 @@
               "title": "笔记本导航器"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -397,8 +398,10 @@
   },
   "active": "167916a00496c9e6",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "Pasted image 20260507184849.png",
     "2026-05-07.md",
+    "XF/具身智能/MA 相关/算力切分.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "未命名 2.md",
     "XF/具身智能/MA 相关/2026-05-06 测试记录.md",
     "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像需求.md",
@@ -433,8 +436,6 @@
     "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
     "XF/具身智能/MA 相关/img",
     "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
-    "XF/具身智能/MRS 相关/MRS 改造遇到的问题.md",
-    "XF/报销/2026/3月.md",
     "XF/未命名.base",
     "XF/GIt push test.canvas",
     "XF/具身智能/MA 相关/交付文档",
