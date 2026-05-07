@@ -181,8 +181,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名 2.md",
-                "mode": "source",
+                "file": "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "未命名 2"
+              "title": "2026-03-27 MA 测试"
             }
           }
         ],
@@ -267,8 +267,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5,
-    "collapsed": true
+    "width": 304.5
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
