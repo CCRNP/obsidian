@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+                "file": "2026-05-07.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-03-27 MA 测试"
+              "title": "2026-05-07"
             }
           }
         ],
@@ -397,10 +397,11 @@
   },
   "active": "167916a00496c9e6",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "2026-05-07.md",
     "未命名 2.md",
     "XF/具身智能/MA 相关/2026-05-06 测试记录.md",
     "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像需求.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/2026-03-25.md",
     "XF/2026-03-17.md",
     "XF/2026-03-16.md",
@@ -434,7 +435,6 @@
     "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "XF/具身智能/MRS 相关/MRS 改造遇到的问题.md",
     "XF/报销/2026/3月.md",
-    "XF/MRS面评/3月11日/HDFS进阶与Yarn基础任务清单.md",
     "XF/未命名.base",
     "XF/GIt push test.canvas",
     "XF/具身智能/MA 相关/交付文档",
