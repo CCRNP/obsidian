@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "XF/具身智能/各账号密码.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -323,11 +323,13 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "f7c077efdf72e510",
+  "active": "1c77ffa5231be46f",
   "lastOpenFiles": [
-    "XF/报销/2026/4月.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "XF/具身智能/各账号密码.md",
+    "2026-04-13.md",
+    "XF/报销/2026/4月.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-07 VSCode 接入.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260506173832.png",
@@ -346,9 +348,7 @@
     "XF/2026-03-16.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
-    "2026-04-13.md",
     "XF/具身智能/运维配置.md",
-    "XF/具身智能/各账号密码.md",
     "2026-04-28 GaussDB告警.md",
     "华为云发布CloudRobo具身智能平台.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img",
