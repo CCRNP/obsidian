@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
+                "file": "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "制作 Ant1 镜像"
+              "title": "算力切分"
             }
           },
           {
@@ -126,8 +126,33 @@
               "icon": "lucide-file",
               "title": "2026-05-07 VSCode 接入"
             }
+          },
+          {
+            "id": "da635989255d0c41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/报销/2026/4月.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "4月"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -322,21 +347,21 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "26e1522765184d9b",
+  "active": "d8deaf478b856840",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/测试功能验证/2026-05-07 VSCode 接入.md",
-    "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
+    "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
+    "XF/具身智能/MA 相关/测试功能验证/2026-05-07 VSCode 接入.md",
+    "XF/报销/2026/4月.md",
     "XF/具身智能/各账号密码.md",
     "2026-04-13.md",
-    "XF/报销/2026/4月.md",
-    "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
+    "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260506173832.png",
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260506190155.png",
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260507184849.png",
     "XF/具身智能/MA 相关/测试功能验证/img",
     "XF/具身智能/MA 相关/测试功能验证",
-    "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像需求.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
