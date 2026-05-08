@@ -32,54 +32,6 @@
             }
           },
           {
-            "id": "64aa9975a85c3584",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/报销/2026/4月.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "4月"
-            }
-          },
-          {
-            "id": "dabb8a6f857888d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "HDFS-yarn-MR 问题解答"
-            }
-          },
-          {
             "id": "f7c077efdf72e510",
             "type": "leaf",
             "state": {
@@ -176,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -371,8 +323,10 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "a0bff8fc732be731",
+  "active": "f7c077efdf72e510",
   "lastOpenFiles": [
+    "XF/报销/2026/4月.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-07 VSCode 接入.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
@@ -383,7 +337,6 @@
     "XF/具身智能/MA 相关/测试功能验证",
     "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像需求.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "MD Help/MD 基本语法.md",
@@ -408,7 +361,6 @@
     "Pasted image 20260430171250.png",
     "Pasted image 20260430170657.png",
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
-    "XF/报销/2026/4月.md",
     "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
     "XF/具身智能/MA 相关/img",
     "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
