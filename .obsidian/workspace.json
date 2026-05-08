@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD Help/MD 基本语法.md",
+                "file": "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MD 基本语法"
+              "title": "2026-03-27 MA 测试"
             }
           },
           {
@@ -200,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -263,8 +263,7 @@
               "title": "笔记本导航器"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -396,29 +395,29 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "167916a00496c9e6",
+  "active": "a0bff8fc732be731",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/算力切分.md",
-    "Pasted image 20260507184849.png",
-    "2026-05-07.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "未命名 2.md",
     "XF/具身智能/MA 相关/2026-05-06 测试记录.md",
+    "XF/具身智能/MA 相关/算力切分.md",
     "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像需求.md",
+    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
+    "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
+    "MD Help/MD 基本语法.md",
+    "2026-05-07.md",
+    "Pasted image 20260507184849.png",
+    "未命名 2.md",
     "XF/2026-03-25.md",
     "XF/2026-03-17.md",
     "XF/2026-03-16.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
-    "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
-    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "Pasted image 20260506190155.png",
-    "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
     "2026-04-13.md",
     "XF/具身智能/运维配置.md",
     "XF/具身智能/各账号密码.md",
     "Pasted image 20260506173832.png",
-    "MD Help/MD 基本语法.md",
     "2026-04-28 GaussDB告警.md",
     "华为云发布CloudRobo具身智能平台.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img",
