@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -239,8 +239,7 @@
               "title": "笔记本导航器"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -372,13 +371,13 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "c6b04fcb9ed982ff",
+  "active": "a0bff8fc732be731",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-07 VSCode 接入.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260506173832.png",
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260506190155.png",
-    "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260507184849.png",
     "XF/具身智能/MA 相关/测试功能验证/img",
     "XF/具身智能/MA 相关/测试功能验证",
