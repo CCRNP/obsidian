@@ -133,30 +133,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/2026-05-06 测试记录.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-06 测试记录"
-            }
-          },
-          {
-            "id": "b5835981f528e146",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
                 "mode": "source",
                 "source": false,
@@ -173,6 +149,30 @@
               },
               "icon": "lucide-file",
               "title": "2026-03-27 MA 测试"
+            }
+          },
+          {
+            "id": "b5835981f528e146",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-02 欢聚 MA"
             }
           },
           {
@@ -200,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -395,17 +395,17 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "a0bff8fc732be731",
+  "active": "1c77ffa5231be46f",
   "lastOpenFiles": [
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/2026-05-06 测试记录.md",
+    "2026-05-07.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/算力切分.md",
     "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像需求.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
     "MD Help/MD 基本语法.md",
-    "2026-05-07.md",
     "Pasted image 20260507184849.png",
     "未命名 2.md",
     "XF/2026-03-25.md",
