@@ -150,8 +150,33 @@
               "icon": "lucide-file",
               "title": "4月"
             }
+          },
+          {
+            "id": "460aec4d185c1b6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MA-日志告警.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MA-日志告警"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -346,12 +371,16 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "26e1522765184d9b",
+  "active": "1c77ffa5231be46f",
   "lastOpenFiles": [
+    "MA-日志告警.md",
+    "img/Pasted image 20260511150655.png",
+    "img/Pasted image 20260511150632.png",
+    "img",
+    "XF/具身智能/各账号密码.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-07 VSCode 接入.md",
     "XF/报销/2026/4月.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "XF/具身智能/各账号密码.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260509171951.png",
     "XF/具身智能/MA 相关/测试功能验证/img/db0598029d60be76c1bb302916d222f6.png",
@@ -364,8 +393,6 @@
     "2026-04-13.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260506173832.png",
-    "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260506190155.png",
-    "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260507184849.png",
     "XF/具身智能/MA 相关/测试功能验证/img",
     "XF/具身智能/MA 相关/测试功能验证",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
@@ -386,14 +413,12 @@
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
     "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
     "XF/具身智能/MA 相关/img",
-    "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "XF/未命名.base",
     "XF/GIt push test.canvas",
     "XF/具身智能/MA 相关/交付文档",
     "XF/具身智能/MA 相关",
     "XF/报销/2026/2026年3月市内交通报销.docx",
     "XF/报销/2026",
-    "XF/报销",
     "未命名.canvas"
   ]
 }
