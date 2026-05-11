@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/报销/2026/4月.md",
+                "file": "2026-04-28 GaussDB告警.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4月"
+              "title": "2026-04-28 GaussDB告警"
             }
           },
           {
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -371,16 +371,20 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "da635989255d0c41",
+  "active": "1c77ffa5231be46f",
   "lastOpenFiles": [
     "XF/具身智能/MA 相关/测试功能验证/2026-05-07 VSCode 接入.md",
+    "2026-04-28 GaussDB告警.md",
+    "XF/具身智能/各账号密码.md",
+    "2026-04-13.md",
+    "未命名 1.md",
+    "未命名 2.md",
+    "XF/报销/2026/4月.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "MA-日志告警.md",
     "img/Pasted image 20260511150655.png",
     "img/Pasted image 20260511150632.png",
     "img",
-    "XF/具身智能/各账号密码.md",
-    "XF/报销/2026/4月.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260509171951.png",
     "XF/具身智能/MA 相关/测试功能验证/img/db0598029d60be76c1bb302916d222f6.png",
@@ -390,7 +394,6 @@
     "XF/具身智能/img/Pasted image 20260318174623.png",
     "XF/具身智能/img/Pasted image 20260325172744.png",
     "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
-    "2026-04-13.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260506173832.png",
     "XF/具身智能/MA 相关/测试功能验证/img",
@@ -399,17 +402,14 @@
     "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像需求.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "MD Help/MD 基本语法.md",
-    "未命名 2.md",
     "XF/2026-03-25.md",
     "XF/2026-03-17.md",
     "XF/2026-03-16.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
     "XF/具身智能/运维配置.md",
-    "2026-04-28 GaussDB告警.md",
     "华为云发布CloudRobo具身智能平台.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img",
     "未命名.md",
-    "未命名 1.md",
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
     "copilot/copilot-conversations/What_insights_can_I_gather_about_topic_from_my_notes@20260324_232034.md",
     "XF/具身智能/MA 相关/img",
