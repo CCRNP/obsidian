@@ -7,3 +7,9 @@
 
 解决方法：
 	icAgent 探测日志下发的任务备阻塞了，重启 icAgent 进程恢复。
+
+
+
+[root@os-node-created-c9tjc ICAgent]# crictl ps | grep icagent
+
+
