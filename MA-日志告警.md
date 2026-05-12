@@ -1,11 +1,13 @@
 ![[Pasted image 20260511150632.png]]
 
 ![[Pasted image 20260511150655.png]]
-原因：
+
+### 原因：
+
+license 不足，导致 monitor 数据会频繁重发阻塞导致发送通道阻塞，影响 icagent 阻塞无法发现容器日志
 
 
-
-解决方法：
+### 解决方法：
 	icAgent 探测日志下发的任务备阻塞了，重启 icAgent 进程恢复。
 
 
