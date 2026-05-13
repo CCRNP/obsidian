@@ -157,8 +157,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MA-日志告警.md",
-                "mode": "source",
+                "file": "2026-04-28 GaussDB告警.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA-日志告警"
+              "title": "2026-04-28 GaussDB告警"
             }
           }
         ],
@@ -243,8 +243,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5,
-    "collapsed": true
+    "width": 304.5
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -374,10 +373,10 @@
   },
   "active": "460aec4d185c1b6b",
   "lastOpenFiles": [
+    "MA-日志告警.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "2026-04-28 GaussDB告警.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-07 VSCode 接入.md",
-    "MA-日志告警.md",
     "XF/具身智能/各账号密码.md",
     "2026-04-13.md",
     "未命名 1.md",
