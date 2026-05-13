@@ -175,8 +175,7 @@
               "title": "2026-04-28 GaussDB告警"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -371,11 +370,11 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "460aec4d185c1b6b",
+  "active": "26e1522765184d9b",
   "lastOpenFiles": [
+    "2026-04-28 GaussDB告警.md",
     "MA-日志告警.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "2026-04-28 GaussDB告警.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-07 VSCode 接入.md",
     "XF/具身智能/各账号密码.md",
     "2026-04-13.md",
