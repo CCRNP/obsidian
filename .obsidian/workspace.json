@@ -175,8 +175,7 @@
               "title": "2026-04-28 GaussDB告警"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -371,13 +370,14 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "460aec4d185c1b6b",
+  "active": "26e1522765184d9b",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
+    "XF/具身智能/各账号密码.md",
+    "2026-04-28 GaussDB告警.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-07 VSCode 接入.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "2026-04-28 GaussDB告警.md",
-    "XF/具身智能/各账号密码.md",
     "MA-日志告警.md",
     "2026-04-13.md",
     "未命名 1.md",
@@ -393,7 +393,6 @@
     "XF/具身智能/img/Pasted image 20260318174605.png",
     "XF/具身智能/img/Pasted image 20260318174623.png",
     "XF/具身智能/img/Pasted image 20260325172744.png",
-    "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260506173832.png",
     "XF/具身智能/MA 相关/测试功能验证/img",
