@@ -140,7 +140,7 @@ EulerOS 2.10 镜像ISO获取方式：
 	
 	 📌 结论
 	
-	你可以**放心地继续下一步**：
+	可以**放心地继续下一步**：
 		```bash
 		packer build -var "password=$pw" eulerosv2sp10_x86_64_uefi.json
 		```
