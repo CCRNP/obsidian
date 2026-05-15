@@ -126,9 +126,33 @@
               "icon": "lucide-file",
               "title": "MD 基本语法"
             }
+          },
+          {
+            "id": "65ab864b4b9e50ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-04-28 GaussDB告警.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-28 GaussDB告警"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -324,13 +348,13 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "da635989255d0c41",
+  "active": "65ab864b4b9e50ac",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
     "XF/具身智能/MA 相关/MA-A100 镜像部署裸金属失败问题&解决.md",
+    "MD Help/MD 基本语法.md",
+    "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
     "2026-04-28 GaussDB告警.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
-    "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像需求.md",
     "未命名 1.md",
     "未命名.md",
