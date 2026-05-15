@@ -92,7 +92,7 @@ EulerOS 2.10 镜像ISO获取方式：
 	1. 华为云Stack 8.6.0 技术中台与AI数据中台服务扩容指南 03， 该文档中制作 制作Ant1|Ant8和Hnt1|Hnt8裸金属镜像 ，操作步骤第九步，安装驱动： 请将驱动软件rpm包放在rpm文件夹下
 	2. 怎么确定安装什么驱动？
 	3. rpm 包放在哪？
-		1. 进入相应版本的Linux操作系统文件夹中，如 "/ImageBuilder/euleros2.0sp10"，ls 应会有 rpm 文件夹
+		1. 进入相应版本的Linux操作系统文件夹中，如 "/ImageBuilder/euleros2.0sp10"，ls 会有 rpm 文件夹
 
 2. EulerOS 2.10 镜像ISO 无法下载，去哪里获取？
 	借账号申请下载，软件申请信息填写如下：
@@ -180,8 +180,11 @@ Build 'qemu' errored: Failed creating Qemu driver: exec: "/usr/libexec/qemu-kvm"
     - **性能影响**：`tcg`是纯软件模拟，速度会比KVM慢很多，但对最终镜像没有影响，只是构建过程耗时会增加。
 - 方案2：创建支持嵌套虚拟化的新实例
 
+
 7. mobaX 长时间无输入与 ECS 断开，无法运行结果
 没有提前设置用 screen啥的 ，重连没办法看运行结果，只能重连看进程有没有在跑，连vnc看还在不在跑
+
+
 8. 注册镜像问题
 	1. OBS地址不对，不是 JSZN 那个 OBS，ServerOM上注册的，OBS地址 桶名称是固定的，不用改
 	进入注册页面，该页面有默认的已经填了的OBS地址，去ping一下得到 ip，去obs-Browser 登录用这个，AK/SK 陈向明给的，不知道哪里来的
