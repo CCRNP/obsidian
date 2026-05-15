@@ -6,6 +6,7 @@
       {
         "id": "de5645d8c4c6504c",
         "type": "tabs",
+        "dimension": 76.33689839572193,
         "children": [
           {
             "id": "26e1522765184d9b",
@@ -101,7 +102,8 @@
               },
               "icon": "lucide-file",
               "title": "制作 Ant1 镜像"
-            }
+            },
+            "group": "46b5998681f03290"
           },
           {
             "id": "167916a00496c9e6",
@@ -177,6 +179,29 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "32f87e3b7310d26f",
+        "type": "tabs",
+        "dimension": 23.663101604278076,
+        "children": [
+          {
+            "id": "2937ee44307b6692",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "制作 Ant1 镜像 的大纲"
+            },
+            "group": "46b5998681f03290"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,7 +268,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 304.5,
+    "collapsed": true
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -373,13 +399,13 @@
   },
   "active": "1c77ffa5231be46f",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像需求.md",
-    "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "2026-04-28 GaussDB告警.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-07 VSCode 接入.md",
+    "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
+    "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像需求.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
     "2026-04-13.md",
-    "2026-04-28 GaussDB告警.md",
     "XF/具身智能/各账号密码.md",
     "MA-日志告警.md",
     "未命名 1.md",

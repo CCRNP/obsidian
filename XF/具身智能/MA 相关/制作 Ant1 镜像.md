@@ -210,6 +210,7 @@ IAM 账号名称：huaweitest
 密码：Guangdong@2025.
 
 ECS 登录
+EIP: 139.159.245.254
 root / Guangdong@2025
 
 IAM 登录——首次登录需修改密码：
