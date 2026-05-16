@@ -1,6 +1,6 @@
-![[Pasted image 20260511150632.png]]
+![[MA日志告警处理-ICAgent状态.png]]
 
-![[Pasted image 20260511150655.png]]
+![[MA日志告警处理-Agent管理状态.png]]
 
 ### 原因：
 
