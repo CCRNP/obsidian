@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/做Ant1镜像相关.md",
+                "file": "IDEA/学习-被动输入-AI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "做Ant1镜像相关"
+              "title": "学习-被动输入-AI"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -104,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XF/具身智能/MA 相关/做Ant1镜像相关.md",
+                "file": "IDEA/学习-被动输入-AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "做Ant1镜像相关 的反向链接列表"
+              "title": "学习-被动输入-AI 的反向链接列表"
             }
           },
           {
@@ -166,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XF/具身智能/MA 相关/做Ant1镜像相关.md",
+                "file": "IDEA/学习-被动输入-AI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "做Ant1镜像相关 的大纲"
+              "title": "学习-被动输入-AI 的大纲"
             }
           },
           {
@@ -181,8 +182,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -208,12 +209,13 @@
   },
   "active": "80b36c35bb353eec",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/做Ant1镜像相关.md",
+    "IDEA/学习-被动输入-AI.md",
+    "IDEA",
     "XF/具身智能/ccrSSHgithub119.pub",
     "XF/具身智能/ccrSSHgithub119",
     "XF/具身智能/MA 相关/MA-日志告警.md",
-    "XF/具身智能/MA 相关/做Ant1镜像相关.md",
     "2026-04-13.md",
-    "未命名.md",
     "XF/DATABASE.base",
     "XF/GIt push test.canvas",
     "Pasted image 20260430172314.png",
@@ -239,9 +241,7 @@
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img",
     "del/foo.txt",
     "刘瑗湘是傻子",
-    "del",
     "Learn/Linux/Linux 常用命令.md",
-    "Learn/Linux",
     "2026-04-29.md",
     "2026-04-28 GaussDB告警.md",
     "……😮‍💨.md",
