@@ -1,7 +1,5 @@
 [
   "obsidian-git",
   "copilot",
-  "obsidian-regex-replace",
-  "global-search-and-replace",
-  "notebook-navigator"
+  "dataview"
 ]
