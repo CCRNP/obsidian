@@ -227,8 +227,11 @@ OpenStack 首节点登录：
 登一下bssadmin运营面，选cps，节点类型是控制节点，主机名称是什么GLJD—01，记一下这台的 管理IP，去申请密码
 	ip：10.3.2.251
 2026-05-28 15:53:29 过期
-fsp / 0a711R6&x%iIyZD
-root / $01SVdZKF3R(y0g
+~~fsp / 0a711R6&x%iIyZD~~
+~~root / $01SVdZKF3R(y0g~~
+
+fsp / xYKuz(763(2PGHb
+root / 0^VbE^0xTs^Z&Oh
 
 iii.执行以下命令，完成环境变量的导入。
 source set_env
@@ -236,3 +239,12 @@ source set_env
 2.输入“OS_USERNAME”的密码。
 默认密码：参见《华为云Stack 8.6.0 账户一览表》的“B类（FusionSphere OpenStack）”页签中“OpenStack节点”的账户“dc_admin”的默认密码。
 dc_admin / BngU1ER_B*+iLasZ
+
+
+
+## 创建裸金属服务器测试镜像
+
+
+登录账号密码：
+root / Jszn@2026
+![[Pasted image 20260518144938.png]]
