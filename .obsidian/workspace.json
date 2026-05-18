@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-04-28 GaussDB告警.md",
+                "file": "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-04-28 GaussDB告警"
+              "title": "制作 Ant1 镜像"
             }
           }
         ],
@@ -219,8 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5,
-    "collapsed": true
+    "width": 304.5
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -350,8 +349,8 @@
   },
   "active": "65ab864b4b9e50ac",
   "lastOpenFiles": [
-    "MD Help/MD 基本语法.md",
     "2026-04-28 GaussDB告警.md",
+    "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 相关/MA-A100 镜像部署裸金属失败问题&解决.md",
     "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
