@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/各账号密码.md",
+                "file": "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "各账号密码"
+              "title": "2026-03-27 MA 测试"
             }
           },
           {
-            "id": "d8deaf478b856840",
+            "id": "944a09e8b5161f48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-04-28 GaussDB告警.md",
+                "file": "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,28 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-04-28 GaussDB告警"
+              "title": "MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业"
             }
           },
           {
-            "id": "1c77ffa5231be46f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20260430163533.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260430163533"
-            }
-          },
-          {
-            "id": "da635989255d0c41",
+            "id": "bbf6881f2c994c7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA-A100 镜像部署裸金属失败问题&解决.md",
+                "file": "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA-A100 镜像部署裸金属失败问题&解决"
+              "title": "2026-03-27 MA 测试"
             }
           },
           {
-            "id": "eb07632a4b49b815",
+            "id": "a36dd442412e28af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD Help/MD 基本语法.md",
+                "file": "XF/具身智能/MA 相关/MA-API.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,16 +100,64 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MD 基本语法"
+              "title": "MA-API"
             }
           },
           {
-            "id": "65ab864b4b9e50ac",
+            "id": "322f27db1602fdb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
+                "file": "登录 CDK.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "登录 CDK"
+            }
+          },
+          {
+            "id": "304ca77ea7028919",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/具身智能/MA 相关/MA-API.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MA-API"
+            }
+          },
+          {
+            "id": "535e319be242b437",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/具身智能/MA 相关/镜像/制作 Ant1 镜像.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -140,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -199,8 +235,8 @@
             "state": {
               "type": "notebook-navigator",
               "state": {},
-              "icon": "notebook-navigator",
-              "title": "笔记本导航器"
+              "icon": "lucide-ghost",
+              "title": "notebook-navigator"
             }
           }
         ]
@@ -331,58 +367,58 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "notebook-navigator:笔记本导航器": false
+      "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "1c77ffa5231be46f",
+  "active": "535e319be242b437",
   "lastOpenFiles": [
-    "2026-04-28 GaussDB告警.md",
-    "Pasted image 20260430163533.png",
-    "Pasted image 20260429164552.png",
-    "Pasted image 20260429164452.png",
-    "Pasted image 20260428152137.png",
-    "Pasted image 20260430171918.png",
-    "Pasted image 20260430172314.png",
-    "Pasted image 20260430171736.png",
-    "Pasted image 20260430170657.png",
-    "Pasted image 20260430163754.png",
+    "conflict-files-obsidian-git.md",
+    "XF/具身智能/MA 相关/镜像/制作 Ant1 镜像.md",
+    "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
+    "XF/具身智能/MA 相关/做Ant1镜像相关.md",
+    "XF/具身智能/MA 相关/MA-API.md",
+    "登录 CDK.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
-    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
-    "XF/具身智能/MA 相关/2026-04-24 制作 A100 镜像需求.md",
-    "XF/具身智能/MA 相关/制作 Ant1 镜像.md",
-    "XF/具身智能/MA 相关/img/Pasted image 20260518144938.png",
-    "MD Help/MD 基本语法.md",
-    "XF/具身智能/MA 相关/MA-A100 镜像部署裸金属失败问题&解决.md",
-    "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
-    "未命名 1.md",
-    "未命名.md",
-    "未命名 2.md",
-    "未命名 3.md",
-    "XF/具身智能/MA 相关/测试功能验证/2026-05-07 VSCode 接入.md",
-    "2026-04-13.md",
     "XF/具身智能/各账号密码.md",
-    "MA-日志告警.md",
-    "XF/报销/2026/4月.md",
-    "img",
-    "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
-    "XF/具身智能/MA 相关/测试功能验证/img",
-    "XF/具身智能/MA 相关/测试功能验证",
-    "XF/2026-03-25.md",
-    "XF/2026-03-17.md",
-    "XF/2026-03-16.md",
+    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
-    "XF/具身智能/运维配置.md",
-    "华为云发布CloudRobo具身智能平台.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img",
-    "XF/具身智能/MA 相关/img",
-    "XF/未命名.base",
+    "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
+    "XF/具身智能/MA 相关/镜像",
+    "XF/具身智能/MA 相关/镜像/MA-A100 镜像部署裸金属失败问题&解决.md",
+    "XF/foo/big data.md",
+    "copilot/copilot-conversations/分类整理整个文件里的所有内容@20260313_175046.md",
+    "XF/2026-03-16.md",
+    "XF/2026-03-17.md",
+    "XF/2026-03-25.md",
     "XF/GIt push test.canvas",
-    "XF/具身智能/MA 相关/交付文档",
-    "XF/具身智能/MA 相关",
-    "XF/报销/2026/2026年3月市内交通报销.docx",
-    "XF/报销/2026",
+    "MD Help/MD 基本语法.md",
+    "Test/未命名.md",
+    "Test/TestDataView.md",
+    "Test/DataView.md",
+    "Test",
+    "XF/具身智能/img/Pasted image 20260430172314.png",
+    "XF/具身智能/img/Pasted image 20260430171918.png",
+    "XF/具身智能/img/Pasted image 20260430171736.png",
+    "XF/具身智能/img/Pasted image 20260430171512.png",
+    "XF/具身智能/img/Pasted image 20260430171250.png",
+    "XF/具身智能/img/Pasted image 20260430170657.png",
+    "XF/具身智能/img/Pasted image 20260430170654.png",
+    "XF/具身智能/img/Pasted image 20260430170500.png",
+    "XF/具身智能/img/Pasted image 20260430170436.png",
+    "Templates/Obsidian-Templates-main/Docs/Templater/Update-Date-and-Time.md",
+    "Templates/Obsidian-Templates-main/Docs/Templater/To-Big-Chars.md",
+    "Templates/Obsidian-Templates-main/Docs/Templater/Sort-Tasks-Lines.md",
+    "Templates/Obsidian-Templates-main/Docs/Templater/Save-selection-content.md",
+    "Templates/Obsidian-Templates-main/Dataview/Year-View/view.js",
+    "Templates/Obsidian-Templates-main/Dataview/Year-View/view.css",
+    "Templates/Obsidian-Templates-main/Dataview/Ticket-Card/view.js",
+    "Templates/Obsidian-Templates-main/Dataview/Webclipper/view.css",
+    "Templates/Obsidian-Templates-main/Dataview/Day-Line/view.css",
+    "Templates/Obsidian-Templates-main/Dataview/Day-Line/view.js",
+    "Templates/Obsidian-Templates-main/Dataview/Task-Progress/view.js",
+    "Templates/Obsidian-Templates-main/Dataview/Task-Progress/view.css",
     "未命名.canvas"
   ]
 }
