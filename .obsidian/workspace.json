@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
+                "file": "XF/具身智能/MA 相关/MA-API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "MA 功能文档对齐——问题&解答 的反向链接列表"
+              "title": "MA-API 的反向链接列表"
             }
           },
           {
@@ -310,13 +310,14 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "304ca77ea7028919",
+  "active": "a36dd442412e28af",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/MA-API.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
+    "XF/具身智能/MA 相关/MA-API.md",
     "XF/具身智能/MA 相关/交付文档/img/Pasted image 20260521195942.png",
     "XF/具身智能/MA 相关/交付文档/img",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
