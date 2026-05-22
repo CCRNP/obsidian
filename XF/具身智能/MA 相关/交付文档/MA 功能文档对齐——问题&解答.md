@@ -75,3 +75,30 @@ Workflow（也称工作流，下文中均可使用工作流进行描述）本质
 在Huawei Cloud Stack 8.6.0版本中，数据管理不再是ModelArts的一个独立模块。
 
 准确地说，之前作为ModelArts一部分的数据管理功能，在8.6.0这个版本里，已经发展并整合到了另一个独立的平台服务里，叫 ModelArts Studio。ModelArts 本身在8.6.0中，其定位更侧重于模型的训练和部署
+
+
+### 网络加速
+
+具体来说，它描述的是一个从底层硬件到上层平台、从智能调度到拥塞控制的立体化加速体系。
+- **自动网络拓扑发现** 
+	- 对应底层 **AI 高速网络栈** 中的智能拓扑感知模块，以及轻量算力集群场景下的 `cabinet` 插件。
+	- 系统能自动识别交换机、NPU 节点之间的物理连接关系（例如 Spine‑Leaf 架构），并生成网络拓扑信息。
+
+**开启动态路由加速**
+此功能通过智能优化网络通信路径来提升训练性能，配置方法如下：
+
+- **前置条件**：请确保联系华为云技术支持，开启集群的 `cabinet` 插件和调度权限[](https://support.huaweicloud.com/intl/es-us/usermanual-standard-modelarts/develop-modelarts-0004.html)[](https://support.huaweicloud.com/intl/zh-cn/usermanual-standard-modelarts/develop-modelarts-0004.html)。
+    
+- **关键配置**：在创建训练作业的“训练配置”阶段，添加环境变量 `ROUTE_PLAN = true`。这是最重要的“开关”，能确保使用 RankTable File (RTF) 的方式启动训练[](https://support.huaweicloud.com/intl/es-us/usermanual-standard-modelarts/develop-modelarts-0004.html)[](https://support.huaweicloud.com/intl/zh-cn/usermanual-standard-modelarts/develop-modelarts-0004.html)。
+    
+- **资源要求**：资源配置阶段，资源池需选择“**专属资源池**”，实例规格必须为**Ascend Snt9b或Snt9b23**类型，并且必须使用“**节点满卡**”，实例数（计算节点数）需要**大于或等于3**[](https://support.huaweicloud.com/intl/es-us/usermanual-standard-modelarts/develop-modelarts-0004.html)[](https://support.huaweicloud.com/intl/zh-cn/usermanual-standard-modelarts/develop-modelarts-0004.html)。
+
+ **配置拓扑感知调度（超节点亲和组）**  
+对于大模型训练场景，可通过配置“亲和组”将高带宽需求的实例调度到同一超节点内，极大提升通信效率。
+
+- **启用条件**：此功能仅支持**昇腾Snt9b23**超节点专属资源池，且要求每个实例必须占满节点的所有卡[](https://support.huaweicloud.com/intl/zh-cn/usermanual-standard-modelarts/develop-modelarts-0011.html)。
+    
+- **配置入口**：在创建训练作业的“资源配置”阶段，选择好“专属资源池”和“Snt9b23”规格后，在界面中找到并填写“**超节点亲和组实例数**”
+
+在ModelArts平台上**使用网络加速能力，主要操作是在创建训练任务时在“资源配置”和“训练配置”页面完成的**。需要做的仅仅是选择正确的资源池和规格，并正确地设置环境变量，平台调度器便会自动接管底层的网络优化工作。
+
