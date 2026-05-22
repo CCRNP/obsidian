@@ -148,7 +148,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -180,16 +180,6 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
-          {
-            "id": "c6b04fcb9ed982ff",
-            "type": "leaf",
-            "state": {
-              "type": "notebook-navigator",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "notebook-navigator"
-            }
           }
         ]
       }
@@ -211,6 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +211,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "MA 功能文档对齐——问题&解答 的反向链接列表"
             }
           },
           {
@@ -301,7 +292,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
