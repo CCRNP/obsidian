@@ -61,30 +61,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-03-27 MA 测试"
-            }
-          },
-          {
-            "id": "a36dd442412e28af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "XF/具身智能/MA 相关/MA-API.md",
                 "mode": "source",
                 "source": false,
@@ -101,6 +77,30 @@
               },
               "icon": "lucide-file",
               "title": "MA-API"
+            }
+          },
+          {
+            "id": "a36dd442412e28af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD Help/MD 基本语法.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MD 基本语法"
             }
           },
           {
@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -314,10 +314,12 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "a36dd442412e28af",
+  "active": "bbf6881f2c994c7c",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
+    "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 相关/MA-API.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/交付文档/img/Pasted image 20260521195942.png",
     "XF/具身智能/MA 相关/交付文档/img",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
@@ -331,7 +333,6 @@
     "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
     "XF/具身智能/MA 相关/做Ant1镜像相关.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/各账号密码.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
@@ -343,7 +344,6 @@
     "XF/2026-03-17.md",
     "XF/2026-03-25.md",
     "XF/GIt push test.canvas",
-    "MD Help/MD 基本语法.md",
     "Test/未命名.md",
     "Test/TestDataView.md",
     "Test",
