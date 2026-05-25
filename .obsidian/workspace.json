@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -314,10 +314,10 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "bbf6881f2c994c7c",
+  "active": "304ca77ea7028919",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/MA-API.md",
     "XF/具身智能/MA 相关/Q & A.md",
+    "XF/具身智能/MA 相关/MA-API.md",
     "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
