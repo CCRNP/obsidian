@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA-日志告警.md",
+                "file": "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA-日志告警"
+              "title": "2026-05-06 测试记录"
             }
           }
         ],
@@ -316,8 +316,10 @@
   },
   "active": "304ca77ea7028919",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260601174537.png",
     "XF/具身智能/MA 相关/MA-API.md",
+    "XF/具身智能/MA 相关/MA-日志告警.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/Q & A.md",
     "MD Help/MD 基本语法.md",
@@ -325,7 +327,6 @@
     "XF/具身智能/MA 相关/交付文档/img",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
-    "XF/具身智能/MA 相关/MA-日志告警.md",
     "XF/具身智能/MA 相关/2026-04-13.md",
     "XF/具身智能/MA 相关/登录 CDK.md",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
@@ -346,7 +347,6 @@
     "XF/2026-03-25.md",
     "XF/GIt push test.canvas",
     "Test/未命名.md",
-    "Test/TestDataView.md",
     "Test",
     "XF/具身智能/img/Pasted image 20260430172314.png",
     "XF/具身智能/img/Pasted image 20260430171918.png",
