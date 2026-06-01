@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
+                "file": "XF/具身智能/MA 相关/MA-API.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA 功能文档对齐——问题&解答"
+              "title": "MA-API"
             }
           }
         ],
@@ -316,11 +316,11 @@
   },
   "active": "304ca77ea7028919",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/Q & A.md",
     "XF/具身智能/MA 相关/MA-API.md",
     "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/交付文档/img/Pasted image 20260521195942.png",
     "XF/具身智能/MA 相关/交付文档/img",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
