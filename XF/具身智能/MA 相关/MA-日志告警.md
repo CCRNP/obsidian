@@ -16,7 +16,7 @@ license 不足，导致 monitor 数据会频繁重发阻塞导致发送通道阻
 
 
 ### 解决方法：
-	icAgent 探测日志下发的任务备阻塞了，重启 icAgent 进程恢复。
+	icAgent 探测日志下发的任务被阻塞了，重启 icAgent 进程恢复。
 
 
 
