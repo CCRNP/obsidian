@@ -105,3 +105,17 @@ Workflow（也称工作流，下文中均可使用工作流进行描述）本质
 在ModelArts平台上**使用网络加速能力，主要操作是在创建训练任务时在“资源配置”和“训练配置”页面完成的**。需要做的仅仅是选择正确的资源池和规格，并正确地设置环境变量，平台调度器便会自动接管底层的网络优化工作。
 
 
+### NPU拓扑感知调度
+
+平台支持的，通过 `Volcano` 调度器实现。其版本记录显示支持“训练作业**两级分组网络拓扑感知调度能力**”[](https://www.huaweicloud.com/guide/productsdesc-bms_817e0e9e2e640f76c57afdbf05a03febsupport1)以及“昇腾NPU双DIE亲和调度能力”[](https://www.huaweicloud.com/guide/productsdesc-bms_817e0e9e2e640f76c57afdbf05a03febsupport1)，说明调度器在分配NPU资源时会感知硬件拓扑。ModelArts官方也明确提及 **“NPU拓扑感知调度”** 是一种支持的模式[](https://support.huaweicloud.com/topic/987402-5-S)。
+
+### 汇聚网络亲和调度
+
+将关联性强的计算任务聚合到高性能的统一网络域内，以降低通信压力。
+在推理服务中提供“**支持亲和调度**”选项，将同一会话的请求定向转发到同一实例[](https://doc.hcs.huawei.com/zh-cn/usermanual/modelarts/modelarts-infer_04_0529.html#ZH-CN_TOPIC_0000002266805845__table42381035113912)。
+
+### 汇聚网络独占调度
+
+“汇聚网络独占调度”的核心思想是“资源隔离”
+平台提供“专属资源池”功能，为您分配**独立的计算集群和网络资源**。这确保了任务独享特定资源，实现了用户间的物理隔离，完全满足独占调度的核心诉求。
+专属资源池和专用网络
