@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
+                "file": "XF/具身智能/各账号密码.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA 功能文档对齐——问题&解答"
+              "title": "各账号密码"
             }
           },
           {
@@ -316,10 +316,12 @@
   },
   "active": "944a09e8b5161f48",
   "lastOpenFiles": [
+    "XF/具身智能/登录.md",
+    "XF/具身智能/各账号密码.md",
+    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "XF/具身智能/MA 相关/MA-日志告警.md",
-    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
     "XF/具身智能/MA 相关/2026-04-13.md",
@@ -338,7 +340,6 @@
     "XF/具身智能/MA 相关/镜像/制作 Ant1 镜像.md",
     "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
-    "XF/具身智能/各账号密码.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
     "XF/具身智能/MA 相关/镜像",
@@ -346,7 +347,6 @@
     "XF/foo/big data.md",
     "copilot/copilot-conversations/分类整理整个文件里的所有内容@20260313_175046.md",
     "XF/2026-03-16.md",
-    "XF/2026-03-17.md",
     "XF/GIt push test.canvas",
     "Test",
     "XF/具身智能/img/Pasted image 20260430172314.png",
