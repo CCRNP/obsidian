@@ -80,6 +80,30 @@
             }
           },
           {
+            "id": "7da26f26f535251c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
             "id": "a36dd442412e28af",
             "type": "leaf",
             "state": {
@@ -128,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -314,10 +338,12 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "944a09e8b5161f48",
+  "active": "7da26f26f535251c",
   "lastOpenFiles": [
-    "XF/具身智能/登录.md",
+    "XF/具身智能/MA 相关/Q & A.md",
+    "conflict-files-obsidian-git.md",
     "XF/具身智能/各账号密码.md",
+    "XF/具身智能/登录.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
@@ -332,13 +358,11 @@
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260601174537.png",
     "XF/具身智能/MA 相关/MA-API.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "XF/具身智能/MA 相关/Q & A.md",
     "XF/具身智能/MA 相关/交付文档/img/Pasted image 20260521195942.png",
     "XF/具身智能/MA 相关/交付文档/img",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "Test/DataView.md",
     "XF/具身智能/MA 相关/镜像/制作 Ant1 镜像.md",
-    "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
