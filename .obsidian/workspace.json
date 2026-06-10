@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA-日志告警.md",
+                "file": "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA-日志告警"
+              "title": "MA 功能文档对齐——问题&解答"
             }
           },
           {
@@ -316,6 +316,8 @@
   },
   "active": "a36dd442412e28af",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
+    "XF/具身智能/MA 相关/MA-日志告警.md",
     "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 相关/Q & A.md",
     "XF/具身智能/各账号密码.md",
@@ -323,9 +325,7 @@
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
-    "XF/具身智能/MA 相关/MA-日志告警.md",
     "MD Help/MD 基本语法.md",
-    "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
     "XF/具身智能/MA 相关/2026-04-13.md",
     "XF/具身智能/MA 相关/2026-04-28 GaussDB告警.md",
     "XF/具身智能/MA 相关/登录 CDK.md",
