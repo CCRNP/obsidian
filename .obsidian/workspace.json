@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
+                "file": "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HDFS 读流程 & 自问"
+              "title": "算力切分"
             }
           },
           {
@@ -316,6 +316,7 @@
   },
   "active": "a36dd442412e28af",
   "lastOpenFiles": [
+    "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "XF/MRS面评/3月11日/HDFS进阶与Yarn基础任务清单.md",
     "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
     "XF/2026-03-16.md",
@@ -344,7 +345,6 @@
     "XF/具身智能/MA 相关/交付文档/img",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "Test/DataView.md",
-    "XF/具身智能/MA 相关/镜像/制作 Ant1 镜像.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
     "XF/具身智能/MA 相关/镜像",
     "XF/GIt push test.canvas",
