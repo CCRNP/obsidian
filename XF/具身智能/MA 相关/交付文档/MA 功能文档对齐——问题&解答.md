@@ -104,6 +104,9 @@ Workflow（也称工作流，下文中均可使用工作流进行描述）本质
 
 在ModelArts平台上**使用网络加速能力，主要操作是在创建训练任务时在“资源配置”和“训练配置”页面完成的**。需要做的仅仅是选择正确的资源池和规格，并正确地设置环境变量，平台调度器便会自动接管底层的网络优化工作。
 
+#### 训练作业动态加速路由
+https://support.huaweicloud.com/usermanual-standard-modelarts/develop-modelarts-0004.html
+- 在启用动态路由加速之前，请联系ModelArts技术支持，确保集群的cabinet插件和调度权限已开启。
 
 ### NPU拓扑感知调度
 
