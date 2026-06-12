@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
+                "file": "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,11 +124,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "需求规格文档——差异"
+              "title": "MA 功能文档对齐——问题&解答"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -314,12 +314,13 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "bbf6881f2c994c7c",
+  "active": "304ca77ea7028919",
   "lastOpenFiles": [
-    "XF/具身智能/各账号密码.md",
-    "XF/具身智能/MA 相关/变更.md",
-    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
+    "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
+    "XF/具身智能/MA 相关/变更.md",
+    "XF/具身智能/各账号密码.md",
+    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/Q & A.md",
     "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "XF/MRS面评/3月11日/HDFS进阶与Yarn基础任务清单.md",
@@ -333,7 +334,6 @@
     "conflict-files-obsidian-git.md",
     "XF/具身智能/登录.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
-    "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 相关/2026-04-13.md",
     "XF/具身智能/MA 相关/2026-04-28 GaussDB告警.md",
