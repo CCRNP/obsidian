@@ -107,7 +107,7 @@ Workflow（也称工作流，下文中均可使用工作流进行描述）本质
 
 ### NPU拓扑感知调度
 
-平台支持的，通过 `Volcano` 调度器实现。其版本记录显示支持“训练作业**两级分组网络拓扑感知调度能力**”[](https://www.huaweicloud.com/guide/productsdesc-bms_817e0e9e2e640f76c57afdbf05a03febsupport1)以及“昇腾NPU双DIE亲和调度能力”[](https://www.huaweicloud.com/guide/productsdesc-bms_817e0e9e2e640f76c57afdbf05a03febsupport1)，说明调度器在分配NPU资源时会感知硬件拓扑。ModelArts官方也明确提及 **“NPU拓扑感知调度”** 是一种支持的模式[](https://support.huaweicloud.com/topic/987402-5-S)。
+平台支持，通过 `Volcano` 调度器实现。其版本记录显示支持“训练作业**两级分组网络拓扑感知调度能力**”[](https://www.huaweicloud.com/guide/productsdesc-bms_817e0e9e2e640f76c57afdbf05a03febsupport1)以及“昇腾NPU双DIE亲和调度能力”[](https://www.huaweicloud.com/guide/productsdesc-bms_817e0e9e2e640f76c57afdbf05a03febsupport1)，说明调度器在分配NPU资源时会感知硬件拓扑。ModelArts官方也明确提及 **“NPU拓扑感知调度”** 是一种支持的模式[](https://support.huaweicloud.com/topic/987402-5-S)。
 
 ### 汇聚网络亲和调度
 
