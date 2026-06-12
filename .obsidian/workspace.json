@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -314,13 +314,13 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "304ca77ea7028919",
+  "active": "bbf6881f2c994c7c",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
     "XF/具身智能/MA 相关/变更.md",
     "XF/具身智能/各账号密码.md",
-    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/Q & A.md",
     "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "XF/MRS面评/3月11日/HDFS进阶与Yarn基础任务清单.md",
