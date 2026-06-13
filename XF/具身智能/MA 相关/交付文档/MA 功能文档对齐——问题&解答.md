@@ -138,3 +138,4 @@ https://support.huaweicloud.com/usermanual-standard-modelarts/develop-modelarts-
 
 - 团队：通过IAM用户组实现。可将整个IAM用户组（团队）添加为授权对象，为整个团队赋予组织或镜像的**读取、编辑、管理**权限[](https://www.huaweicloud.com/guide/productsdesc-bms_f916eafc2b66594ae3f755887bda8ea4support0)，实现以团队为单位的统一管理。
 
+### 支持FP16、BF16等混合精度训练以提升训练速度
