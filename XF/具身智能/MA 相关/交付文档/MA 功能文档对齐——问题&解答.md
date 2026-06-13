@@ -131,3 +131,10 @@ https://support.huaweicloud.com/usermanual-standard-modelarts/develop-modelarts-
 
 ### 简化分布式，将单机代码自动分布式
 
+
+### 镜像仓库共享级别——个人、团队
+
+- 个人：通过IAM用户实现。镜像创建者自动拥有该镜像的**管理**权限（下载、上传、删除、编辑属性、添加授权以及共享镜像）[](https://support.huaweicloud.com/intl/zh-cn/ally-visitor-1-usermanual-swr/swr_01_0060.html)。SWR支持为指定IAM用户授予对某个镜像或其所属组织的**读取、编辑、管理**三种粒度权限[](https://support.huaweicloud.com/intl/zh-cn/ally-visitor-1-usermanual-swr/swr_01_0060.html)。
+
+- 团队：通过IAM用户组实现。可将整个IAM用户组（团队）添加为授权对象，为整个团队赋予组织或镜像的**读取、编辑、管理**权限[](https://www.huaweicloud.com/guide/productsdesc-bms_f916eafc2b66594ae3f755887bda8ea4support0)，实现以团队为单位的统一管理。
+
