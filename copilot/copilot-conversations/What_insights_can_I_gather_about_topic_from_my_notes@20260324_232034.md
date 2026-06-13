@@ -59,7 +59,7 @@ Error Details: 401 Authentication Fails, Your api key: ****2c23 is invalid</erro
     *   记录了一项待完成的运维配置清单，包括用户访问密钥、虚拟私有云、OBS存储、终端节点服务、MRS、CCE、ModelArts集群的纳管功能[^7]。
 
 3.  **网络与登录配置**：
-    *   在 [[登录]] 笔记中，记录了添加路由的命令、ManageOne管理面的访问地址和VDC账号，以及MRS主备Manager服务器的IP地址[^8]。
+    *   在 [[XF/具身智能/登录]] 笔记中，记录了添加路由的命令、ManageOne管理面的访问地址和VDC账号，以及MRS主备Manager服务器的IP地址[^8]。
 
 ### 三、 其他记录
 *   **日常工作日志**：在 [[2026-03-16]] 中简要记录了CCE创建节点失败（资源不够）和ModelArts创建集群的任务[^9]。
@@ -76,7 +76,7 @@ Error Details: 401 Authentication Fails, Your api key: ****2c23 is invalid</erro
 [^5]: [[MRS 改造遇到的问题]]
 [^6]: [[各账号密码]]
 [^7]: [[运维配置]]
-[^8]: [[登录]]
+[^8]: [[XF/具身智能/登录]]
 [^9]: [[2026-03-16]]
 [^10]: [[![[Pasted image 20260318201659.png]]]]
 [Timestamp: 2026/03/25 00:36:02]
