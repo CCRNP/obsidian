@@ -110,7 +110,7 @@
               "type": "markdown",
               "state": {
                 "file": "XF/MRS面评/YARN核心概念与架构详解.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -127,7 +127,8 @@
               "title": "YARN核心概念与架构详解"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -313,14 +314,14 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "26e1522765184d9b",
+  "active": "944a09e8b5161f48",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/MRS面评/YARN核心概念与架构详解.md",
     "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
     "XF/具身智能/MA 相关/变更.md",
-    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/2026-03-16.md",
     "XF/2026-03-17.md",
     "XF/2026-03-25.md",
