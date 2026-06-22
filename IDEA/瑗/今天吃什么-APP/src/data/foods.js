@@ -1,4 +1,4 @@
-export const FOODS = [
+﻿export const FOODS = [
   { name: '火锅', color: '#E8485B' },
   { name: '烤肉', color: '#F09B4A' },
   { name: '寿司', color: '#F5CD6D' },
@@ -15,41 +15,41 @@ export const QUIZ_DATA = [{
   id: 0,
   question: '你此刻最渴望什么味道？',
   options: [
-    { label: '🌶️ 麻辣刺激', value: 'spicy' },
-    { label: '🍯 甜蜜治愈', value: 'sweet' },
-    { label: '🧂 咸香满足', value: 'salty' },
+    { label: ' 麻辣刺激', value: 'spicy' },
+    { label: ' 甜蜜治愈', value: 'sweet' },
+    { label: ' 咸香满足', value: 'salty' },
   ]
 }, {
   id: 1,
   question: '你更想在哪样的环境里用餐？',
   options: [
-    { label: '🔥 热闹烟火气', value: 'lively' },
-    { label: '🌸 安静雅致', value: 'quiet' },
-    { label: '☕ 随意放松', value: 'casual' },
+    { label: ' 热闹烟火气', value: 'lively' },
+    { label: ' 安静雅致', value: 'quiet' },
+    { label: ' 随意放松', value: 'casual' },
   ]
 }, {
   id: 2,
   question: '你愿意为美食等待多久？',
   options: [
-    { label: '⏱️ 马上就得吃', value: 'immediate' },
-    { label: '⌛ 30 分钟以内', value: 'medium' },
-    { label: '🕰️ 多久都行', value: 'patient' },
+    { label: ' 马上就得吃', value: 'immediate' },
+    { label: ' 30 分钟以内', value: 'medium' },
+    { label: ' 多久都行', value: 'patient' },
   ]
 }, {
   id: 3,
   question: '你今天的心情是？',
   options: [
-    { label: '☀️ 元气满满', value: 'energetic' },
-    { label: '😌 平静慵懒', value: 'calm' },
-    { label: '🌧️ 需要治愈', value: 'healing' },
+    { label: ' 元气满满', value: 'energetic' },
+    { label: ' 平静慵懒', value: 'calm' },
+    { label: ' 需要治愈', value: 'healing' },
   ]
 }, {
   id: 4,
   question: '你更看重食物的哪一点？',
   options: [
-    { label: '👅 味道至上', value: 'taste' },
-    { label: '🎨 颜值满分', value: 'looks' },
-    { label: '💰 性价比高', value: 'value' },
+    { label: ' 味道至上', value: 'taste' },
+    { label: ' 颜值满分', value: 'looks' },
+    { label: ' 性价比高', value: 'value' },
   ]
 }]
 
@@ -73,17 +73,17 @@ export const QUIZ_SCORES = {
 
 export const ALL_FOOD_NAMES = FOODS.map(f => f.name)
 export const QUIZ_FOODS = [...ALL_FOOD_NAMES, '甜品', '西餐']
-
 export const EMOJI_MAP = {
-  '火锅': '🔥',
-  '烤肉': '🥩',
-  '寿司': '🍣',
-  '拉面': '🍜',
-  '披萨': '🍕',
-  '汉堡': '🍔',
-  '炸鸡': '🍗',
-  '麻辣烫': '🌶️',
-  '日料': '🍱',
-  '韩餐': '🇰🇷',
-  '甜品': '🍰',
-  '西餐
+  '火锅': '',
+  '烤肉': '',
+  '寿司': '',
+  '拉面': '',
+  '披萨': '',
+  '汉堡': '',
+  '炸鸡': '',
+  '麻辣烫': '',
+  '日料': '',
+  '韩餐': '',
+  '甜品': '',
+  '西餐': ''
+}

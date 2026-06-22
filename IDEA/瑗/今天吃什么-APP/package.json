@@ -1,7 +1,7 @@
 {
   "name": "what-to-eat-app",
   "version": "1.0.0",
-  "description": "霖雨魔法店 · 今天吃什么",
+  "description": "今天吃什么",
   "type": "module",
   "scripts": {
     "dev": "vite",
