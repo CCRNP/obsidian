@@ -133,8 +133,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "del.md",
-                "mode": "source",
+                "file": "IDEA/瑗/今天吃什么-APP/今天吃什么_HTML.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "del"
+              "title": "今天吃什么_HTML"
             }
           }
         ],
@@ -340,13 +340,27 @@
   },
   "active": "52025c31e76662f8",
   "lastOpenFiles": [
+    "IDEA/瑗/今天吃什么-APP/src/views",
+    "IDEA/瑗/今天吃什么-APP/src/components",
+    "IDEA/瑗/今天吃什么-APP/src/style.css",
+    "IDEA/瑗/今天吃什么-APP/src/data/foods.js",
+    "IDEA/瑗/今天吃什么-APP/src/data",
+    "IDEA/瑗/今天吃什么-APP/src/main.js",
+    "IDEA/瑗/今天吃什么-APP/src",
+    "IDEA/瑗/今天吃什么-APP/__unconfig_vite.config.js",
+    "IDEA/瑗/今天吃什么-APP/index.html",
+    "IDEA/瑗/今天吃什么-APP/vite.config.js",
+    "IDEA/瑗/今天吃什么-APP/package.json",
+    "IDEA/瑗/今天吃什么-APP/今天吃什么-APP.md",
+    "IDEA/瑗/今天吃什么-APP/今天吃什么_HTML.md",
+    "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
+    "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
+    "del.md",
     "img/Pasted image 20260618103248.png",
     "img/Pasted image 20260618103242.png",
     "img/Pasted image 20260618103231.png",
     "img/023a918a4ce792e51c613161070b21a3.png",
     "img/79be00d0-6ba2-402d-9c26-03606d8d63a6.png",
-    "img",
-    "del.md",
     "XF/MRS面评/YARN核心概念与架构详解.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "MD Help/MD 基本语法.md",
@@ -364,29 +378,15 @@
     "XF/foo/big data.md",
     "XF/运通/登录.md",
     "XF/运通/运通 Hosts.md",
-    "XF/运通",
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "XF/具身智能/各账号密码.md",
     "XF/具身智能/MA 相关/Q & A.md",
     "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "XF/MRS面评/3月11日/HDFS进阶与Yarn基础任务清单.md",
     "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
-    "XF/具身智能/MA 相关/MA-日志告警.md",
-    "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260601174537.png",
     "XF/具身智能/MA 相关/交付文档/img/Pasted image 20260521195942.png",
-    "XF/具身智能/MA 相关/交付文档/img",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
-    "XF/具身智能/MA 相关/镜像",
-    "Test",
-    "XF/具身智能/img/Pasted image 20260430172314.png",
-    "XF/具身智能/img/Pasted image 20260430171918.png",
-    "XF/具身智能/img/Pasted image 20260430171736.png",
-    "Templates/Obsidian-Templates-main/Dataview/Year-View/view.js",
-    "Templates/Obsidian-Templates-main/Dataview/Year-View/view.css",
-    "Templates/Obsidian-Templates-main/Dataview/Ticket-Card/view.js",
-    "Templates/Obsidian-Templates-main/Dataview/Webclipper/view.css",
-    "Templates/Obsidian-Templates-main/Dataview/Day-Line/view.css",
     "未命名.canvas"
   ]
 }
