@@ -1,2 +1,19 @@
-<template><div class=app-container
-no-select\><HomePage v-if=currentPage===home\ @navigate=\handleNavigate\/><WheelPage v-else-if=currentPage===wheel\ @back=\currentPage=home\/><QuizPage v-else-if=currentPage===quiz\ @back=\currentPage=home\/></div></template><script setup>import {ref,onMounted,onUnmounted} from 'vue' import HomePage from './views/HomePage.vue' import WheelPage from './views/WheelPage.vue' import QuizPage from './views/QuizPage.vue' const currentPage=ref('home') function handleNavigate(page){currentPage.value=page} let ti=null;onMounted(()=>{const e=document.querySelector('.shop-title');if(e){ti=setInterval(()=>{e.style.textShadow='0 0 30px rgba(200,170,100,0.08), 0 2px 4px rgba(0,0,0,0.5)';setTimeout(()=>{e.style.textShadow='0 0 20px rgba(200,170,100,0.15), 0 2px 4px rgba(0,0,0,0.5)'},300)},3000)}});onUnmounted(()=>{if(ti)clearInterval(ti)}) </script>
+<template>
+<div id="app">
+<HomePage v-if="currentPage === 'home'" @go-wheel="currentPage = 'wheel'" @go-quiz="currentPage = 'quiz'" />
+<WheelPage v-else-if="currentPage === 'wheel'" @back="currentPage = 'home'" />
+<QuizPage v-else-if="currentPage === 'quiz'" @back="currentPage = 'home'" />
+</div>
+</template>
+
+<script setup>
+import {ref} from "vue";
+import HomePage from "./views/HomePage.vue";
+import WheelPage from "./views/WheelPage.vue";
+import QuizPage from "./views/QuizPage.vue";
+const currentPage = ref("home");
+</script>
+
+<style>
+@import "./style.css";
+</style>
