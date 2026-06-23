@@ -133,8 +133,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/各账号密码.md",
-                "mode": "preview",
+                "file": "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "各账号密码"
+              "title": "详细设计说明书V1"
             }
           }
         ],
@@ -209,7 +209,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 304.5,
+    "collapsed": true
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -340,8 +341,10 @@
   },
   "active": "52025c31e76662f8",
   "lastOpenFiles": [
-    "XF/具身智能/登录.md",
     "XF/具身智能/各账号密码.md",
+    "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
+    "XF/具身智能/MA 相关/交付文档/详细设计说明书",
+    "XF/具身智能/登录.md",
     "IDEA/瑗/今天吃什么-APP/今天吃什么_HTML.md",
     "conflict-files-obsidian-git.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/vite/dist/node/chunks/dep-f1e8587f.js",
@@ -353,7 +356,6 @@
     "IDEA/瑗/今天吃什么-APP/node_modules/rollup/dist/shared/watch-cli.js",
     "IDEA/瑗/今天吃什么-APP/node_modules/rollup/dist/shared/loadConfigFile.js",
     "IDEA/瑗/今天吃什么-APP/node_modules/rollup/dist/shared/index.js",
-    "IDEA/瑗/今天吃什么-APP/node_modules/rollup/dist/es/package.json",
     "IDEA/瑗/今天吃什么-APP/node_modules/@vue/shared/README.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/@vue/server-renderer/README.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/@vue/runtime-dom/README.md",
@@ -375,7 +377,6 @@
     "IDEA/瑗/今天吃什么-APP/node_modules/rollup/README.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/rollup/LICENSE.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/postcss/README.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/picocolors/README.md",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
     "img/Pasted image 20260618103248.png",
