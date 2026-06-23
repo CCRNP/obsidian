@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
+                "file": "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业"
+              "title": "算力切分"
             }
           },
           {
@@ -151,8 +151,7 @@
               "title": "详细设计说明书V1"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,7 +183,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "算力",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,12 +204,12 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 304.5,
-    "collapsed": true
+    "width": 304.5
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -339,10 +338,12 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "52025c31e76662f8",
+  "active": "26e1522765184d9b",
   "lastOpenFiles": [
-    "XF/具身智能/各账号密码.md",
+    "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
+    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
+    "XF/具身智能/各账号密码.md",
     "XF/具身智能/MA 相关/交付文档/详细设计说明书",
     "XF/具身智能/登录.md",
     "IDEA/瑗/今天吃什么-APP/今天吃什么_HTML.md",
@@ -375,8 +376,6 @@
     "IDEA/瑗/今天吃什么-APP/node_modules/vite/LICENSE.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/source-map-js/README.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/rollup/README.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/rollup/LICENSE.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/postcss/README.md",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
     "img/Pasted image 20260618103248.png",
