@@ -161,5 +161,5 @@ https://support.huaweicloud.com/usermanual-standard-modelarts/develop-modelarts-
 3. **搜索关键字**：在日志中搜索以下关键词：
     
     - `precision`：表明混合精度配置已加载。
-        
+        在日志的环境变量列表中，可以清楚看到：PRECISION_MODE=allow_mix_precision_fp16；这说明平台**正确接收并应用了你的配置**。
     
