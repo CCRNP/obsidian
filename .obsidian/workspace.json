@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
-                "mode": "preview",
+                "file": "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-04-24 制作 A100 镜像需求"
+              "title": "MA 功能文档对齐——问题&解答"
             }
           },
           {
@@ -208,7 +208,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 304.5,
+    "collapsed": true
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -339,6 +340,9 @@
   },
   "active": "26e1522765184d9b",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/Q & A.md",
+    "XF/具身智能/MA 相关/2026-04-13.md",
+    "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
     "XF/具身智能/MA 相关/镜像/制作 Ant1 镜像.md",
     "XF/具身智能/MA 相关/镜像/MA-A100 镜像部署裸金属失败问题&解决.md",
     "XF/具身智能/MA 相关/MA-日志告警.md",
@@ -372,9 +376,6 @@
     "IDEA/瑗/今天吃什么-APP/node_modules/@vue/runtime-core/README.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/@vue/reactivity/README.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/@vue/compiler-sfc/README.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/@vue/compiler-dom/README.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/@vue/compiler-core/README.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/@vitejs/plugin-vue/README.md",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
     "img/Pasted image 20260618103248.png",

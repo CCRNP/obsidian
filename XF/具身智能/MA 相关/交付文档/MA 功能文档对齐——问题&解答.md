@@ -139,3 +139,36 @@ https://support.huaweicloud.com/usermanual-standard-modelarts/develop-modelarts-
 - 团队：通过IAM用户组实现。可将整个IAM用户组（团队）添加为授权对象，为整个团队赋予组织或镜像的**读取、编辑、管理**权限[](https://www.huaweicloud.com/guide/productsdesc-bms_f916eafc2b66594ae3f755887bda8ea4support0)，实现以团队为单位的统一管理。
 
 ### 支持FP16、BF16等混合精度训练以提升训练速度
+
+#### 代码与配置层面：显式启用
+
+在训练脚本中主动配置，是验证支持最直接的方式。
+
+##### 1. 通过`precision_mode_v2`参数开启（Ascend场景推荐）
+
+在CANN或PyTorch等框架的训练脚本中，通过配置`precision_mode_v2`参数可以启用混合精度[](https://www.hiascend.com/doc_center/source/zh/CANNCommunityEdition/80RC1alpha001/apiref/fmkadptapi/CANN%208.0.RC1.alpha001%20%e6%a1%86%e6%9e%b6%e9%80%82%e9%85%8d%e6%8e%a5%e5%8f%a3%e5%8f%82%e8%80%83%2001.pdf#172#146)。
+
+- **启用FP16混合精度**：设置 `precision_mode_v2="allow_mix_precision_fp16"`[](https://www.hiascend.com/doc_center/source/zh/TensorFlowCommercial/80RC3/migration/tfmigr1/TensorFlow%E5%95%86%E7%94%A8%E7%89%88%208.0.RC3%20%E6%A8%A1%E5%9E%8B%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97%EF%BC%88TF%201.15%EF%BC%8901.pdf#53#33)。
+    
+- **启用BF16混合精度**（A2系列专属）：设置 `precision_mode_v2="allow_mix_precision_bp16"`[](https://www.hiascend.com/doc_center/source/zh/TensorFlowCommercial/80RC3/migration/tfmigr1/TensorFlow%E5%95%86%E7%94%A8%E7%89%88%208.0.RC3%20%E6%A8%A1%E5%9E%8B%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97%EF%BC%88TF%201.15%EF%BC%8901.pdf#53#33)。
+    
+- **保持原图精度**：设置 `precision_mode_v2="origin"`[](https://www.hiascend.com/doc_center/source/zh/CANNCommunityEdition/80RC1alpha001/apiref/fmkadptapi/CANN%208.0.RC1.alpha001%20%e6%a1%86%e6%9e%b6%e9%80%82%e9%85%8d%e6%8e%a5%e5%8f%a3%e5%8f%82%e8%80%83%2001.pdf#172#146)[](https://www.hiascend.com/doc_center/source/zh/TensorFlowCommercial/80RC3/migration/tfmigr1/TensorFlow%E5%95%86%E7%94%A8%E7%89%88%208.0.RC3%20%E6%A8%A1%E5%9E%8B%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97%EF%BC%88TF%201.15%EF%BC%8901.pdf#53#33)。
+
+python
+
+config = NPURunConfig(precision_mode_v2="allow_mix_precision_fp16")
+
+
+#### 如何主动验证：查看训练日志
+
+启动训练作业后，可以通过查看**训练日志**来确认混合精度是否生效。
+
+1. **进入训练作业详情页**：在ModelArts控制台，进入“模型训练 > 训练作业”，点击你的作业名称。
+    
+2. **查看日志**：切换到“日志”页签。
+    
+3. **搜索关键字**：在日志中搜索以下关键词：
+    
+    - `mix_precision`、`allow_mix_precision`：表明混合精度配置已加载。
+        
+    - `reduce precision`：Ascend平台上，当日志出现`There are xx nodes used reduce precision`的提示时，说明系统正在自动将某些算子降精度执行，这正是混合精度训练在起作用的标志[](https://blog.csdn.net/weixin_45666880/article/details/125430739)。
