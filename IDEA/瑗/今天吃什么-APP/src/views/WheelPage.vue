@@ -96,7 +96,7 @@ function spinWheel(){
       wheelAngle=targetRotation;
       const idx=getFoodFromAngle(wheelAngle);
       const food=FOODS[idx].name;
-      wheelResult.value=" 今天吃 <span class="food-name">"+food+"</span> ";
+      wheelResult.value=' 今天吃 <span class="food-name">'+food+'</span> ';
       isSpinning.value=false;
     }
   }
