@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>霖雨魔法店 · 今天吃什么</title>
+    <title>今天吃什么</title>
     <style>
         /* ========== 全局重置 & 基础 ========== */
         * {

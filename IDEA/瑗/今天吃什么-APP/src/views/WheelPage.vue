@@ -1,11 +1,11 @@
 <template>
 <div class="page active" id="page-wheel">
-<div class="back-row"><button class="back-btn" @click="$emit(''back'')"><span class="icon"></span><span class="label">返回魔法店</span></button><span class="back-right"> 魔力轮盘</span></div>
+<div class="back-row"><button class="back-btn" @click="$emit('back')"><span class="icon"></span><span class="label">返回魔法店</span></button><span class="back-right"> 魔力轮盘</span></div>
 <div class="page-title"><div class="main">转盘抽签</div><div class="sub">不用再纠结了</div></div>
 <div class="page-desc">转一下，指针停在哪，今天就吃哪。</div>
 <div class="wheel-wrapper"><canvas ref="wheelCanvas" width="600" height="600"></canvas><div class="pointer-overlay"><div class="pointer"></div><div class="center-dot"></div></div></div>
 <div class="wheel-controls"><button class="spin-btn" :disabled="isSpinning" @click="spinWheel"> 转一下</button><div class="result-text" v-html="wheelResult"></div></div>
-<div class="wheel-bottom-links"><button @click="$emit(''back'')">换一种方式</button><button @click="$emit(''back'')">返回魔法店</button></div>
+<div class="wheel-bottom-links"><button @click="$emit('back')">换一种方式</button><button @click="$emit('back')">返回魔法店</button></div>
 <div class="footer-note" style="margin-top:6px">轮盘已注入魔力，转到哪算哪</div>
 </div>
 </template><script setup>

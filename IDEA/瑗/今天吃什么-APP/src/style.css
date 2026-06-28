@@ -60,17 +60,13 @@ body {
 }
 
 .page {
-  display: none;
+  display: flex;
   flex-direction: column;
   height: 100%;
   min-height: 720px;
   position: relative;
   z-index: 2;
   animation: fadeUp 0.4s ease-out;
-}
-
-.page.active {
-  display: flex;
 }
 
 @keyframes fadeUp {
@@ -261,6 +257,37 @@ body {
 .feature-card.quiz-card .icon-box {
   background: rgba(160, 100, 200, 0.08);
   border-color: rgba(160, 100, 200, 0.12);
+}
+
+#page-home .hero {
+  text-align: center;
+  padding: 10px 0 6px;
+}
+#page-home .hero .big-title {
+  font-size: 42px;
+  font-weight: 800;
+  color: #f0e0c8;
+  text-shadow: 0 0 40px rgba(200, 170, 100, 0.15), 0 4px 20px rgba(0, 0, 0, 0.4);
+  letter-spacing: 4px;
+  line-height: 1.2;
+}
+#page-home .hero .big-title .highlight {
+  background: linear-gradient(135deg, #f5e6c8, #d4b896);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#page-home .hero .desc {
+  color: #a09080;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-top: 10px;
+  padding: 0 4px;
+  letter-spacing: 0.5px;
+}
+#page-home .hero .desc em {
+  color: #d4b896;
+  font-style: normal;
 }
 
 .page-title {
@@ -701,3 +728,4 @@ body {
     padding: 12px 14px;
     font-size: 13px;
   }
+}
