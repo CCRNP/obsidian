@@ -183,7 +183,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "响应式推理",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,8 +204,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -338,11 +337,11 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "21ee93c87aa3201d",
+  "active": "26e1522765184d9b",
   "lastOpenFiles": [
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
-    "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
+    "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
     "XF/具身智能/MA 相关/Q & A.md",
     "XF/具身智能/MA 相关/2026-04-13.md",
     "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",

@@ -193,3 +193,23 @@ https://support.huaweicloud.com/usermanual-standard-modelarts/develop-modelarts-
 
 在代码目录下载完成后，启动命令会被自动执行。如果训练启动脚本用的是py文件，例如train.py，启动命令可以写为python train.py。如果训练启动脚本用的是sh文件，例如main.sh，启动命令可以写为bash main.sh。启动命令可支持使用";"和"&&"拼接多条命令，但暂不支持换行拼接。
 
+#### 环境变量：
+
+**“环境变量”** 例子：
+
+l CONVERT_MG2HF=True，是否将训练后的模型转换回Huggingface格式，用于模型推理
+
+l EPOCH：训练迭代轮数
+− 配置值：1
+
+l EVAL_INTERVAL：表示训练多少个步数进行模型验证
+− 配置值：10
+
+l EVAL_ITERS：评估轮数
+− 配置值：1
+
+l MOUNT：表示数据挂载方式。用于区别SFS时做的适配。
+− 配置值：OBS
+
+l SAVE_INTERVAL：表示训练多少个步数保存一次模型
+− 配置值：10
