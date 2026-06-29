@@ -151,8 +151,7 @@
               "title": "详细设计说明书V1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -338,8 +337,9 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "bbf6881f2c994c7c",
+  "active": "26e1522765184d9b",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
     "XF/具身智能/MA 相关/变更.md",
@@ -375,7 +375,6 @@
     "IDEA/瑗/今天吃什么-APP/node_modules/@vue/server-renderer/README.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/@vue/runtime-dom/README.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/@vue/runtime-core/README.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/@vue/reactivity/README.md",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
     "img/Pasted image 20260618103248.png",
