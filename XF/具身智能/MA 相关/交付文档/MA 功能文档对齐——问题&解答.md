@@ -129,6 +129,7 @@ https://support.huaweicloud.com/usermanual-standard-modelarts/develop-modelarts-
 - **创建作业时**：这是最直接的体现。在创建训练作业时，在“资源配置”页面若能将“实例数”设置为大于1，就代表当前作业将使用多节点进行分布式训练[](https://support.huaweicloud.com/intl/zh-cn/usermanual-standard-modelarts/modelarts-distributed-0001.html)。
 
 
+
 ### 简化分布式，将单机代码自动分布式
 
 
@@ -162,4 +163,8 @@ https://support.huaweicloud.com/usermanual-standard-modelarts/develop-modelarts-
     
     - `precision`：表明混合精度配置已加载。
         在日志的环境变量列表中，可以清楚看到：PRECISION_MODE=allow_mix_precision_fp16；这说明平台**正确接收并应用了你的配置**。
-    
+
+
+
+### 异步请求
+
