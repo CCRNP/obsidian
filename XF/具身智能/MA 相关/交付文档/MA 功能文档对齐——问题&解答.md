@@ -176,3 +176,20 @@ https://support.huaweicloud.com/usermanual-standard-modelarts/develop-modelarts-
 
 “应用”，是指为了通过APP认证方式安全访问“在线服务”而创建的一个授权凭证。
 可以把它理解为一个需要身份识别才能访问的“密钥凭证”。
+
+
+## 训练作业
+
+### 创建训练作业
+
+在创建训练作业时，您需要配置“**代码目录**”（包含训练脚本和依赖）[](https://support.huaweicloud.com/intl/zh-cn/drawer-modelarts/ma_drawer_005.html)和“**启动命令**”[](https://www.huaweicloud.com/guide/productsdesc-bms_ef7faa1b23b5978a937339cea10488e6support4_a)。这相当于告诉引擎“用什么代码”和“如何启动”。
+
+#### 代码目录
+
+算法代码存储的OBS路径。训练代码、依赖安装包或者预生成模型等训练所需文件上传至该代码目录下。
+训练作业创建完成后，ModelArts会将代码目录及其子目录下载至训练后台容器中。
+
+#### 启动命令
+
+在代码目录下载完成后，启动命令会被自动执行。如果训练启动脚本用的是py文件，例如train.py，启动命令可以写为python train.py。如果训练启动脚本用的是sh文件，例如main.sh，启动命令可以写为bash main.sh。启动命令可支持使用";"和"&&"拼接多条命令，但暂不支持换行拼接。
+
