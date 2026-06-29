@@ -183,7 +183,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "张量",
+                "query": "响应式推理",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,7 +204,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -337,7 +338,7 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "26e1522765184d9b",
+  "active": "21ee93c87aa3201d",
   "lastOpenFiles": [
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
