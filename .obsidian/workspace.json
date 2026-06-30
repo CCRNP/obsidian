@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/测试功能验证/2026-05-07 VSCode 接入.md",
+                "file": "XF/具身智能/MA 相关/MA-日志告警.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-07 VSCode 接入"
+              "title": "MA-日志告警"
             }
           },
           {
@@ -340,6 +340,7 @@
   },
   "active": "304ca77ea7028919",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/测试功能验证/2026-05-07 VSCode 接入.md",
     "XF/具身智能/MA 相关/镜像/MA-A100 镜像部署裸金属失败问题&解决.md",
     "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
@@ -375,7 +376,6 @@
     "IDEA/瑗/今天吃什么-APP/node_modules/rollup/dist/shared/watch-cli.js",
     "IDEA/瑗/今天吃什么-APP/node_modules/rollup/dist/shared/loadConfigFile.js",
     "IDEA/瑗/今天吃什么-APP/node_modules/rollup/dist/shared/index.js",
-    "IDEA/瑗/今天吃什么-APP/node_modules/@vue/shared/README.md",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
     "img/Pasted image 20260618103248.png",
