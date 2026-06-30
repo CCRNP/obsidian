@@ -1,4 +1,4 @@
-﻿export const FOODS = [
+﻿﻿export const FOODS = [
   { name: '火锅', color: '#E8485B' },
   { name: '烤肉', color: '#F09B4A' },
   { name: '寿司', color: '#F5CD6D' },
