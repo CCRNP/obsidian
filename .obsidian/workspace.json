@@ -131,22 +131,10 @@
             "id": "f6f3530301f1e6d1",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260701143003"
-            }
-          },
-          {
-            "id": "944a09e8b5161f48",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/MRS面评/YARN核心概念与架构详解.md",
-                "mode": "preview",
+                "file": "XF/具身智能/各账号密码.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -160,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "YARN核心概念与架构详解"
+              "title": "各账号密码"
             }
           },
           {
@@ -376,6 +364,11 @@
   },
   "active": "f6f3530301f1e6d1",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
+    "XF/具身智能/各账号密码.md",
+    "XF/MRS面评/YARN核心概念与架构详解.md",
+    "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
+    "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/Q & A.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260518144938.png",
@@ -401,9 +394,7 @@
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 相关/MA-API.md",
-    "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
     "XF/具身智能/MA 相关/变更.md",
     "XF/具身智能/MA 相关/2026-04-13.md",
     "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
@@ -412,7 +403,6 @@
     "XF/具身智能/MA 相关/登录 CDK.md",
     "XF/具身智能/MA 相关/2026-04-28 GaussDB告警.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
-    "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
     "img/Pasted image 20260618103248.png",
@@ -421,7 +411,6 @@
     "img/023a918a4ce792e51c613161070b21a3.png",
     "img/79be00d0-6ba2-402d-9c26-03606d8d63a6.png",
     "XF/GIt push test.canvas",
-    "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260601174537.png",
     "未命名.canvas"
   ]
 }
