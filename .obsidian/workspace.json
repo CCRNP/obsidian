@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
+                "file": "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,11 +172,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "详细设计说明书V1"
+              "title": "MA- 6-30-功能验证会记录"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -362,9 +362,15 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "f6f3530301f1e6d1",
+  "active": "52025c31e76662f8",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/MA-多模态模型训练.md",
+    "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
+    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
+    "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
+    "del.md",
     "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/各账号密码.md",
     "XF/MRS面评/YARN核心概念与架构详解.md",
     "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
@@ -372,8 +378,7 @@
     "XF/具身智能/MA 相关/Q & A.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260518144938.png",
-    "XF/具身智能/MA 相关/MA-多模态模型训练.md",
-    "XF/具身智能/MA 相关/MA- 6-30.md",
+    "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/README.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/package.json",
     "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/LICENSE",
@@ -386,15 +391,11 @@
     "IDEA/瑗/今天吃什么-APP/node_modules/@esbuild/darwin-arm64/package.json",
     "IDEA/瑗/今天吃什么-APP/node_modules/@esbuild/darwin-arm64/bin",
     "IDEA/瑗/今天吃什么-APP/node_modules/@esbuild/darwin-arm64",
-    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/MA-日志告警.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-07 VSCode 接入.md",
     "XF/具身智能/MA 相关/镜像/MA-A100 镜像部署裸金属失败问题&解决.md",
-    "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
-    "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 相关/MA-API.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/变更.md",
     "XF/具身智能/MA 相关/2026-04-13.md",
     "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
@@ -402,7 +403,6 @@
     "XF/具身智能/MA 相关/做Ant1镜像相关.md",
     "XF/具身智能/MA 相关/登录 CDK.md",
     "XF/具身智能/MA 相关/2026-04-28 GaussDB告警.md",
-    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
     "img/Pasted image 20260618103248.png",
