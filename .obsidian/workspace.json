@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -362,8 +362,9 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "52025c31e76662f8",
+  "active": "bbf6881f2c994c7c",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
     "XF/具身智能/MA 相关/MA-多模态模型训练.md",
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
@@ -378,7 +379,6 @@
     "XF/具身智能/MA 相关/Q & A.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260518144938.png",
-    "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/README.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/package.json",
     "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/LICENSE",
