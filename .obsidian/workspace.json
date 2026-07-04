@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+                "file": "XF/具身智能/各账号密码.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-03-27 MA 测试"
+              "title": "各账号密码"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "HPUADHCZEUBVSSZKDDJ0",
+                "query": "AK",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -209,15 +208,17 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "21ee93c87aa3201d",
+  "active": "787fe109633d6935",
   "lastOpenFiles": [
+    "XF/具身智能/运维配置.md",
+    "XF/运通/登录.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
     "XF/具身智能/MA 相关/MA-多模态模型训练.md",
     "XF/具身智能/MA 相关/登录 CDK.md",
     "XF/具身智能/MA 相关/2026-04-13.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
     "XF/具身智能/各账号密码.md",
-    "XF/具身智能/运维配置.md",
     "XF/具身智能/登录.md",
     "IDEA/瑗/今天吃什么-APP/今天吃什么_HTML.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
@@ -250,8 +251,6 @@
     "IDEA/瑗/今天吃什么-APP/node_modules/rollup/LICENSE.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/postcss/README.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/picocolors/README.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/nanoid/README.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/magic-string/README.md",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260601174537.png",
