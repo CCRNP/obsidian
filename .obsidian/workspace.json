@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "HPUADHCZEUBVSSZKDDJ0",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -208,7 +209,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "787fe109633d6935",
+  "active": "21ee93c87aa3201d",
   "lastOpenFiles": [
     "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
     "XF/具身智能/MA 相关/MA-多模态模型训练.md",
