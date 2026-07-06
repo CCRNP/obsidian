@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/各账号密码.md",
+                "file": "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "各账号密码"
+              "title": "HDFS-yarn-MR 问题解答"
             }
           }
         ]
@@ -210,6 +210,18 @@
   },
   "active": "787fe109633d6935",
   "lastOpenFiles": [
+    "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
+    "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
+    "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
+    "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
+    "XF/具身智能/MRS 相关/MRS 测试/组件基础功能/ES 测试时遇到的一些问题 & 解决方法.md",
+    "XF/具身智能/MRS 相关/MRS 测试/组件基础功能/组件基础功能测试.md",
+    "XF/具身智能/MRS 相关/MRS 集群卸载/sh postset.md",
+    "XF/具身智能/MRS 相关/创建 MRS 自定义集群.md",
+    "XF/具身智能/MRS 相关/创建MRS自定义集群部分错误.md",
+    "XF/具身智能/MRS 相关/MRS 创建集群 截图.md",
+    "XF/具身智能/MRS 相关/MRS 改造遇到的问题.md",
+    "XF/具身智能/各账号密码.md",
     "XF/具身智能/运维配置.md",
     "XF/运通/登录.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
@@ -218,7 +230,6 @@
     "XF/具身智能/MA 相关/登录 CDK.md",
     "XF/具身智能/MA 相关/2026-04-13.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
-    "XF/具身智能/各账号密码.md",
     "XF/具身智能/登录.md",
     "IDEA/瑗/今天吃什么-APP/今天吃什么_HTML.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
@@ -237,20 +248,9 @@
     "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/README.md",
     "IDEA/瑗/今天吃什么-APP/今天吃什么-APP.md",
     "IDEA/学习-被动输入-AI.md",
-    "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "img/Pasted image 20260618103248.png",
     "img/Pasted image 20260618103242.png",
     "img/Pasted image 20260618103231.png",
-    "del.md",
-    "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/vue/README.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/vite/README.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/vite/LICENSE.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/source-map-js/README.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/rollup/README.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/rollup/LICENSE.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/postcss/README.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/picocolors/README.md",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
     "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260601174537.png",
