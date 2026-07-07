@@ -16,3 +16,11 @@ tags:
 权重文件路径：/data/workspace/foo/Qwen3-VL-8B-Thinking
 
 数据集路径：/data/workspace/foo/data/
+
+
+#### 启动命令
+
+挂起容器：
+cd /home/ma-user/modelarts/user-job-dir/MindSpeed-MM && tail -f /dev/null
+
+cd /home/ma-user/modelarts/user-job-dir/MindSpeed-MM && bash examples/qwen3vl/finetune_qwen3vl_30B_v1.sh
