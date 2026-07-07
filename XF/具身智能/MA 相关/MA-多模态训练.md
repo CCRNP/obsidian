@@ -24,3 +24,6 @@ tags:
 cd /home/ma-user/modelarts/user-job-dir/MindSpeed-MM && tail -f /dev/null
 
 cd /home/ma-user/modelarts/user-job-dir/MindSpeed-MM && bash examples/qwen3vl/finetune_qwen3vl_30B_v1.sh
+
+**sleep** 启动失败：**不识别 `--data_url`、`--data`、`--output_url` 这些参数**
+
