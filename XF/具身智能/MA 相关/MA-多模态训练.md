@@ -13,6 +13,6 @@ tags:
 
 ### Q
 
-听得到吗 黄老师？
+权重文件路径：/data/workspace/foo/Qwen3-VL-8B-Thinking
 
-再打个电话吧，电脑听不到，
+数据集路径：/data/workspace/foo/data/
