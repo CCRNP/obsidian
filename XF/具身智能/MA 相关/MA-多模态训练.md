@@ -45,3 +45,8 @@ data:
     dataset: /home/ma-user/modelarts/inputs/data_url_0/mllm_format_llava_instruct_data.json
 
 
+
+
+/opt/conda/lib/python3.11/site-packages/transformers/__init__.py
+
+25e9ce9dbb48d
