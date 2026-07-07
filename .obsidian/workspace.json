@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA-多模态训练.md",
+                "file": "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA-多模态训练"
+              "title": "2026-03-27 MA 测试"
             }
           },
           {
@@ -388,8 +388,10 @@
   },
   "active": "3e6e1783ae9de835",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
+    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/具身智能/MA 相关/MA-多模态训练.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "未命名.md",
     "XF/具身智能/MA 相关/MA-多模态模型训练——CLIP预训练.md",
     "XF/具身智能/MA 相关/MA-日志告警.md",
@@ -425,8 +427,6 @@
     "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 相关/变更.md",
     "XF/具身智能/MA 相关/2026-04-13.md",
-    "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
-    "XF/具身智能/MA 相关/镜像/制作 Ant1 镜像.md",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
     "img/Pasted image 20260618103248.png",
