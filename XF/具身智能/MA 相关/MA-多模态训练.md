@@ -31,7 +31,10 @@ cd /home/ma-user/modelarts/user-job-dir/MindSpeed-MM && bash examples/qwen3vl/fi
 
 ### 2. 配置参数
 
-#### 修改 `qwen3vl_30B_config_v1.yaml`
+#### 修改 qwen3vl_full_sft_8B.yaml
+
+路径：examples/qwen3vl/qwen3vl_full_sft_8B.yaml
+
 
 data:
   preprocess_parameters:
@@ -44,6 +47,7 @@ data:
     # 数据集描述文件：就是之前转换生成的 JSON
     dataset: /home/ma-user/modelarts/inputs/data_url_0/mllm_format_llava_instruct_data.json
 
+  save: /home/ma-user/modelarts/outputs/output_url_0
 
 
 
@@ -56,3 +60,8 @@ data:
 版本号（transformers 4.45.0，torch 2.7.1，torch_npu 2.7.1）
 
 传到 910B 的 /tmp/
+
+[root@os-node-created-c9tjc ~]# cat /tmp/py311_packages.tar.gz | crictl exec -i c5126a2c81f60 sh -c 'cat > /tmp/py311_packages.tar.gz'
+进入容器内解压
+cd /tmp
+tar -xzf py311_packages.tar.gz -C /opt/conda/lib/python3.11/
