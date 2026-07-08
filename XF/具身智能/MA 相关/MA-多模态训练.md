@@ -28,6 +28,9 @@ cd /home/ma-user/modelarts/user-job-dir/MindSpeed-MM && bash examples/qwen3vl/fi
 **sleep** 启动失败：**不识别 `--data_url`、`--data`、`--output_url` 这些参数**
 - 改输入参数 **获取方式** 为：**环境变量**
 
+#### 软链接
+
+ln -s /home/ma-user/modelarts/inputs/data_url_0 data
 
 ### 2. 配置参数
 
