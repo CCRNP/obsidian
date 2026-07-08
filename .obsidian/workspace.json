@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA-日志告警.md",
+                "file": "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA-日志告警"
+              "title": "需求规格文档——差异"
             }
           },
           {
@@ -200,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -386,20 +386,20 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "a36dd442412e28af",
+  "active": "3e6e1783ae9de835",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/MA-多模态训练.md",
+    "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
+    "XF/具身智能/MA 相关/MA-日志告警.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "未命名.md",
     "XF/具身智能/MA 相关/MA-多模态模型训练——CLIP预训练.md",
-    "XF/具身智能/MA 相关/MA-日志告警.md",
     "XF/具身智能/MA 相关/MA-API.md",
     "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
-    "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
     "del.md",
     "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
