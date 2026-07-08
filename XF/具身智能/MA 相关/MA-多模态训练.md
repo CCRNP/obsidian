@@ -59,9 +59,23 @@ data:
 
 版本号（transformers 4.45.0，torch 2.7.1，torch_npu 2.7.1）
 
+补全缺失：
+app虚拟机 打包
+cd /tmp
+tar -czf numpy_pandas_fix.tar.gz numpy_pandas_fix/
+
+scp 传输：
+app->跳板机
+(py311) [root@cbh-app tmp]# scp numpy_pandas_fix.tar.gz opsadmin@10.3.4.48:/tmp/ccr/
+跳板机->910b
+scp numpy_pandas_fix.tar.gz opsadmin@100.64.101.86:/tmp/
+
 传到 910B 的 /tmp/
 
 [root@os-node-created-c9tjc ~]# cat /tmp/py311_packages.tar.gz | crictl exec -i c5126a2c81f60 sh -c 'cat > /tmp/py311_packages.tar.gz'
 进入容器内解压
 cd /tmp
 tar -xzf py311_packages.tar.gz -C /opt/conda/lib/python3.11/
+
+
+cat /tmp/xx.tar.gz | crictl exec -i c5126a2c81f60 sh -c 'cat > /tmp/xx.tar.gz'
