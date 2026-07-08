@@ -50,3 +50,9 @@ data:
 /opt/conda/lib/python3.11/site-packages/transformers/__init__.py
 
 25e9ce9dbb48d
+
+#### 打包 site-packages
+
+版本号（transformers 4.45.0，torch 2.7.1，torch_npu 2.7.1）
+
+传到 910B 的 /tmp/
