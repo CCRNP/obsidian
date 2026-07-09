@@ -57,13 +57,11 @@ data:
     # 数据集描述文件：就是之前转换生成的 JSON
     dataset: /home/ma-user/modelarts/inputs/data_url_0/mllm_format_llava_instruct_data.json
 
+输出路径：
   save: /home/ma-user/modelarts/outputs/output_url_0
 
 
 
-/opt/conda/lib/python3.11/site-packages/transformers/__init__.py
-
-25e9ce9dbb48d
 
 #### 打包 site-packages
 
@@ -94,8 +92,6 @@ cat /tmp/xx.tar.gz | crictl exec -i c5126a2c81f60 sh -c 'cat > /tmp/xx.tar.gz'
 ### 训练ing
 
 
-** 训练已经成功跑起来了！**
-
 训练过程中的**性能监控日志**，每一行代表一个 **iteration（迭代步骤）** 的状态。
 
 ---
@@ -108,20 +104,20 @@ cat /tmp/xx.tar.gz | crictl exec -i c5126a2c81f60 sh -c 'cat > /tmp/xx.tar.gz'
 [2026-07-09 06:41:38] iteration 148/10000 | consumed samples: 592 | elapsed time per iteration (ms): 1292.8 | learning rate: 1.470000E-06 | global batch size: 4 | tokens per sample: 1.695000E+02 | loss: 8.218778E+00 | loss scale: 1.0 | grad norm: 19.432 | num zeros: 0.0 | number of skipped iterations: 0 | number of nan iterations: 0
 ```
 
-| 字段 | 含义 | 当前值示例 |
-|------|------|-----------|
-| **iteration 148/10000** | 当前是第 148 步，总共 10000 步 | 进度 1.48% |
-| **consumed samples: 592** | 已经处理了 592 个样本 | 592 |
-| **elapsed time per iteration (ms)** | 每步耗时（毫秒） | 1292.8ms ≈ 1.3 秒/步 |
-| **learning rate** | 当前学习率（按 cosine 衰减，逐渐上升中） | 1.47e-06 |
-| **global batch size: 4** | 全局批次大小（4 张卡 × 每卡 1 样本） | 4 |
-| **tokens per sample** | 每个样本的平均 token 数（序列长度） | ~170-237 tokens |
-| **loss: 8.218778E+00** | 当前损失值（越高表示模型预测越差） | 8.22（在下降中） |
-| **loss scale: 1.0** | 损失缩放因子（用于混合精度训练，1.0 表示未缩放） | 1.0 |
-| **grad norm: 19.432** | 梯度范数（监控梯度爆炸/消失，正常范围 1~100） | 19.43 |
-| **num zeros: 0.0** | 梯度中零的比例（用于诊断优化器问题） | 0% |
-| **skipped iterations: 0** | 跳过的迭代数（因 loss 爆炸等情况） | 0（健康） |
-| **nan iterations: 0** | 出现 NaN 的迭代数（训练异常的标志） | 0（健康） |
+| 字段                                  | 含义                         | 当前值示例              |
+| ----------------------------------- | -------------------------- | ------------------ |
+| **iteration 148/10000**             | 当前是第 148 步，总共 10000 步      | 进度 1.48%           |
+| **consumed samples: 592**           | 已经处理了 592 个样本              | 592                |
+| **elapsed time per iteration (ms)** | 每步耗时（毫秒）                   | 1292.8ms ≈ 1.3 秒/步 |
+| **learning rate**                   | 当前学习率（按 cosine 衰减，逐渐上升中）   | 1.47e-06           |
+| **global batch size: 4**            | 全局批次大小（4 张卡 × 每卡 1 样本）     | 4                  |
+| **tokens per sample**               | 每个样本的平均 token 数（序列长度）      | ~170-237 tokens    |
+| **loss: 8.218778E+00**              | 当前损失值（越高表示模型预测越差）          | 8.22（在下降中）         |
+| **loss scale: 1.0**                 | 损失缩放因子（用于混合精度训练，1.0 表示未缩放） | 1.0                |
+| **grad norm: 19.432**               | 梯度范数（监控梯度爆炸/消失，正常范围 1~100） | 19.43              |
+| **num zeros: 0.0**                  | 梯度中零的比例（用于诊断优化器问题）         | 0%                 |
+| **skipped iterations: 0**           | 跳过的迭代数（因 loss 爆炸等情况）       | 0（健康）              |
+| **nan iterations: 0**               | 出现 NaN 的迭代数（训练异常的标志）       | 0（健康）              |
 
 ---
 
@@ -153,9 +149,3 @@ cat /tmp/xx.tar.gz | crictl exec -i c5126a2c81f60 sh -c 'cat > /tmp/xx.tar.gz'
 1. **loss 持续下降**：如果降到 1~2 左右，说明模型学得不错
 2. **grad norm 不要爆炸**：如果突然飙升到 1000+，说明梯度爆炸，需要调整学习率或 clip_grad
 3. **nan iterations 保持 0**：如果出现 >0，说明训练出了数值问题
-
----
-
-#### 📌 总结
-
-**训练正在稳定运行，你成功了！** 让它继续跑，观察 loss 下降趋势。如果需要提前停止（比如只想验证流程），按 `Ctrl+C` 停止即可。恭喜！🎉
