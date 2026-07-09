@@ -30,8 +30,14 @@ cd /home/ma-user/modelarts/user-job-dir/MindSpeed-MM && bash examples/qwen3vl/fi
 - 改输入参数 **获取方式** 为：**环境变量**
 
 #### 软链接
+ 1. 先删除现有的 data 目录
+rm -rf data
 
+2. 重新创建软链接
 ln -s /home/ma-user/modelarts/inputs/data_url_0 data
+
+3. 验证
+ls -la data/llava_instruct_150k.json
 
 ### 2. 配置参数
 
