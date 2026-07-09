@@ -3,10 +3,10 @@ tags:
   - MA
   - MA-训练
 ---
-保存为新镜像
+#### 保存为新镜像
+docker commit a0b789629a66 mindspeed-mm:full
 
-
-### 推送到 SWR
+#### 打标签并推送到 SWR
 
 [root@cbh-app ccr]# docker tag new-mindspeed-mm swr.gdrising-global-1.air.gdrising.com.cn/ma-test/mm-validation:qwen3vl
 [root@cbh-app ccr]# docker push swr.gdrising-global-1.air.gdrising.com.cn/ma-test/mm-validation:qwen3vl
