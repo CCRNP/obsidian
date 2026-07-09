@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
-                "mode": "preview",
+                "file": "XF/具身智能/MA 相关/MA-多模态训练.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HDFS-yarn-MR 问题解答"
+              "title": "MA-多模态训练"
             }
           }
         ]
@@ -210,8 +210,9 @@
   },
   "active": "787fe109633d6935",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/MA-多模态训练.md",
     "XF/具身智能/MA 相关/MA-多模态模型训练——CLIP预训练.md",
+    "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
+    "XF/具身智能/MA 相关/MA-多模态训练.md",
     "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
     "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
     "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
@@ -247,7 +248,6 @@
     "IDEA/瑗/今天吃什么-APP/vite.config.js.timestamp-1782658315531-de5187a7024368.mjs",
     "IDEA/瑗/今天吃什么-APP/vite.config.js.timestamp-1782558531086-1e8e0b91624198.mjs",
     "IDEA/瑗/今天吃什么-APP/node_modules/@esbuild/darwin-arm64/README.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/README.md",
     "img/Pasted image 20260618103248.png",
     "img/Pasted image 20260618103242.png",
     "img/Pasted image 20260618103231.png",
