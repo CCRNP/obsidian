@@ -161,3 +161,36 @@ mm-convert Qwen3VLConverter dcp_to_hf \
   --save_dir /home/ma-user/modelarts/outputs/output_url_0/iter_0004000_hf/ \
   --model_assets_dir /home/ma-user/modelarts/inputs/weight_file_1 \
   --to_bf16 False
+
+### 创建简单推理数据文件
+
+1. 确认数据集中存在的图片
+`ls /home/ma-user/modelarts/inputs/data_url_0/COCO2017/train2017/ | head -n 5`
+
+2. 创建推理数据文件
+``` json
+cat > /workspace/MindSpeed-MM/inference_data.json << 'EOF'
+[
+  {
+    "image": "/home/ma-user/modelarts/inputs/data_url_0/COCO2017/train2017/000000033471.jpg",
+    "text": "What are the colors of the bus in the image?"
+  },
+  {
+    "image": "/home/ma-user/modelarts/inputs/data_url_0/COCO2017/train2017/000000033471.jpg",
+    "text": "Is the bus driving down the street or pulled off to the side?"
+  }
+]
+EOF
+```
+
+3. 修改 **examples/qwen3vl/inference_demo.py** 脚本的 **DATA_JSON_PATH**
+``` json
+sed -i 's|DATA_JSON_PATH = .*|DATA_JSON_PATH = "/workspace/MindSpeed-MM/inference_data.json"|' examples/qwen3vl/inference_demo.py
+
+sed -i '1iMAX_NEW_TOKENS = 128' examples/qwen3vl/inference_demo.py
+```
+
+4. 执行推理
+``` json
+python examples/qwen3vl/inference_demo.py
+```

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA-多模态训练.md",
+                "file": "XF/具身智能/MA 相关/MA-多模态训练-qwen3vl-8b.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA-多模态训练"
+              "title": "MA-多模态训练-qwen3vl-8b"
             }
           },
           {
@@ -55,8 +55,7 @@
               "title": "业务场景"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -233,10 +232,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "b1bd658d23bfff00",
+  "active": "787fe109633d6935",
   "lastOpenFiles": [
     "业务场景.md",
-    "XF/具身智能/MA 相关/MA-多模态训练.md",
+    "XF/具身智能/MA 相关/MA-多模态训练-qwen3vl-8b.md",
     "XF/具身智能/MA 相关/MA-多模态模型训练——CLIP预训练.md",
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
     "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
