@@ -149,3 +149,15 @@ cat /tmp/xx.tar.gz | crictl exec -i c5126a2c81f60 sh -c 'cat > /tmp/xx.tar.gz'
 1. **loss 持续下降**：如果降到 1~2 左右，说明模型学得不错
 2. **grad norm 不要爆炸**：如果突然飙升到 1000+，说明梯度爆炸，需要调整学习率或 clip_grad
 3. **nan iterations 保持 0**：如果出现 >0，说明训练出了数值问题
+
+
+
+## 启动推理
+
+### 权重转换：
+
+mm-convert Qwen3VLConverter dcp_to_hf \
+  --load_dir /home/ma-user/modelarts/outputs/output_url_0/iter_0004000/ \
+  --save_dir /home/ma-user/modelarts/outputs/output_url_0/iter_0004000_hf/ \
+  --model_assets_dir /home/ma-user/modelarts/inputs/weight_file_1 \
+  --to_bf16 False
