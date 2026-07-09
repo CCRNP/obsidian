@@ -61,8 +61,6 @@ data:
   save: /home/ma-user/modelarts/outputs/output_url_0
 
 
-
-
 #### 打包 site-packages
 
 版本号（transformers 4.45.0，torch 2.7.1，torch_npu 2.7.1）
@@ -90,7 +88,6 @@ cat /tmp/xx.tar.gz | crictl exec -i c5126a2c81f60 sh -c 'cat > /tmp/xx.tar.gz'
 
 
 ### 训练ing
-
 
 训练过程中的**性能监控日志**，每一行代表一个 **iteration（迭代步骤）** 的状态。
 
