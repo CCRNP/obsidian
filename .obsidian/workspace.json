@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
+                "file": "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA 功能文档对齐——问题&解答"
+              "title": "业务场景"
             }
           },
           {
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
+                "file": "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,31 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "需求规格文档——差异"
-            }
-          },
-          {
-            "id": "878564df68d812fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "MA-多模态训练-qwen3vl-8b"
             }
           },
           {
@@ -133,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/各账号密码.md",
+                "file": "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "各账号密码"
+              "title": "训练流程"
             }
           },
           {
@@ -362,23 +338,23 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "878564df68d812fe",
+  "active": "f6f3530301f1e6d1",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
+    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
+    "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
+    "XF/具身智能/各账号密码.md",
     "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 相关/镜像/做Ant1镜像相关.md",
     "XF/具身智能/MA 相关/镜像/MA-规范制作镜像.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
     "XF/具身智能/MA 相关/MA-多模态训练",
     "XF/具身智能/MA 相关/MA-多模态训练.md",
-    "XF/具身智能/各账号密码.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/MA-日志告警.md",
-    "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
-    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "未命名.md",
