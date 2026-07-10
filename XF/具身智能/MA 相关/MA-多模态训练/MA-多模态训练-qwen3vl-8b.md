@@ -196,6 +196,17 @@ sed -i 's|DATA_JSON_PATH = .*|DATA_JSON_PATH = "/workspace/MindSpeed-MM/inferenc
 sed -i '1iMAX_NEW_TOKENS = 128' examples/qwen3vl/inference_demo.py
 ```
 
+
+if __name__ == "__main__":
+    # Configuration parameters
+    #MODEL_PATH = "./ckpt/Qwen3-VL-30B-A3B-Instruct"  # Model directory path
+    #DATA_JSON_PATH = "/workspace/MindSpeed-MM/inference_data.json"
+    #MAX_NEW_TOKENS = 1000  # Maximum number of new tokens to generate
+    MODEL_PATH = "/home/ma-user/modelarts/outputs/output_url_0/iter_0004000_hf/"
+    MODEL_TYPE = "qwen3_vl"
+    DATA_JSON_PATH = "/workspace/MindSpeed-MM/inference_data.json"
+
+
 4. 执行推理
 ``` json
 python examples/qwen3vl/inference_demo.py
