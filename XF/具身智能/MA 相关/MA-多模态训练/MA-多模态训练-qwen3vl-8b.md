@@ -61,6 +61,15 @@ data:
   save: /home/ma-user/modelarts/outputs/output_url_0
 
 
+权重文件命名有误，修改
+cd /home/ma-user/modelarts/inputs/weight_file_1
+##### 如果有 config (1).json，重命名为 config.json
+if [ -f "config (1).json" ]; then mv "config (1).json" config.json; fi
+##### 同样处理其他文件
+for f in *" (1)"*; do
+    [ -f "$f" ] && mv "$f" "$(echo "$f" | sed 's/ (1)//g')"
+done
+
 #### 打包 site-packages
 
 版本号（transformers 4.45.0，torch 2.7.1，torch_npu 2.7.1）
