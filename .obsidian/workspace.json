@@ -128,54 +128,6 @@
             }
           },
           {
-            "id": "62c4c2850d7af76e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
-          },
-          {
-            "id": "664fba3a9c372f48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/MA- 6-30.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "MA- 6-30"
-            }
-          },
-          {
             "id": "f6f3530301f1e6d1",
             "type": "leaf",
             "state": {
@@ -410,10 +362,10 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "62c4c2850d7af76e",
+  "active": "f6f3530301f1e6d1",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "conflict-files-obsidian-git.md",
+    "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/MA-多模态训练.md",
     "XF/具身智能/MA 相关/MA-日志告警.md",
