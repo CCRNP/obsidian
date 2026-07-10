@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
+                "file": "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,11 +148,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA- 6-30-功能验证会记录"
+              "title": "业务场景"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -338,12 +338,13 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "304ca77ea7028919",
+  "active": "f6f3530301f1e6d1",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
     "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
+    "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
@@ -360,7 +361,6 @@
     "未命名.md",
     "XF/具身智能/MA 相关/MA-多模态模型训练——CLIP预训练.md",
     "XF/具身智能/MA 相关/MA-API.md",
-    "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
     "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
     "del.md",
     "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
