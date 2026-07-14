@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
+                "file": "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA-多模态训练-qwen3vl-8b"
+              "title": "详细设计说明书V1"
             }
           },
           {
@@ -208,7 +208,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "fp16",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -229,7 +229,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -364,10 +365,10 @@
   },
   "active": "304ca77ea7028919",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
     "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
     "会议记录.md",
     "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
     "XF/具身智能/各账号密码.md",
