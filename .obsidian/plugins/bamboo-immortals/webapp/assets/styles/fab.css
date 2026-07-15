@@ -1,0 +1,422 @@
+/* ========== 返回顶部按钮 ========== */
+.scroll-top-btn {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: min(40px, 11vw);
+    height: 40px;
+    background: var(--card-glass);
+    backdrop-filter: blur(var(--glass-blur));
+    color: var(--bamboo-primary);
+    border: 1px solid var(--border-light);
+    border-radius: 50%;
+    font-size: var(--type-heading);
+    font-weight: 400;
+    cursor: pointer;
+    box-shadow: var(--shadow-surface);
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(12px) scale(0.8);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+.scroll-top-btn.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+}
+.scroll-top-btn:hover {
+    background: var(--bamboo-primary);
+    color: var(--white);
+    border-color: var(--bamboo-primary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-card);
+}
+.scroll-top-btn:active {
+    transform: translateY(0) scale(0.95);
+}
+
+
+/* ========== 副券内极简白噪音控制 ========== */
+.stub-noise-ctrl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-1);
+    padding: 2px 4px;
+    height: 20px;
+    pointer-events: auto;
+}
+
+.stub-nc-icon {
+    width: 12px;
+    height: 12px;
+    color: rgba(var(--deep-rgb), 0.6);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    flex-shrink: 0;
+}
+
+.stub-nc-icon:hover {
+    color: var(--bamboo-primary);
+    transform: scale(1.15);
+}
+
+.stub-nc-icon:active {
+    transform: scale(0.85);
+}
+
+.stub-nc-name {
+    font-size: var(--type-mini);
+    font-weight: 600;
+    color: rgba(var(--deep-rgb), 0.7);
+    letter-spacing: 0.3px;
+    min-width: min(20px, 5vw);
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.stub-nc-name:hover {
+    color: rgba(var(--deep-rgb), 1);
+}
+
+/* 暗色模式：白噪声切换器可见性修复 */
+:host(.dark) .stub-nc-icon {
+    color: rgba(var(--primary-rgb), 0.7);
+}
+:host(.dark) .stub-nc-icon:hover {
+    color: rgb(var(--primary-rgb));
+}
+:host(.dark) .stub-nc-name {
+    color: rgba(var(--primary-rgb), 0.8);
+}
+:host(.dark) .stub-nc-name:hover {
+    color: rgb(var(--primary-rgb));
+}
+
+.ticket-stub.playing .stub-nc-name {
+    animation: stub-name-pulse 2.5s ease-in-out infinite;
+}
+
+@keyframes stub-name-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
+}
+
+/* ========== 绿色流光效果 - 夜间模式 ========== */
+
+/* 方案3：脉冲闪烁 - 边框脉冲（仅 .goal-row / .bamboo-card 暗色 hover 复用） */
+@keyframes glow-pulse-fade {
+    0%, 100% { opacity: 0; transform: scale(1); }
+    50% { opacity: var(--glow-opacity); transform: scale(1.02); }
+}
+
+/* 响应式适配 — Canonical breakpoints: 480px (mobile), 768px (tablet), 1024px (desktop) */
+@media (max-width: 768px) {
+    :host {
+        --glow-width: 2px;
+        --glow-opacity: 0.25;
+        --glow-duration: 20s;
+    }
+}
+
+/* 夜间模式下应用流光效果（已移除票根扫描光效） */
+
+:host(.dark):not(.glows-disabled) .goal-row,
+:host(.dark):not(.glows-disabled) .bamboo-card {
+    /* 方案3：脉冲闪烁 - 目标卡片和时光卡（改为 hover 触发，避免常驻重绘） */
+    position: relative;
+}
+:host(.dark):not(.glows-disabled) .goal-row::before,
+:host(.dark):not(.glows-disabled) .bamboo-card::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 2px solid var(--glow-color-start);
+    border-radius: inherit;
+    opacity: 0;
+    pointer-events: none;
+}
+:host(.dark):not(.glows-disabled) .goal-row::after,
+:host(.dark):not(.glows-disabled) .bamboo-card::after {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 2px solid var(--glow-color-end);
+    border-radius: inherit;
+    opacity: 0;
+    pointer-events: none;
+}
+/* 仅在悬停时启流光脉冲，纯 opacity 过渡（GPU 合成，无重排） */
+:host(.dark):not(.glows-disabled) .goal-row:hover::before,
+:host(.dark):not(.glows-disabled) .bamboo-card:hover::before {
+    animation: glow-pulse-fade calc(var(--glow-duration) / 2) ease-in-out infinite;
+}
+:host(.dark):not(.glows-disabled) .goal-row:hover::after,
+:host(.dark):not(.glows-disabled) .bamboo-card:hover::after {
+    animation: glow-pulse-fade calc(var(--glow-duration) / 2) ease-in-out infinite;
+    animation-delay: calc(var(--glow-duration) / 4);
+}
+
+
+
+/* ========== FAB 浮动按钮（从 modal.css 移入）========== */
+
+.fab-container {
+    position: fixed;
+    bottom: 120px;
+    right: 16px;
+    z-index: 9999;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.fab-main {
+    pointer-events: auto;
+    touch-action: manipulation;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: var(--action-bg);
+    color: var(--white);
+    border: none;
+    cursor: grab;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 16px rgba(var(--deep-rgb), 0.3), inset 0 1px 0 rgba(var(--white-rgb), 0.2);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+    position: relative;
+    line-height: 1;
+    user-select: none;
+    transform: none;
+}
+.fab-main:hover {
+    box-shadow: 0 6px 24px rgba(var(--deep-rgb), 0.4), inset 0 1px 0 rgba(var(--white-rgb), 0.25);
+    transform: scale(1.1);
+}
+.fab-main:active {
+    transform: scale(0.94);
+    box-shadow: 0 2px 12px rgba(var(--deep-rgb), 0.25);
+}
+.fab-main:focus-visible {
+    outline: 2px solid var(--bamboo-primary);
+    outline-offset: 3px;
+}
+.fab-main.open {
+    transform: rotate(45deg);
+    box-shadow: 0 6px 24px rgba(var(--deep-rgb), 0.4);
+}
+.fab-main-icon {
+    width: 22px;
+    height: 22px;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fab-main-icon svg {
+    width: 22px;
+    height: 22px;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .fab-main:not(.open) {
+        animation: fabPulse 3.8s ease-in-out infinite;
+    }
+}
+/* 性能优化：改用 opacity 呼吸，避免 box-shadow 主线程重绘 */
+@keyframes fabPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.85; }
+}
+.fab-actions {
+    position: absolute;
+    bottom: calc(100% + 10px);
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    transform: translateY(8px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    pointer-events: none;
+    padding: var(--space-3);
+    background: var(--card-glass);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border-radius: var(--radius-xl);
+    border: 1px solid rgba(var(--white-rgb), 0.3);
+    box-shadow: var(--shadow-floating);
+    max-height: 80vh;
+    overflow-y: auto;
+    min-width: 240px;
+}
+.fab-actions.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+.fab-action-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+}
+.fab-action-group + .fab-action-group {
+    padding-top: var(--space-2);
+    border-top: 1px solid var(--border-light);
+}
+.fab-group-label {
+    font-size: var(--type-mini);
+    font-weight: 600;
+    color: var(--text-secondary);
+    letter-spacing: 0.5px;
+    padding: 2px var(--space-2);
+    opacity: 0.8;
+}
+.fab-action-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.fab-action-btn {
+    flex: 1;
+    min-width: calc(33.33% - 4px);
+    padding: 8px 4px 6px;
+    background: transparent;
+    border: none;
+    border-radius: var(--radius-md);
+    font-size: var(--type-mini);
+    font-weight: 500;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+.fab-action-btn:hover {
+    background: rgba(var(--primary-rgb), 0.1);
+}
+.fab-action-btn:active {
+    transform: scale(0.96);
+    background: rgba(var(--primary-rgb), 0.15);
+}
+.fab-action-btn.fab-primary {
+    color: var(--bamboo-primary);
+}
+.fab-action-btn.fab-primary:hover {
+    background: rgba(var(--primary-rgb), 0.1);
+}
+.fab-btn-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--bamboo-primary);
+    opacity: 0.85;
+}
+.fab-action-btn.fab-primary .fab-btn-icon {
+    opacity: 1;
+}
+.fab-btn-icon svg {
+    width: 18px;
+    height: 18px;
+}
+.fab-btn-text {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: var(--type-mini);
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bamboo-primary);
+}
+.fab-action-btn.fab-primary .fab-btn-text {
+    font-weight: 600;
+    color: var(--bamboo-primary);
+}
+.fab-action-btn .tooltip {
+    position: absolute;
+    right: calc(100% + 12px);
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 6px 12px;
+    background: var(--text-primary);
+    color: var(--white);
+    font-size: var(--type-sm);
+    border-radius: var(--radius-md);
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-fast);
+    z-index: 100;
+}
+.fab-action-btn:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+.fab-action-btn .tooltip::after {
+    content: '';
+    position: absolute;
+    right: -4px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    width: 8px;
+    height: 8px;
+    background: var(--text-primary);
+}
+.fab-container.fab-left .fab-actions {
+    right: auto;
+    left: 0;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.fab-container.fab-top .fab-actions,
+.fab-container.fab-below .fab-actions {
+    bottom: auto;
+    top: calc(100% + 10px);
+}
+.fab-container.fab-align-left .fab-actions {
+    right: auto;
+    left: 0;
+}
+.fab-container.touch-active {
+    transform: scale(0.95);
+}
+.fab-container.fab-open {
+    z-index: 10001;
+}
+.fab-container.dragging {
+    transition: none;
+    pointer-events: auto;
+}
+.fab-container.dragging .fab-main {
+    cursor: grabbing;
+    transform: scale(1.08);
+    box-shadow: 0 12px 36px rgba(var(--deep-rgb), 0.45), 0 0 0 2px rgba(var(--primary-rgb), 0.35);
+}
+
+/* ========== 通用悬浮面板样式 (FAB Panel) ========== */

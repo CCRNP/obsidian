@@ -1,0 +1,21 @@
+{
+  "theme": "light",
+  "colorTheme": "bamboo",
+  "dataMigrated": true,
+  "purchaseHistory": {
+    "records": [],
+    "archive": {}
+  },
+  "incomeHistory": {
+    "records": [],
+    "archive": {}
+  },
+  "dataVersion": "3.0",
+  "balance": 5,
+  "shopStats": {
+    "todayEarnings": 5,
+    "totalSpent": 0,
+    "totalEarnings": 5,
+    "date": "Wed Jul 15 2026"
+  }
+}

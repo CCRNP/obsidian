@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "de5645d8c4c6504c",
+        "id": "4cbe736f359ec837",
         "type": "tabs",
         "children": [
           {
-            "id": "26e1522765184d9b",
+            "id": "66a45b8708b1245a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,102 +29,6 @@
               },
               "icon": "lucide-file",
               "title": "2026-07-15 MA-全文档修改对齐"
-            }
-          },
-          {
-            "id": "3e6e1783ae9de835",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "MA 功能文档对齐——问题&解答"
-            }
-          },
-          {
-            "id": "304ca77ea7028919",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "详细设计说明书V1"
-            }
-          },
-          {
-            "id": "f6f3530301f1e6d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "训练流程"
-            }
-          },
-          {
-            "id": "52025c31e76662f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "业务场景"
             }
           }
         ]
@@ -147,7 +51,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -159,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "help",
+                "query": "AK",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 284.5
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -200,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA-API.md",
+                "file": "IDEA/瑗/今天吃什么-APP/今天吃什么_HTML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "MA-API 的反向链接列表"
+              "title": "今天吃什么_HTML 的反向链接列表"
             }
           },
           {
@@ -219,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HDFS/HDFS-yarn-MR 问题解答.md",
+                "file": "HDFS 读流程 & 自问.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "HDFS-yarn-MR 问题解答 的出链列表"
+              "title": "HDFS 读流程 & 自问 的出链列表"
             }
           },
           {
@@ -257,6 +161,21 @@
             }
           },
           {
+            "id": "541302b2e900283d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "IDEA/瑗/今天吃什么-APP/今天吃什么_HTML.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "今天吃什么_HTML 的大纲"
+            }
+          },
+          {
             "id": "39a25e17d586ad49",
             "type": "leaf",
             "state": {
@@ -267,7 +186,7 @@
             }
           },
           {
-            "id": "f10a327ee1d5c1f8",
+            "id": "fcc049e5a5b15fe2",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
@@ -275,33 +194,19 @@
               "icon": "message-square",
               "title": "Copilot"
             }
-          },
-          {
-            "id": "e55150af1d2193d1",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "2026-07-15 MA-全文档修改对齐 的大纲"
-            }
           }
         ],
         "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 363.5,
+    "width": 306.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "copilot:Open Copilot Chat": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "periodic-para:LifeOS 创建": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -310,59 +215,61 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "periodic-para:LifeOS 创建": false
+      "copilot:Open Copilot Chat": false,
+      "bamboo-immortals:竹林修仙传": false
     }
   },
-  "active": "26e1522765184d9b",
+  "active": "66a45b8708b1245a",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
-    "MD Help/MD 基本语法.md",
-    "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
-    "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
+    "bamboo-review/data/2026-07-16.json",
+    "bamboo-review/income-history.json",
+    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
+    "bamboo-review/goals.json",
+    "bamboo-review/data/2026-07-15.json",
+    "bamboo-review/settings.json",
+    "bamboo-review/reviews",
+    "bamboo-review/data",
+    "bamboo-review",
+    "XF/具身智能/MA 相关/镜像/做Ant1镜像相关.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
+    "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
+    "XF/具身智能/MA 相关/镜像/MA-A100 镜像部署裸金属失败问题&解决.md",
+    "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
+    "XF/具身智能/MA 相关/镜像/MA-规范制作镜像.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
+    "XF/具身智能/MA 相关/2026-04-28 GaussDB告警.md",
+    "XF/具身智能/MA 相关/变更.md",
+    "XF/具身智能/MA 相关/2026-04-13.md",
+    "XF/具身智能/MA 相关/登录 CDK.md",
+    "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
     "XF/具身智能/MA 相关/Q & A.md",
     "XF/具身智能/MA 相关/MA-API.md",
     "XF/具身智能/MA 相关/MA-日志告警.md",
-    "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
-    "XF/具身智能/MA 相关/登录 CDK.md",
-    "XF/具身智能/MA 相关/变更.md",
-    "XF/具身智能/MA 相关/2026-04-28 GaussDB告警.md",
-    "XF/具身智能/MA 相关/2026-04-13.md",
-    "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
-    "XF/具身智能/MA 相关/交付文档/img/Pasted image 20260521195942.png",
-    "种草莓/种植日期记录.md",
-    "XF/具身智能/各账号密码.md",
-    "del.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
-    "会议记录.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
-    "conflict-files-obsidian-git.md",
-    "XF/具身智能/MA 相关/镜像/做Ant1镜像相关.md",
+    "IDEA/瑗/今天吃什么-APP/node_modules/nanoid/README.md",
     "XF/具身智能/MA 相关/MA-多模态训练",
+    "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
+    "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
+    "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
+    "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
+    "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
-    "XF/具身智能/MA 相关/img/Pasted image 20260518144938.png",
-    "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/package.json",
-    "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/LICENSE",
-    "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/fsevents.js",
-    "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/fsevents.node",
-    "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/fsevents.d.ts",
-    "IDEA/瑗/今天吃什么-APP/node_modules/fsevents",
-    "IDEA/瑗/今天吃什么-APP/node_modules/@esbuild/darwin-arm64/bin/esbuild",
-    "IDEA/瑗/今天吃什么-APP/node_modules/@esbuild/darwin-arm64/package.json",
-    "IDEA/瑗/今天吃什么-APP/node_modules/@esbuild/darwin-arm64/bin",
-    "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
-    "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
+    "IDEA/瑗/今天吃什么-APP/dist/assets/index-5e8ff87b.js",
     "img/Pasted image 20260618103248.png",
     "img/Pasted image 20260618103242.png",
     "img/Pasted image 20260618103231.png",
-    "img/023a918a4ce792e51c613161070b21a3.png",
+    "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
+    "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
+    "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260601174537.png",
+    "XF/具身智能/MA 相关/交付文档/img/Pasted image 20260521195942.png",
+    "XF/具身智能/MA 相关/img/Pasted image 20260518144938.png",
     "XF/GIt push test.canvas",
+    "99 - 附件资源/Canvas/GIt push test.canvas",
+    "GIt push test.canvas",
     "未命名.canvas"
   ]
 }
