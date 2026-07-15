@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/各账号密码.md",
+                "file": "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "各账号密码"
+              "title": "2026-07-15 MA-全文档修改对齐"
             }
           },
           {
@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
-                "mode": "source",
+                "file": "MD Help/MD 基本语法.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "算力切分"
+              "title": "MD 基本语法"
             }
           },
           {
@@ -150,30 +150,6 @@
               "icon": "lucide-file",
               "title": "业务场景"
             }
-          },
-          {
-            "id": "824814b43fbdddcc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "会议记录.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "会议记录"
-            }
           }
         ]
       }
@@ -207,7 +183,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fp16",
+                "query": "help",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -228,12 +204,12 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 341.5,
+    "collapsed": true
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -331,16 +307,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2026-07-15 MA-全文档修改对齐 的大纲"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -364,33 +341,34 @@
   },
   "active": "26e1522765184d9b",
   "lastOpenFiles": [
+    "MD Help/MD 基本语法.md",
+    "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
+    "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
+    "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
+    "XF/具身智能/MA 相关/Q & A.md",
+    "XF/具身智能/MA 相关/MA-API.md",
+    "XF/具身智能/MA 相关/MA-日志告警.md",
+    "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
+    "XF/具身智能/MA 相关/登录 CDK.md",
+    "XF/具身智能/MA 相关/变更.md",
+    "XF/具身智能/MA 相关/2026-04-28 GaussDB告警.md",
+    "XF/具身智能/MA 相关/2026-04-13.md",
+    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
+    "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
+    "XF/具身智能/MA 相关/交付文档/img/Pasted image 20260521195942.png",
+    "种草莓/种植日期记录.md",
+    "XF/具身智能/各账号密码.md",
+    "del.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
     "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
     "会议记录.md",
     "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
-    "XF/具身智能/各账号密码.md",
-    "XF/具身智能/MA 相关/登录 CDK.md",
-    "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
-    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
-    "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
-    "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 相关/镜像/做Ant1镜像相关.md",
-    "XF/具身智能/MA 相关/镜像/MA-规范制作镜像.md",
     "XF/具身智能/MA 相关/MA-多模态训练",
-    "XF/具身智能/MA 相关/MA-多模态训练.md",
-    "XF/具身智能/MA 相关/MA-日志告警.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
-    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
-    "XF/具身智能/MA 相关/MA-多模态模型训练——CLIP预训练.md",
-    "XF/具身智能/MA 相关/MA-API.md",
-    "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
-    "del.md",
-    "XF/MRS面评/YARN核心概念与架构详解.md",
-    "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260518144938.png",
@@ -409,7 +387,6 @@
     "img/Pasted image 20260618103242.png",
     "img/Pasted image 20260618103231.png",
     "img/023a918a4ce792e51c613161070b21a3.png",
-    "img/79be00d0-6ba2-402d-9c26-03606d8d63a6.png",
     "XF/GIt push test.canvas",
     "未命名.canvas"
   ]
