@@ -184,7 +184,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 316.5,
+    "collapsed": true
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -317,11 +318,11 @@
   "active": "26e1522765184d9b",
   "lastOpenFiles": [
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
+    "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
-    "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
     "XF/具身智能/MA 相关/Q & A.md",
     "XF/具身智能/MA 相关/MA-API.md",
