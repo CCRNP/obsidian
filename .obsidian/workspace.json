@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "2026-07-15 MA-全文档修改对齐"
             }
+          },
+          {
+            "id": "b53ebb1f61f4a630",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,8 +244,11 @@
       "bamboo-immortals:竹林修仙传": false
     }
   },
-  "active": "66a45b8708b1245a",
+  "active": "b53ebb1f61f4a630",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
+    "conflict-files-obsidian-git.md",
+    "未命名.md",
     "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
@@ -235,7 +263,6 @@
     "bamboo-review",
     "XF/具身智能/MA 相关/镜像/做Ant1镜像相关.md",
     "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
-    "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
     "XF/具身智能/MA 相关/镜像/MA-A100 镜像部署裸金属失败问题&解决.md",
     "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
     "XF/具身智能/MA 相关/镜像/MA-规范制作镜像.md",
@@ -254,8 +281,6 @@
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
     "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
     "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
-    "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
-    "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "IDEA/瑗/今天吃什么-APP/dist/assets/index-5e8ff87b.js",
