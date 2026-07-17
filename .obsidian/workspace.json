@@ -13,30 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-07-15 MA-全文档修改对齐"
-            }
-          },
-          {
-            "id": "3e6e1783ae9de835",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
                 "mode": "preview",
                 "source": false,
@@ -56,12 +32,36 @@
             }
           },
           {
+            "id": "3e6e1783ae9de835",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MA-多模态训练-qwen3vl-8b"
+            }
+          },
+          {
             "id": "304ca77ea7028919",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
+                "file": "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "详细设计说明书V1"
+              "title": "2026-03-27 MA 测试"
             }
           },
           {
@@ -126,8 +126,33 @@
               "icon": "lucide-file",
               "title": "业务场景"
             }
+          },
+          {
+            "id": "0c451deb292d96a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,8 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5,
-    "collapsed": true
+    "width": 316.5
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -315,15 +339,20 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "26e1522765184d9b",
+  "active": "304ca77ea7028919",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
+    "未命名.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
     "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
-    "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
     "XF/具身智能/MA 相关/Q & A.md",
     "XF/具身智能/MA 相关/MA-API.md",
     "XF/具身智能/MA 相关/MA-日志告警.md",
@@ -337,13 +366,8 @@
     "种草莓/种植日期记录.md",
     "XF/具身智能/各账号密码.md",
     "del.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
     "会议记录.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
     "conflict-files-obsidian-git.md",
-    "XF/具身智能/MA 相关/镜像/做Ant1镜像相关.md",
     "XF/具身智能/MA 相关/MA-多模态训练",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
