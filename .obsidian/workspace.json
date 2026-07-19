@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
+                "file": "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-07-15 MA-全文档修改对齐"
+              "title": "昇腾 A3 Pod 上 PI0模型训练适配案例"
             }
           },
           {
-            "id": "b53ebb1f61f4a630",
+            "id": "6af4f1fbad2058ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "2026-03-27 MA 测试"
             }
           }
         ],
@@ -244,11 +244,13 @@
       "bamboo-immortals:竹林修仙传": false
     }
   },
-  "active": "b53ebb1f61f4a630",
+  "active": "6af4f1fbad2058ac",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
+    "未命名.md",
+    "XF/具身智能/MA 相关/PI0-Train",
     "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
     "conflict-files-obsidian-git.md",
-    "未命名.md",
     "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
@@ -280,10 +282,8 @@
     "XF/具身智能/MA 相关/MA-多模态训练",
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
     "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
-    "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
-    "IDEA/瑗/今天吃什么-APP/dist/assets/index-5e8ff87b.js",
     "img/Pasted image 20260618103248.png",
     "img/Pasted image 20260618103242.png",
     "img/Pasted image 20260618103231.png",
