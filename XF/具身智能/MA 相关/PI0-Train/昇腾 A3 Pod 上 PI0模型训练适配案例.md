@@ -4,10 +4,9 @@ docker pull swr.cn-southwest-2.myhuaweicloud.com/atelier/pytorch_2_1_ascend:pyto
 
 - 备选方案
 使用昇腾社区官方镜像：
-ascendai/pytorch 是昇腾官方在 Docker Hub 上维护的镜像，里面也预装了 torch、torchvision 和 torch_npu。你可以尝试拉取：
+ascendai/pytorch 是昇腾官方在 Docker Hub 上维护的镜像，里面也预装了 torch、torchvision 和 torch_npu。可以尝试拉取：
 
-bash
-docker pull ascendai/pytorch:2.1.0-cann8.2
+	docker pull ascendai/pytorch:2.1.0-cann8.2
 
 ### 验证版本
 
@@ -58,3 +57,89 @@ deepspeed                                0.14.0
 transformers                             4.48.3
 transformers-stream-generator            0.0.5
 ```
+
+
+
+## 权重文件
+
+**PaliGemma 权重是模型的“大脑”，负责“看懂”和“听懂”；而 PI0 预训练权重则是“小脑”，负责把理解转化为精准的“动作”**
+
+1. Pi-0 预训练权重 —— 模型的“小脑”和“经验”
+
+2. PaliGemma 权重 —— 模型的“大脑”
+一个预训练的视觉-语言模型（VLM）,它的核心作用是感知与理解。
+
+#### 解决 PI0 训练中 PaliGemma 权重的本地加载问题：
+
+先备份下：
+(PyTorch-2.1.0) [root lerobot]$cp lerobot/common/policies/pi0/modeling_pi0.py lerobot/common/policies/pi0/modeling_pi0.py.bak
+
+`bash test/paligemma_weights_mod.sh /home/ma-user/modelarts/inputs/PaliGemma_weight_2`
+
+##### 镜像无 JupyterLab 
+
+基于现有镜像启动一个临时容器——安装 JupyterLab——保存镜像——启动JupyterLab 浏览器测试——推送到镜像
+``` bash
+docker run -it --rm pi0-pytorch:v1 /bin/bash
+在容器内安装 JupyterLab
+
+# 安装 JupyterLab 和 Notebook
+pip install jupyterlab notebook
+
+# （可选）安装中文语言包
+pip install jupyterlab-language-pack-zh-CN
+将修改保存为新镜像
+在另一个终端中执行：
+
+bash
+# 查看正在运行的容器ID
+docker ps
+# 提交更改，生成新镜像
+docker commit <容器ID> pi0-pytorch:jupyter
+测试启动 JupyterLab
+
+bash
+# **安装缺失的 Jupyter 扩展、检查环境** 是 Modelarts平台拉起容器时启动 JupyterLab 所需
+pip install jupyter_scheduler jupyter_server_mathjax jupyterlab_git jupyterlab_tensorboard_pro nbdime nbclassic jupyter_server_proxy
+
+bash
+docker run -it --rm -p 8888:8888 pi0-pytorch:jupyter jupyter lab --ip=0.0.0.0 --port=8888 --allow-root --NotebookApp.token=''
+此命令将容器内的 8888 端口映射到主机的 8888 端口，并允许通过 http://localhost:8888/lab 无密码访问。
+
+推送新镜像
+
+bash
+# 打标签
+docker tag pi0-pytorch:jupyter swr.gdrising-global-1.air.gdrising.com.cn/ma-test/pi0-pytorch:jupyter
+# 推送
+docker push swr.gdrising-global-1.air.gdrising.com.cn/ma-test/pi0-pytorch:jupyter
+```
+
+## 单机 8 卡 验证
+
+- 性能（1000 steps）
+``` BASH
+# bash test/train_8p_performance.sh {dataset_path} {pi0_weights}
+bash test/train_8p_performance.sh /home/ma-user/modelarts/inputs/train_url_0 /home/ma-user/modelarts/inputs/pi0_weight_1
+```
+
+
+cd /home/ma-user/lerobot
+
+python -m accelerate.commands.launch \
+  --num_processes=8 \
+  --main_process_port=12345 \
+  lerobot/scripts/train.py \
+  --dataset.repo_id=/home/ma-user/modelarts/inputs/train_url_0 \
+  --steps=1000 \
+  --log_freq=20 \
+  --save_freq=30000 \
+  --batch_size=12 \
+  --policy.path=/home/ma-user/modelarts/inputs/pi0_weight_1
+
+#### 输入：
+train_url：/ma-test/pi0/data/koch_test/
+pi0_weight：/ma-test/pi0/weights/e4ed526af508e58f6008b29e9e48f1098278fdb5/
+PaliGemma_weight：/ma-test/pi0/weights/paligemma-3b-pt-224/
+#### 输出：
+output_url：/ma-test/pi0/output/
