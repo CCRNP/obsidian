@@ -150,9 +150,33 @@
               "icon": "lucide-file",
               "title": "未命名"
             }
+          },
+          {
+            "id": "f9da8be89d000b0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -339,15 +363,25 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "0c451deb292d96a8",
+  "active": "f9da8be89d000b0a",
   "lastOpenFiles": [
+    "未命名.md",
+    "conflict-files-obsidian-git.md",
+    "bamboo-review/data/2026-07-15.json",
+    "bamboo-review/data/2026-07-16.json",
+    "bamboo-review/income-history.json",
+    "bamboo-review/settings.json",
+    "bamboo-review/data",
+    "bamboo-review/goals.json",
+    "bamboo-review",
+    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
+    "XF/具身智能/MA 相关/PI0-Train",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
-    "未命名.md",
     "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
     "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
@@ -366,21 +400,11 @@
     "种草莓/种植日期记录.md",
     "XF/具身智能/各账号密码.md",
     "del.md",
-    "会议记录.md",
-    "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 相关/MA-多模态训练",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260518144938.png",
     "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/package.json",
-    "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/LICENSE",
-    "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/fsevents.js",
-    "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/fsevents.node",
-    "IDEA/瑗/今天吃什么-APP/node_modules/fsevents/fsevents.d.ts",
-    "IDEA/瑗/今天吃什么-APP/node_modules/fsevents",
-    "IDEA/瑗/今天吃什么-APP/node_modules/@esbuild/darwin-arm64/bin/esbuild",
-    "IDEA/瑗/今天吃什么-APP/node_modules/@esbuild/darwin-arm64/package.json",
-    "IDEA/瑗/今天吃什么-APP/node_modules/@esbuild/darwin-arm64/bin",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
     "img/Pasted image 20260618103248.png",
