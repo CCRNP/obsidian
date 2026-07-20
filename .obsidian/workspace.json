@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -339,13 +339,13 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "304ca77ea7028919",
+  "active": "0c451deb292d96a8",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/交付文档/详细设计说明书/详细设计说明书V1.md",
     "未命名.md",
     "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
