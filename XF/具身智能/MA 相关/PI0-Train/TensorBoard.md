@@ -402,4 +402,5 @@ if __name__ == "__main__":
 
 ## 使用 Tensorboard
 
-
+cd /home/ma-user/lerobot
+sed -i 's/train_tracker\.loss/train_tracker.loss.avg/g' lerobot/scripts/train.py

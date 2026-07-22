@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/PI0-Train/Q.md",
+                "file": "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Q"
+              "title": "TensorBoard"
             }
           },
           {
@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -292,11 +292,12 @@
       "bamboo-immortals:竹林修仙传": false
     }
   },
-  "active": "ca8cdf5faa60be22",
+  "active": "6af4f1fbad2058ac",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/PI0-Train/Q.md",
+    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
     "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/部署.md",
-    "XF/具身智能/MA 相关/PI0-Train/Q.md",
     "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
@@ -308,7 +309,6 @@
     "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
-    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
     "未命名.md",
     "XF/具身智能/MA 相关/PI0-Train",
     "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
