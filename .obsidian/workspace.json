@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/各账号密码.md",
+                "file": "XF/具身智能/MA 相关/PI0-Train/推理/部署.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "各账号密码"
+              "title": "部署"
             }
           },
           {
@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/PI0-Train/删除多余的字段.md",
+                "file": "XF/具身智能/MA 相关/PI0-Train/Q.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,11 +148,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "删除多余的字段"
+              "title": "Q"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -209,7 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 317.5
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -340,20 +340,23 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "0c451deb292d96a8",
+  "active": "a0bff8fc732be731",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/PI0-Train/推理",
+    "XF/具身智能/MA 相关/PI0-Train/缺少 `mindspeed` 模块.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "XF/具身智能/MA 相关/PI0-Train/推理/部署.md",
+    "XF/具身智能/MA 相关/PI0-Train/Q.md",
+    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
+    "XF/具身智能/MA 相关/PI0-Train/data 数据集路径问题.md",
+    "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
+    "XF/具身智能/MA 相关/PI0-Train/删除多余的字段.md",
     "XF/具身智能/各账号密码.md",
     "XF/具身智能/登录.md",
     "XF/具身智能/MA 相关/登录 CDK.md",
     "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
-    "XF/具身智能/MA 相关/PI0-Train/删除多余的字段.md",
-    "XF/具身智能/MA 相关/PI0-Train/data 数据集路径问题.md",
-    "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
-    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
     "XF/运通/登录.md",
-    "XF/具身智能/MA 相关/PI0-Train/缺少 `mindspeed` 模块.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "未命名.md",
     "conflict-files-obsidian-git.md",
@@ -373,9 +376,6 @@
     "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
     "XF/具身智能/MA 相关/Q & A.md",
-    "XF/具身智能/MA 相关/MA-API.md",
-    "XF/具身智能/MA 相关/MA-日志告警.md",
-    "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
     "XF/具身智能/MA 相关/交付文档/img/Pasted image 20260521195942.png",
     "XF/具身智能/MA 相关/MA-多模态训练",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
