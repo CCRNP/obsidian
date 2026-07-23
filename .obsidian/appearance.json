@@ -1,6 +1,11 @@
 {
   "accentColor": "",
-  "cssTheme": "Light & Bright",
-  "baseFontSize": 16,
-  "theme": "system"
+  "cssTheme": "Blue Topaz",
+  "baseFontSize": 22,
+  "theme": "system",
+  "interfaceFontFamily": "华光楷体_CNKI",
+  "textFontFamily": "华光楷体_CNKI",
+  "monospaceFontFamily": "华光楷体_CNKI",
+  "baseFontSizeAction": true,
+  "nativeMenus": false
 }
