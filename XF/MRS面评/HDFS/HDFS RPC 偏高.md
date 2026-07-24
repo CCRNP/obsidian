@@ -27,14 +27,14 @@
 - **高积压**：RPC 队列长度>handler 线程数的 2 倍。
 
 #### 2. 核心命令与工具
-| 目标 | 命令/工具 | 关键指标 |
-| :--- | :--- | :--- |
-| 查看 RPC 统计 | NameNode Web UI（9870）→ RPC | QPS、平均延迟、队列长度、handler 忙闲率 |
-| 日志分析 | `tail -f namenode.log | grep RPC` | 延迟、超时、锁等待、异常堆栈 |
-| 线程与锁 | `jstack <NN_PID> | grep -i lock` | 写锁竞争、线程阻塞 |
-| 资源监控 | `top -p <NN_PID>`、`vmstat 1`、`iostat -x 1` | CPU、内存、磁盘 I/O（tps、await） |
-| 网络测试 | `ping`、`mtr`、`iperf3` | 延迟、丢包、带宽瓶颈 |
-| 小文件统计 | `hdfs dfs -count -q /`、`hdfs fsck / -files -blocks` | 文件数、块数、小文件占比 |
+| 目标        | 命令/工具                                               | 关键指标                      |                |
+| :-------- | :-------------------------------------------------- | :------------------------ | -------------- |
+| 查看 RPC 统计 | NameNode Web UI（9870）→ RPC                          | QPS、平均延迟、队列长度、handler 忙闲率 |                |
+| 日志分析      | `tail -f namenode.log                               | grep RPC`                 | 延迟、超时、锁等待、异常堆栈 |
+| 线程与锁      | `jstack <NN_PID>                                    | grep -i lock`             | 写锁竞争、线程阻塞      |
+| 资源监控      | `top -p <NN_PID>`、`vmstat 1`、`iostat -x 1`          | CPU、内存、磁盘 I/O（tps、await）  |                |
+| 网络测试      | `ping`、`mtr`、`iperf3`                               | 延迟、丢包、带宽瓶颈                |                |
+| 小文件统计     | `hdfs dfs -count -q /`、`hdfs fsck / -files -blocks` | 文件数、块数、小文件占比              |                |
 
 #### 3. 快速判定根因
 1. **QPS 高 + 小文件多** → 小文件问题（优先处理）。

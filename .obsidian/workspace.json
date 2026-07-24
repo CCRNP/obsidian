@@ -8,84 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "26e1522765184d9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "MA 功能文档对齐——问题&解答"
-            }
-          },
-          {
-            "id": "3e6e1783ae9de835",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "MA-多模态训练-qwen3vl-8b"
-            }
-          },
-          {
-            "id": "304ca77ea7028919",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-03-27 MA 测试"
-            }
-          },
-          {
             "id": "f6f3530301f1e6d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/PI0-Train/Q.md",
+                "file": "Templates/Obsidian-Templates-main/Docs/Usages/Dataview-Custom-View.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -100,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Q"
-            }
-          },
-          {
-            "id": "52025c31e76662f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "昇腾 A3 Pod 上 PI0模型训练适配案例"
-            }
-          },
-          {
-            "id": "0c451deb292d96a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/PI0-Train/Q.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Q"
+              "title": "Dataview-Custom-View"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,6 +82,16 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "书签"
+            }
+          },
+          {
+            "id": "f31d3e26cb003a5f",
+            "type": "leaf",
+            "state": {
+              "type": "periodic-para",
+              "state": {},
+              "icon": "file-plus",
+              "title": "LifeOS"
             }
           }
         ]
@@ -317,7 +206,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -340,34 +229,37 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "52025c31e76662f8",
+  "active": "f6f3530301f1e6d1",
   "lastOpenFiles": [
+    "Templates/Obsidian-Templates-main/Docs/Dataview/Task-Progress.md",
+    "Templates/Obsidian-Templates-main/ReadMe.md",
+    "Templates/Save-selection-content.md",
+    "Templates/Add-Gradient-Header.md",
+    "Templates/Add-Big-Chars-Time.md",
+    "Templates/Add-Big-Chars-Date.md",
+    "Templates/Add-Big-Chars.md",
+    "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
+    "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
     "XF/具身智能/MA 相关/PI0-Train/Q.md",
+    "XF/具身智能/MA 相关/PI0-Train/缺少 `mindspeed` 模块.md",
+    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
+    "bamboo-review/data/2026-07-24.json",
+    "bamboo-review/reviews",
+    "XF/MRS面评/Hadoop核心复习与阶段小测任务清单.md",
+    "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
+    "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
     "XF/具身智能/MA 相关/PI0-Train/data 数据集路径问题.md",
     "XF/具身智能/MA 相关/PI0-Train/数据集.md",
-    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
     "XF/具身智能/MA 相关/PI0-Train/删除多余的字段.md",
-    "XF/具身智能/MA 相关/PI0-Train/缺少 `mindspeed` 模块.md",
-    "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
-    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/部署.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
+    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
     "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
-    "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
     "XF/具身智能/MA 相关/2026-04-13.md",
-    "XF/具身智能/MA 相关/2026-04-28 GaussDB告警.md",
-    "XF/具身智能/MA 相关/变更.md",
-    "未命名.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
     "XF/具身智能/MA 相关/PI0-Train/推理",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "XF/具身智能/各账号密码.md",
-    "XF/具身智能/登录.md",
-    "XF/具身智能/MA 相关/登录 CDK.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
-    "XF/运通/登录.md",
-    "conflict-files-obsidian-git.md",
     "bamboo-review/data/2026-07-15.json",
     "bamboo-review/data/2026-07-16.json",
     "bamboo-review/income-history.json",
@@ -375,10 +267,7 @@
     "bamboo-review/data",
     "bamboo-review/goals.json",
     "bamboo-review",
-    "XF/具身智能/MA 相关/PI0-Train",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
     "XF/具身智能/MA 相关/交付文档/img/Pasted image 20260521195942.png",
-    "XF/具身智能/MA 相关/MA-多模态训练",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260518144938.png",

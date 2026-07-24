@@ -7,15 +7,51 @@
     "archive": {}
   },
   "incomeHistory": {
-    "records": [],
+    "records": [
+      {
+        "amount": 1,
+        "type": "task_complete",
+        "desc": "完成：技能提升 - 总结",
+        "date": "2026-07-15T15:08:25.568Z",
+        "month": "2026-07"
+      },
+      {
+        "amount": 1,
+        "type": "task_complete",
+        "desc": "完成：技能提升 - 练习",
+        "date": "2026-07-15T15:08:25.063Z",
+        "month": "2026-07"
+      },
+      {
+        "amount": 1,
+        "type": "task_complete",
+        "desc": "完成：技能提升 - 阅读",
+        "date": "2026-07-15T15:08:24.349Z",
+        "month": "2026-07"
+      },
+      {
+        "amount": 1,
+        "type": "task_complete",
+        "desc": "完成：项目推进 - 测试上线",
+        "date": "2026-07-15T15:08:23.695Z",
+        "month": "2026-07"
+      },
+      {
+        "amount": 1,
+        "type": "task_complete",
+        "desc": "完成：项目推进 - 开发实现",
+        "date": "2026-07-15T15:08:21.865Z",
+        "month": "2026-07"
+      }
+    ],
     "archive": {}
   },
   "dataVersion": "3.0",
   "balance": 5,
   "shopStats": {
-    "todayEarnings": 5,
+    "todayEarnings": 0,
     "totalSpent": 0,
     "totalEarnings": 5,
-    "date": "Wed Jul 15 2026"
+    "date": "Fri Jul 24 2026"
   }
 }

@@ -1,4 +1,4 @@
-### train.py
+### 在 train.py 中导入相关模块，新增 TensorBoard 记录
 ``` bash
 #!/usr/bin/env python
 
