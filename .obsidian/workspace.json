@@ -80,6 +80,30 @@
             }
           },
           {
+            "id": "688b8bb8ac8bdb9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
             "id": "ca8cdf5faa60be22",
             "type": "leaf",
             "state": {
@@ -103,7 +127,8 @@
               "title": "Q"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -291,19 +316,21 @@
       "bamboo-immortals:竹林修仙传": false
     }
   },
-  "active": "66a45b8708b1245a",
+  "active": "688b8bb8ac8bdb9a",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/PI0-Train/推理/部署.md",
+    "conflict-files-obsidian-git.md",
+    "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
+    "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
+    "bamboo-review/data/2026-07-24.json",
     "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
     "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "XF/具身智能/MA 相关/PI0-Train/数据集.md",
     "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
-    "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
     "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
     "XF/具身智能/MA 相关/PI0-Train/Q.md",
-    "XF/具身智能/MA 相关/PI0-Train/推理/部署.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
-    "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 相关/PI0-Train/缺少 `mindspeed` 模块.md",
     "XF/具身智能/MA 相关/PI0-Train/推理",
     "XF/具身智能/MA 相关/PI0-Train/删除多余的字段.md",
@@ -324,11 +351,9 @@
     "bamboo-review/settings.json",
     "bamboo-review/reviews",
     "bamboo-review/data",
-    "bamboo-review",
     "XF/具身智能/MA 相关/镜像/做Ant1镜像相关.md",
     "XF/具身智能/MA 相关/镜像/MA-A100 镜像部署裸金属失败问题&解决.md",
     "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
-    "XF/具身智能/MA 相关/镜像/MA-规范制作镜像.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "img/Pasted image 20260618103248.png",
