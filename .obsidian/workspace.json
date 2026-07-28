@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/PI0-Train/推理/部署.md",
+                "file": "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,31 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "部署"
-            }
-          },
-          {
-            "id": "688b8bb8ac8bdb9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "推理脚本"
             }
           },
           {
@@ -109,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/PI0-Train/Q.md",
+                "file": "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Q"
+              "title": "推理脚本"
             }
           }
         ],
@@ -316,9 +292,13 @@
       "bamboo-immortals:竹林修仙传": false
     }
   },
-  "active": "688b8bb8ac8bdb9a",
+  "active": "ca8cdf5faa60be22",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/PI0-Train/推理/部署.md",
+    "XF/具身智能/MA 相关/PI0-Train/推理/构建推理镜像.md",
+    "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
+    "XF/具身智能/MA 相关/PI0-Train/推理/部署到机器人.md",
+    "XF/具身智能/MA 相关/MA-日志告警.md",
+    "XF/具身智能/MA 相关/PI0-Train/Q.md",
     "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
@@ -328,7 +308,6 @@
     "XF/具身智能/MA 相关/PI0-Train/数据集.md",
     "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
     "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
-    "XF/具身智能/MA 相关/PI0-Train/Q.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
     "XF/具身智能/MA 相关/PI0-Train/缺少 `mindspeed` 模块.md",
@@ -351,9 +330,6 @@
     "bamboo-review/settings.json",
     "bamboo-review/reviews",
     "bamboo-review/data",
-    "XF/具身智能/MA 相关/镜像/做Ant1镜像相关.md",
-    "XF/具身智能/MA 相关/镜像/MA-A100 镜像部署裸金属失败问题&解决.md",
-    "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "img/Pasted image 20260618103248.png",
