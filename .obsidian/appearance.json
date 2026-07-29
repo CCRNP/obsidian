@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "accentColor": "",
   "cssTheme": "Material Gruvbox",
   "baseFontSize": 21,
@@ -8,4 +9,8 @@
   "monospaceFontFamily": "华光楷体_CNKI",
   "baseFontSizeAction": true,
   "nativeMenus": false
+=======
+  "cssTheme": "Blue Topaz",
+  "theme": "obsidian"
+>>>>>>> origin/main
 }
