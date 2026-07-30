@@ -1,16 +1,1 @@
-{
-<<<<<<< HEAD
-  "accentColor": "",
-  "cssTheme": "Material Gruvbox",
-  "baseFontSize": 21,
-  "theme": "moonstone",
-  "interfaceFontFamily": "华光楷体_CNKI",
-  "textFontFamily": "华光楷体_CNKI",
-  "monospaceFontFamily": "华光楷体_CNKI",
-  "baseFontSizeAction": true,
-  "nativeMenus": false
-=======
-  "cssTheme": "Blue Topaz",
-  "theme": "obsidian"
->>>>>>> origin/main
-}
+{}
