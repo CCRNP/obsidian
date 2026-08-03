@@ -1,110 +1,23 @@
 {
   "main": {
-    "id": "79f2579f17b7ebcd",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "4cbe736f359ec837",
+        "id": "7a28aef336f13e18",
         "type": "tabs",
         "children": [
           {
-            "id": "66a45b8708b1245a",
+            "id": "12779d6ac8723e2c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "HDFS-yarn-MR 问题解答"
-            }
-          },
-          {
-            "id": "6af4f1fbad2058ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TensorBoard"
-            }
-          },
-          {
-            "id": "041ba9c36a3d24c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "推理脚本"
-            }
-          },
-          {
-            "id": "ca8cdf5faa60be22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "推理脚本"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -289,12 +202,18 @@
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
       "copilot:Open Copilot Chat": false,
-      "bamboo-immortals:竹林修仙传": false
+      "bamboo-immortals:竹林修仙传": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "ca8cdf5faa60be22",
+  "active": "a0bff8fc732be731",
   "lastOpenFiles": [
+    "未命名.md",
     "未命名 1.md",
+    "2026-08-02.md",
+    "XF/MRS面评/ElasticSearch/ElasticSearch.md",
+    "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
+    "XF/MRS面评/ElasticSearch",
     "XF/具身智能/MA 相关/测试功能验证/VSCode 接入.md",
     "XF/MA 面评/Transformer.md",
     "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
@@ -308,9 +227,7 @@
     "IDEA/Plan/src/composables/useTodo.js",
     "IDEA/Plan/src/components/TodoItem.vue",
     "IDEA/Plan/src/components/BackgroundCanvas.vue",
-    "IDEA/Plan/src/components/AppHeader.vue",
     "XF/具身智能/MA 相关/PI0-Train/推理/构建推理镜像.md",
-    "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/部署到机器人.md",
     "XF/具身智能/MA 相关/MA-日志告警.md",
     "XF/具身智能/MA 相关/PI0-Train/Q.md",
@@ -327,9 +244,6 @@
     "XF/具身智能/MA 相关/PI0-Train/缺少 `mindspeed` 模块.md",
     "XF/具身智能/MA 相关/PI0-Train/删除多余的字段.md",
     "XF/具身智能/MA 相关/PI0-Train/data 数据集路径问题.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "img/Pasted image 20260618103248.png",
