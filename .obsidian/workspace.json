@@ -30,33 +30,8 @@
               "icon": "lucide-file",
               "title": "未命名"
             }
-          },
-          {
-            "id": "e37c88afd7d58c95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -245,10 +220,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e37c88afd7d58c95",
+  "active": "12779d6ac8723e2c",
   "lastOpenFiles": [
-    "未命名.md",
     "conflict-files-obsidian-git.md",
+    "未命名.md",
     "XF/具身智能/MA 相关/镜像/制作 Ant1 镜像.md",
     "IDEA/Plan/src/composables/useTheme.js",
     "2026-08-02.md",
