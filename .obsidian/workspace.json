@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -352,8 +352,12 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "20be50afd77d5edd",
+  "active": "17de8ee3d03d1303",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "XF/具身智能/MA 相关/PI0-Train/Q.md",
+    "XF/MRS面评/ElasticSearch/ElasticSearch.md",
+    "XF/MRS面评/ElasticSearch",
     "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
     "XF/具身智能/MA 相关/PI0-Train/data 数据集路径问题.md",
     "XF/具身智能/MA 相关/PI0-Train/数据集.md",
@@ -362,7 +366,6 @@
     "XF/具身智能/MA 相关/PI0-Train/删除多余的字段.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/部署到机器人.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/构建推理镜像.md",
-    "XF/具身智能/MA 相关/PI0-Train/Q.md",
     "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
@@ -378,8 +381,6 @@
     "IDEA/Plan/node_modules/@jridgewell/sourcemap-codec/README.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/MA 面评/Transformer.md",
-    "XF/运通/登录.md",
-    "copilot/copilot-conversations/分类整理整个文件里的所有内容@20260313_175046.md",
     "IDEA/Plan/vite.config.js.timestamp-1785232499094-7e4097ace0ccd.mjs",
     "IDEA/Plan/node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.umd.js",
     "IDEA/Plan/node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.umd.js.map",
@@ -389,7 +390,6 @@
     "IDEA/Plan/package-lock.json",
     "IDEA/Plan/node_modules/vite/types/importGlob.d.ts",
     "IDEA/Plan/node_modules/vite/types/importMeta.d.ts",
-    "IDEA/Plan/node_modules/vite/types/package.json",
     "XF/具身智能/MA 相关/交付文档/img/Pasted image 20260521195942.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
