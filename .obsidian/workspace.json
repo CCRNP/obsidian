@@ -11,10 +11,24 @@
             "id": "12779d6ac8723e2c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "未命名"
             }
           }
         ]
@@ -206,11 +220,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "a0bff8fc732be731",
+  "active": "12779d6ac8723e2c",
   "lastOpenFiles": [
     "未命名.md",
-    "未命名 1.md",
     "2026-08-02.md",
+    "未命名 1.md",
     "XF/MRS面评/ElasticSearch/ElasticSearch.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
     "XF/MRS面评/ElasticSearch",
