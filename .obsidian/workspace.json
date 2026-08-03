@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "未命名"
             }
+          },
+          {
+            "id": "e37c88afd7d58c95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,9 +245,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "12779d6ac8723e2c",
+  "active": "e37c88afd7d58c95",
   "lastOpenFiles": [
     "未命名.md",
+    "conflict-files-obsidian-git.md",
+    "XF/具身智能/MA 相关/镜像/制作 Ant1 镜像.md",
+    "IDEA/Plan/src/composables/useTheme.js",
     "2026-08-02.md",
     "未命名 1.md",
     "XF/MRS面评/ElasticSearch/ElasticSearch.md",
@@ -240,12 +268,10 @@
     "IDEA/Plan/src/router/index.js",
     "IDEA/Plan/src/composables/useTodo.js",
     "IDEA/Plan/src/components/TodoItem.vue",
-    "IDEA/Plan/src/components/BackgroundCanvas.vue",
     "XF/具身智能/MA 相关/PI0-Train/推理/构建推理镜像.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/部署到机器人.md",
     "XF/具身智能/MA 相关/MA-日志告警.md",
     "XF/具身智能/MA 相关/PI0-Train/Q.md",
-    "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
     "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
@@ -257,7 +283,6 @@
     "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
     "XF/具身智能/MA 相关/PI0-Train/缺少 `mindspeed` 模块.md",
     "XF/具身智能/MA 相关/PI0-Train/删除多余的字段.md",
-    "XF/具身智能/MA 相关/PI0-Train/data 数据集路径问题.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "img/Pasted image 20260618103248.png",

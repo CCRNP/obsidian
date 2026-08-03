@@ -10,7 +10,16 @@
         <polyline points="20 6 9 17 4 12" />
       </svg>
     </button>
-    <span class="todo-text">{{ todo.text }}</span>
+    <div class="todo-content">
+      <span class="todo-text">{{ todo.text }}</span>
+      <span
+        class="todo-category"
+        :style="{ backgroundColor: categoryColor + '20', borderColor: categoryColor, color: categoryColor }"
+        v-if="categoryName"
+      >
+        {{ categoryName }}
+      </span>
+    </div>
     <div class="todo-actions">
       <button
         class="action-btn toggle-btn"
@@ -31,10 +40,20 @@
 </template>
 
 <script setup>
-defineProps({
+import { computed } from 'vue'
+
+const props = defineProps({
   todo: {
     type: Object,
     required: true
+  },
+  categoryName: {
+    type: String,
+    default: ''
+  },
+  categoryColor: {
+    type: String,
+    default: '#6C5CE7'
   }
 })
 
@@ -98,12 +117,29 @@ defineEmits(['toggle', 'delete'])
   height: 14px;
 }
 
-.todo-text {
+.todo-content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  min-width: 0;
+}
+
+.todo-text {
   font-size: var(--font-base);
   color: var(--text);
   word-break: break-word;
   line-height: 1.4;
+}
+
+.todo-category {
+  font-size: var(--font-xs);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  border: 1px solid;
+  font-weight: 500;
+  display: inline-block;
+  max-width: fit-content;
 }
 
 .todo-actions {
@@ -172,6 +208,11 @@ defineEmits(['toggle', 'delete'])
 
   .todo-text {
     font-size: var(--font-sm);
+  }
+
+  .todo-category {
+    font-size: 0.65rem;
+    padding: 1px 6px;
   }
 
   .action-btn {

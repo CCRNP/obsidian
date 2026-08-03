@@ -129,14 +129,14 @@ cd /home/ma-user/modelarts/inputs/pi0_weight_1 &&
 sed -i '/"push_to_hub"/d; /"repo_id"/d; /"private"/d; /"tags"/d; /"license"/d' config.json &&
 cd /home/ma-user/lerobot &&
 python -m accelerate.commands.launch \
-  --num_processes=8 \
+  --num_processes=4 \
   --main_process_port=12345 \
   lerobot/scripts/train.py \
   --dataset.repo_id=/home/ma-user/modelarts/inputs/train_url_0 \
   --policy.path=/home/ma-user/modelarts/inputs/pi0_weight_1 \
   --steps=10000 \
   --save_freq=1000 \
-  --batch_size=8 \
+  --batch_size=4 \
   --log_freq=50 \
   --output_dir=/home/ma-user/modelarts/outputs/output_url_0/model_checkpoints
 ```
