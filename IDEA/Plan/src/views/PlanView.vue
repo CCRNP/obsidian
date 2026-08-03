@@ -16,6 +16,63 @@
         <p class="plan-subtitle">管理你的待办事项</p>
       </header>
 
+      <!-- 分类管理 -->
+      <div class="category-section">
+        <div class="category-tabs">
+          <button
+            class="category-tab"
+            :class="{ active: activeCategory === 'all' }"
+            @click="activeCategory = 'all'"
+          >
+            全部
+          </button>
+          <button
+            v-for="cat in categories"
+            :key="cat.id"
+            class="category-tab"
+            :class="{ active: activeCategory === cat.id }"
+            :style="{ borderColor: cat.color }"
+            @click="activeCategory = cat.id"
+          >
+            <span class="category-dot" :style="{ background: cat.color }"></span>
+            {{ cat.name }}
+            <button
+              v-if="cat.id !== 'default'"
+              class="category-delete"
+              @click.stop="deleteCategory(cat.id)"
+              title="删除分类"
+            >
+              ×
+            </button>
+          </button>
+          <button class="category-tab add-category" @click="showAddCategory = !showAddCategory">
+            + 新分类
+          </button>
+        </div>
+
+        <div v-if="showAddCategory" class="add-category-form">
+          <input
+            v-model="newCategoryName"
+            type="text"
+            class="category-input"
+            placeholder="分类名称"
+            @keyup.enter="handleAddCategory"
+          />
+          <div class="color-picker">
+            <button
+              v-for="color in colorOptions"
+              :key="color"
+              class="color-option"
+              :style="{ background: color }"
+              :class="{ selected: selectedColor === color }"
+              @click="selectedColor = color"
+            ></button>
+          </div>
+          <button class="category-add-btn" @click="handleAddCategory">添加</button>
+        </div>
+      </div>
+
+      <!-- 任务输入 -->
       <div class="todo-input-section">
         <form @submit.prevent="handleAdd" class="todo-form">
           <input
@@ -25,12 +82,18 @@
             placeholder="添加新的待办事项..."
             aria-label="新待办内容"
           />
+          <select v-model="selectedCategoryId" class="category-select">
+            <option v-for="cat in categories" :key="cat.id" :value="cat.id">
+              {{ cat.name }}
+            </option>
+          </select>
           <button type="submit" class="add-btn" :disabled="!newTodoText.trim()">
             添加
           </button>
         </form>
       </div>
 
+      <!-- 统计 -->
       <div class="todo-stats" v-if="totalCount > 0">
         <span class="stat-item">
           共 <strong>{{ totalCount }}</strong> 项
@@ -52,21 +115,25 @@
         </button>
       </div>
 
-      <div class="todo-list" v-if="todos.length > 0">
+      <!-- 任务列表 -->
+      <div class="todo-list" v-if="filteredTodos.length > 0">
         <TransitionGroup name="list" tag="div" class="todo-list-inner">
           <TodoItem
-            v-for="todo in todos"
+            v-for="todo in filteredTodos"
             :key="todo.id"
             :todo="todo"
+            :categoryName="getCategoryName(todo.categoryId)"
+            :categoryColor="getCategoryColor(todo.categoryId)"
             @toggle="toggleTodo"
             @delete="deleteTodo"
           />
         </TransitionGroup>
       </div>
 
+      <!-- 空状态 -->
       <div class="empty-state" v-else>
         <div class="empty-icon">📝</div>
-        <p class="empty-text">还没有待办事项</p>
+        <p class="empty-text">{{ activeCategory === 'all' ? '还没有待办事项' : '该分类下暂无任务' }}</p>
         <p class="empty-hint">在上方输入框添加你的第一个待办吧 😋</p>
       </div>
     </div>
@@ -79,21 +146,50 @@ import { useTodo } from '@/composables/useTodo.js'
 import TodoItem from '@/components/TodoItem.vue'
 
 const newTodoText = ref('')
+const newCategoryName = ref('')
+const selectedCategoryId = ref('default')
+const selectedColor = ref('#6C5CE7')
+const showAddCategory = ref(false)
+
+const colorOptions = [
+  '#6C5CE7',
+  '#00B894',
+  '#FDCB6E',
+  '#FF6B6B',
+  '#00CEC9',
+  '#FD79A8',
+  '#A29BFE',
+  '#74B9FF'
+]
+
 const {
-  todos,
+  categories,
+  filteredTodos,
+  activeCategory,
+  addCategory,
+  deleteCategory,
   addTodo,
   toggleTodo,
   deleteTodo,
   completedCount,
   activeCount,
   totalCount,
-  clearCompleted
+  clearCompleted,
+  getCategoryName,
+  getCategoryColor
 } = useTodo()
 
 const handleAdd = () => {
-  const success = addTodo(newTodoText.value)
+  const success = addTodo(newTodoText.value, selectedCategoryId.value)
   if (success) {
     newTodoText.value = ''
+  }
+}
+
+const handleAddCategory = () => {
+  if (addCategory(newCategoryName.value, selectedColor.value)) {
+    newCategoryName.value = ''
+    showAddCategory.value = false
   }
 }
 </script>
@@ -169,6 +265,136 @@ const handleAdd = () => {
   font-size: var(--font-base);
 }
 
+/* 分类管理 */
+.category-section {
+  margin-bottom: var(--space-lg);
+}
+
+.category-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-sm);
+}
+
+.category-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--bg-light);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  color: var(--text-muted);
+  font-size: var(--font-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.category-tab:hover {
+  background: var(--bg-lighter);
+  color: var(--text);
+}
+
+.category-tab.active {
+  background: var(--primary-light);
+  color: var(--text);
+  border-color: var(--primary);
+}
+
+.category-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.category-delete {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 14px;
+  border-radius: 50%;
+  margin-left: var(--space-xs);
+}
+
+.category-delete:hover {
+  background: var(--danger);
+  color: white;
+}
+
+.add-category {
+  border-style: dashed;
+  color: var(--primary);
+}
+
+.add-category:hover {
+  border-style: solid;
+}
+
+.add-category-form {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: center;
+  padding: var(--space-sm);
+  background: var(--bg-light);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-md);
+}
+
+.category-input {
+  flex: 1;
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-size: var(--font-sm);
+}
+
+.color-picker {
+  display: flex;
+  gap: var(--space-xs);
+}
+
+.color-option {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.color-option:hover {
+  transform: scale(1.1);
+}
+
+.color-option.selected {
+  border-color: white;
+  transform: scale(1.15);
+}
+
+.category-add-btn {
+  padding: var(--space-xs) var(--space-md);
+  background: var(--primary);
+  color: white;
+  font-size: var(--font-sm);
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.category-add-btn:hover {
+  background: var(--primary-hover);
+}
+
+/* 任务输入 */
 .todo-input-section {
   margin-bottom: var(--space-lg);
 }
@@ -198,6 +424,17 @@ const handleAdd = () => {
   background: var(--bg-lighter);
 }
 
+.category-select {
+  padding: var(--space-sm) var(--space-md);
+  background: var(--bg-light);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text);
+  font-size: var(--font-sm);
+  cursor: pointer;
+  min-width: 100px;
+}
+
 .add-btn {
   padding: var(--space-md) var(--space-xl);
   background: var(--primary);
@@ -225,6 +462,7 @@ const handleAdd = () => {
   cursor: not-allowed;
 }
 
+/* 统计 */
 .todo-stats {
   display: flex;
   align-items: center;
@@ -272,6 +510,7 @@ const handleAdd = () => {
   background: rgba(255, 107, 107, 0.15);
 }
 
+/* 任务列表 */
 .todo-list {
   margin-top: var(--space-md);
 }
@@ -357,6 +596,10 @@ const handleAdd = () => {
     flex-direction: column;
   }
 
+  .category-select {
+    width: 100%;
+  }
+
   .add-btn {
     padding: var(--space-sm) var(--space-md);
   }
@@ -382,6 +625,28 @@ const handleAdd = () => {
   .back-btn svg {
     width: 14px;
     height: 14px;
+  }
+
+  .category-tabs {
+    gap: var(--space-xs);
+  }
+
+  .category-tab {
+    font-size: var(--font-xs);
+    padding: var(--space-xs);
+  }
+
+  .add-category-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .color-picker {
+    justify-content: center;
+  }
+
+  .category-add-btn {
+    width: 100%;
   }
 }
 </style>

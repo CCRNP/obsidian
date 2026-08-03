@@ -10,7 +10,15 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue'
 import BackgroundCanvas from '@/components/BackgroundCanvas.vue'
+import { useTheme } from '@/composables/useTheme.js'
+
+const { theme } = useTheme()
+
+onMounted(() => {
+  document.documentElement.setAttribute('data-theme', theme.value)
+})
 </script>
 
 <style scoped>
