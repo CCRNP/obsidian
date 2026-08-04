@@ -1,0 +1,309 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/具身智能/验收会——演讲.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "验收会——演讲"
+            }
+          },
+          {
+            "id": "37a169a40c279d2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "昇腾 A3 Pod 上 PI0模型训练适配案例"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aae7f7a6757de432",
+    "type": "split",
+    "children": [
+      {
+        "id": "36cf04b27b11752f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0bff8fc732be731",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "21ee93c87aa3201d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "f634531bcafd0a65",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "f31d3e26cb003a5f",
+            "type": "leaf",
+            "state": {
+              "type": "periodic-para",
+              "state": {},
+              "icon": "file-plus",
+              "title": "LifeOS"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317.5
+  },
+  "right": {
+    "id": "66fe39bba4d0f8c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "2485ff806c2342ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "160f93a92f6eeb84",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "XF/具身智能/MA 相关/MA-API.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "MA-API 的反向链接列表"
+            }
+          },
+          {
+            "id": "ee01471fed1193f1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "XF/MA 面评/Transformer.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Transformer 的出链列表"
+            }
+          },
+          {
+            "id": "a4f65f9a3217642b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "ab309aebedca6811",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "39a25e17d586ad49",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "f10a327ee1d5c1f8",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
+            "id": "e55150af1d2193d1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "2026-07-15 MA-全文档修改对齐 的大纲"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 363.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "homepage:Open homepage": false,
+      "copilot:Open Copilot Chat": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "periodic-para:LifeOS 创建": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
+    "XF/具身智能/验收会——演讲.md",
+    "未命名.md",
+    "XF/具身智能/MA 相关/MA-API.md",
+    "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
+    "XF/具身智能/MA 相关/PI0-Train/Q.md",
+    "XF/运通/登录.md",
+    "conflict-files-obsidian-git.md",
+    "XF/MRS面评/ElasticSearch/ElasticSearch.md",
+    "XF/MRS面评/ElasticSearch",
+    "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
+    "XF/具身智能/MA 相关/PI0-Train/data 数据集路径问题.md",
+    "XF/具身智能/MA 相关/PI0-Train/数据集.md",
+    "XF/具身智能/MA 相关/PI0-Train/缺少 `mindspeed` 模块.md",
+    "XF/具身智能/MA 相关/PI0-Train/删除多余的字段.md",
+    "XF/具身智能/MA 相关/PI0-Train/推理/部署到机器人.md",
+    "XF/具身智能/MA 相关/PI0-Train/推理/构建推理镜像.md",
+    "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
+    "XF/具身智能/MA 相关/MA-日志告警.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
+    "XF/具身智能/各账号密码.md",
+    "XF/具身智能/MA 相关/登录 CDK.md",
+    "XF/具身智能/MA 相关/测试功能验证/VSCode 接入.md",
+    "IDEA/Plan/vite.config.js.timestamp-1785232499094-7e4097ace0ccd.mjs",
+    "IDEA/Plan/node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.umd.js",
+    "IDEA/Plan/node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.umd.js.map",
+    "IDEA/Plan/node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.mjs",
+    "IDEA/Plan/node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.mjs.map",
+    "IDEA/Plan/node_modules/@jridgewell/sourcemap-codec/dist",
+    "IDEA/Plan/package-lock.json",
+    "IDEA/Plan/node_modules/vite/types/importGlob.d.ts",
+    "IDEA/Plan/node_modules/vite/types/importMeta.d.ts",
+    "XF/具身智能/MA 相关/交付文档/img/Pasted image 20260521195942.png",
+    "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
+    "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
+    "XF/具身智能/MA 相关/img/Pasted image 20260518144938.png",
+    "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
+    "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
+    "img/Pasted image 20260618103248.png",
+    "img/Pasted image 20260618103242.png",
+    "img/Pasted image 20260618103231.png",
+    "img/023a918a4ce792e51c613161070b21a3.png",
+    "XF/GIt push test.canvas",
+    "未命名.canvas"
+  ]
+}
