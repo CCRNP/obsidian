@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "79f2579f17b7ebcd",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "d00cf3a6acdf3f63",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "d8675fe75ba7862f",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/MA 面评/Transformer.md",
+                "file": "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Transformer"
+              "title": "TensorBoard"
             }
           },
           {
-            "id": "15369e04ee1c6473",
+            "id": "646cb3ccf503bfd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA-日志告警.md",
+                "file": "XF/具身智能/验收会——演讲.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,107 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA-日志告警"
-            }
-          },
-          {
-            "id": "83eb987ac3074325",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/MA-日志告警.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "MA-日志告警"
-            }
-          },
-          {
-            "id": "20be50afd77d5edd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/PI0-Train/Q.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Q"
-            }
-          },
-          {
-            "id": "b5d10ca3bed23ca9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/PI0-Train/Q.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Q"
-            }
-          },
-          {
-            "id": "17de8ee3d03d1303",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/运通/登录.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "登录"
+              "title": "验收会——演讲"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -338,7 +241,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bamboo-immortals:竹林修仙传": false,
+      "homepage:Open homepage": false,
       "copilot:Open Copilot Chat": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -352,21 +255,23 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "17de8ee3d03d1303",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "XF/具身智能/验收会——演讲.md",
+    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
+    "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
     "XF/具身智能/MA 相关/PI0-Train/Q.md",
+    "XF/运通/登录.md",
+    "conflict-files-obsidian-git.md",
     "XF/MRS面评/ElasticSearch/ElasticSearch.md",
     "XF/MRS面评/ElasticSearch",
     "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
     "XF/具身智能/MA 相关/PI0-Train/data 数据集路径问题.md",
     "XF/具身智能/MA 相关/PI0-Train/数据集.md",
-    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
     "XF/具身智能/MA 相关/PI0-Train/缺少 `mindspeed` 模块.md",
     "XF/具身智能/MA 相关/PI0-Train/删除多余的字段.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/部署到机器人.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/构建推理镜像.md",
-    "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
@@ -379,8 +284,6 @@
     "XF/具身智能/MA 相关/测试功能验证/VSCode 接入.md",
     "IDEA/瑗/今天吃什么-APP/node_modules/@jridgewell/sourcemap-codec/README.md",
     "IDEA/Plan/node_modules/@jridgewell/sourcemap-codec/README.md",
-    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
-    "XF/MA 面评/Transformer.md",
     "IDEA/Plan/vite.config.js.timestamp-1785232499094-7e4097ace0ccd.mjs",
     "IDEA/Plan/node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.umd.js",
     "IDEA/Plan/node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.umd.js.map",
