@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7a28aef336f13e18",
+        "id": "6b9bc8117c2b55ed",
         "type": "tabs",
         "children": [
           {
-            "id": "12779d6ac8723e2c",
+            "id": "da7af76b399efe94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结"
+            }
+          },
+          {
+            "id": "20b50c812b8793dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/具身智能/MA 相关/MA-多模态训练/qwen3vl - 镜像Dockerfile.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "qwen3vl - 镜像Dockerfile"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,55 +245,55 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "12779d6ac8723e2c",
+  "active": "20b50c812b8793dd",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
+    "XF/具身智能/MA 相关/镜像/MA-规范制作镜像.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/qwen3vl - 镜像Dockerfile.md",
+    "XF/报销/2026/7月/7月移动话费pdf.pdf",
+    "XF/报销/2026/7月/7月电信话费pdf.pdf",
+    "XF/报销/2026/7月/134XXXX8848_发票_20260806_2026080614532783121481_26447000001382961177.xml",
+    "XF/报销/2026/7月/7月电信话费xml.xml",
+    "XF/报销/2026/7月/26447000001540232844 2.xml",
+    "XF/报销/2026/7月/26447000001540232844 1.xml",
+    "XF/报销/2026/7月/26447000001540232844.xml",
+    "XF/报销/2026/6月/滴滴付款截图13.90.jpg",
+    "XF/报销/2026/6月/滴滴付款截图8.10.jpg",
+    "XF/报销/2026/6月",
+    "XF/报销/2026/7月/话费.md",
+    "XF/报销/2026/4月.md",
+    "XF/报销/2026/3月.md",
+    "模型运营.md",
+    "XF/报销/2026/7月",
+    "img/Pasted image 20260806143415.png",
+    "img/Pasted image 20260806142803.png",
+    "img",
+    "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
+    "XF/MA 面评/Transformer.md",
+    "XF/具身智能/登录.md",
+    "XF/具身智能/各账号密码.md",
+    "XF/GIt push test.canvas",
+    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
+    "XF/具身智能/MA 相关/PI0-Train/数据集.md",
     "conflict-files-obsidian-git.md",
-    "未命名.md",
     "XF/具身智能/MA 相关/镜像/制作 Ant1 镜像.md",
-    "IDEA/Plan/src/composables/useTheme.js",
     "2026-08-02.md",
-    "未命名 1.md",
     "XF/MRS面评/ElasticSearch/ElasticSearch.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
-    "XF/MRS面评/ElasticSearch",
     "XF/具身智能/MA 相关/测试功能验证/VSCode 接入.md",
-    "XF/MA 面评/Transformer.md",
-    "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
-    "XF/MA 面评",
     "IDEA/小记.md",
-    "IDEA/Plan/src/views/PlanView.vue",
-    "IDEA/Plan/src/views/HomeView.vue",
-    "IDEA/Plan/src/styles/variables.css",
-    "IDEA/Plan/src/styles/base.css",
-    "IDEA/Plan/src/router/index.js",
-    "IDEA/Plan/src/composables/useTodo.js",
-    "IDEA/Plan/src/components/TodoItem.vue",
     "XF/具身智能/MA 相关/PI0-Train/推理/构建推理镜像.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/部署到机器人.md",
     "XF/具身智能/MA 相关/MA-日志告警.md",
     "XF/具身智能/MA 相关/PI0-Train/Q.md",
     "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
-    "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
-    "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
-    "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
-    "XF/具身智能/MA 相关/PI0-Train/数据集.md",
-    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
-    "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
-    "XF/具身智能/MA 相关/PI0-Train/缺少 `mindspeed` 模块.md",
-    "XF/具身智能/MA 相关/PI0-Train/删除多余的字段.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "img/Pasted image 20260618103248.png",
     "img/Pasted image 20260618103242.png",
     "img/Pasted image 20260618103231.png",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
-    "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
-    "XF/具身智能/MA 相关/测试功能验证/img/Pasted image 20260601174537.png",
-    "XF/具身智能/MA 相关/交付文档/img/Pasted image 20260521195942.png",
-    "XF/具身智能/MA 相关/img/Pasted image 20260518144938.png",
-    "XF/GIt push test.canvas",
     "99 - 附件资源/Canvas/GIt push test.canvas",
     "GIt push test.canvas",
     "未命名.canvas"
