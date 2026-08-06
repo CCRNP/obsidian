@@ -54,33 +54,9 @@
               "icon": "lucide-file",
               "title": "qwen3vl - 镜像Dockerfile"
             }
-          },
-          {
-            "id": "4cea9a6fa1081efd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -269,10 +245,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "4cea9a6fa1081efd",
+  "active": "20b50c812b8793dd",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/MA-多模态训练/qwen3vl - 镜像Dockerfile.md",
     "conflict-files-obsidian-git.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/qwen3vl - 镜像Dockerfile.md",
     "XF/具身智能/验收会——演讲.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
