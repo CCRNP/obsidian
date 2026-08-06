@@ -406,3 +406,8 @@ cd /home/ma-user/lerobot
 sed -i 's/train_tracker\.loss/train_tracker.loss.avg/g' lerobot/scripts/train.py
 sed -i 's/train_tracker\.lr/train_tracker.lr.avg/g' lerobot/scripts/train.py
 sed -i 's/train_tracker\.grad_norm/train_tracker.grad_norm.avg/g' lerobot/scripts/train.py
+
+
+%load_ext tensorboard
+%tensorboard  --logdir /home/ma-user/suammary
+%tensorboard --logdir /home/ma-user/summary --port 6008
