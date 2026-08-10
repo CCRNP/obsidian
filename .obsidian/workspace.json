@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "8月4、5、7号日报未提交"
             }
+          },
+          {
+            "id": "17834b724367be1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -221,10 +246,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "17834b724367be1b",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/MA-多模态训练/安装Megatron-LM、MindSpeed、MindSpeed-MM.md",
     "XF/具身智能/日报/8月4、5、7号日报未提交.md",
+    "conflict-files-obsidian-git.md",
+    "XF/运通/模型运营.md",
+    "XF/具身智能/MA 相关/培训文档/1、用户手册.docx",
+    "XF/具身智能/MA 相关/培训文档",
+    "XF/具身智能/MA 相关/MA-多模态训练/安装Megatron-LM、MindSpeed、MindSpeed-MM.md",
     "XF/具身智能/日报",
     "XF/具身智能/MA 相关/MA-多模态训练/d未命名 2.canvas",
     "XF/具身智能/MA 相关/MA-多模态训练/未命名 1.canvas",
@@ -240,15 +269,12 @@
     "XF/报销/2026/7月/7月地铁发票.pdf",
     "XF/具身智能/验收会——演讲（快速）.md",
     "模型运营.md",
-    "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 相关/镜像/MA-规范制作镜像.md",
     "XF/报销/2026/7月/7月移动话费pdf.pdf",
     "XF/报销/2026/7月/7月电信话费pdf.pdf",
     "XF/报销/2026/7月/134XXXX8848_发票_20260806_2026080614532783121481_26447000001382961177.xml",
     "XF/报销/2026/7月/7月电信话费xml.xml",
     "XF/报销/2026/7月/26447000001540232844 2.xml",
-    "XF/报销/2026/7月/26447000001540232844 1.xml",
-    "XF/报销/2026/7月/26447000001540232844.xml",
     "XF/报销/2026/6月/滴滴付款截图13.90.jpg",
     "XF/报销/2026/6月/滴滴付款截图8.10.jpg",
     "XF/报销/2026/7月/话费.md",
@@ -266,7 +292,6 @@
     "XF/具身智能/MA 相关/镜像/制作 Ant1 镜像.md",
     "2026-08-02.md",
     "XF/MRS面评/ElasticSearch/ElasticSearch.md",
-    "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "img/Pasted image 20260618103248.png",
