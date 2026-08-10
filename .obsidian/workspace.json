@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aa2b25717ce07199",
+        "id": "c63a44e4b902378e",
         "type": "tabs",
         "children": [
           {
-            "id": "7e53119aa23a0d84",
+            "id": "fc55eb4bc1f1f5fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "XF/运通/模型运营.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "模型运营"
             }
           }
         ]
@@ -231,11 +231,20 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "7e53119aa23a0d84",
+  "active": "a0bff8fc732be731",
   "lastOpenFiles": [
-    "未命名.md",
+    "XF/具身智能/MA 相关/培训文档/1、用户手册.docx",
+    "XF/具身智能/MA 相关/培训文档",
+    "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
+    "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
+    "XF/具身智能/MA 相关/PI0-Train/data 数据集路径问题.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/megatron-core 依赖处理.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/qwen3vl - 镜像Dockerfile.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/安装Megatron-LM、MindSpeed、MindSpeed-MM.md",
+    "XF/具身智能/运维配置.md",
     "conflict-files-obsidian-git.md",
-    "模型运营.md",
+    "未命名.md",
+    "XF/运通/模型运营.md",
     "img/Pasted image 20260806143415.png",
     "img/Pasted image 20260806142803.png",
     "XF/报销/2026/7月/话费.md",
@@ -250,19 +259,13 @@
     "XF/报销/2026/6月/滴滴付款截图13.90.jpg",
     "XF/报销/2026/6月",
     "XF/具身智能/验收会——演讲（快速）.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/安装Megatron-LM、MindSpeed、MindSpeed-MM.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/qwen3vl - 镜像Dockerfile.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/megatron-core 依赖处理.md",
     "XF/具身智能/验收会——演讲.md",
     "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
     "XF/具身智能/MA 相关/MA-API.md",
-    "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
     "XF/具身智能/MA 相关/PI0-Train/Q.md",
     "XF/运通/登录.md",
     "XF/MRS面评/ElasticSearch/ElasticSearch.md",
     "XF/MRS面评/ElasticSearch",
-    "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
-    "XF/具身智能/MA 相关/PI0-Train/data 数据集路径问题.md",
     "XF/具身智能/MA 相关/PI0-Train/数据集.md",
     "XF/具身智能/MA 相关/PI0-Train/缺少 `mindspeed` 模块.md",
     "XF/具身智能/MA 相关/PI0-Train/删除多余的字段.md",
@@ -270,9 +273,6 @@
     "XF/具身智能/MA 相关/PI0-Train/推理/构建推理镜像.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
     "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
-    "IDEA/Plan/vite.config.js.timestamp-1785232499094-7e4097ace0ccd.mjs",
     "XF/具身智能/MA 相关/交付文档/img/Pasted image 20260521195942.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",

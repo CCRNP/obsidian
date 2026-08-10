@@ -1,5 +1,5 @@
 ### 在 train.py 中导入相关模块，新增 TensorBoard 记录
-``` bash
+``` python
 #!/usr/bin/env python
 
 # Copyright 2024 The HuggingFace Inc. team. All rights reserved.
