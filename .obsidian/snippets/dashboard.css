@@ -1,19 +1,19 @@
-/* ===== Homepage Dashboard Theme ===== */
-/* cssclasses: [homepage] */
+/* ===== Dashboard Theme ===== */
+/* cssclasses: [dashboard] */
 
 /* 隐藏标题和属性面板 */
-.homepage .inline-title,
-.homepage .metadata-container { display: none !important; }
+.dashboard .inline-title,
+.dashboard .metadata-container { display: none !important; }
 
 /* 适配页面宽度 */
-.homepage .markdown-preview-sizer {
+.dashboard .markdown-preview-sizer {
     max-width: none !important;
     width: 100% !important;
     padding: 16px !important;
 }
 
 /* 重置 dataviewjs 容器 */
-.homepage .block-language-dataviewjs {
+.dashboard .block-language-dataviewjs {
     background: transparent !important;
     padding: 0 !important;
     border: none !important;
