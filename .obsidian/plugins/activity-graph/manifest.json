@@ -1,0 +1,10 @@
+{
+	"id": "activity-graph",
+	"name": "Activity Graph",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Render activity heatmaps from Dataview query results.",
+	"author": "Wyatt Walker",
+	"authorUrl": "https://github.com/rwyattwalker",
+	"isDesktopOnly": false
+}

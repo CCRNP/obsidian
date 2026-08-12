@@ -4,5 +4,8 @@
   "dataview",
   "periodic-para",
   "homepage",
-  "obsidian-banners"
+  "obsidian-banners",
+  "obsidian-local-rest-api",
+  "obsidian-tasks-plugin",
+  "activity-graph"
 ]

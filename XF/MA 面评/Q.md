@@ -8,8 +8,7 @@ Spark
 - Dataset 是懒惰的，只在执行 **Action** 操作时触发计算
 - reduce 算子属 Action 算子
 
-Hive
-	分区对应所在表所在目录下的一个子目录
+Hive子目录
 	Hive自定义函数中的 **UDTF** 用于接受单个数据行，并产生多个数据作为输出
 
 Kafka 
