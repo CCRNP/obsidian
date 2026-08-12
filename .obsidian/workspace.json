@@ -4,17 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "8c61f8962685d858",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "4737742b22117926",
+            "id": "be6673b4834c476c",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "HomePage/Dashboard.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Dashboard"
             }
           }
         ]
@@ -154,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDEA/瑗/今天吃什么-APP/今天吃什么_HTML.md",
+                "file": "HomePage/Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "今天吃什么_HTML 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -194,9 +210,19 @@
               "icon": "lucide-info",
               "title": "笔记属性"
             }
+          },
+          {
+            "id": "00ba14133a2f5501",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -219,13 +245,16 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "4737742b22117926",
+  "active": "be6673b4834c476c",
   "lastOpenFiles": [
+    "XF/具身智能/具身智能-总结分析.md",
     "HomePage/Dashboard.md",
+    "XF/2026-03-16.md",
+    "IDEA/学习-被动输入-AI.md",
+    "XF/具身智能/MA 相关/2026-04-13.md",
     "conflict-files-obsidian-git.md",
     "HomePage/HomePage.md",
     "XF/具身智能.md",
-    "XF/具身智能/具身智能-总结分析.md",
     "XF.md",
     "copilot.md",
     "MD Help.md",
@@ -248,13 +277,10 @@
     "XF/运通/模型运营.md",
     "XF/具身智能/MA 相关/培训文档/1、用户手册.docx",
     "XF/具身智能/MA 相关/培训文档",
-    "XF/具身智能/MA 相关/MA-多模态训练/安装Megatron-LM、MindSpeed、MindSpeed-MM.md",
     "XF/具身智能/日报",
     "XF/具身智能/MA 相关/MA-多模态训练/d未命名 2.canvas",
     "XF/具身智能/MA 相关/MA-多模态训练/未命名 1.canvas",
     "XF/具身智能/MA 相关/MA-多模态训练/未命名.canvas",
-    "XF/具身智能/MA 相关/MA-多模态训练/qwen3vl - 镜像Dockerfile.md",
-    "XF/具身智能/MA 相关/镜像/MA-A100 镜像部署裸金属失败问题&解决.md",
     "XF/报销/2026/7月/7月地铁行程单.pdf",
     "XF/报销/2026/7月/7月地铁发票.pdf",
     "XF/报销/2026/7月/7月移动话费pdf.pdf",

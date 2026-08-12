@@ -159,7 +159,7 @@ var tasksHtml = '<div class="rh-card"><div class="rh-card-title">✅ 待办任�
 dv.container.innerHTML =
     '<div class="rh-banner" style="background-image: url(\'' + bannerUrl + '\'); background-size: cover; background-position: center;">' +
     '<div class="rh-banner-content">' +
-    '<h1>📚 CCRNP 个人知识库</h1>' +
+    '<h1>📚 CCRNP </h1>' +
     '<p class="rh-banner-desc">技术笔记 · 项目记录 · 学习成长 · 构建个人知识体系</p>' +
     '<div class="rh-quote"><span id="rh-quote-text">正在获取每日一言...</span><span id="rh-quote-author"></span></div>' +
     '</div></div>' +
@@ -169,6 +169,7 @@ dv.container.innerHTML =
     '</div>';
 
 // ===== 填充待办任务（用 createElement 绑定事件）=====
+/*
 var tasksList = dv.container.querySelector('#rh-tasks-list');
 if (tasks.length === 0) {
     tasksList.innerHTML = '<div style="padding:12px;color:var(--text-muted);font-size:15px">🎉 暂无待办任务</div>';
@@ -235,6 +236,86 @@ if (tasks.length === 0) {
         }
     });
 }
+*/
+// ===== 填充待办任务（用 createElement 绑定事件）=====
+var tasksList = dv.container.querySelector('#rh-tasks-list');
+if (tasks.length === 0) {
+    tasksList.innerHTML = '<div style="padding:12px;color:var(--text-muted);font-size:15px">🎉 暂无待办任务</div>';
+} else {
+    tasks.slice(0, 15).forEach(function(t, i) {
+        var item = document.createElement('div');
+        item.className = 'rh-task-item';
+
+        var checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.dataset.idx = i;
+
+        var textSpan = document.createElement('span');
+        textSpan.className = 'task-text';
+        textSpan.textContent = t.text;
+
+        var linkSpan = document.createElement('span');
+        linkSpan.className = 'task-link';
+        linkSpan.textContent = '📁 ' + t.name;  // t.name 是文件名（不含扩展名）
+        linkSpan.dataset.path = t.path;         // 确保 t.path 是有效的文件路径
+
+        var dueSpan = document.createElement('span');
+        dueSpan.className = 'task-due';
+        dueSpan.textContent = t.due ? '📅 ' + t.due : '';
+
+        item.appendChild(checkbox);
+        item.appendChild(textSpan);
+        if (t.due) item.appendChild(dueSpan);
+        item.appendChild(linkSpan);
+        tasksList.appendChild(item);
+    });
+
+    // 复选框勾选事件：修改源文件
+    tasksList.addEventListener('change', async function(e) {
+        if (e.target.type === 'checkbox') {
+            var idx = parseInt(e.target.dataset.idx);
+            var t = tasks[idx];
+            if (e.target.checked && t) {
+                try {
+                    var file = app.vault.getAbstractFileByPath(t.path);
+                    if (file) {
+                        var content = await app.vault.read(file);
+                        var lines = content.split('\n');
+                        if (lines[t.line] && lines[t.line].includes('- [ ]')) {
+                            lines[t.line] = lines[t.line].replace('- [ ]', '- [x]');
+                            await app.vault.modify(file, lines.join('\n'));
+                        }
+                    }
+                } catch(err) {
+                    console.log('Toggle task error:', err);
+                }
+                e.target.parentElement.classList.add('completed');
+            }
+        }
+    });
+
+    // ===== 改进 1：使用 closest 确保找到 .task-link =====
+    tasksList.addEventListener('click', function(e) {
+        // 向上查找最近的 .task-link 元素
+        const linkEl = e.target.closest('.task-link');
+        if (linkEl) {
+            e.preventDefault();
+            const path = linkEl.dataset.path;
+            if (!path) {
+                console.warn('任务链接缺少 data-path');
+                return;
+            }
+            const file = app.vault.getAbstractFileByPath(path);
+            if (file) {
+                // 改进 2：使用 openLinkText 更灵活，并可选择新标签页
+                app.workspace.openLinkText(path, "", true);  // true 表示在新标签页打开
+            } else {
+                console.warn(`文件不存在：${path}`);
+                consloe.log('hi')
+            }
+        }
+    });
+}
 
 // ===== 获取每日一言（Hitokoto API）=====
 fetch('https://v1.hitokoto.cn/?c=i')
@@ -284,9 +365,9 @@ dv.container.querySelectorAll('[data-nav]').forEach(function(el) {
 ```
 
 ```activity-graph
-daysToShow: 60
-showLegend: false
-colorGradient: green
+TABLE file.day AS date, 1 AS value
+FROM ""
+SORT file.day ASC
 ```
 
 <!--
