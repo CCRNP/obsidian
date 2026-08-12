@@ -39,21 +39,22 @@ const stats = [
 dv.table(["统计项", "数值"], stats);
 ```
 
-<!-- 需要安装 Dataview 插件才能显示此区域 -->
+<!-- 需要安装 Dataview 插件并开启 Enable JavaScript Queries 才能显示此区域 -->
 
 ---
 
 ## 🔥 写作活跃度热力图
 
 ```activity-graph
-period: 3months
 title: 写作热力图
-color: #7c3aed
+period: 3months
+highlightToday: true
+highlightColor: #7c3aed
 ```
 
-<!-- 需要安装 Activity Graph 插件才能显示此区域。若插件名称不同（如 Activity History），请将代码块语言改为对应名称 -->
+<!-- 需要安装 Activity Graph 插件才能显示此区域 -->
 
-> 上述热力图展示最近 90 天的写作活跃度，颜色深浅代表当日修改笔记的数量。
+> 上述热力图展示最近 90 天的写作活跃度，颜色深浅代表当日修改笔记的数量。点击任意日期可跳转到对应的日记。
 
 ---
 
@@ -130,18 +131,17 @@ if (sorted.length === 0) {
 }
 ```
 
-<!-- 需要安装 Dataview 插件才能显示此区域 -->
+<!-- 需要安装 Dataview 插件并开启 Enable JavaScript Queries 才能显示此区域 -->
 
 > 展示全库使用频率最高的 10 个标签，帮助快速定位核心知识领域。
 
 ---
-
 <!--
   Homepage 配置说明
   ===================
   1. 确保 Homepage 插件已设置主页路径为 HomePage/HomePage.md
   2. 确保 Dataview 插件已启用，且设置中开启 "Enable JavaScript Queries"
   3. 确保 Tasks 插件已启用
-  4. 确保 Activity Graph 插件已启用（若插件名不同请调整代码块语言标识）
+  4. 确保 Activity Graph 插件已启用
   5. 所有查询均基于 file.ctime / file.mtime 等内置元数据，无需额外 frontmatter
 -->
