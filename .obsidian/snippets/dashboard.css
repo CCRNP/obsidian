@@ -1,0 +1,190 @@
+/* ===== Obsidian Dashboard - Bento Theme ===== */
+/* 适用于 cssclasses: [dashboard] 的页面 */
+
+/* 隐藏标题和属性面板 */
+.dashboard .inline-title,
+.dashboard .metadata-container { display: none !important; }
+
+/* 重置 dataviewjs 代码块默认样式 */
+.dashboard .block-language-dataviewjs {
+  background: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  margin: 0 0 20px 0 !important;
+  font: inherit !important;
+}
+
+/* ===== 横幅 ===== */
+.dv-banner {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #6b8cce 100%);
+  border-radius: 20px;
+  padding: 36px 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(102, 126, 234, 0.2);
+}
+.dv-banner::before {
+  content: '';
+  position: absolute;
+  top: -50%; left: -50%;
+  width: 200%; height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 60%);
+  animation: dv-shimmer 12s linear infinite;
+  pointer-events: none;
+}
+@keyframes dv-shimmer { 0%{transform:rotate(0deg)} 100%{transform:rotate(360deg)} }
+.dv-banner h2 {
+  color: #fff !important;
+  margin: 0 0 8px 0 !important;
+  font-weight: 700;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  position: relative; z-index: 1;
+}
+.dv-banner p {
+  color: rgba(255,255,255,0.82) !important;
+  margin: 0 !important;
+  font-size: 0.95em;
+  position: relative; z-index: 1;
+}
+
+/* ===== 统计卡片网格 ===== */
+.dv-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.dv-stat-card {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 16px;
+  text-align: center;
+  padding: 22px 16px 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+.dv-stat-card::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--interactive-accent), transparent);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.dv-stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  border-color: var(--interactive-accent);
+}
+.dv-stat-card:hover::after { opacity: 1; }
+.dv-stat-emoji { font-size: 1.8em; margin-bottom: 6px; }
+.dv-stat-value { font-size: 1.8em; font-weight: 700; color: var(--text-normal); line-height: 1.1; }
+.dv-stat-label { font-size: 0.82em; color: var(--text-muted); margin-top: 4px; }
+
+/* 强调色统计卡片 */
+.dv-stat-accent {
+  background: var(--interactive-accent) !important;
+  border: none !important;
+}
+.dv-stat-accent .dv-stat-value { color: #fff !important; }
+.dv-stat-accent .dv-stat-label { color: rgba(255,255,255,0.75) !important; }
+.dv-stat-accent::after { background: rgba(255,255,255,0.3) !important; }
+
+/* ===== 数据卡片 ===== */
+.dv-card {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  overflow: hidden;
+}
+.dv-card-title {
+  background: var(--background-primary);
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding: 11px 16px 10px;
+  font-size: 0.78em;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* 表格 */
+.dv-card .dataview.table-view-table { padding: 8px 14px 4px; }
+.dv-card table { width: 100%; margin: 0; }
+.dv-card th {
+  font-size: 0.8em; color: var(--text-muted); font-weight: 600;
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding: 6px 10px; text-align: left;
+}
+.dv-card td {
+  font-size: 0.85em; padding: 6px 10px;
+  border-bottom: 1px solid var(--background-modifier-border-hover);
+}
+.dv-card tr:last-child td { border-bottom: none; }
+.dv-card a { color: var(--text-accent); text-decoration: none; }
+.dv-card a:hover { text-decoration: underline; }
+
+/* 任务列表 */
+.dv-card .contains-task-list { list-style: none; margin: 0; padding: 8px 16px 12px; }
+.dv-card .task-list-item {
+  padding: 6px 0; border-bottom: 1px solid var(--background-modifier-border-hover);
+  font-size: 0.85em;
+}
+.dv-card .task-list-item:last-child { border-bottom: none; }
+
+/* 标签云 */
+.dv-tag-cloud { display: flex; flex-wrap: wrap; gap: 8px; padding: 14px 16px; }
+.dv-tag-item {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 5px 14px; border-radius: 20px;
+  font-size: 0.85em; font-weight: 500;
+  transition: transform 0.15s ease, box-shadow 0.15s ease; cursor: default;
+}
+.dv-tag-item:hover { transform: scale(1.08); box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.dv-tag-count { font-size: 0.8em; opacity: 0.7; font-weight: 700; }
+
+/* 空状态 */
+.dv-empty { padding: 20px 16px; color: var(--text-muted); font-style: italic; text-align: center; margin: 0; }
+
+/* ===== 导航卡片 ===== */
+.dv-nav-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.dv-nav-card {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-top: 3px solid var(--interactive-accent);
+  border-radius: 14px;
+  padding: 14px 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.dv-nav-card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,0.08); }
+.dv-nav-title {
+  font-size: 0.75em; font-weight: 700; color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px;
+}
+.dv-nav-list { list-style: none; margin: 0; padding: 0; font-size: 0.88em; line-height: 2; }
+.dv-nav-list a {
+  color: var(--text-normal); text-decoration: none;
+  border-radius: 6px; padding: 2px 6px; margin-left: -6px;
+  transition: background 0.15s, color 0.15s;
+}
+.dv-nav-list a:hover { background: var(--background-modifier-hover); color: var(--text-accent); }
+
+/* ===== Activity Graph ===== */
+.dashboard .block-language-activity-graph {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+/* ===== 响应式 ===== */
+@media (max-width: 800px) {
+  .dv-stats { grid-template-columns: repeat(2, 1fr) !important; }
+  .dv-nav-row { grid-template-columns: 1fr !important; }
+}
