@@ -1,6 +1,6 @@
 {
   "renderNullAs": "\\-",
-  "taskCompletionTracking": false,
+  "taskCompletionTracking": true,
   "taskCompletionUseEmojiShorthand": false,
   "taskCompletionText": "completion",
   "taskCompletionDateFormat": "yyyy-MM-dd",
@@ -19,8 +19,8 @@
   "inlineJsQueryPrefix": "$=",
   "inlineQueriesInCodeblocks": true,
   "enableInlineDataview": true,
-  "enableDataviewJs": false,
-  "enableInlineDataviewJs": false,
+  "enableDataviewJs": true,
+  "enableInlineDataviewJs": true,
   "prettyRenderInlineFields": true,
   "prettyRenderInlineFieldsInLivePreview": true,
   "dataviewJsKeyword": "dataviewjs"

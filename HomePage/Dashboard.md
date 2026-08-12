@@ -1,6 +1,6 @@
 ---
 cssclasses:
-  - homepage
+  - dashboard
 ---
 
 ```dataviewjs

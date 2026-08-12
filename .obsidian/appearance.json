@@ -1,5 +1,8 @@
 {
   "baseFontSizeAction": true,
   "baseFontSize": 17,
-  "cssTheme": "Light & Bright"
+  "cssTheme": "Light & Bright",
+  "enabledCssSnippets": [
+    "dashboard"
+  ]
 }
