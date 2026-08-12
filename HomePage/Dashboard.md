@@ -12,15 +12,9 @@ var excludePrefixes = ["Templates", "copilot", ".obsidian", "MD Help"];
 function esc(s) { var d = document.createElement('div'); d.textContent = String(s || ''); return d.innerHTML; }
 
 // 统计
-<<<<<<< HEAD
-const totalNotes = allPages.length;
-const weekAgoMs = now.getTime() - 7 * 86400000;
-const recentWeek = allPages.where(p => p.file.ctime && p.file.ctime.ts >= weekAgoMs).length;
-=======
 var totalNotes = allPages.length;
 var weekAgoMs = now.getTime() - 7 * 86400000;
 var recentWeek = allPages.where(function(p) { return p.file.ctime && p.file.ctime.ts >= weekAgoMs; }).length;
->>>>>>> origin/main
 
 // 标签
 var tagMap = {};
@@ -87,7 +81,7 @@ var bannerImages = [
 var dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 86400000);
 var bannerUrl = bannerImages[dayOfYear % bannerImages.length];
 
-// 导航数据（指向实际存在的文件）
+// 导航数据
 var navData = [
     { icon: "🧠", text: "具身智能", path: "XF/具身智能" },
     { icon: "💡", text: "IDEA", path: "IDEA" },
