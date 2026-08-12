@@ -9,7 +9,11 @@ var allPages = dv.pages('""');
 var now = new Date();
 var excludePrefixes = ["Templates", "copilot", ".obsidian", "MD Help"];
 
-function esc(s) { var d = document.createElement('div'); d.textContent = String(s || ''); return d.innerHTML; }
+function esc(s) {
+    var d = document.createElement('div');
+    d.textContent = String(s || '');
+    return d.innerHTML;
+}
 
 // 统计
 var totalNotes = allPages.length;
@@ -18,55 +22,63 @@ var recentWeek = allPages.where(function(p) { return p.file.ctime && p.file.ctim
 
 // 标签
 var tagMap = {};
-allPages.forEach(function(p) { if (p.file.etags) p.file.etags.forEach(function(t) { tagMap[t] = (tagMap[t] || 0) + 1; }); });
+allPages.forEach(function(p) {
+    if (p.file.etags) p.file.etags.forEach(function(t) { tagMap[t] = (tagMap[t] || 0) + 1; });
+});
 var topTags = Object.entries(tagMap).sort(function(a, b) { return b[1] - a[1]; }).slice(0, 5);
 var totalTags = Object.keys(tagMap).length;
 
 // 目录
 var folderMap = {};
-allPages.forEach(function(p) { var f = (p.file.folder || "/").split("/")[0] || "根目录"; folderMap[f] = (folderMap[f] || 0) + 1; });
+allPages.forEach(function(p) {
+    var f = (p.file.folder || "/").split("/")[0] || "根目录";
+    folderMap[f] = (folderMap[f] || 0) + 1;
+});
 var topFolders = Object.entries(folderMap).sort(function(a, b) { return b[1] - a[1]; }).slice(0, 5);
 
 // 最近修改的笔记（5条）
 var recentNotes = allPages
-    .where(function(p) { return p.file.mtime && !excludePrefixes.some(function(pre) { return p.file.path.startsWith(pre); }); })
+    .where(function(p) {
+        return p.file.mtime && !excludePrefixes.some(function(pre) { return p.file.path.startsWith(pre); });
+    })
     .sort(function(p) { return p.file.mtime; }, "desc")
     .limit(5)
     .array();
 
-// 日历数据
-var calYear = now.getFullYear();
-var calMonth = now.getMonth();
-var calToday = now.getDate();
-var monthNames = ["01月","02月","03月","04月","05月","06月","07月","08月","09月","10月","11月","12月"];
-var firstWeekday = (new Date(calYear, calMonth, 1).getDay() + 6) % 7;
-var daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
-var prevMonthLastDay = new Date(calYear, calMonth, 0).getDate();
-var weekdayNames = ["一","二","三","四","五","六","日"];
-var todayIdx = (firstWeekday + calToday - 1) % 7;
-var todayWeekday = "周" + weekdayNames[todayIdx];
-var calCells = [];
-for (var i = firstWeekday; i > 0; i--) calCells.push({ day: prevMonthLastDay - i + 1, other: true, mmdd: '' });
-for (var i = 1; i <= daysInMonth; i++) {
-    var mmdd = String(calMonth + 1).padStart(2, '0') + '-' + String(i).padStart(2, '0');
-    calCells.push({ day: i, other: false, today: i === calToday, mmdd: mmdd });
-}
-var nd = 1; while (calCells.length % 7 !== 0) calCells.push({ day: nd++, other: true, mmdd: '' });
-
-// 中国节日和节气
-var holidays = {
-    '01-01': '元旦', '02-17': '春节', '03-03': '元宵',
-    '04-05': '清明', '05-01': '劳动节', '06-19': '端午',
-    '08-19': '七夕', '09-25': '中秋', '10-01': '国庆', '10-19': '重阳'
-};
-var solarTerms = {
-    '01-05': '小寒', '01-20': '大寒', '02-04': '立春', '02-18': '雨水',
-    '03-05': '惊蛰', '03-20': '春分', '04-05': '清明', '04-20': '谷雨',
-    '05-05': '立夏', '05-21': '小满', '06-05': '芒种', '06-21': '夏至',
-    '07-07': '小暑', '07-22': '大暑', '08-07': '立秋', '08-23': '处暑',
-    '09-07': '白露', '09-23': '秋分', '10-08': '寒露', '10-23': '霜降',
-    '11-07': '立冬', '11-22': '小雪', '12-07': '大雪', '12-22': '冬至'
-};
+// 待办任务（排除模板目录）
+var tasks = [];
+allPages
+    .where(function(p) {
+        return !excludePrefixes.some(function(pre) { return p.file.path.startsWith(pre); });
+    })
+    .forEach(function(p) {
+        p.file.tasks.where(function(t) { return !t.completed; }).forEach(function(t) {
+            var cleanText = t.text
+                .replace(/\[#.*?\]/g, '')
+                .replace(/\[.*?::.*?\]/g, '')
+                .replace(/📅\s*\d{4}-\d{2}-\d{2}/g, '')
+                .replace(/✅\s*\d{4}-\d{2}-\d{2}/g, '')
+                .replace(/^##\s*/, '')
+                .trim();
+            var dueStr = '';
+            if (t.due) {
+                try { dueStr = t.due.toFormat ? t.due.toFormat('MM-dd') : ''; } catch(e) {}
+            }
+            tasks.push({
+                text: cleanText,
+                path: p.file.path,
+                line: t.line,
+                due: dueStr,
+                name: p.file.name
+            });
+        });
+    });
+tasks.sort(function(a, b) {
+    if (a.due && b.due) return a.due < b.due ? -1 : (a.due > b.due ? 1 : 0);
+    if (a.due) return -1;
+    if (b.due) return 1;
+    return 0;
+});
 
 // Banner 图片每日轮换
 var bannerImages = [
@@ -94,8 +106,6 @@ var navData = [
 ];
 
 // ===== HTML 构建 =====
-var dateStr = calYear + '年' + String(calMonth + 1).padStart(2, '0') + '月' + String(calToday).padStart(2, '0') + '日';
-
 // 概览
 var overviewHtml = '<div class="rh-overview">' +
     '<div class="rh-overview-col"><div class="col-title">📈 笔记统计</div><div class="col-body">' +
@@ -104,11 +114,15 @@ var overviewHtml = '<div class="rh-overview">' +
     '<div class="item"><span class="tag">标签</span><span class="value">' + totalTags + ' 个</span></div>' +
     '</div></div>' +
     '<div class="rh-overview-col"><div class="col-title">📁 目录分布</div><div class="col-body">' +
-    topFolders.map(function(f) { return '<div class="item"><span class="tag">' + esc(f[0]) + '</span><span class="value">' + f[1] + ' 篇</span></div>'; }).join('') +
+    topFolders.map(function(f) {
+        return '<div class="item"><span class="tag">' + esc(f[0]) + '</span><span class="value">' + f[1] + ' 篇</span></div>';
+    }).join('') +
     '</div></div>' +
     '<div class="rh-overview-col"><div class="col-title">🏷️ 热门标签</div><div class="col-body">' +
     (topTags.length > 0
-        ? topTags.map(function(t) { return '<div class="item"><span class="tag">' + esc(t[0]) + '</span><span class="value">' + t[1] + ' 次</span></div>'; }).join('')
+        ? topTags.map(function(t) {
+            return '<div class="item"><span class="tag">' + esc(t[0]) + '</span><span class="value">' + t[1] + ' 次</span></div>';
+        }).join('')
         : '<div class="item"><span class="value">暂无标签</span></div>') +
     '</div></div>' +
     '</div>';
@@ -137,27 +151,9 @@ var rnHtml = '<div class="rh-card"><div class="rh-card-title">📝 最近修改<
         : '<div class="rh-rn-item"><span class="rn-name">暂无笔记</span></div>') +
     '</div>';
 
-// 日历
-var calGridHtml = calCells.map(function(c) {
-    var holiday = c.mmdd ? holidays[c.mmdd] : '';
-    var term = c.mmdd ? solarTerms[c.mmdd] : '';
-    var cls = 'day' + (c.other ? ' other' : '') + (c.today ? ' today' : '');
-    var html = '<span class="' + cls + '">' + c.day;
-    if (holiday) html += '<span class="holiday">' + holiday + '</span>';
-    else if (term) html += '<span class="term">' + term + '</span>';
-    html += '</span>';
-    return html;
-}).join('');
-
-var calHtml = '<div class="rh-calendar">' +
-    '<div class="rh-cal-header"><div class="month-year">' + calYear + '年' + monthNames[calMonth] + ' <small>· ' + todayWeekday + '</small></div></div>' +
-    '<div class="rh-cal-weekdays">' +
-    ['一','二','三','四','五','六','日'].map(function(w) { return '<span>' + w + '</span>'; }).join('') +
-    '</div><div class="rh-cal-grid">' + calGridHtml + '</div></div>';
-
-// 任务和热力图插槽
-var tasksSlotHtml = '<div class="rh-card"><div class="rh-card-title">✅ 待办任务</div><div id="tasks-slot"><div class="rh-loading">正在加载任务...</div></div></div>';
-var heatmapSlotHtml = '<div class="rh-card"><div class="rh-card-title">🔥 写作热力图</div><div id="heatmap-slot"><div class="rh-loading">正在加载热力图...</div></div></div>';
+// 待办任务容器（稍后用 JS 填充）
+var tasksHtml = '<div class="rh-card"><div class="rh-card-title">✅ 待办任务</div>' +
+    '<div id="rh-tasks-list"></div></div>';
 
 // ===== 组装渲染 =====
 dv.container.innerHTML =
@@ -169,8 +165,76 @@ dv.container.innerHTML =
     '</div></div>' +
     '<div class="rh-grid">' +
     '<div class="rh-left">' + overviewHtml + navHtml + rnHtml + '</div>' +
-    '<div class="rh-right">' + calHtml + tasksSlotHtml + heatmapSlotHtml + '</div>' +
+    '<div class="rh-right">' + tasksHtml + '</div>' +
     '</div>';
+
+// ===== 填充待办任务（用 createElement 绑定事件）=====
+var tasksList = dv.container.querySelector('#rh-tasks-list');
+if (tasks.length === 0) {
+    tasksList.innerHTML = '<div style="padding:12px;color:var(--text-muted);font-size:15px">🎉 暂无待办任务</div>';
+} else {
+    tasks.slice(0, 15).forEach(function(t, i) {
+        var item = document.createElement('div');
+        item.className = 'rh-task-item';
+
+        var checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.dataset.idx = i;
+
+        var textSpan = document.createElement('span');
+        textSpan.className = 'task-text';
+        textSpan.textContent = t.text;
+
+        var linkSpan = document.createElement('span');
+        linkSpan.className = 'task-link';
+        linkSpan.textContent = '📁 ' + t.name;
+        linkSpan.dataset.path = t.path;
+
+        var dueSpan = document.createElement('span');
+        dueSpan.className = 'task-due';
+        dueSpan.textContent = t.due ? '📅 ' + t.due : '';
+
+        item.appendChild(checkbox);
+        item.appendChild(textSpan);
+        if (t.due) item.appendChild(dueSpan);
+        item.appendChild(linkSpan);
+        tasksList.appendChild(item);
+    });
+
+    // 复选框勾选事件：修改源文件
+    tasksList.addEventListener('change', async function(e) {
+        if (e.target.type === 'checkbox') {
+            var idx = parseInt(e.target.dataset.idx);
+            var t = tasks[idx];
+            if (e.target.checked && t) {
+                try {
+                    var file = app.vault.getAbstractFileByPath(t.path);
+                    if (file) {
+                        var content = await app.vault.read(file);
+                        var lines = content.split('\n');
+                        if (lines[t.line] && lines[t.line].includes('- [ ]')) {
+                            lines[t.line] = lines[t.line].replace('- [ ]', '- [x]');
+                            await app.vault.modify(file, lines.join('\n'));
+                        }
+                    }
+                } catch(err) {
+                    console.log('Toggle task error:', err);
+                }
+                e.target.parentElement.classList.add('completed');
+            }
+        }
+    });
+
+    // 任务来源链接点击：跳转到源文件
+    tasksList.addEventListener('click', function(e) {
+        if (e.target.classList.contains('task-link')) {
+            e.preventDefault();
+            var path = e.target.dataset.path;
+            var file = app.vault.getAbstractFileByPath(path);
+            if (file) app.workspace.getLeaf().openFile(file);
+        }
+    });
+}
 
 // ===== 获取每日一言（Hitokoto API）=====
 fetch('https://v1.hitokoto.cn/?c=i')
@@ -217,38 +281,6 @@ dv.container.querySelectorAll('[data-nav]').forEach(function(el) {
         navigateTo(el.getAttribute('data-nav'));
     });
 });
-
-// ===== 移动 Tasks 和 Activity Graph 到插槽 =====
-function tryMove(selector, targetId) {
-    var root = dv.container.closest('.markdown-preview-section') || dv.container.parentElement;
-    if (!root) return false;
-    var el = root.querySelector(selector + ':not(.rh-moved)');
-    var target = dv.container.querySelector('#' + targetId);
-    if (el && target) {
-        target.innerHTML = '';
-        target.appendChild(el);
-        el.classList.add('rh-moved');
-        return true;
-    }
-    return false;
-}
-
-var moveAttempts = 0;
-var moveInterval = setInterval(function() {
-    var t = tryMove('.block-language-tasks', 'tasks-slot');
-    var h = tryMove('.block-language-activity-graph', 'heatmap-slot');
-    if ((t && h) || ++moveAttempts > 50) clearInterval(moveInterval);
-}, 200);
-```
-
-```tasks
-not done
-path excludes Templates
-path excludes copilot
-path excludes MD Help
-sort by due
-sort by path
-limit 15
 ```
 
 ```activity-graph
@@ -263,11 +295,12 @@ colorGradient: green
   1. Homepage 插件 → 主页文件设为 HomePage/Dashboard.md
   2. Dataview 插件 → 开启 Enable JavaScript Queries
   3. CSS 样式 → .obsidian/snippets/dashboard.css → 设置→外观→CSS 代码片段→启用 dashboard
-  4. Activity Graph 插件 → 已启用（60天，绿色，无图例）
-  5. Tasks 插件 → 已启用（排除 Templates/copilot/MD Help）
-  6. 每日一言 → 从 Hitokoto API 实时获取诗词名言
-  7. Banner 图片 → 7张知识主题图片每日轮换
-  8. 日历 → 显示中国节日和二十四节气
-  9. 导航 → 点击跳转已存在文件，不创建新文件
-  10. 待办任务 → Tasks 插件原生渲染，可勾选，点击链接跳转源文件
+  4. Activity Graph → 原生代码块渲染，不再用 JS 移动，显示在页面底部
+  5. 待办任务 → dataviewjs 直接渲染，复选框可勾选（自动修改源文件），点击链接跳转源文件
+  6. 已排除 Templates、copilot、MD Help 目录的任务
+  7. 每日一言 → Hitokoto API 实时获取
+  8. Banner 图片 → 7张图片每日轮换
+  9. 日历 → 已移除，请安装 Calendar 插件（设置→社区插件→浏览→搜索 Calendar→安装→启用）
+     Calendar 插件会在左侧边栏显示日历，点击日期可跳转对应日记
+  10. 导航 → 点击跳转已存在文件，不创建新文件
 -->

@@ -75,7 +75,7 @@
 /* ===== 主网格 ===== */
 .rh-grid {
     display: grid;
-    grid-template-columns: 1fr 340px;
+    grid-template-columns: 1fr 360px;
     gap: 16px;
 }
 .rh-left { display: flex; flex-direction: column; gap: 16px; }
@@ -166,52 +166,55 @@
 .rh-rn-item .rn-folder { font-size: 13px; color: var(--text-muted, #7a9a7a); }
 .rh-rn-item .rn-time { font-size: 13px; color: var(--text-muted, #7a9a7a); white-space: nowrap; }
 
-/* ===== 日历 ===== */
-.rh-calendar {
-    background: var(--background-primary, #fff);
-    border-radius: 24px; padding: 20px 18px 18px;
-    border: 1px solid var(--background-modifier-border, #dce8d8);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
-}
-.rh-cal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
-.rh-cal-header .month-year { font-size: 20px; font-weight: 700; color: var(--text-normal, #1e2a1e); }
-.rh-cal-header .month-year small { font-weight: 400; color: var(--text-muted, #7a9a7a); font-size: 15px; margin-left: 6px; }
-.rh-cal-weekdays { display: grid; grid-template-columns: repeat(7,1fr); gap: 4px; font-size: 13px; font-weight: 600; color: var(--text-muted, #7a9a7a); text-align: center; margin-bottom: 6px; }
-.rh-cal-grid { display: grid; grid-template-columns: repeat(7,1fr); gap: 4px; }
-.rh-cal-grid .day {
-    aspect-ratio: 1/1; display: flex; flex-direction: column;
-    align-items: center; justify-content: center;
-    font-size: 16px; font-weight: 500; color: var(--text-normal, #2d3d2d);
-    border-radius: 30px; transition: background 0.15s;
-}
-.rh-cal-grid .day.other { color: var(--text-faint, #bcd0bc); }
-.rh-cal-grid .day.today { background: var(--interactive-accent, #4d7c5a); color: #fff; font-weight: 700; box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
-.rh-cal-grid .day:hover:not(.today) { background: var(--background-modifier-hover, #e3efe3); }
-.rh-cal-grid .day .holiday { font-size: 9px; color: #d44; font-weight: 600; line-height: 1; margin-top: 1px; }
-.rh-cal-grid .day .term { font-size: 9px; color: #4a8; font-weight: 600; line-height: 1; margin-top: 1px; }
-.rh-cal-grid .day.today .holiday, .rh-cal-grid .day.today .term { color: rgba(255,255,255,0.8); }
-
-/* ===== Tasks (moved element) ===== */
-#tasks-slot .contains-task-list {
-    list-style: none; margin: 0; padding: 6px 16px 10px;
-}
-#tasks-slot .task-list-item {
-    padding: 8px 0; font-size: 15px; line-height: 1.6;
+/* ===== 待办任务（dataviewjs渲染）===== */
+.rh-task-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    font-size: 15px;
+    line-height: 1.6;
     border-bottom: 1px solid var(--background-modifier-border-hover, #e3efe3);
 }
-#tasks-slot .task-list-item:last-child { border-bottom: none; }
-#tasks-slot .task-list-item input[type="checkbox"] {
-    width: 18px; height: 18px; margin-right: 8px; cursor: pointer;
+.rh-task-item:last-child { border-bottom: none; }
+.rh-task-item input[type="checkbox"] {
+    width: 18px; height: 18px;
+    margin-top: 3px;
+    cursor: pointer;
+    accent-color: var(--interactive-accent, #4d7c5a);
+    flex-shrink: 0;
 }
-#tasks-slot .task-list-item a { color: var(--text-accent, #4d7c5a); }
+.rh-task-item .task-text { flex: 1; color: var(--text-normal, #1e2a1e); }
+.rh-task-item .task-link {
+    font-size: 13px; color: var(--text-accent, #4d7c5a);
+    cursor: pointer; text-decoration: none;
+    flex-shrink: 0;
+}
+.rh-task-item .task-link:hover { text-decoration: underline; }
+.rh-task-item .task-due { font-size: 13px; color: var(--text-muted, #7a9a7a); flex-shrink: 0; }
+.rh-task-item.completed { opacity: 0.45; }
 
-/* ===== Heatmap (moved element) ===== */
-#heatmap-slot .block-language-activity-graph {
-    padding: 8px 12px; overflow-x: auto;
+/* ===== Activity Graph 原生代码块样式 ===== */
+.dashboard .block-language-activity-graph {
+    background: var(--background-secondary, #f8fbf8);
+    border: 1px solid var(--background-modifier-border, #e3efe3);
+    border-radius: 18px;
+    padding: 18px 22px 20px;
+    margin-top: 16px;
+    overflow-x: auto;
 }
-#heatmap-slot .block-language-activity-graph svg,
-#heatmap-slot .block-language-activity-graph canvas {
-    max-width: 100% !important; height: auto !important;
+.dashboard .block-language-activity-graph::before {
+    content: "🔥 写作热力图";
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-muted, #4d7c5a);
+    margin-bottom: 12px;
+}
+.dashboard .block-language-activity-graph svg,
+.dashboard .block-language-activity-graph canvas {
+    max-width: 100% !important;
+    height: auto !important;
 }
 
 /* ===== Loading ===== */
@@ -219,7 +222,7 @@
 
 /* ===== 响应式 ===== */
 @media (max-width: 1000px) {
-    .rh-grid { grid-template-columns: 1fr 300px; }
+    .rh-grid { grid-template-columns: 1fr 320px; }
 }
 @media (max-width: 760px) {
     .rh-grid { grid-template-columns: 1fr; }
