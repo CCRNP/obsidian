@@ -8,14 +8,40 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "75b6e01571fa8122",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HomePage/Dashboard.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Dashboard"
+            }
+          },
+          {
+            "id": "0c8c7d26b2cc095b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage/HomePage.md",
+                "file": "HomePage/Dashboard.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,10 +54,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HomePage"
+              "title": "Dashboard"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HomePage/HomePage.md"
+                "file": "HomePage/Dashboard.md"
               },
               "icon": "lucide-info",
               "title": "笔记属性"
@@ -233,17 +260,32 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "0c8c7d26b2cc095b",
   "lastOpenFiles": [
-    "XF/具身智能/具身智能-总结分析.md",
     "HomePage/HomePage.md",
+    "HomePage/Dashboard.md",
+    "XF/具身智能.md",
+    "XF/具身智能/具身智能-总结分析.md",
+    "XF.md",
+    "copilot.md",
+    "MD Help.md",
+    "Test/未命名.md",
+    "Test/DataView.md",
+    "conflict-files-obsidian-git.md",
+    "Templates/Obsidian-Templates-main/Docs/Dataview/Task-Progress.md",
+    "XF/具身智能/MA 相关.md",
+    "dashboard.css",
+    "Tasks Plugin - 查看并检查您的状态 2026-08-12 20-01-09.md",
+    "XF/具身智能/验收会——演讲（快速）.md",
+    "XF/具身智能/MRS 相关.md",
+    "XF/具身智能/各账号密码.md",
+    "XF/具身智能/登录.md",
     "HomePage",
     "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
     "XF/MA 面评/Q.md",
     "XF/MA 面评/Transformer.md",
     "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
     "XF/具身智能/日报/8月4、5、7号日报未提交.md",
-    "conflict-files-obsidian-git.md",
     "XF/运通/模型运营.md",
     "XF/具身智能/MA 相关/培训文档/1、用户手册.docx",
     "XF/具身智能/MA 相关/培训文档",
@@ -254,31 +296,16 @@
     "XF/具身智能/MA 相关/MA-多模态训练/未命名.canvas",
     "XF/具身智能/MA 相关/MA-多模态训练/qwen3vl - 镜像Dockerfile.md",
     "XF/具身智能/MA 相关/镜像/MA-A100 镜像部署裸金属失败问题&解决.md",
-    "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/megatron-core 依赖处理.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
     "XF/报销/2026/7月/7月地铁行程单.pdf",
     "XF/报销/2026/7月/7月地铁发票.pdf",
-    "XF/具身智能/验收会——演讲（快速）.md",
-    "模型运营.md",
-    "XF/具身智能/MA 相关/镜像/MA-规范制作镜像.md",
     "XF/报销/2026/7月/7月移动话费pdf.pdf",
     "XF/报销/2026/7月/7月电信话费pdf.pdf",
     "XF/报销/2026/7月/134XXXX8848_发票_20260806_2026080614532783121481_26447000001382961177.xml",
-    "XF/报销/2026/7月/7月电信话费xml.xml",
     "XF/报销/2026/6月/滴滴付款截图13.90.jpg",
     "XF/报销/2026/6月/滴滴付款截图8.10.jpg",
-    "XF/报销/2026/7月/话费.md",
-    "XF/报销/2026/4月.md",
-    "XF/报销/2026/3月.md",
     "img/Pasted image 20260806143415.png",
     "img/Pasted image 20260806142803.png",
-    "XF/具身智能/登录.md",
-    "XF/具身智能/各账号密码.md",
     "XF/GIt push test.canvas",
-    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "img/Pasted image 20260618103248.png",

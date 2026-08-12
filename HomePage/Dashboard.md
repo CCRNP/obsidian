@@ -12,7 +12,7 @@ const excludePrefixes = ["Templates", "copilot", ".obsidian", "MD Help"];
 function esc(s) { const d = document.createElement('div'); d.textContent = String(s || ''); return d.innerHTML; }
 
 // 统计
-const totalNotes = allPages.length;
+const totalNotes = allPages.length;p
 const weekAgoMs = now.getTime() - 7 * 86400000;
 const recentWeek = allPages.where(p => p.file.ctime && p.file.ctime.ts >= weekAgoMs).length;
 
