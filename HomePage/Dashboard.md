@@ -108,27 +108,27 @@ var navData = [
 // ===== HTML 构建 =====
 // 概览
 var overviewHtml = '<div class="rh-overview">' +
-    '<div class="rh-overview-col"><div class="col-title">📈 笔记统计</div><div class="col-body">' +
-    '<div class="item"><span class="tag">总数</span><span class="value">' + totalNotes + ' 篇</span></div>' +
-    '<div class="item"><span class="tag">本周</span><span class="value">' + recentWeek + ' 篇</span></div>' +
-    '<div class="item"><span class="tag">标签</span><span class="value">' + totalTags + ' 个</span></div>' +
+    '<div class="rh-overview-col"><div class="col-title">📊 STATS</div><div class="col-body">' +
+    '<div class="item"><span class="tag">TOTAL</span><span class="value">' + totalNotes + '</span></div>' +
+    '<div class="item"><span class="tag">WEEK</span><span class="value">' + recentWeek + '</span></div>' +
+    '<div class="item"><span class="tag">TAGS</span><span class="value">' + totalTags + '</span></div>' +
     '</div></div>' +
-    '<div class="rh-overview-col"><div class="col-title">📁 目录分布</div><div class="col-body">' +
+    '<div class="rh-overview-col"><div class="col-title">📁 FOLDERS</div><div class="col-body">' +
     topFolders.map(function(f) {
-        return '<div class="item"><span class="tag">' + esc(f[0]) + '</span><span class="value">' + f[1] + ' 篇</span></div>';
+        return '<div class="item"><span class="tag">' + esc(f[0]) + '</span><span class="value">' + f[1] + '</span></div>';
     }).join('') +
     '</div></div>' +
-    '<div class="rh-overview-col"><div class="col-title">🏷️ 热门标签</div><div class="col-body">' +
+    '<div class="rh-overview-col"><div class="col-title">🏷️ TAGS</div><div class="col-body">' +
     (topTags.length > 0
         ? topTags.map(function(t) {
-            return '<div class="item"><span class="tag">' + esc(t[0]) + '</span><span class="value">' + t[1] + ' 次</span></div>';
+            return '<div class="item"><span class="tag">' + esc(t[0]) + '</span><span class="value">' + t[1] + '</span></div>';
         }).join('')
-        : '<div class="item"><span class="value">暂无标签</span></div>') +
+        : '<div class="item"><span class="value">--</span></div>') +
     '</div></div>' +
     '</div>';
 
 // 导航
-var navHtml = '<div class="rh-card"><div class="rh-card-title">🧭 导航入口</div><div class="rh-nav-grid">' +
+var navHtml = '<div class="rh-card"><div class="rh-card-title">▶ NAV</div><div class="rh-nav-grid">' +
     navData.map(function(n) {
         return '<div class="rh-nav-item" data-nav="' + esc(n.path) + '">' +
             '<span class="rh-nav-icon">' + n.icon + '</span>' +
@@ -137,42 +137,41 @@ var navHtml = '<div class="rh-card"><div class="rh-card-title">🧭 导航入口
     '</div></div>';
 
 // 最近修改
-var rnHtml = '<div class="rh-card"><div class="rh-card-title">📝 最近修改</div>' +
+var rnHtml = '<div class="rh-card"><div class="rh-card-title">▶ RECENT</div>' +
     (recentNotes.length > 0
         ? recentNotes.map(function(p) {
             var mtime = p.file.mtime;
-            var timeStr = mtime ? (mtime.toFormat ? mtime.toFormat('MM-dd HH:mm') : '') : '未知';
+            var timeStr = mtime ? (mtime.toFormat ? mtime.toFormat('MM-dd HH:mm') : '') : '???';
             return '<div class="rh-rn-item">' +
-                '<span class="rn-icon">📄</span>' +
+                '<span class="rn-icon">▣</span>' +
                 '<span class="rn-name" data-nav="' + esc(p.file.path) + '">' + esc(p.file.name) + '</span>' +
                 '<span class="rn-folder">' + esc(p.file.folder || '/') + '</span>' +
                 '<span class="rn-time">' + timeStr + '</span></div>';
         }).join('')
-        : '<div class="rh-rn-item"><span class="rn-name">暂无笔记</span></div>') +
+        : '<div class="rh-rn-item"><span class="rn-name">NO DATA</span></div>') +
     '</div>';
 
-// 待办任务容器（稍后用 JS 填充）
-var tasksHtml = '<div class="rh-card"><div class="rh-card-title">✅ 待办任务</div>' +
+// 待办任务容器
+var tasksHtml = '<div class="rh-card"><div class="rh-card-title">▶ QUESTS</div>' +
     '<div id="rh-tasks-list"></div></div>';
 
 // ===== 组装渲染 =====
 dv.container.innerHTML =
     '<div class="rh-banner" style="background-image: url(\'' + bannerUrl + '\'); background-size: cover; background-position: center;">' +
     '<div class="rh-banner-content">' +
-    '<h1>📚 CCRNP </h1>' +
-    '<p class="rh-banner-desc">技术笔记 · 项目记录 · 学习成长 · 构建个人知识体系</p>' +
-    '<div class="rh-quote"><span id="rh-quote-text">正在获取每日一言...</span><span id="rh-quote-author"></span></div>' +
+    '<h1>CCRNP KB</h1>' +
+    '<p class="rh-banner-desc">&gt; 技术笔记 / 项目记录 / 学习成长 / 知识体系</p>' +
+    '<div class="rh-quote"><span id="rh-quote-text">LOADING...</span><span id="rh-quote-author"></span></div>' +
     '</div></div>' +
     '<div class="rh-grid">' +
     '<div class="rh-left">' + overviewHtml + navHtml + rnHtml + '</div>' +
     '<div class="rh-right">' + tasksHtml + '</div>' +
     '</div>';
 
-// ===== 填充待办任务（用 createElement 绑定事件）=====
-/*
+// ===== 填充待办任务 =====
 var tasksList = dv.container.querySelector('#rh-tasks-list');
 if (tasks.length === 0) {
-    tasksList.innerHTML = '<div style="padding:12px;color:var(--text-muted);font-size:15px">🎉 暂无待办任务</div>';
+    tasksList.innerHTML = '<div style="padding:12px;color:#05ffa1;font-family:VT323,monospace;font-size:1.2em">★ NO QUESTS ACTIVE</div>';
 } else {
     tasks.slice(0, 15).forEach(function(t, i) {
         var item = document.createElement('div');
@@ -188,12 +187,12 @@ if (tasks.length === 0) {
 
         var linkSpan = document.createElement('span');
         linkSpan.className = 'task-link';
-        linkSpan.textContent = '📁 ' + t.name;
+        linkSpan.textContent = '▶ ' + t.name;
         linkSpan.dataset.path = t.path;
 
         var dueSpan = document.createElement('span');
         dueSpan.className = 'task-due';
-        dueSpan.textContent = t.due ? '📅 ' + t.due : '';
+        dueSpan.textContent = t.due ? '◆ ' + t.due : '';
 
         item.appendChild(checkbox);
         item.appendChild(textSpan);
@@ -202,7 +201,7 @@ if (tasks.length === 0) {
         tasksList.appendChild(item);
     });
 
-    // 复选框勾选事件：修改源文件
+    // 复选框勾选事件
     tasksList.addEventListener('change', async function(e) {
         if (e.target.type === 'checkbox') {
             var idx = parseInt(e.target.dataset.idx);
@@ -226,98 +225,22 @@ if (tasks.length === 0) {
         }
     });
 
-    // 任务来源链接点击：跳转到源文件
+    // 任务来源链接点击
     tasksList.addEventListener('click', function(e) {
-        if (e.target.classList.contains('task-link')) {
-            e.preventDefault();
-            var path = e.target.dataset.path;
-            var file = app.vault.getAbstractFileByPath(path);
-            if (file) app.workspace.getLeaf().openFile(file);
-        }
-    });
-}
-*/
-// ===== 填充待办任务（用 createElement 绑定事件）=====
-var tasksList = dv.container.querySelector('#rh-tasks-list');
-if (tasks.length === 0) {
-    tasksList.innerHTML = '<div style="padding:12px;color:var(--text-muted);font-size:15px">🎉 暂无待办任务</div>';
-} else {
-    tasks.slice(0, 15).forEach(function(t, i) {
-        var item = document.createElement('div');
-        item.className = 'rh-task-item';
-
-        var checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.dataset.idx = i;
-
-        var textSpan = document.createElement('span');
-        textSpan.className = 'task-text';
-        textSpan.textContent = t.text;
-
-        var linkSpan = document.createElement('span');
-        linkSpan.className = 'task-link';
-        linkSpan.textContent = '📁 ' + t.name;  // t.name 是文件名（不含扩展名）
-        linkSpan.dataset.path = t.path;         // 确保 t.path 是有效的文件路径
-
-        var dueSpan = document.createElement('span');
-        dueSpan.className = 'task-due';
-        dueSpan.textContent = t.due ? '📅 ' + t.due : '';
-
-        item.appendChild(checkbox);
-        item.appendChild(textSpan);
-        if (t.due) item.appendChild(dueSpan);
-        item.appendChild(linkSpan);
-        tasksList.appendChild(item);
-    });
-
-    // 复选框勾选事件：修改源文件
-    tasksList.addEventListener('change', async function(e) {
-        if (e.target.type === 'checkbox') {
-            var idx = parseInt(e.target.dataset.idx);
-            var t = tasks[idx];
-            if (e.target.checked && t) {
-                try {
-                    var file = app.vault.getAbstractFileByPath(t.path);
-                    if (file) {
-                        var content = await app.vault.read(file);
-                        var lines = content.split('\n');
-                        if (lines[t.line] && lines[t.line].includes('- [ ]')) {
-                            lines[t.line] = lines[t.line].replace('- [ ]', '- [x]');
-                            await app.vault.modify(file, lines.join('\n'));
-                        }
-                    }
-                } catch(err) {
-                    console.log('Toggle task error:', err);
-                }
-                e.target.parentElement.classList.add('completed');
-            }
-        }
-    });
-
-    // ===== 改进 1：使用 closest 确保找到 .task-link =====
-    tasksList.addEventListener('click', function(e) {
-        // 向上查找最近的 .task-link 元素
-        const linkEl = e.target.closest('.task-link');
+        var linkEl = e.target.closest('.task-link');
         if (linkEl) {
             e.preventDefault();
-            const path = linkEl.dataset.path;
-            if (!path) {
-                console.warn('任务链接缺少 data-path');
-                return;
-            }
-            const file = app.vault.getAbstractFileByPath(path);
+            var path = linkEl.dataset.path;
+            if (!path) return;
+            var file = app.vault.getAbstractFileByPath(path);
             if (file) {
-                // 改进 2：使用 openLinkText 更灵活，并可选择新标签页
-                app.workspace.openLinkText(path, "", true);  // true 表示在新标签页打开
-            } else {
-                console.warn(`文件不存在：${path}`);
-                consloe.log('hi')
+                app.workspace.openLinkText(path, "", true);
             }
         }
     });
 }
 
-// ===== 获取每日一言（Hitokoto API）=====
+// ===== 获取每日一言 =====
 fetch('https://v1.hitokoto.cn/?c=i')
     .then(function(r) { return r.json(); })
     .then(function(data) {
@@ -333,7 +256,7 @@ fetch('https://v1.hitokoto.cn/?c=i')
         if (qa) qa.textContent = '— 孔子';
     });
 
-// ===== 导航：检查文件存在性，不创建新文件 =====
+// ===== 导航 =====
 function findFirstMd(folder) {
     for (var i = 0; i < folder.children.length; i++) {
         var child = folder.children[i];
@@ -345,7 +268,7 @@ function findFirstMd(folder) {
 
 function navigateTo(path) {
     var file = app.vault.getAbstractFileByPath(path);
-    if (file && !file.children) {
+       if (file && !file.children) {
         app.workspace.getLeaf().openFile(file);
     } else if (file && file.children) {
         var firstMd = findFirstMd(file);
@@ -365,23 +288,21 @@ dv.container.querySelectorAll('[data-nav]').forEach(function(el) {
 ```
 
 ```activity-graph
-TABLE file.day AS date, 1 AS value
-FROM ""
-SORT file.day ASC
+daysToShow: 60
+showLegend: false
+colorGradient: green
 ```
 
 <!--
-  Dashboard 配置说明
+  Dashboard - Pixel Edition
   ===================
   1. Homepage 插件 → 主页文件设为 HomePage/Dashboard.md
   2. Dataview 插件 → 开启 Enable JavaScript Queries
   3. CSS 样式 → .obsidian/snippets/dashboard.css → 设置→外观→CSS 代码片段→启用 dashboard
-  4. Activity Graph → 原生代码块渲染，不再用 JS 移动，显示在页面底部
-  5. 待办任务 → dataviewjs 直接渲染，复选框可勾选（自动修改源文件），点击链接跳转源文件
-  6. 已排除 Templates、copilot、MD Help 目录的任务
-  7. 每日一言 → Hitokoto API 实时获取
+  4. Activity Graph → 原生代码块渲染
+  5. 待办任务 → dataviewjs 渲染，复选框可勾选
+  6. 已排除 Templates、copilot、MD Help 目录
+  7. 每日一言 → Hitokoto API
   8. Banner 图片 → 7张图片每日轮换
-  9. 日历 → 已移除，请安装 Calendar 插件（设置→社区插件→浏览→搜索 Calendar→安装→启用）
-     Calendar 插件会在左侧边栏显示日历，点击日期可跳转对应日记
-  10. 导航 → 点击跳转已存在文件，不创建新文件
+  9. 像素风格 → Press Start 2P + VT323 字体，霓虹配色，扫描线效果
 -->
