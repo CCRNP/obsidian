@@ -106,7 +106,6 @@ var navData = [
 ];
 
 // ===== HTML 构建 =====
-// 概览
 var overviewHtml = '<div class="rh-overview">' +
     '<div class="rh-overview-col"><div class="col-title">📊 STATS</div><div class="col-body">' +
     '<div class="item"><span class="tag">TOTAL</span><span class="value">' + totalNotes + '</span></div>' +
@@ -127,7 +126,6 @@ var overviewHtml = '<div class="rh-overview">' +
     '</div></div>' +
     '</div>';
 
-// 导航
 var navHtml = '<div class="rh-card"><div class="rh-card-title">NAV</div><div class="rh-nav-grid">' +
     navData.map(function(n) {
         return '<div class="rh-nav-item" data-nav="' + esc(n.path) + '">' +
@@ -136,7 +134,6 @@ var navHtml = '<div class="rh-card"><div class="rh-card-title">NAV</div><div cla
     }).join('') +
     '</div></div>';
 
-// 最近修改
 var rnHtml = '<div class="rh-card"><div class="rh-card-title">RECENT</div>' +
     (recentNotes.length > 0
         ? recentNotes.map(function(p) {
@@ -151,13 +148,13 @@ var rnHtml = '<div class="rh-card"><div class="rh-card-title">RECENT</div>' +
         : '<div class="rh-rn-item"><span class="rn-name">NO DATA</span></div>') +
     '</div>';
 
-// 待办任务容器
 var tasksHtml = '<div class="rh-card"><div class="rh-card-title">QUESTS</div>' +
     '<div id="rh-tasks-list"></div></div>';
 
 // ===== 组装渲染 =====
 dv.container.innerHTML =
     '<div class="rh-banner" style="background-image: url(\'' + bannerUrl + '\'); background-size: cover; background-position: center; background-repeat: no-repeat;">' +
+    '<div class="rh-theme-toggle" id="rh-theme-btn" title="切换深色/浅色主题">☀ DARK</div>' +
     '<div class="rh-banner-content">' +
     '<h1>CCRNP KB</h1>' +
     '<p class="rh-banner-desc">&gt; Knowledge Base / 技术笔记 / 项目记录 / 学习成长</p>' +
@@ -167,6 +164,39 @@ dv.container.innerHTML =
     '<div class="rh-left">' + overviewHtml + navHtml + rnHtml + '</div>' +
     '<div class="rh-right">' + tasksHtml + '</div>' +
     '</div>';
+
+// ===== 主题切换 =====
+var dashboardRoot = dv.container.closest('.dashboard') || dv.container.querySelector('.dashboard');
+var themeBtn = dv.container.querySelector('#rh-theme-btn');
+
+// 读取存储的主题
+var savedTheme = localStorage.getItem('rh-dashboard-theme') || 'dark';
+function applyTheme(theme) {
+    var view = document.querySelector('.markdown-preview-view.dashboard');
+    if (!view) view = document.querySelector('.dashboard');
+    if (view) {
+        if (theme === 'light') {
+            view.setAttribute('data-theme', 'light');
+        } else {
+            view.removeAttribute('data-theme');
+        }
+    }
+    if (themeBtn) {
+        themeBtn.textContent = theme === 'light' ? '☾ LIGHT' : '☀ DARK';
+    }
+}
+applyTheme(savedTheme);
+
+if (themeBtn) {
+    themeBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var current = localStorage.getItem('rh-dashboard-theme') || 'dark';
+        var next = current === 'dark' ? 'light' : 'dark';
+        localStorage.setItem('rh-dashboard-theme', next);
+        applyTheme(next);
+    });
+}
 
 // ===== 填充待办任务 =====
 var tasksList = dv.container.querySelector('#rh-tasks-list');
@@ -292,16 +322,12 @@ SORT file.day ASC
 ```
 
 <!--
-  Dashboard — Pixel Edition v4
+  Dashboard — Pixel Edition v5 (Dark/Light Toggle)
   ===================
   KB = Knowledge Base (知识库)
-  1. Homepage 插件 → 主页文件设为 HomePage/Dashboard.md
-  2. Dataview 插件 → 开启 Enable JavaScript Queries
-  3. CSS 样式 → .obsidian/snippets/dashboard.css → 设置→外观→CSS 代码片段→启用 dashboard
-  4. Activity Graph → Dataview 查询语法
-  5. 待办任务 → dataviewjs 渲染，复选框可勾选
-  6. 已排除 Templates、copilot、MD Help 目录
-  7. 每日一言 → Hitokoto API
-  8. Banner 图片 → 7张科技/代码风格图片每日轮换，圆角边框
-  9. 像素风格 → 像素角装饰 + Press Start 2P + VT323 + CRT 扫描线 + 硬阴影 + 闪烁光标 + 首页网格背景
+  新增：主题切换按钮（右上角）
+  - 点击切换深色/浅色模式
+  - 选择会保存在 localStorage，刷新后保持
+  深色: #0a0e14 底 + #58a6ff 蓝 + #d2a8ff 紫
+  浅色: #e8e6e1 底 + #3b5998 蓝 + #7a5fa0 紫
 -->
