@@ -1,4 +1,4 @@
-/* ===== Pixel Dashboard v5b — Fix Theme Toggle ===== */
+/* ===== Pixel Dashboard v5c — Floating Theme Toggle ===== */
 /* cssclasses: [dashboard] */
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
@@ -50,22 +50,19 @@
     background: repeating-linear-gradient(0deg, transparent 0, transparent 3px, rgba(0,0,0,0.03) 3px, rgba(0,0,0,0.03) 5px);
 }
 
-/* ===== 顶部工具栏（主题切换按钮）===== */
-.rh-topbar {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 10px;
-    position: relative;
-    z-index: 10;
-}
+/* ===== 浮动主题按钮 — fixed 右上角 ===== */
 .rh-theme-toggle {
+    position: fixed !important;
+    top: 16px;
+    right: 20px;
+    z-index: 10000;
     display: inline-flex;
     align-items: center;
     gap: 6px;
     background: #161b22 !important;
     border: 2px solid #58a6ff;
     border-radius: 4px;
-    padding: 8px 16px;
+    padding: 8px 14px;
     cursor: pointer;
     font-family: 'Press Start 2P', monospace !important;
     font-size: 11px;
@@ -73,10 +70,10 @@
     box-shadow: 3px 3px 0 0 #30363d;
     transition: none;
     user-select: none;
-    position: relative;
-    z-index: 10;
+    opacity: 0.85;
 }
 .rh-theme-toggle:hover {
+    opacity: 1;
     transform: translate(1px, 1px);
     box-shadow: 2px 2px 0 0 #30363d;
     background: #1c2735 !important;
@@ -95,6 +92,9 @@
     background: #f0f4ff !important;
     box-shadow: 2px 2px 0 0 #999;
 }
+
+/* 移除旧的 topbar */
+.rh-topbar { display: none !important; }
 
 /* ===== Banner ===== */
 .rh-banner {

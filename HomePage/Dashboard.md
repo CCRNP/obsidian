@@ -65,7 +65,7 @@ var navData = [
     { icon: "🏠", text: "HomePage", path: "HomePage" }
 ];
 
-// ===== 构建所有 HTML（不含按钮）=====
+// ===== 构建主内容 =====
 var overviewHtml = '<div class="rh-overview">' +
     '<div class="rh-overview-col"><div class="col-title">📊 STATS</div><div class="col-body">' +
     '<div class="item"><span class="tag">TOTAL</span><span class="value">' + totalNotes + '</span></div>' +
@@ -102,19 +102,17 @@ dv.container.innerHTML =
     '</div></div>' +
     '<div class="rh-grid"><div class="rh-left">' + overviewHtml + navHtml + rnHtml + '</div><div class="rh-right">' + tasksHtml + '</div></div>';
 
-// ===== 用 createElement 单独创建主题按钮（确保渲染）=====
-var topbar = document.createElement('div');
-topbar.className = 'rh-topbar';
+// ===== 浮动主题按钮 — appendChild 到 body，position:fixed =====
+// 先检查是否已存在（避免重复创建）
+var existingBtn = document.getElementById('rh-theme-btn');
+if (existingBtn) existingBtn.remove();
 
 var themeBtn = document.createElement('div');
 themeBtn.className = 'rh-theme-toggle';
 themeBtn.id = 'rh-theme-btn';
 themeBtn.textContent = '☀ DARK';
-themeBtn.title = '点击切换深色/浅色主题';
-
-topbar.appendChild(themeBtn);
-// 插入到 dv.container 的最前面（banner 之前）
-dv.container.insertBefore(topbar, dv.container.firstChild);
+themeBtn.title = '切换深色/浅色主题';
+document.body.appendChild(themeBtn);
 
 // ===== 主题切换逻辑 =====
 function getDashboardEl() {
@@ -142,6 +140,12 @@ themeBtn.addEventListener('click', function(e) {
     var next = current === 'dark' ? 'light' : 'dark';
     localStorage.setItem('rh-dashboard-theme', next);
     applyTheme(next);
+});
+
+// 页面切换时清理按钮
+dv.container.addEventListener('DOMNodeRemovedFromDocument', function() {
+    var btn = document.getElementById('rh-theme-btn');
+    if (btn) btn.remove();
 });
 
 // ===== 填充待办任务 =====
@@ -217,7 +221,8 @@ SORT file.day ASC
 ```
 
 <!--
-  Dashboard v5b — 修复主题切换按钮不显示
-  按钮改为 createElement 创建 + insertBefore 插入到 dv.container 最前面
-  按钮放在独立的 .rh-topbar 中，不再受 banner overflow 影响
+  Dashboard v5c — 主题按钮改为 fixed 浮动定位
+  按钮挂在 document.body 上，position:fixed top:16px right:20px
+  不占页面空间，不独占一行，跟随屏幕滚动
+  离开页面时自动清理
 -->
