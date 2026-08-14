@@ -32,8 +32,33 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
+          },
+          {
+            "id": "88dcbfce7203b885",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/MA 面评/Q.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Q"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage/Dashboard.md",
+                "file": "XF/MA 面评/Q.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -205,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HomePage/Dashboard.md"
+                "file": "XF/MA 面评/Q.md"
               },
               "icon": "lucide-info",
               "title": "笔记属性"
@@ -222,11 +247,11 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 306.5,
+    "width": 564.953125,
     "collapsed": true
   },
   "left-ribbon": {
@@ -245,10 +270,18 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "be6673b4834c476c",
+  "active": "88dcbfce7203b885",
   "lastOpenFiles": [
-    "XF/具身智能/具身智能-总结分析.md",
     "HomePage/Dashboard.md",
+    "种草莓/img/2026_04_02_01_13_21.jpg",
+    "种草莓/种植日期记录.md",
+    "种草莓/img/2026_04_04_02_22_46.jpg",
+    "copilot/copilot-conversations/分类整理整个文件里的所有内容@20260313_175046.md",
+    "杂/TestDataView.md",
+    "杂/DataView.md",
+    "杂/GitHub 同步问题.md",
+    "HomePage/README.md",
+    "XF/具身智能/具身智能-总结分析.md",
     "XF/2026-03-16.md",
     "IDEA/学习-被动输入-AI.md",
     "XF/具身智能/MA 相关/2026-04-13.md",
@@ -258,8 +291,6 @@
     "XF.md",
     "copilot.md",
     "MD Help.md",
-    "Test/未命名.md",
-    "Test/DataView.md",
     "Templates/Obsidian-Templates-main/Docs/Dataview/Task-Progress.md",
     "XF/具身智能/MA 相关.md",
     "dashboard.css",
@@ -270,11 +301,6 @@
     "XF/具身智能/登录.md",
     "HomePage",
     "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
-    "XF/MA 面评/Q.md",
-    "XF/MA 面评/Transformer.md",
-    "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
-    "XF/具身智能/日报/8月4、5、7号日报未提交.md",
-    "XF/运通/模型运营.md",
     "XF/具身智能/MA 相关/培训文档/1、用户手册.docx",
     "XF/具身智能/MA 相关/培训文档",
     "XF/具身智能/日报",
@@ -295,8 +321,6 @@
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "img/Pasted image 20260618103248.png",
     "img/Pasted image 20260618103242.png",
-    "img/Pasted image 20260618103231.png",
-    "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
     "99 - 附件资源/Canvas/GIt push test.canvas",
     "GIt push test.canvas",
     "未命名.canvas"

@@ -16,6 +16,7 @@ Kafka
 - **Producer** 向 Kafka 中发布消息的角色 发送到 Kafka Broker
 - 一台或多台服务器统称为 **Broker**
 - 每条发布到 Kafka 的消息都有一个类别，这个类别被称为 **Topic**
+- kafka 属于大数据消息系统
 
 GES 中有 **EDGE LABEL** 表示边的类型，用于表示现实世界中的关系类型
 
