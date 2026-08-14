@@ -128,7 +128,7 @@ var overviewHtml = '<div class="rh-overview">' +
     '</div>';
 
 // 导航
-var navHtml = '<div class="rh-card"><div class="rh-card-title">▶ NAV</div><div class="rh-nav-grid">' +
+var navHtml = '<div class="rh-card"><div class="rh-card-title">NAV</div><div class="rh-nav-grid">' +
     navData.map(function(n) {
         return '<div class="rh-nav-item" data-nav="' + esc(n.path) + '">' +
             '<span class="rh-nav-icon">' + n.icon + '</span>' +
@@ -137,7 +137,7 @@ var navHtml = '<div class="rh-card"><div class="rh-card-title">▶ NAV</div><div
     '</div></div>';
 
 // 最近修改
-var rnHtml = '<div class="rh-card"><div class="rh-card-title">▶ RECENT</div>' +
+var rnHtml = '<div class="rh-card"><div class="rh-card-title">RECENT</div>' +
     (recentNotes.length > 0
         ? recentNotes.map(function(p) {
             var mtime = p.file.mtime;
@@ -152,12 +152,14 @@ var rnHtml = '<div class="rh-card"><div class="rh-card-title">▶ RECENT</div>' 
     '</div>';
 
 // 待办任务容器
-var tasksHtml = '<div class="rh-card"><div class="rh-card-title">▶ QUESTS</div>' +
+var tasksHtml = '<div class="rh-card"><div class="rh-card-title">QUESTS</div>' +
     '<div id="rh-tasks-list"></div></div>';
 
 // ===== 组装渲染 =====
+// Banner: 用 background-image inline style，不设 background-color
+// ::before 伪元素做暗色遮罩叠在图片上
 dv.container.innerHTML =
-    '<div class="rh-banner" style="background-image: url(\'' + bannerUrl + '\'); background-size: cover; background-position: center;">' +
+    '<div class="rh-banner" style="background-image: url(\'' + bannerUrl + '\'); background-size: cover; background-position: center; background-repeat: no-repeat;">' +
     '<div class="rh-banner-content">' +
     '<h1>CCRNP KB</h1>' +
     '<p class="rh-banner-desc">&gt; 技术笔记 / 项目记录 / 学习成长 / 知识体系</p>' +
@@ -286,21 +288,21 @@ dv.container.querySelectorAll('[data-nav]').forEach(function(el) {
 ```
 
 ```activity-graph
-daysToShow: 60
-showLegend: false
-colorGradient: blue
+TABLE file.day AS date, 1 AS value
+FROM ""
+SORT file.day ASC
 ```
 
 <!--
-  Dashboard — Pixel Edition v2 (Refined Colors)
+  Dashboard — Pixel Edition v3
   ===================
   1. Homepage 插件 → 主页文件设为 HomePage/Dashboard.md
   2. Dataview 插件 → 开启 Enable JavaScript Queries
   3. CSS 样式 → .obsidian/snippets/dashboard.css → 设置→外观→CSS 代码片段→启用 dashboard
-  4. Activity Graph → 原生代码块渲染
+  4. Activity Graph → Dataview 查询语法，渲染全库笔记热力图
   5. 待办任务 → dataviewjs 渲染，复选框可勾选
   6. 已排除 Templates、copilot、MD Help 目录
   7. 每日一言 → Hitokoto API
-  8. Banner 图片 → 7张图片每日轮换
-  9. 像素风格 → Press Start 2P + VT323 字体，GitHub 暗色配色，高可读性
+  8. Banner 图片 → 7张图片每日轮换，背景图不被遮盘
+  9. 像素风格 → 像素角装饰 + Press Start 2P + VT323 + CRT 扫描线 + 硬阴影 + 闪烁光标
 -->
