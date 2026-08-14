@@ -1,4 +1,4 @@
-/* ===== Pixel Dashboard v3 — Full Pixel ===== */
+/* ===== Pixel Dashboard v4 ===== */
 /* cssclasses: [dashboard] */
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
@@ -12,11 +12,17 @@
     width: 100% !important;
     padding: 16px !important;
     font-family: 'VT323', 'Courier New', monospace !important;
-    font-size: 18px;
+    font-size: 17px;
 }
 
+/* 首页整体背景 — 像素网格 + 暗色渐变 */
 .dashboard .markdown-preview-view {
-    background: #0d1117 !important;
+    background-color: #0a0e14 !important;
+    background-image:
+        radial-gradient(ellipse at top, rgba(88,166,255,0.04) 0%, transparent 60%),
+        radial-gradient(ellipse at bottom right, rgba(210,168,255,0.03) 0%, transparent 50%),
+        repeating-linear-gradient(0deg, transparent 0, transparent 20px, rgba(48,54,61,0.15) 20px, rgba(48,54,61,0.15) 21px),
+        repeating-linear-gradient(90deg, transparent 0, transparent 20px, rgba(48,54,61,0.15) 20px, rgba(48,54,61,0.15) 21px) !important;
 }
 
 .dashboard .block-language-dataviewjs {
@@ -33,7 +39,7 @@
     top: 0; left: 0; right: 0; bottom: 0;
     background: repeating-linear-gradient(
         0deg, transparent 0, transparent 3px,
-        rgba(0,0,0,0.1) 3px, rgba(0,0,0,0.1) 5px
+        rgba(0,0,0,0.08) 3px, rgba(0,0,0,0.08) 5px
     );
     pointer-events: none;
     z-index: 9999;
@@ -42,12 +48,12 @@
 /* ===== Banner ===== */
 .rh-banner {
     border: 3px solid #30363d;
-    border-radius: 0;
+    border-radius: 10px;
     padding: 0;
     margin-bottom: 16px;
     position: relative;
     overflow: hidden;
-    box-shadow: 5px 5px 0 0 #30363d;
+    box-shadow: 4px 4px 0 0 #30363d;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,10 +67,9 @@
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background:
-        linear-gradient(180deg, rgba(13,17,23,0.6) 0%, rgba(13,17,23,0.85) 100%),
-        repeating-linear-gradient(0deg, transparent 0, transparent 8px, rgba(88,166,255,0.04) 8px, rgba(88,166,255,0.04) 16px),
-        repeating-linear-gradient(90deg, transparent 0, transparent 8px, rgba(88,166,255,0.04) 8px, rgba(88,166,255,0.04) 16px);
+        linear-gradient(180deg, rgba(10,14,20,0.55) 0%, rgba(10,14,20,0.82) 100%);
     z-index: 0;
+    border-radius: 7px;
 }
 .rh-banner-content {
     position: relative;
@@ -83,21 +88,20 @@
 .rh-banner-desc {
     color: #8b949e;
     font-family: 'VT323', monospace !important;
-    font-size: 1.3em;
+    font-size: 1.25em;
     margin: 0 0 16px 0;
     letter-spacing: 0.5px;
 }
 .rh-quote {
     display: inline-block;
-    background: #0d1117;
+    background: rgba(13,17,23,0.85);
     border: 2px solid #30363d;
-    border-radius: 0;
+    border-radius: 6px;
     padding: 8px 20px;
     font-family: 'VT323', monospace !important;
-    font-size: 1.2em;
+    font-size: 1.15em;
     color: #d2a8ff;
     max-width: 90%;
-    box-shadow: 3px 3px 0 0 rgba(48,54,61,0.6);
 }
 #rh-quote-text { font-style: normal; }
 #rh-quote-author { margin-left: 10px; color: #8b949e; font-size: 0.9em; }
@@ -122,13 +126,13 @@
 .rh-left { display: flex; flex-direction: column; gap: 16px; }
 .rh-right { display: flex; flex-direction: column; gap: 16px; }
 
-/* ===== 卡片基础 + 像素角装饰 ===== */
+/* ===== 卡片基础 ===== */
 .rh-card {
-    background-color: #161b22 !important;
-    border: 3px solid #30363d;
-    border-radius: 0;
+    background-color: rgba(22,27,34,0.92) !important;
+    border: 2px solid #30363d;
+    border-radius: 6px;
     padding: 16px 20px 18px;
-    box-shadow: 4px 4px 0 0 #30363d;
+    box-shadow: 3px 3px 0 0 rgba(48,54,61,0.6);
     position: relative;
 }
 /* 像素角装饰 */
@@ -136,12 +140,13 @@
 .rh-card::after {
     content: '';
     position: absolute;
-    width: 8px;
-    height: 8px;
+    width: 6px;
+    height: 6px;
     background: #58a6ff;
+    border-radius: 0;
 }
-.rh-card::before { top: -3px; left: -3px; }
-.rh-card::after { bottom: -3px; right: -3px; }
+.rh-card::before { top: -2px; left: -2px; }
+.rh-card::after { bottom: -2px; right: -2px; }
 
 .rh-card-title {
     font-family: 'Press Start 2P', 'Courier New', monospace !important;
@@ -169,19 +174,18 @@
     gap: 14px;
 }
 .rh-overview-col {
-    background-color: #0d1117 !important;
-    border: 3px solid #30363d;
-    border-radius: 0;
+    background-color: rgba(13,17,23,0.92) !important;
+    border: 2px solid #30363d;
+    border-radius: 6px;
     padding: 14px 16px 16px;
-    box-shadow: 3px 3px 0 0 #30363d;
+    box-shadow: 3px 3px 0 0 rgba(48,54,61,0.6);
     position: relative;
 }
-/* 像素角 */
 .rh-overview-col::before {
     content: '';
     position: absolute;
-    top: -3px; left: -3px;
-    width: 6px; height: 6px;
+    top: -2px; left: -2px;
+    width: 5px; height: 5px;
     background: #d2a8ff;
 }
 .rh-overview-col .col-title {
@@ -201,10 +205,10 @@
     align-items: center;
     justify-content: space-between;
     gap: 8px;
-    padding: 7px 0;
+    padding: 6px 0;
     border-bottom: 1px solid #21262d;
     font-family: 'VT323', monospace !important;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .rh-overview-col .item:last-child { border-bottom: none; }
 .rh-overview-col .item .tag {
@@ -229,13 +233,13 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    background: #0d1117 !important;
+    background: rgba(13,17,23,0.85) !important;
     border: 2px solid #30363d;
-    border-radius: 0;
+    border-radius: 4px;
     padding: 10px 14px;
     cursor: pointer;
     transition: none;
-    box-shadow: 2px 2px 0 0 #30363d;
+    box-shadow: 2px 2px 0 0 rgba(48,54,61,0.6);
     font-family: 'VT323', monospace !important;
     position: relative;
 }
@@ -248,17 +252,17 @@
 }
 .rh-nav-item:hover {
     transform: translate(1px, 1px);
-    box-shadow: 1px 1px 0 0 #30363d;
+    box-shadow: 1px 1px 0 0 rgba(48,54,61,0.6);
     border-color: #58a6ff;
-    background: #161b22 !important;
+    background: rgba(22,27,34,0.92) !important;
 }
 .rh-nav-item:active {
     transform: translate(2px, 2px);
-    box-shadow: 0 0 0 0 #30363d;
+    box-shadow: 0 0 0 0 rgba(48,54,61,0.6);
 }
-.rh-nav-icon { font-size: 1.3em; }
+.rh-nav-icon { font-size: 1.2em; }
 .rh-nav-text {
-    font-size: 1.25em;
+    font-size: 1.15em;
     font-weight: 400;
     color: #c9d1d9;
     font-family: 'VT323', monospace !important;
@@ -272,11 +276,11 @@
     gap: 10px;
     padding: 8px 0;
     font-family: 'VT323', monospace !important;
-    font-size: 1.25em;
+    font-size: 1.15em;
     border-bottom: 1px solid #21262d;
 }
 .rh-rn-item:last-child { border-bottom: none; }
-.rh-rn-item .rn-icon { font-size: 1.1em; flex-shrink: 0; opacity: 0.5; }
+.rh-rn-item .rn-icon { font-size: 1em; flex-shrink: 0; opacity: 0.5; }
 .rh-rn-item .rn-name {
     flex: 1;
     color: #c9d1d9;
@@ -284,7 +288,7 @@
     transition: none;
     font-weight: 400;
 }
-.rh-rn-item .rn-name:hover { color: #58a6ff; text-shadow: 0 0 6px rgba(88,166,255,0.4); }
+.rh-rn-item .rn-name:hover { color: #58a6ff; text-shadow: 0 0 6px rgba(88,166,255,0.3); }
 .rh-rn-item .rn-folder {
     font-size: 0.85em;
     color: #8b949e;
@@ -295,21 +299,21 @@
     white-space: nowrap;
 }
 
-/* ===== 待办任务 ===== */
+/* ===== 待办任务 — 缩小中文文字 ===== */
 .rh-task-item {
     display: flex;
     align-items: flex-start;
-    gap: 10px;
-    padding: 8px 0;
-    font-family: 'VT323', monospace !important;
-    font-size: 1.25em;
+    gap: 8px;
+    padding: 7px 0;
+    font-family: 'VT323', 'Courier New', monospace !important;
+    font-size: 1.05em;
     line-height: 1.4;
     border-bottom: 1px solid #21262d;
 }
 .rh-task-item:last-child { border-bottom: none; }
 .rh-task-item input[type="checkbox"] {
-    width: 16px; height: 16px;
-    margin-top: 4px;
+    width: 14px; height: 14px;
+    margin-top: 3px;
     cursor: pointer;
     accent-color: #58a6ff;
     flex-shrink: 0;
@@ -317,9 +321,10 @@
 .rh-task-item .task-text {
     flex: 1;
     color: #c9d1d9;
+    font-size: 0.95em;
 }
 .rh-task-item .task-link {
-    font-size: 0.9em;
+    font-size: 0.85em;
     color: #d2a8ff;
     cursor: pointer;
     text-decoration: none;
@@ -328,21 +333,21 @@
 }
 .rh-task-item .task-link:hover { color: #58a6ff; }
 .rh-task-item .task-due {
-    font-size: 0.85em;
+    font-size: 0.8em;
     color: #f0883e;
     flex-shrink: 0;
 }
 .rh-task-item.completed { opacity: 0.4; text-decoration: line-through; }
 
-/* ===== Activity Graph ===== */
+/* ===== Activity Graph — 融合背景 ===== */
 .dashboard .block-language-activity-graph {
-    background-color: #161b22 !important;
-    border: 3px solid #30363d;
-    border-radius: 0;
+    background-color: rgba(22,27,34,0.92) !important;
+    border: 2px solid #30363d;
+    border-radius: 6px;
     padding: 16px 20px 18px;
     margin-top: 16px;
     overflow-x: auto;
-    box-shadow: 4px 4px 0 0 #30363d;
+    box-shadow: 3px 3px 0 0 rgba(48,54,61,0.6);
     position: relative;
 }
 .dashboard .block-language-activity-graph::before {

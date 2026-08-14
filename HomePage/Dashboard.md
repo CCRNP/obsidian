@@ -80,15 +80,15 @@ tasks.sort(function(a, b) {
     return 0;
 });
 
-// Banner 图片每日轮换
+// Banner 像素风格背景图每日轮换
 var bannerImages = [
-    'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1400&q=80',
-    'https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1400&q=80',
-    'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=1400&q=80',
-    'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=1400&q=80',
-    'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1400&q=80',
-    'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1400&q=80',
-    'https://images.unsplash.com/photo-1532012197267-da84d127e765?w=1400&q=80'
+    'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1400&q=80',
+    'https://images.unsplash.com/photo-1614850523060-8da1d56ae167?w=1400&q=80',
+    'https://images.unsplash.com/photo-1635776062127-d379bfcba9f8?w=1400&q=80',
+    'https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=1400&q=80',
+    'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1400&q=80',
+    'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1400&q=80',
+    'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1400&q=80'
 ];
 var dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 86400000);
 var bannerUrl = bannerImages[dayOfYear % bannerImages.length];
@@ -156,13 +156,11 @@ var tasksHtml = '<div class="rh-card"><div class="rh-card-title">QUESTS</div>' +
     '<div id="rh-tasks-list"></div></div>';
 
 // ===== 组装渲染 =====
-// Banner: 用 background-image inline style，不设 background-color
-// ::before 伪元素做暗色遮罩叠在图片上
 dv.container.innerHTML =
     '<div class="rh-banner" style="background-image: url(\'' + bannerUrl + '\'); background-size: cover; background-position: center; background-repeat: no-repeat;">' +
     '<div class="rh-banner-content">' +
     '<h1>CCRNP KB</h1>' +
-    '<p class="rh-banner-desc">&gt; 技术笔记 / 项目记录 / 学习成长 / 知识体系</p>' +
+    '<p class="rh-banner-desc">&gt; Knowledge Base / 技术笔记 / 项目记录 / 学习成长</p>' +
     '<div class="rh-quote"><span id="rh-quote-text">LOADING...</span><span id="rh-quote-author"></span></div>' +
     '</div></div>' +
     '<div class="rh-grid">' +
@@ -173,7 +171,7 @@ dv.container.innerHTML =
 // ===== 填充待办任务 =====
 var tasksList = dv.container.querySelector('#rh-tasks-list');
 if (tasks.length === 0) {
-    tasksList.innerHTML = '<div style="padding:12px;color:#58a6ff;font-family:VT323,monospace;font-size:1.2em">★ NO QUESTS ACTIVE</div>';
+    tasksList.innerHTML = '<div style="padding:12px;color:#58a6ff;font-family:VT323,monospace;font-size:1.1em">★ NO QUESTS ACTIVE</div>';
 } else {
     tasks.slice(0, 15).forEach(function(t, i) {
         var item = document.createElement('div');
@@ -294,15 +292,16 @@ SORT file.day ASC
 ```
 
 <!--
-  Dashboard — Pixel Edition v3
+  Dashboard — Pixel Edition v4
   ===================
+  KB = Knowledge Base (知识库)
   1. Homepage 插件 → 主页文件设为 HomePage/Dashboard.md
   2. Dataview 插件 → 开启 Enable JavaScript Queries
   3. CSS 样式 → .obsidian/snippets/dashboard.css → 设置→外观→CSS 代码片段→启用 dashboard
-  4. Activity Graph → Dataview 查询语法，渲染全库笔记热力图
+  4. Activity Graph → Dataview 查询语法
   5. 待办任务 → dataviewjs 渲染，复选框可勾选
   6. 已排除 Templates、copilot、MD Help 目录
   7. 每日一言 → Hitokoto API
-  8. Banner 图片 → 7张图片每日轮换，背景图不被遮盘
-  9. 像素风格 → 像素角装饰 + Press Start 2P + VT323 + CRT 扫描线 + 硬阴影 + 闪烁光标
+  8. Banner 图片 → 7张科技/代码风格图片每日轮换，圆角边框
+  9. 像素风格 → 像素角装饰 + Press Start 2P + VT323 + CRT 扫描线 + 硬阴影 + 闪烁光标 + 首页网格背景
 -->
