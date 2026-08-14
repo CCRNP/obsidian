@@ -65,7 +65,7 @@ var navData = [
     { icon: "🏠", text: "HomePage", path: "HomePage" }
 ];
 
-// ===== 构建主内容 =====
+// ===== 构建内容 =====
 var overviewHtml = '<div class="rh-overview">' +
     '<div class="rh-overview-col"><div class="col-title">📊 STATS</div><div class="col-body">' +
     '<div class="item"><span class="tag">TOTAL</span><span class="value">' + totalNotes + '</span></div>' +
@@ -92,9 +92,11 @@ var rnHtml = '<div class="rh-card"><div class="rh-card-title">RECENT</div>' +
 
 var tasksHtml = '<div class="rh-card"><div class="rh-card-title">QUESTS</div><div id="rh-tasks-list"></div></div>';
 
-// ===== 渲染主结构（不包含按钮）=====
+// ===== 渲染主结构 =====
+// 按钮放在 Banner 内部，用 absolute 定位到右上角
 dv.container.innerHTML =
     '<div class="rh-banner" style="background-image: url(\'' + bannerUrl + '\'); background-size: cover; background-position: center; background-repeat: no-repeat;">' +
+    '<div class="rh-theme-toggle" id="rh-theme-btn" title="切换深色/浅色主题">☀ DARK</div>' +
     '<div class="rh-banner-content">' +
     '<h1>CCRNP KB</h1>' +
     '<p class="rh-banner-desc">&gt; Knowledge Base / 技术笔记 / 项目记录 / 学习成长</p>' +
@@ -102,53 +104,36 @@ dv.container.innerHTML =
     '</div></div>' +
     '<div class="rh-grid"><div class="rh-left">' + overviewHtml + navHtml + rnHtml + '</div><div class="rh-right">' + tasksHtml + '</div></div>';
 
-// ===== 浮动主题按钮 — appendChild 到 body，position:fixed =====
-// 先检查是否已存在（避免重复创建）
-var existingBtn = document.getElementById('rh-theme-btn');
-if (existingBtn) existingBtn.remove();
-
-var themeBtn = document.createElement('div');
-themeBtn.className = 'rh-theme-toggle';
-themeBtn.id = 'rh-theme-btn';
-themeBtn.textContent = '☀ DARK';
-themeBtn.title = '切换深色/浅色主题';
-document.body.appendChild(themeBtn);
-
-// ===== 主题切换逻辑 =====
+// ===== 主题切换 =====
 function getDashboardEl() {
     return document.querySelector('.markdown-preview-view.dashboard') ||
            document.querySelector('.markdown-preview-pusher.dashboard') ||
            document.querySelector('.dashboard');
 }
-
 function applyTheme(theme) {
     var el = getDashboardEl();
     if (el) {
         if (theme === 'light') { el.setAttribute('data-theme', 'light'); }
         else { el.removeAttribute('data-theme'); }
     }
-    var btn = document.getElementById('rh-theme-btn');
+    var btn = dv.container.querySelector('#rh-theme-btn');
     if (btn) { btn.textContent = (theme === 'light') ? '☾ LIGHT' : '☀ DARK'; }
 }
-
 var savedTheme = localStorage.getItem('rh-dashboard-theme') || 'dark';
 applyTheme(savedTheme);
 
-themeBtn.addEventListener('click', function(e) {
-    e.preventDefault(); e.stopPropagation();
-    var current = localStorage.getItem('rh-dashboard-theme') || 'dark';
-    var next = current === 'dark' ? 'light' : 'dark';
-    localStorage.setItem('rh-dashboard-theme', next);
-    applyTheme(next);
-});
+var themeBtn = dv.container.querySelector('#rh-theme-btn');
+if (themeBtn) {
+    themeBtn.addEventListener('click', function(e) {
+        e.preventDefault(); e.stopPropagation();
+        var current = localStorage.getItem('rh-dashboard-theme') || 'dark';
+        var next = current === 'dark' ? 'light' : 'dark';
+        localStorage.setItem('rh-dashboard-theme', next);
+        applyTheme(next);
+    });
+}
 
-// 页面切换时清理按钮
-dv.container.addEventListener('DOMNodeRemovedFromDocument', function() {
-    var btn = document.getElementById('rh-theme-btn');
-    if (btn) btn.remove();
-});
-
-// ===== 填充待办任务 =====
+// ===== 待办任务 =====
 var tasksList = dv.container.querySelector('#rh-tasks-list');
 if (tasks.length === 0) {
     tasksList.innerHTML = '<div style="padding:12px;color:#58a6ff;font-family:VT323,monospace;font-size:1.1em">★ NO QUESTS ACTIVE</div>';
@@ -221,8 +206,7 @@ SORT file.day ASC
 ```
 
 <!--
-  Dashboard v5c — 主题按钮改为 fixed 浮动定位
-  按钮挂在 document.body 上，position:fixed top:16px right:20px
-  不占页面空间，不独占一行，跟随屏幕滚动
-  离开页面时自动清理
+  Dashboard v5d — 主题按钮在 Banner 内部 absolute 定位
+  按钮跟随页面滚动，不占行，位于 Banner 右上角
+  不再使用 fixed/document.body，回归页面内容流
 -->
