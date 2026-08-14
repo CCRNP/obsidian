@@ -108,27 +108,27 @@ var navData = [
 // ===== HTML 构建 =====
 // 概览
 var overviewHtml = '<div class="rh-overview">' +
-    '<div class="rh-overview-col"><div class="col-title">📊 STATS</div><div class="col-body">' +
-    '<div class="item"><span class="tag">TOTAL</span><span class="value">' + totalNotes + '</span></div>' +
-    '<div class="item"><span class="tag">WEEK</span><span class="value">' + recentWeek + '</span></div>' +
-    '<div class="item"><span class="tag">TAGS</span><span class="value">' + totalTags + '</span></div>' +
+    '<div class="rh-overview-col"><div class="col-title">📈 笔记统计</div><div class="col-body">' +
+    '<div class="item"><span class="tag">总数</span><span class="value">' + totalNotes + '</span></div>' +
+    '<div class="item"><span class="tag">本周</span><span class="value">' + recentWeek + '</span></div>' +
+    '<div class="item"><span class="tag">标签</span><span class="value">' + totalTags + '</span></div>' +
     '</div></div>' +
-    '<div class="rh-overview-col"><div class="col-title">📁 FOLDERS</div><div class="col-body">' +
+    '<div class="rh-overview-col"><div class="col-title">📁 目录分布</div><div class="col-body">' +
     topFolders.map(function(f) {
         return '<div class="item"><span class="tag">' + esc(f[0]) + '</span><span class="value">' + f[1] + '</span></div>';
     }).join('') +
     '</div></div>' +
-    '<div class="rh-overview-col"><div class="col-title">🏷️ TAGS</div><div class="col-body">' +
+    '<div class="rh-overview-col"><div class="col-title">🏷️ 热门标签</div><div class="col-body">' +
     (topTags.length > 0
         ? topTags.map(function(t) {
             return '<div class="item"><span class="tag">' + esc(t[0]) + '</span><span class="value">' + t[1] + '</span></div>';
         }).join('')
-        : '<div class="item"><span class="value">--</span></div>') +
+        : '<div class="item"><span class="value" style="color:rgba(200,205,220,0.3)">—</span></div>') +
     '</div></div>' +
     '</div>';
 
 // 导航
-var navHtml = '<div class="rh-card"><div class="rh-card-title">▶ NAV</div><div class="rh-nav-grid">' +
+var navHtml = '<div class="rh-card"><div class="rh-card-title">🧭 导航入口</div><div class="rh-nav-grid">' +
     navData.map(function(n) {
         return '<div class="rh-nav-item" data-nav="' + esc(n.path) + '">' +
             '<span class="rh-nav-icon">' + n.icon + '</span>' +
@@ -137,31 +137,31 @@ var navHtml = '<div class="rh-card"><div class="rh-card-title">▶ NAV</div><div
     '</div></div>';
 
 // 最近修改
-var rnHtml = '<div class="rh-card"><div class="rh-card-title">▶ RECENT</div>' +
+var rnHtml = '<div class="rh-card"><div class="rh-card-title">📝 最近修改</div>' +
     (recentNotes.length > 0
         ? recentNotes.map(function(p) {
             var mtime = p.file.mtime;
-            var timeStr = mtime ? (mtime.toFormat ? mtime.toFormat('MM-dd HH:mm') : '') : '???';
+            var timeStr = mtime ? (mtime.toFormat ? mtime.toFormat('MM-dd HH:mm') : '') : '';
             return '<div class="rh-rn-item">' +
-                '<span class="rn-icon">▣</span>' +
+                '<span class="rn-icon">📄</span>' +
                 '<span class="rn-name" data-nav="' + esc(p.file.path) + '">' + esc(p.file.name) + '</span>' +
                 '<span class="rn-folder">' + esc(p.file.folder || '/') + '</span>' +
                 '<span class="rn-time">' + timeStr + '</span></div>';
         }).join('')
-        : '<div class="rh-rn-item"><span class="rn-name">NO DATA</span></div>') +
+        : '<div class="rh-rn-item"><span class="rn-name" style="color:rgba(200,205,220,0.3)">暂无笔记</span></div>') +
     '</div>';
 
 // 待办任务容器
-var tasksHtml = '<div class="rh-card"><div class="rh-card-title">▶ QUESTS</div>' +
+var tasksHtml = '<div class="rh-card"><div class="rh-card-title">✅ 待办任务</div>' +
     '<div id="rh-tasks-list"></div></div>';
 
 // ===== 组装渲染 =====
 dv.container.innerHTML =
     '<div class="rh-banner" style="background-image: url(\'' + bannerUrl + '\'); background-size: cover; background-position: center;">' +
     '<div class="rh-banner-content">' +
-    '<h1>CCRNP KB</h1>' +
-    '<p class="rh-banner-desc">&gt; 技术笔记 / 项目记录 / 学习成长 / 知识体系</p>' +
-    '<div class="rh-quote"><span id="rh-quote-text">LOADING...</span><span id="rh-quote-author"></span></div>' +
+    '<h1>📚 CCRNP 个人知识库</h1>' +
+    '<p class="rh-banner-desc">技术笔记 · 项目记录 · 学习成长 · 构建个人知识体系</p>' +
+    '<div class="rh-quote"><span id="rh-quote-text">正在获取每日一言...</span><span id="rh-quote-author"></span></div>' +
     '</div></div>' +
     '<div class="rh-grid">' +
     '<div class="rh-left">' + overviewHtml + navHtml + rnHtml + '</div>' +
@@ -171,7 +171,7 @@ dv.container.innerHTML =
 // ===== 填充待办任务 =====
 var tasksList = dv.container.querySelector('#rh-tasks-list');
 if (tasks.length === 0) {
-    tasksList.innerHTML = '<div style="padding:12px;color:#05ffa1;font-family:VT323,monospace;font-size:1.2em">★ NO QUESTS ACTIVE</div>';
+    tasksList.innerHTML = '<div style="padding:12px;color:rgba(200,205,220,0.3);font-size:15px">暂无待办任务</div>';
 } else {
     tasks.slice(0, 15).forEach(function(t, i) {
         var item = document.createElement('div');
@@ -187,12 +187,12 @@ if (tasks.length === 0) {
 
         var linkSpan = document.createElement('span');
         linkSpan.className = 'task-link';
-        linkSpan.textContent = '▶ ' + t.name;
+        linkSpan.textContent = t.name;
         linkSpan.dataset.path = t.path;
 
         var dueSpan = document.createElement('span');
         dueSpan.className = 'task-due';
-        dueSpan.textContent = t.due ? '◆ ' + t.due : '';
+        dueSpan.textContent = t.due ? t.due : '';
 
         item.appendChild(checkbox);
         item.appendChild(textSpan);
@@ -201,7 +201,6 @@ if (tasks.length === 0) {
         tasksList.appendChild(item);
     });
 
-    // 复选框勾选事件
     tasksList.addEventListener('change', async function(e) {
         if (e.target.type === 'checkbox') {
             var idx = parseInt(e.target.dataset.idx);
@@ -225,7 +224,6 @@ if (tasks.length === 0) {
         }
     });
 
-    // 任务来源链接点击
     tasksList.addEventListener('click', function(e) {
         var linkEl = e.target.closest('.task-link');
         if (linkEl) {
@@ -268,7 +266,7 @@ function findFirstMd(folder) {
 
 function navigateTo(path) {
     var file = app.vault.getAbstractFileByPath(path);
-       if (file && !file.children) {
+    if (file && !file.children) {
         app.workspace.getLeaf().openFile(file);
     } else if (file && file.children) {
         var firstMd = findFirstMd(file);
@@ -290,11 +288,11 @@ dv.container.querySelectorAll('[data-nav]').forEach(function(el) {
 ```activity-graph
 daysToShow: 60
 showLegend: false
-colorGradient: green
+colorGradient: blue
 ```
 
 <!--
-  Dashboard - Pixel Edition
+  Dashboard — Modern Minimal Tech
   ===================
   1. Homepage 插件 → 主页文件设为 HomePage/Dashboard.md
   2. Dataview 插件 → 开启 Enable JavaScript Queries
@@ -304,5 +302,5 @@ colorGradient: green
   6. 已排除 Templates、copilot、MD Help 目录
   7. 每日一言 → Hitokoto API
   8. Banner 图片 → 7张图片每日轮换
-  9. 像素风格 → Press Start 2P + VT323 字体，霓虹配色，扫描线效果
+  9. 风格 → 现代极简技术风，低饱和度，柔和暗色，淡蓝强调色
 -->
