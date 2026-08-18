@@ -92,46 +92,15 @@ var rnHtml = '<div class="rh-card"><div class="rh-card-title">RECENT</div>' +
 
 var tasksHtml = '<div class="rh-card"><div class="rh-card-title">QUESTS</div><div id="rh-tasks-list"></div></div>';
 
-// ===== 渲染主结构 =====
-// 按钮放在 Banner 内部，用 absolute 定位到右上角
+// ===== 渲染主结构（不再有主题切换按钮）=====
 dv.container.innerHTML =
     '<div class="rh-banner" style="background-image: url(\'' + bannerUrl + '\'); background-size: cover; background-position: center; background-repeat: no-repeat;">' +
-    '<div class="rh-theme-toggle" id="rh-theme-btn" title="切换深色/浅色主题">☀ DARK</div>' +
     '<div class="rh-banner-content">' +
     '<h1>CCRNP KB</h1>' +
     '<p class="rh-banner-desc">&gt; Knowledge Base / 技术笔记 / 项目记录 / 学习成长</p>' +
     '<div class="rh-quote"><span id="rh-quote-text">LOADING...</span><span id="rh-quote-author"></span></div>' +
     '</div></div>' +
     '<div class="rh-grid"><div class="rh-left">' + overviewHtml + navHtml + rnHtml + '</div><div class="rh-right">' + tasksHtml + '</div></div>';
-
-// ===== 主题切换 =====
-function getDashboardEl() {
-    return document.querySelector('.markdown-preview-view.dashboard') ||
-           document.querySelector('.markdown-preview-pusher.dashboard') ||
-           document.querySelector('.dashboard');
-}
-function applyTheme(theme) {
-    var el = getDashboardEl();
-    if (el) {
-        if (theme === 'light') { el.setAttribute('data-theme', 'light'); }
-        else { el.removeAttribute('data-theme'); }
-    }
-    var btn = dv.container.querySelector('#rh-theme-btn');
-    if (btn) { btn.textContent = (theme === 'light') ? '☾ LIGHT' : '☀ DARK'; }
-}
-var savedTheme = localStorage.getItem('rh-dashboard-theme') || 'dark';
-applyTheme(savedTheme);
-
-var themeBtn = dv.container.querySelector('#rh-theme-btn');
-if (themeBtn) {
-    themeBtn.addEventListener('click', function(e) {
-        e.preventDefault(); e.stopPropagation();
-        var current = localStorage.getItem('rh-dashboard-theme') || 'dark';
-        var next = current === 'dark' ? 'light' : 'dark';
-        localStorage.setItem('rh-dashboard-theme', next);
-        applyTheme(next);
-    });
-}
 
 // ===== 待办任务 =====
 var tasksList = dv.container.querySelector('#rh-tasks-list');
@@ -206,7 +175,8 @@ SORT file.day ASC
 ```
 
 <!--
-  Dashboard v5d — 主题按钮在 Banner 内部 absolute 定位
-  按钮跟随页面滚动，不占行，位于 Banner 右上角
-  不再使用 fixed/document.body，回归页面内容流
+  Dashboard v6 — 主题跟随 Obsidian 外观设置
+  深色/浅色由 CSS body.theme-dark / body.theme-light 自动切换
+  无需手动按钮，无需 JS 干预，无需 localStorage
+  在 Obsidian 设置 → 外观 中切换主题，Dashboard 自动跟随
 -->
