@@ -8,15 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "be6673b4834c476c",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "HomePage/Dashboard.md",
-                "mode": "preview",
-                "source": true,
+                "mode": "source",
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "88dcbfce7203b885",
+            "id": "6e1a429a524cc9c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/MA 面评/Q.md",
+                "file": "XF/具身智能/MA 相关/PI0-Train/推理/推理结果【1-6】.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Q"
+              "title": "推理结果【1-6】"
             }
           }
         ],
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XF/MA 面评/Q.md",
+                "file": "HomePage/Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -230,7 +230,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "XF/MA 面评/Q.md"
+                "file": "HomePage/Dashboard.md"
               },
               "icon": "lucide-info",
               "title": "笔记属性"
@@ -270,9 +270,30 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "88dcbfce7203b885",
+  "active": "6e1a429a524cc9c1",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
+    "XF/具身智能/MA 相关/PI0-Train/推理/推理结果【1-6】.md",
+    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
+    "XF/具身智能/MA 相关/PI0-Train/数据集.md",
+    "XF/具身智能/MA 相关/PI0-Train/删除多余的字段.md",
+    "XF/具身智能/MA 相关/PI0-Train/缺少 `mindspeed` 模块.md",
+    "XF/具身智能/MA 相关/PI0-Train/推理/部署到机器人.md",
+    "XF/具身智能/MA 相关/PI0-Train/推理/构建推理镜像.md",
+    "XF/具身智能/MA 相关/Q & A.md",
+    "XF/具身智能/MA 相关/MA-API.md",
+    "XF/具身智能/MA 相关/2026-04-28 GaussDB告警.md",
+    "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
     "HomePage/Dashboard.md",
+    "CCR/AI/Prompt.md",
+    "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
+    "XF/具身智能/MA 相关/PI0-Train/data 数据集路径问题.md",
+    "CCR/AI",
+    "CCR",
+    "XF/MA 面评/Q.md",
+    "XF/2026-03-16.md",
+    "XF/具身智能/MA 相关/2026-04-13.md",
+    "Templates/Add-Big-Chars-Date.md",
     "种草莓/img/2026_04_02_01_13_21.jpg",
     "种草莓/种植日期记录.md",
     "种草莓/img/2026_04_04_02_22_46.jpg",
@@ -281,26 +302,8 @@
     "杂/DataView.md",
     "杂/GitHub 同步问题.md",
     "HomePage/README.md",
-    "XF/具身智能/具身智能-总结分析.md",
-    "XF/2026-03-16.md",
-    "IDEA/学习-被动输入-AI.md",
-    "XF/具身智能/MA 相关/2026-04-13.md",
-    "conflict-files-obsidian-git.md",
-    "HomePage/HomePage.md",
-    "XF/具身智能.md",
-    "XF.md",
-    "copilot.md",
-    "MD Help.md",
-    "Templates/Obsidian-Templates-main/Docs/Dataview/Task-Progress.md",
-    "XF/具身智能/MA 相关.md",
     "dashboard.css",
-    "Tasks Plugin - 查看并检查您的状态 2026-08-12 20-01-09.md",
-    "XF/具身智能/验收会——演讲（快速）.md",
-    "XF/具身智能/MRS 相关.md",
-    "XF/具身智能/各账号密码.md",
-    "XF/具身智能/登录.md",
     "HomePage",
-    "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
     "XF/具身智能/MA 相关/培训文档/1、用户手册.docx",
     "XF/具身智能/MA 相关/培训文档",
     "XF/具身智能/日报",
@@ -310,8 +313,6 @@
     "XF/报销/2026/7月/7月地铁行程单.pdf",
     "XF/报销/2026/7月/7月地铁发票.pdf",
     "XF/报销/2026/7月/7月移动话费pdf.pdf",
-    "XF/报销/2026/7月/7月电信话费pdf.pdf",
-    "XF/报销/2026/7月/134XXXX8848_发票_20260806_2026080614532783121481_26447000001382961177.xml",
     "XF/报销/2026/6月/滴滴付款截图13.90.jpg",
     "XF/报销/2026/6月/滴滴付款截图8.10.jpg",
     "img/Pasted image 20260806143415.png",

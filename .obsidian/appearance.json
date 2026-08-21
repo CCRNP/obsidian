@@ -4,5 +4,6 @@
   "cssTheme": "Light & Bright",
   "enabledCssSnippets": [
     "dashboard"
-  ]
+  ],
+  "theme": "obsidian"
 }
