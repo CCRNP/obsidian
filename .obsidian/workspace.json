@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/HCIP-BigData.md",
+                "file": "杂/GitHub 同步问题.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HCIP-BigData"
+              "title": "GitHub 同步问题"
             }
           }
         ],
@@ -120,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 284.5
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
