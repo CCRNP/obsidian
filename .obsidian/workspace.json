@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "HomePage/Dashboard.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "6e1a429a524cc9c1",
+            "id": "c32ffd0d62fbd75d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/PI0-Train/推理/推理结果【1-6】.md",
+                "file": "XF/HCIP-BigData.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "推理结果【1-6】"
+              "title": "HCIP-BigData"
             }
           }
         ],
@@ -108,7 +108,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "书签"
             }
@@ -117,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -270,54 +274,54 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "6e1a429a524cc9c1",
+  "active": "c32ffd0d62fbd75d",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
+    "XF/HCIP-BigData.md",
+    "HomePage/Dashboard.md",
+    "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
+    "XF/foo/big data.md",
+    "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
+    "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
+    "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
+    "XF/2026-03-25.md",
+    "XF/2026-03-17.md",
+    "XF/2026-03-16.md",
+    "XF/人员一对一意识梳理.md",
+    "XF/DATABASE.base",
+    "XF/GIt push test.canvas",
+    "CCR/AI/Prompt.md",
+    "XF/MRS面评/YARN核心概念与架构详解.md",
+    "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
+    "XF/MRS面评/ElasticSearch/ElasticSearch.md",
+    "XF/具身智能/MA 相关/培训文档/模型训推——培训材料.zip",
+    "XF/具身智能/MA 相关/培训文档/归档.zip",
+    "XF/具身智能/MA 相关/培训文档/训推平台_用户手册.docx",
+    "XF/具身智能/MA 相关/培训文档/模型训推-培训材料.zip",
+    "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 运维指南(for 华为云Stack 8.6.0) 01.pdf",
+    "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01.chm",
+    "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 昇腾云脑使用手册(for 华为云Stack 8.6.0) 01.pdf",
+    "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 故障管理(for 华为云Stack 8.6.0) 01.pdf",
+    "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 参考指南(for 华为云Stack 8.6.0) 01.pdf",
+    "杂/DataView.md",
+    "杂/TestDataView.md",
+    "杂/GitHub 同步问题.md",
+    "XF/具身智能/MA 相关/PI0-Train/推理/构建推理镜像.md",
+    "0.1, -0.2, 0.3, -0.1, 0.05, 0.15.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/推理结果【1-6】.md",
+    "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
     "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
     "XF/具身智能/MA 相关/PI0-Train/数据集.md",
     "XF/具身智能/MA 相关/PI0-Train/删除多余的字段.md",
-    "XF/具身智能/MA 相关/PI0-Train/缺少 `mindspeed` 模块.md",
-    "XF/具身智能/MA 相关/PI0-Train/推理/部署到机器人.md",
-    "XF/具身智能/MA 相关/PI0-Train/推理/构建推理镜像.md",
-    "XF/具身智能/MA 相关/Q & A.md",
-    "XF/具身智能/MA 相关/MA-API.md",
-    "XF/具身智能/MA 相关/2026-04-28 GaussDB告警.md",
-    "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
-    "HomePage/Dashboard.md",
-    "CCR/AI/Prompt.md",
-    "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
-    "XF/具身智能/MA 相关/PI0-Train/data 数据集路径问题.md",
-    "CCR/AI",
-    "CCR",
-    "XF/MA 面评/Q.md",
-    "XF/2026-03-16.md",
-    "XF/具身智能/MA 相关/2026-04-13.md",
-    "Templates/Add-Big-Chars-Date.md",
     "种草莓/img/2026_04_02_01_13_21.jpg",
-    "种草莓/种植日期记录.md",
     "种草莓/img/2026_04_04_02_22_46.jpg",
-    "copilot/copilot-conversations/分类整理整个文件里的所有内容@20260313_175046.md",
-    "杂/TestDataView.md",
-    "杂/DataView.md",
-    "杂/GitHub 同步问题.md",
-    "HomePage/README.md",
-    "dashboard.css",
-    "HomePage",
-    "XF/具身智能/MA 相关/培训文档/1、用户手册.docx",
-    "XF/具身智能/MA 相关/培训文档",
-    "XF/具身智能/日报",
     "XF/具身智能/MA 相关/MA-多模态训练/d未命名 2.canvas",
     "XF/具身智能/MA 相关/MA-多模态训练/未命名 1.canvas",
     "XF/具身智能/MA 相关/MA-多模态训练/未命名.canvas",
-    "XF/报销/2026/7月/7月地铁行程单.pdf",
-    "XF/报销/2026/7月/7月地铁发票.pdf",
-    "XF/报销/2026/7月/7月移动话费pdf.pdf",
     "XF/报销/2026/6月/滴滴付款截图13.90.jpg",
     "XF/报销/2026/6月/滴滴付款截图8.10.jpg",
     "img/Pasted image 20260806143415.png",
     "img/Pasted image 20260806142803.png",
-    "XF/GIt push test.canvas",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "img/Pasted image 20260618103248.png",

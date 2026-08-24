@@ -1,9 +1,9 @@
 {
   "baseFontSizeAction": true,
-  "baseFontSize": 17,
-  "cssTheme": "Light & Bright",
+  "baseFontSize": 21,
+  "cssTheme": "Material Gruvbox",
   "enabledCssSnippets": [
     "dashboard"
   ],
-  "theme": "obsidian"
+  "theme": "moonstone"
 }

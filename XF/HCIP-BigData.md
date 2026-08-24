@@ -1,0 +1,52 @@
+---
+tags:
+  - MRS
+---
+### HBase
+
+HBase : MemStore & Blockcache
+	不需要完全拥有传统关系型数据库所具备的 **ACID** 特性
+	HBase 建表时预先设置多个Region，数据会按照 **rowkey** 对应 Region分区情况，在集群内做数据的负载均衡
+
+### Spark
+- Transformation - **RDD**
+- 遇到**宽**依赖会断开 Stage 链，生成一个新的 Stage 链
+- Dataset 是懒惰的，只在执行 **Action** 操作时触发计算
+- reduce 算子属 Action 算子
+
+### Flink
+
+
+
+### Hive
+
+Hive子目录
+	Hive自定义函数中的 **UDTF** 用于接受单个数据行，并产生多个数据作为输出
+
+### Kafka 
+- Topic - Partition
+- **Producer** 向 Kafka 中发布消息的角色 发送到 Kafka Broker
+- 一台或多台服务器统称为 **Broker**
+- 每条发布到 Kafka 的消息都有一个类别，这个类别被称为 **Topic**
+- kafka 属于大数据消息系统
+
+GES 中有 **EDGE LABEL** 表示边的类型，用于表示现实世界中的关系类型
+
+### Loader
+
+通过组件 **Kerberos** 来实现认证以及作业权限管理
+
+### ElasticSearch
+
+通过 Key 寻找 Value，即从关键点出发，然后再通过关键点找到信息中满足搜索条件的特定信息，这是**正排**索引机制
+
+### Other
+
+图搜索引 YGES 处理利用 RESTful API，还可以借助 **Gremlin** 图遍历功能
+
+Java API 操作 ElasticSearch 有 RestClient 和 **TransportClient** 等多种方式
+
+watermark、shuffle、
+
+如果需要由数据生产者决定数据发送给目标 Bolt 的某一个确定的 Task ，应选择 **直接分组** 发布策略
+
