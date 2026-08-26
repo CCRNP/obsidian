@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂/GitHub 同步问题.md",
+                "file": "XF/HCIP-BigData.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GitHub 同步问题"
+              "title": "HCIP-BigData"
             }
           }
         ],
@@ -120,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -275,6 +276,7 @@
   },
   "active": "c32ffd0d62fbd75d",
   "lastOpenFiles": [
+    "杂/GitHub 同步问题.md",
     "XF/HCIP-BigData.md",
     "HomePage/Dashboard.md",
     "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
@@ -303,7 +305,6 @@
     "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 参考指南(for 华为云Stack 8.6.0) 01.pdf",
     "杂/DataView.md",
     "杂/TestDataView.md",
-    "杂/GitHub 同步问题.md",
     "XF/具身智能/MA 相关/PI0-Train/推理/构建推理镜像.md",
     "0.1, -0.2, 0.3, -0.1, 0.05, 0.15.md",
     "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",

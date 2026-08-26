@@ -14,13 +14,18 @@ HBase : MemStore & Blockcache
 - Dataset 是懒惰的，只在执行 **Action** 操作时触发计算
 - reduce 算子属 Action 算子
 
+**Structured Streaming**
+	Spark **Structured Streaming** 不支持 Hive 作为 流式 Source，Hive 可以做批查询，也可以作为输出 Sink，但不能作为流的输入源；
+	Structured Streaming 是 Apache Spark 自**2.0 版本**推出的**新一代流式处理引擎**，构建在 Spark SQL 之上，提供**统一批流编程模型**与**端到端 exactly-once 语义**的流处理能力
+	将实时数据流视为**不断追加行的无界表 (Unbounded Table)**，开发者用批处理方式编写查询，Spark 自动将其转换为增量执行的流式计算；
+	端到端 Exactly-Once 语义
 ### Flink
 
 - 简介：Apache Flink 是一个分布式流处理框架，擅长低延迟、事件驱动的实时数据处理，同时支持有界（批）与无界（流）数据处理，并提供状态管理与 exactly-once 语义支持。
 
 - 主要组件与概念：
   - JobManager（集群级别的协调者）：负责作业的提交、调度、故障恢复与高可用。现代 Flink 的 JobManager 可包含多个角色（Dispatcher、ResourceManager、多个 JobMaster）。
-  - Dispatcher：接受客户端提交的作业，维护作业元数据并��供 REST 接口（Web UI 交互的一部分）。
+  - Dispatcher：接受客户端提交的作业，维护作业元数据并提供 REST 接口（Web UI 交互的一部分）。
   - ResourceManager：管理集群资源，与外部集群管理器（如 YARN、Kubernetes）交互，负责容器/节点的申请与释放。
   - JobMaster：每个作业的协调者（Job 的领导者），负责生成 ExecutionGraph、调度任务、管理 checkpoint 协调与重启策略。
   - TaskManager（TaskExecutor）：工作节点进程，负责执行具体的算子、管理 task slot、报告心跳并承载网络传输与状态存储。
@@ -39,15 +44,14 @@ HBase : MemStore & Blockcache
 
 - 容错与一致性：通过 checkpoint + StateBackend 提供容错；对接 sink 时可实现 two-phase commit 来支持 exactly-once 语义；同时支持 savepoint 用于手动恢复。
 
-- 性能与调优要点：并行度与 slot 的规划、TaskManager 的内存/CPU 配置、网络缓冲区（network buffers）、状态后端（RocksDB）与 I/O 压力、checkpoint 周期与对齐（aligned vs unaligned checkpoints）、背压分析、并行度与数据倾斜处理。
-
 - 监控与运维：Flink Web UI（Job overview / Task / Checkpoints）、指标导出到 Prometheus/Grafana、日志与堆栈跟踪、通过 savepoint/recurring checkpoint 管理版本迁移与容灾。
 
+Flink 的 CheckPoint 机制绘制的流应用快照不能被保存在 TaskManager 的内存。
 
 ### Hive
 
 Hive子目录
-	Hive自定义函数中的 **UDTF** 用于接受单个数��行，并产生多个数据作为输出
+	Hive自定义函数中的 **UDTF** 用于接受单个数据行，并产生多个数据作为输出
 
 ### Kafka 
 - Topic - Partition
@@ -75,3 +79,7 @@ Java API 操作 ElasticSearch 有 RestClient 和 **TransportClient** 等多种�
 watermark、shuffle、
 
 如果需要由数据生产者决定数据发送给目标 Bolt 的某一个确定的 Task ，应选择 **直接分组** 发布策略
+
+- sqoop
+
+- storm
