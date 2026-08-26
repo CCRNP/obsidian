@@ -80,6 +80,17 @@ watermark、shuffle、
 
 如果需要由数据生产者决定数据发送给目标 Bolt 的某一个确定的 Task ，应选择 **直接分组** 发布策略
 
-- sqoop
+- Sqoop
+	**定位：数据迁移工具，SQL‑to‑Hadoop**
+	专门做**关系型数据库（MySQL、Oracle）和 Hadoop 生态之间双向数据搬运**，本身不做复杂计算。
+	`sqoop import`：导入，数据库 → HDFS / Hive / HBase
+	`sqoop export`：导出，HDFS 文件 → 关系型数据库
+	📌考试易错点（你之前做错的原题）
+	1. Sqoop 导出切片**不受 HDFS block 块大小控制**，切片数量由`--num‑mappers`map 任务数决定。
+	2. Sqoop 只有 Map 任务，**没有 Reduce 阶段**。
+	3. `LOCAL`关键字：Sqoop 没有 local；`LOAD DATA LOCAL`是 Hive 语法，读取**Hive 客户端本机**文件，不是任意服务器。
 
-- storm
+- Storm
+	**定位：实时流式计算框架，真正事件流处理**
+	接收源源不断的数据流，**逐条处理数据**，不是微批。
+	
