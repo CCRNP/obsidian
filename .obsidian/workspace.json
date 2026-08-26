@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/HCIP-BigData.md",
+                "file": "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HCIP-BigData"
+              "title": "算力切分"
             }
           }
         ],
@@ -92,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "AK",
+                "query": "算力切分",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 284.5
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -199,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage/Dashboard.md",
+                "file": "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -276,8 +275,19 @@
   },
   "active": "c32ffd0d62fbd75d",
   "lastOpenFiles": [
-    "杂/GitHub 同步问题.md",
+    "XF/具身智能/MA 相关/Q & A.md",
+    "XF/具身智能/MA 相关/img/Pasted image 20260826160738.png",
+    "XF/具身智能/MA 相关/权限管理.md",
+    "XF/具身智能/MA 相关/MA-API.md",
+    "XF/具身智能/MA 相关/MA-日志告警.md",
+    "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
+    "XF/具身智能/MA 相关/变更.md",
+    "XF/具身智能/MA 相关/登录 CDK.md",
+    "XF/具身智能/2026-04-28 GaussDB告警.md",
+    "XF/具身智能/MA 相关/训练/2026-04-13.md",
+    "XF/具身智能/MA 相关/训练",
     "XF/HCIP-BigData.md",
+    "杂/GitHub 同步问题.md",
     "HomePage/Dashboard.md",
     "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
     "XF/foo/big data.md",
@@ -302,17 +312,6 @@
     "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01.chm",
     "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 昇腾云脑使用手册(for 华为云Stack 8.6.0) 01.pdf",
     "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 故障管理(for 华为云Stack 8.6.0) 01.pdf",
-    "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 参考指南(for 华为云Stack 8.6.0) 01.pdf",
-    "杂/DataView.md",
-    "杂/TestDataView.md",
-    "XF/具身智能/MA 相关/PI0-Train/推理/构建推理镜像.md",
-    "0.1, -0.2, 0.3, -0.1, 0.05, 0.15.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/业务场景.md",
-    "XF/具身智能/MA 相关/PI0-Train/推理/推理结果【1-6】.md",
-    "XF/具身智能/MA 相关/PI0-Train/推理/推理脚本.md",
-    "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
-    "XF/具身智能/MA 相关/PI0-Train/数据集.md",
-    "XF/具身智能/MA 相关/PI0-Train/删除多余的字段.md",
     "种草莓/img/2026_04_02_01_13_21.jpg",
     "种草莓/img/2026_04_04_02_22_46.jpg",
     "XF/具身智能/MA 相关/MA-多模态训练/d未命名 2.canvas",
@@ -325,7 +324,6 @@
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "img/Pasted image 20260618103248.png",
-    "img/Pasted image 20260618103242.png",
     "99 - 附件资源/Canvas/GIt push test.canvas",
     "GIt push test.canvas",
     "未命名.canvas"
