@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "c32ffd0d62fbd75d",
+            "id": "8942104ecd0c5c25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
+                "file": "XF/具身智能/MA 相关/Q & A.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "算力切分"
+              "title": "Q & A"
             }
           }
         ],
@@ -92,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "算力切分",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +116,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -198,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
+                "file": "XF/具身智能/MA 相关/Q & A.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -273,8 +274,18 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c32ffd0d62fbd75d",
+  "active": "21ee93c87aa3201d",
   "lastOpenFiles": [
+    "HomePage/Dashboard.md",
+    "XF/具身智能/MA 相关/登录 CDK.md",
+    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
+    "XF/具身智能/MA 相关/测试功能验证/VSCode 接入.md",
+    "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
+    "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
     "XF/具身智能/MA 相关/Q & A.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260826160738.png",
     "XF/具身智能/MA 相关/权限管理.md",
@@ -282,13 +293,11 @@
     "XF/具身智能/MA 相关/MA-日志告警.md",
     "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
     "XF/具身智能/MA 相关/变更.md",
-    "XF/具身智能/MA 相关/登录 CDK.md",
     "XF/具身智能/2026-04-28 GaussDB告警.md",
     "XF/具身智能/MA 相关/训练/2026-04-13.md",
     "XF/具身智能/MA 相关/训练",
     "XF/HCIP-BigData.md",
     "杂/GitHub 同步问题.md",
-    "HomePage/Dashboard.md",
     "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
     "XF/foo/big data.md",
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
@@ -296,14 +305,8 @@
     "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
     "XF/2026-03-25.md",
     "XF/2026-03-17.md",
-    "XF/2026-03-16.md",
-    "XF/人员一对一意识梳理.md",
     "XF/DATABASE.base",
     "XF/GIt push test.canvas",
-    "CCR/AI/Prompt.md",
-    "XF/MRS面评/YARN核心概念与架构详解.md",
-    "XF/MRS面评/Hadoop脑裂与核心复习任务清单.md",
-    "XF/MRS面评/ElasticSearch/ElasticSearch.md",
     "XF/具身智能/MA 相关/培训文档/模型训推——培训材料.zip",
     "XF/具身智能/MA 相关/培训文档/归档.zip",
     "XF/具身智能/MA 相关/培训文档/训推平台_用户手册.docx",
@@ -323,7 +326,6 @@
     "img/Pasted image 20260806142803.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
-    "img/Pasted image 20260618103248.png",
     "99 - 附件资源/Canvas/GIt push test.canvas",
     "GIt push test.canvas",
     "未命名.canvas"
