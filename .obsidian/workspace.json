@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/日报/8月4、5、7号日报未提交.md",
-                "mode": "source",
+                "file": "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "8月4、5、7号日报未提交"
-            }
-          },
-          {
-            "id": "17834b724367be1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "MA 模型的 训练 & 推理"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +51,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
+                "autoReveal": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -90,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "AK",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,12 +85,22 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "f31d3e26cb003a5f",
+            "type": "leaf",
+            "state": {
+              "type": "periodic-para",
+              "state": {},
+              "icon": "file-plus",
+              "title": "LifeOS"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 317.5
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -131,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDEA/瑗/今天吃什么-APP/今天吃什么_HTML.md",
+                "file": "XF/具身智能/MA 相关/MA-API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +126,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "今天吃什么_HTML 的反向链接列表"
+              "title": "MA-API 的反向链接列表"
             }
           },
           {
@@ -150,12 +135,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HDFS 读流程 & 自问.md",
+                "file": "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "HDFS 读流程 & 自问 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -188,21 +173,6 @@
             }
           },
           {
-            "id": "541302b2e900283d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "IDEA/瑗/今天吃什么-APP/今天吃什么_HTML.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "今天吃什么_HTML 的大纲"
-            }
-          },
-          {
             "id": "39a25e17d586ad49",
             "type": "leaf",
             "state": {
@@ -213,7 +183,7 @@
             }
           },
           {
-            "id": "fcc049e5a5b15fe2",
+            "id": "f10a327ee1d5c1f8",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
@@ -221,19 +191,34 @@
               "icon": "message-square",
               "title": "Copilot"
             }
+          },
+          {
+            "id": "e55150af1d2193d1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "2026-07-15 MA-全文档修改对齐 的大纲"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 306.5,
+    "width": 363.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "periodic-para:LifeOS 创建": false,
+      "homepage:Open homepage": false,
+      "copilot:Open Copilot Chat": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -242,64 +227,59 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "copilot:Open Copilot Chat": false,
-      "homepage:Open homepage": false
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "17834b724367be1b",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "XF/具身智能/日报/8月4、5、7号日报未提交.md",
-    "conflict-files-obsidian-git.md",
+    "XF/具身智能/MA 相关/交付文档/MA 功能文档对齐——问题&解答.md",
+    "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
+    "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
+    "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
+    "XF/具身智能/MA 相关/MA-日志告警.md",
+    "XF/具身智能/MA 相关/MA-API.md",
+    "XF/具身智能/MA 相关/Q & A.md",
     "XF/运通/模型运营.md",
+    "XF/具身智能/日报/8月4、5、7号日报未提交.md",
+    "XF/具身智能/日报",
     "XF/具身智能/MA 相关/培训文档/1、用户手册.docx",
     "XF/具身智能/MA 相关/培训文档",
-    "XF/具身智能/MA 相关/MA-多模态训练/安装Megatron-LM、MindSpeed、MindSpeed-MM.md",
-    "XF/具身智能/日报",
-    "XF/具身智能/MA 相关/MA-多模态训练/d未命名 2.canvas",
-    "XF/具身智能/MA 相关/MA-多模态训练/未命名 1.canvas",
-    "XF/具身智能/MA 相关/MA-多模态训练/未命名.canvas",
-    "XF/具身智能/MA 相关/MA-多模态训练/qwen3vl - 镜像Dockerfile.md",
-    "XF/具身智能/MA 相关/镜像/MA-A100 镜像部署裸金属失败问题&解决.md",
-    "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
+    "XF/具身智能/MA 相关/PI0-Train/TensorBoard.md",
+    "XF/具身智能/MA 相关/PI0-Train/pi0-启动训练遇到的问题.md",
+    "XF/具身智能/MA 相关/PI0-Train/data 数据集路径问题.md",
     "XF/具身智能/MA 相关/MA-多模态训练/megatron-core 依赖处理.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/MA-多模态模型训练——CLIP预训练.md",
-    "XF/具身智能/MA 相关/MA-多模态训练/训练流程.md",
-    "XF/报销/2026/7月/7月地铁行程单.pdf",
-    "XF/报销/2026/7月/7月地铁发票.pdf",
-    "XF/具身智能/验收会——演讲（快速）.md",
-    "模型运营.md",
-    "XF/具身智能/MA 相关/镜像/MA-规范制作镜像.md",
-    "XF/报销/2026/7月/7月移动话费pdf.pdf",
-    "XF/报销/2026/7月/7月电信话费pdf.pdf",
-    "XF/报销/2026/7月/134XXXX8848_发票_20260806_2026080614532783121481_26447000001382961177.xml",
-    "XF/报销/2026/7月/7月电信话费xml.xml",
-    "XF/报销/2026/7月/26447000001540232844 2.xml",
-    "XF/报销/2026/6月/滴滴付款截图13.90.jpg",
-    "XF/报销/2026/6月/滴滴付款截图8.10.jpg",
-    "XF/报销/2026/7月/话费.md",
-    "XF/报销/2026/4月.md",
-    "XF/报销/2026/3月.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/qwen3vl - 镜像Dockerfile.md",
+    "XF/具身智能/MA 相关/MA-多模态训练/安装Megatron-LM、MindSpeed、MindSpeed-MM.md",
+    "XF/具身智能/运维配置.md",
+    "conflict-files-obsidian-git.md",
+    "未命名.md",
     "img/Pasted image 20260806143415.png",
     "img/Pasted image 20260806142803.png",
-    "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
-    "XF/MA 面评/Transformer.md",
-    "XF/具身智能/登录.md",
-    "XF/具身智能/各账号密码.md",
-    "XF/GIt push test.canvas",
+    "XF/报销/2026/7月/话费.md",
+    "XF/报销/2026/7月/7月移动话费pdf.pdf",
+    "XF/报销/2026/7月/7月电信话费xml.xml",
+    "XF/报销/2026/7月/7月电信话费pdf.pdf",
+    "XF/报销/2026/7月/7月地铁行程单.pdf",
+    "XF/报销/2026/7月/7月地铁发票.pdf",
+    "XF/报销/2026/7月/134XXXX8848_发票_20260806_2026080614532783121481_26447000001382961177.xml",
+    "XF/报销/2026/7月",
+    "XF/报销/2026/6月/滴滴付款截图8.10.jpg",
+    "XF/报销/2026/6月/滴滴付款截图13.90.jpg",
+    "XF/具身智能/验收会——演讲（快速）.md",
+    "XF/具身智能/验收会——演讲.md",
     "XF/具身智能/MA 相关/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
-    "XF/具身智能/MA 相关/PI0-Train/数据集.md",
-    "XF/具身智能/MA 相关/镜像/制作 Ant1 镜像.md",
-    "2026-08-02.md",
+    "XF/具身智能/MA 相关/PI0-Train/Q.md",
+    "XF/运通/登录.md",
     "XF/MRS面评/ElasticSearch/ElasticSearch.md",
+    "XF/具身智能/MA 相关/PI0-Train/数据集.md",
+    "XF/具身智能/MA 相关/交付文档/img/Pasted image 20260521195942.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
-    "img/Pasted image 20260618103248.png",
-    "img/Pasted image 20260618103242.png",
-    "img/Pasted image 20260618103231.png",
+    "XF/具身智能/MA 相关/img/Pasted image 20260518144938.png",
     "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094406.png",
-    "99 - 附件资源/Canvas/GIt push test.canvas",
-    "GIt push test.canvas",
+    "IDEA/瑗/今天吃什么-APP/img/Pasted image 20260622094259.png",
+    "XF/GIt push test.canvas",
     "未命名.canvas"
   ]
 }
