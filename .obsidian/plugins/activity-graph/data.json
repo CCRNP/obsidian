@@ -1,0 +1,13 @@
+{
+  "daysToShow": 365,
+  "showMonthLabels": true,
+  "showWeekdayLabels": true,
+  "showLegend": true,
+  "startWeekOnMonday": true,
+  "legendLessLabel": "Less",
+  "legendMoreLabel": "More",
+  "colorGradient": "green",
+  "scaleMin": null,
+  "scaleMax": null,
+  "customGradients": {}
+}
