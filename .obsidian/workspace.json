@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
+                "file": "XF/具身智能/MA 相关/Q & A.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业"
+              "title": "Q & A"
             }
           }
         ],
@@ -120,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -254,8 +255,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 564.953125,
-    "collapsed": true
+    "width": 429.25390625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -275,11 +275,24 @@
   },
   "active": "88a5a5341a392926",
   "lastOpenFiles": [
+    "XF/【会议纪要】广州企业网HCS产品线网络安全会议纪要-202608.doc",
+    "XF/报销/2026/8月/8月移动话费.pdf",
+    "XF/报销/2026/8月/8月移动话费.xml",
+    "XF/报销/2026/8月/电子发票.xml",
+    "XF/报销/2026/8月/行程单.pdf",
+    "XF/报销/2026/8月/电子发票.ofd",
+    "XF/报销/2026/8月/电子发票.pdf",
+    "XF/报销/2026/8月/8月电信话费.xml",
+    "XF/报销/2026/8月/8月电信话费.pdf",
+    "XF/报销/2026/8月",
+    "XF/具身智能/具身智能-总结分析.md",
+    "XF/具身智能/验收会——演讲（快速）.md",
+    "XF/具身智能/运维配置.md",
+    "XF/具身智能/MA 相关/Q & A.md",
+    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "HomePage/Dashboard.md",
-    "XF/具身智能/MA 相关/Q & A.md",
     "XF/具身智能/MA 相关/登录 CDK.md",
-    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
@@ -300,20 +313,7 @@
     "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
     "XF/foo/big data.md",
     "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
-    "XF/MRS面评/HDFS/HDFS RPC 偏高.md",
-    "XF/MRS面评/HDFS/HDFS 读流程 & 自问.md",
-    "XF/2026-03-25.md",
-    "XF/2026-03-17.md",
-    "XF/DATABASE.base",
     "XF/GIt push test.canvas",
-    "XF/具身智能/MA 相关/培训文档/模型训推——培训材料.zip",
-    "XF/具身智能/MA 相关/培训文档/归档.zip",
-    "XF/具身智能/MA 相关/培训文档/训推平台_用户手册.docx",
-    "XF/具身智能/MA 相关/培训文档/模型训推-培训材料.zip",
-    "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 运维指南(for 华为云Stack 8.6.0) 01.pdf",
-    "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01.chm",
-    "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 昇腾云脑使用手册(for 华为云Stack 8.6.0) 01.pdf",
-    "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 故障管理(for 华为云Stack 8.6.0) 01.pdf",
     "种草莓/img/2026_04_02_01_13_21.jpg",
     "种草莓/img/2026_04_04_02_22_46.jpg",
     "XF/具身智能/MA 相关/MA-多模态训练/d未命名 2.canvas",
