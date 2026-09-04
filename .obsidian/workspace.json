@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "HomePage/Dashboard.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "8942104ecd0c5c25",
+            "id": "88a5a5341a392926",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/Q & A.md",
+                "file": "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Q & A"
+              "title": "MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业"
             }
           }
         ],
@@ -116,8 +116,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -274,19 +273,19 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "21ee93c87aa3201d",
+  "active": "88a5a5341a392926",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "HomePage/Dashboard.md",
+    "XF/具身智能/MA 相关/Q & A.md",
     "XF/具身智能/MA 相关/登录 CDK.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
     "XF/具身智能/MA 相关/测试功能验证/VSCode 接入.md",
     "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
     "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
-    "XF/具身智能/MA 相关/Q & A.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260826160738.png",
     "XF/具身智能/MA 相关/权限管理.md",
     "XF/具身智能/MA 相关/MA-API.md",
