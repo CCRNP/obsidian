@@ -10,11 +10,12 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
-                "mode": "preview",
+                "file": "HomePage/Dashboard.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -27,8 +28,9 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "MA 模型的 训练 & 推理"
+              "title": "Dashboard"
             }
           }
         ]
@@ -100,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -135,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
+                "file": "XF/具身智能/MA 相关/Q & A.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -206,6 +209,16 @@
               "icon": "lucide-list",
               "title": "2026-07-15 MA-全文档修改对齐 的大纲"
             }
+          },
+          {
+            "id": "a63557c841ac80ea",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 1
@@ -233,6 +246,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/Q & A.md",
+    "XF/具身智能/MA 相关/交付文档/MA 模型的 训练 & 推理.md",
     "杂/TestDataView.md",
     "杂/GitHub 同步问题.md",
     "杂/DataView.md",
@@ -262,14 +277,12 @@
     "XF/具身智能/MA 相关/训练/MA-多模态训练",
     "XF/具身智能/MA 相关/训练/2026-04-13.md",
     "XF/具身智能/MA 相关/训练",
-    "XF/具身智能/MA 相关/权限管理.md",
     "XF/具身智能/MA 相关/培训文档/训推平台_用户手册.docx",
     "XF/具身智能/MA 相关/培训文档/训推平台_用户培训.pptx",
     "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 运维指南(for 华为云Stack 8.6.0) 01.pdf",
     "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01.chm",
     "XF/具身智能/MA 相关/培训文档/ModelArts 7.2.1-HCS 维护指南(for 华为云Stack 8.6.0) 01/ModelArts 7.2.1-HCS 故障管理(for 华为云Stack 8.6.0) 01.pdf",
     "XF/具身智能/MA 相关/img/Pasted image 20260826160738.png",
-    "XF/具身智能/2026-04-28 GaussDB告警.md",
     "img/Pasted image 20260806143415.png",
     "img/Pasted image 20260806142803.png",
     "XF/报销/2026/6月/滴滴付款截图8.10.jpg",
