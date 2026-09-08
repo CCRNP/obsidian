@@ -32,33 +32,8 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
-          },
-          {
-            "id": "88a5a5341a392926",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/Q & A.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Q & A"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XF/具身智能/MA 相关/Q & A.md",
+                "file": "HomePage/Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -255,7 +230,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 429.25390625
+    "width": 429.25390625,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -273,8 +249,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "88a5a5341a392926",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/Q & A.md",
     "XF/【会议纪要】广州企业网HCS产品线网络安全会议纪要-202608.doc",
     "XF/报销/2026/8月/8月移动话费.pdf",
     "XF/报销/2026/8月/8月移动话费.xml",
@@ -288,7 +265,6 @@
     "XF/具身智能/具身智能-总结分析.md",
     "XF/具身智能/验收会——演讲（快速）.md",
     "XF/具身智能/运维配置.md",
-    "XF/具身智能/MA 相关/Q & A.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "HomePage/Dashboard.md",
@@ -307,7 +283,6 @@
     "XF/具身智能/MA 相关/变更.md",
     "XF/具身智能/2026-04-28 GaussDB告警.md",
     "XF/具身智能/MA 相关/训练/2026-04-13.md",
-    "XF/具身智能/MA 相关/训练",
     "XF/HCIP-BigData.md",
     "杂/GitHub 同步问题.md",
     "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
