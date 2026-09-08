@@ -1,0 +1,26 @@
+.ssh 旧的密钥记录
+139.159.245.254 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAepawygMYlw/a8lnl2KtuYcPQDdgrk/IZw7iK3ByDF8JyO8rHaC0gKfbC4/nTwQuxpLG6My9t3XAuwiv5HARvc=
+
+
+packer build 命令 会在宿主机上根据配置文件创建一个全新的、没有操作系统的"空"虚拟机，然后安装系统，安完后Packer 会用 SSH 连接到虚拟机，然后按照配置文件配置，完了后自动关机，把虚拟机的整个磁盘文件也就是镜像文件打包保存好，最后输出一个.qcow2格式文件。
+
+obsv3.gdrising-global-1.air.gdrising.com.cn:443:pcsimsgdrising-global-14522b958498f40bc92859697646f8711:eecb55f3-66cc-4866-946b-1f4f4e1e4b0a
+
+
+obsv3.gdrising-global-1.air.gdrising.com.cn:443:pcsimsgdrising-global-1
+
+obsv3.gdrising-global-1.air.gdrising.com.cn:443:a100-image-obs:euleros-v2sp10-x86_64_uefi
+
+euleros-v2sp10-x86_64_uefi.qcow2
+
+公共OBS
+访问域名：
+acceptance-test.obs.cn-southwest-2.myhuaweicloud.com
+
+https://acceptance-test.obs.cn-southwest-2.myhuaweicloud.com/euleros-v2sp10-x86_64_uefi.qcow2
+
+acceptance-test.obs.cn-southwest-2.myhuaweicloud.com
+
+JSZN-obs:
+10.3.18.5
+

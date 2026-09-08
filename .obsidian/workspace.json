@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "84d32232c1b3004f",
+            "id": "7ef95fb84df43922",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Qwen3-vl - 总结"
             }
           }
         ],
@@ -92,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "MindSpeed",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 284.5
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -199,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -274,8 +273,26 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "84d32232c1b3004f",
+  "active": "7ef95fb84df43922",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/镜像/制作 Ant1 镜像.md",
+    "XF/具身智能/MA 相关/镜像/做Ant1镜像相关.md",
+    "XF/具身智能/MA 相关/镜像/MA-A100 镜像部署裸金属失败问题&解决.md",
+    "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
+    "XF/具身智能/MA 相关/训练/MA-多模态训练/训练流程.md",
+    "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
+    "XF/具身智能/MA 相关/训练/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
+    "XF/具身智能/MA 相关/训练/MA-多模态训练/megatron-core 依赖处理.md",
+    "XF/具身智能/MA 相关/训练/MA-多模态训练/qwen3vl - 镜像Dockerfile.md",
+    "XF/具身智能/MA 相关/训练/MA-多模态训练/业务场景.md",
+    "XF/具身智能/MA 相关/训练/MA-多模态训练/安装Megatron-LM、MindSpeed、MindSpeed-MM.md",
+    "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
+    "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
+    "XF/具身智能/MA 相关/镜像/A100/2026-04-24 制作 A100 镜像需求.md",
+    "XF/具身智能/MA 相关/镜像/A100/制作 Ant1 镜像.md",
+    "XF/具身智能/MA 相关/镜像/A100/做Ant1镜像相关.md",
+    "XF/具身智能/MA 相关/镜像/A100/MA-A100 镜像部署裸金属失败问题&解决.md",
+    "XF/具身智能/MA 相关/镜像/A100",
     "HomePage/Dashboard.md",
     "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 相关/文档/初验前交付文档/详细设计说明书/详细设计说明书V1.md",
@@ -288,8 +305,6 @@
     "XF/具身智能/MA 相关/文档/MA 模型的 训练 & 推理.md",
     "XF/具身智能/MA 相关/文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/文档",
-    "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
-    "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
     "XF/具身智能/MA 相关/推理",
     "XF/MA 面评/img/Pasted image 20260908163357.png",
     "XF/MA 面评/img/Pasted image 20260908163354.png",
@@ -300,25 +315,9 @@
     "XF/具身智能/MA 相关/Q & A.md",
     "XF/【会议纪要】广州企业网HCS产品线网络安全会议纪要-202608.doc",
     "XF/报销/2026/8月/8月移动话费.pdf",
-    "XF/报销/2026/8月/8月移动话费.xml",
     "XF/具身智能/具身智能-总结分析.md",
-    "XF/具身智能/验收会——演讲（快速）.md",
-    "XF/具身智能/运维配置.md",
-    "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "XF/具身智能/MA 相关/登录 CDK.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
-    "XF/具身智能/MA 相关/测试功能验证/VSCode 接入.md",
-    "XF/具身智能/MA 相关/测试功能验证/2026-05-06 测试记录.md",
-    "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260826160738.png",
-    "XF/具身智能/MA 相关/权限管理.md",
-    "XF/具身智能/MA 相关/MA-API.md",
-    "XF/具身智能/MA 相关/MA-日志告警.md",
-    "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
-    "XF/具身智能/MA 相关/变更.md",
     "XF/GIt push test.canvas",
     "种草莓/img/2026_04_02_01_13_21.jpg",
     "种草莓/img/2026_04_04_02_22_46.jpg",
