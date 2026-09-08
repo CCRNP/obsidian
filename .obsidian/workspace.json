@@ -32,8 +32,33 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
+          },
+          {
+            "id": "84d32232c1b3004f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage/Dashboard.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -249,25 +274,38 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "84d32232c1b3004f",
   "lastOpenFiles": [
+    "HomePage/Dashboard.md",
+    "conflict-files-obsidian-git.md",
+    "XF/具身智能/MA 相关/文档/初验前交付文档/详细设计说明书/详细设计说明书V1.md",
+    "XF/具身智能/MA 相关/文档/初验前交付文档/详细设计说明书",
+    "XF/具身智能/MA 相关/文档/人形机器人数据训练场建设规范/Q & A.md",
+    "XF/具身智能/MA 相关/文档/img/Pasted image 20260521195942.png",
+    "XF/具身智能/MA 相关/文档/初验前交付文档",
+    "XF/具身智能/MA 相关/文档/人形机器人数据训练场建设规范",
+    "XF/具身智能/MA 相关/文档/img",
+    "XF/具身智能/MA 相关/文档/MA 模型的 训练 & 推理.md",
+    "XF/具身智能/MA 相关/文档/MA 功能文档对齐——问题&解答.md",
+    "XF/具身智能/MA 相关/文档",
+    "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
+    "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
+    "XF/具身智能/MA 相关/推理",
+    "XF/MA 面评/img/Pasted image 20260908163357.png",
+    "XF/MA 面评/img/Pasted image 20260908163354.png",
+    "XF/MA 面评/img/Pasted image 20260908163337.png",
+    "XF/MA 面评/img/Pasted image 20260908163327.png",
+    "XF/MA 面评/img",
+    "XF/MA 面评/Qwen.md",
     "XF/具身智能/MA 相关/Q & A.md",
     "XF/【会议纪要】广州企业网HCS产品线网络安全会议纪要-202608.doc",
     "XF/报销/2026/8月/8月移动话费.pdf",
     "XF/报销/2026/8月/8月移动话费.xml",
-    "XF/报销/2026/8月/电子发票.xml",
-    "XF/报销/2026/8月/行程单.pdf",
-    "XF/报销/2026/8月/电子发票.ofd",
-    "XF/报销/2026/8月/电子发票.pdf",
-    "XF/报销/2026/8月/8月电信话费.xml",
-    "XF/报销/2026/8月/8月电信话费.pdf",
-    "XF/报销/2026/8月",
     "XF/具身智能/具身智能-总结分析.md",
     "XF/具身智能/验收会——演讲（快速）.md",
     "XF/具身智能/运维配置.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "HomePage/Dashboard.md",
     "XF/具身智能/MA 相关/登录 CDK.md",
     "XF/具身智能/MA 相关/MA 测试/2026-04-02 欢聚 MA.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/未命名.md",
@@ -281,13 +319,6 @@
     "XF/具身智能/MA 相关/MA-日志告警.md",
     "XF/具身智能/MA 相关/MA- 6-30-功能验证会记录.md",
     "XF/具身智能/MA 相关/变更.md",
-    "XF/具身智能/2026-04-28 GaussDB告警.md",
-    "XF/具身智能/MA 相关/训练/2026-04-13.md",
-    "XF/HCIP-BigData.md",
-    "杂/GitHub 同步问题.md",
-    "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
-    "XF/foo/big data.md",
-    "XF/MRS面评/HDFS/HDFS-yarn-MR 问题解答.md",
     "XF/GIt push test.canvas",
     "种草莓/img/2026_04_02_01_13_21.jpg",
     "种草莓/img/2026_04_04_02_22_46.jpg",
@@ -295,11 +326,6 @@
     "XF/具身智能/MA 相关/MA-多模态训练/未命名 1.canvas",
     "XF/具身智能/MA 相关/MA-多模态训练/未命名.canvas",
     "XF/报销/2026/6月/滴滴付款截图13.90.jpg",
-    "XF/报销/2026/6月/滴滴付款截图8.10.jpg",
-    "img/Pasted image 20260806143415.png",
-    "img/Pasted image 20260806142803.png",
-    "XF/具身智能/MA 相关/img/Pasted image 20260701144214.png",
-    "XF/具身智能/MA 相关/img/Pasted image 20260701143003.png",
     "99 - 附件资源/Canvas/GIt push test.canvas",
     "GIt push test.canvas",
     "未命名.canvas"
