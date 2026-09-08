@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/推理/qwen3vl-32b部署推理操作手册.md",
+                "file": "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,11 +54,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "qwen3vl-32b部署推理操作手册"
+              "title": "qwen3vl-2b-910b-deploy-guide"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XF/具身智能/MA 相关/推理/qwen3vl-32b部署推理操作手册.md",
+                "file": "HomePage/Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -273,7 +272,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "7ef95fb84df43922",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
     "XF/具身智能/MA 相关/推理/qwen3vl-32b部署推理操作手册.md",

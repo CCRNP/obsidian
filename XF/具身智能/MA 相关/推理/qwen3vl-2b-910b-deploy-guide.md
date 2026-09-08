@@ -483,10 +483,10 @@ curl http://localhost:8000/health
 
 ### 外网机器
 - [ ] 下载 Qwen3-VL-2B-Instruct 权重（~4GB）
-- [ ] 编写 Dockerfile
-- [ ] 构建镜像 vllm-ascend-qwen3vl-2b:v1
-- [ ] 导出 tar 文件（~19GB）
-- [ ] （可选）gzip 压缩
+- [x] 编写 Dockerfile
+- [x] 构建镜像 vllm-ascend-qwen3vl-2b:v1
+- [x] 导出 tar 文件（~19GB）
+- [x] （可选）gzip 压缩
 
 ### 传输
 - [ ] scp/rsync 传输到 910B 服务器
