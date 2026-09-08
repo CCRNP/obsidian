@@ -1,7 +1,7 @@
 {
   "baseFontSizeAction": true,
   "baseFontSize": 19,
-  "cssTheme": "ITS Theme",
+  "cssTheme": "Material Gruvbox",
   "enabledCssSnippets": [
     "dashboard"
   ],

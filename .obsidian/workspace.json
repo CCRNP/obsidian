@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
+                "file": "XF/具身智能/MA 相关/推理/qwen3vl-32b部署推理操作手册.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Qwen3-vl - 总结"
+              "title": "qwen3vl-32b部署推理操作手册"
             }
           }
         ],
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
+                "file": "XF/具身智能/MA 相关/推理/qwen3vl-32b部署推理操作手册.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -275,19 +275,23 @@
   },
   "active": "7ef95fb84df43922",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
+    "XF/具身智能/MA 相关/推理/qwen3vl-32b部署推理操作手册.md",
+    "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
+    "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
+    "XF/具身智能/MA 相关/推理/qwen3vl-32b部署操作手册.md",
+    "XF/具身智能/MA 相关/推理/操作手册.md",
+    "XF/具身智能/MA 相关/测试功能验证/算力切分.md",
     "XF/具身智能/MA 相关/镜像/制作 Ant1 镜像.md",
     "XF/具身智能/MA 相关/镜像/做Ant1镜像相关.md",
     "XF/具身智能/MA 相关/镜像/MA-A100 镜像部署裸金属失败问题&解决.md",
     "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
     "XF/具身智能/MA 相关/训练/MA-多模态训练/训练流程.md",
-    "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
     "XF/具身智能/MA 相关/训练/MA-多模态训练/MA-多模态训练-qwen3vl-8b.md",
     "XF/具身智能/MA 相关/训练/MA-多模态训练/megatron-core 依赖处理.md",
     "XF/具身智能/MA 相关/训练/MA-多模态训练/qwen3vl - 镜像Dockerfile.md",
     "XF/具身智能/MA 相关/训练/MA-多模态训练/业务场景.md",
     "XF/具身智能/MA 相关/训练/MA-多模态训练/安装Megatron-LM、MindSpeed、MindSpeed-MM.md",
-    "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
-    "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
     "XF/具身智能/MA 相关/镜像/A100/2026-04-24 制作 A100 镜像需求.md",
     "XF/具身智能/MA 相关/镜像/A100/制作 Ant1 镜像.md",
     "XF/具身智能/MA 相关/镜像/A100/做Ant1镜像相关.md",
@@ -303,7 +307,6 @@
     "XF/具身智能/MA 相关/文档/人形机器人数据训练场建设规范",
     "XF/具身智能/MA 相关/文档/img",
     "XF/具身智能/MA 相关/文档/MA 模型的 训练 & 推理.md",
-    "XF/具身智能/MA 相关/文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/文档",
     "XF/具身智能/MA 相关/推理",
     "XF/MA 面评/img/Pasted image 20260908163357.png",
@@ -311,11 +314,8 @@
     "XF/MA 面评/img/Pasted image 20260908163337.png",
     "XF/MA 面评/img/Pasted image 20260908163327.png",
     "XF/MA 面评/img",
-    "XF/MA 面评/Qwen.md",
-    "XF/具身智能/MA 相关/Q & A.md",
     "XF/【会议纪要】广州企业网HCS产品线网络安全会议纪要-202608.doc",
     "XF/报销/2026/8月/8月移动话费.pdf",
-    "XF/具身智能/具身智能-总结分析.md",
     "XF/具身智能/MA 相关/MA 测试/2026-05-06-Test-img/Pasted image 20260506150646.png",
     "XF/具身智能/MA 相关/img/Pasted image 20260826160738.png",
     "XF/GIt push test.canvas",
