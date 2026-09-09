@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "HomePage/Dashboard.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -32,81 +32,8 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
-          },
-          {
-            "id": "5e8700268804c626",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/文档/人形机器人数据训练场建设规范/Q & A.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Q & A"
-            }
-          },
-          {
-            "id": "4c8ed0e0c20216ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD Help/MD 基本语法.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "MD 基本语法"
-            }
-          },
-          {
-            "id": "5282e06c7e9ca316",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "部署推理服务——自定义镜像"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -316,13 +243,15 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "5282e06c7e9ca316",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
+    "HomePage/Dashboard.md",
+    "IDEA/Plan/node_modules/@babel/helper-string-parser/README.md",
+    "XF/具身智能/2026-04-28 GaussDB告警.md",
     "XF/具身智能/MA 相关/文档/人形机器人数据训练场建设规范/Q & A.md",
     "MD Help/MD 基本语法.md",
-    "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
     "XF/具身智能/MA 相关/训练/MA-多模态训练/安装Megatron-LM、MindSpeed、MindSpeed-MM.md",
-    "HomePage/Dashboard.md",
     "XF/具身智能/MA 相关/训练/MA-多模态训练/训练流程.md",
     "XF/具身智能/具身智能-总结分析.md",
     "XF/MA 面评/Qwen.md",
@@ -356,8 +285,6 @@
     "杂/DataView.md",
     "XF/具身智能/MA 相关/训练/PI0-Train/推理/部署到机器人.md",
     "XF/具身智能/MA 相关/训练/PI0-Train/推理/构建推理镜像.md",
-    "XF/具身智能/MA 相关/训练/PI0-Train/推理/推理脚本.md",
-    "XF/具身智能/MA 相关/训练/PI0-Train/推理/推理结果【1-6】.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260826160738.png",
     "img/Pasted image 20260806143415.png",
     "img/Pasted image 20260806142803.png",
