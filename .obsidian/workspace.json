@@ -32,8 +32,33 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
+          },
+          {
+            "id": "1f5d8c88ccd51165",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "部署推理服务——自定义镜像"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,8 +127,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.8999938964844,
-    "collapsed": true
+    "width": 340.8999938964844
   },
   "right": {
     "id": "66fe39bba4d0f8c2",
@@ -244,13 +268,17 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "1f5d8c88ccd51165",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
+    "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
+    "XF/具身智能/MA 相关/文档/MA 功能文档对齐——问题&解答.md",
+    "XF/具身智能/MA 相关/文档/MA 模型的 训练 & 推理.md",
+    "XF/具身智能/MA 相关/文档/人形机器人数据训练场建设规范/Q & A.md",
     "HomePage/Dashboard.md",
+    "HomePage/README.md",
+    "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
     "IDEA/Plan/node_modules/@babel/helper-string-parser/README.md",
     "XF/具身智能/2026-04-28 GaussDB告警.md",
-    "XF/具身智能/MA 相关/文档/人形机器人数据训练场建设规范/Q & A.md",
     "MD Help/MD 基本语法.md",
     "XF/具身智能/MA 相关/训练/MA-多模态训练/安装Megatron-LM、MindSpeed、MindSpeed-MM.md",
     "XF/具身智能/MA 相关/训练/MA-多模态训练/训练流程.md",
@@ -263,9 +291,6 @@
     "XF/MA 面评/img",
     "XF/具身智能/验收会——演讲（快速）.md",
     "XF/具身智能/MA 相关/训练/PI0-Train/昇腾 A3 Pod 上 PI0模型训练适配案例.md",
-    "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
-    "XF/具身智能/MA 相关/文档/MA 模型的 训练 & 推理.md",
-    "XF/具身智能/MA 相关/文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/文档/初验前交付文档",
     "XF/具身智能/MA 相关/文档/人形机器人数据训练场建设规范",
     "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
@@ -285,7 +310,6 @@
     "杂/GitHub 同步问题.md",
     "杂/DataView.md",
     "XF/具身智能/MA 相关/训练/PI0-Train/推理/部署到机器人.md",
-    "XF/具身智能/MA 相关/训练/PI0-Train/推理/构建推理镜像.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260826160738.png",
     "img/Pasted image 20260806143415.png",
     "img/Pasted image 20260806142803.png",
