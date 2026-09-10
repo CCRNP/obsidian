@@ -1,9 +1,3 @@
 {
-  "baseFontSizeAction": true,
-  "baseFontSize": 19,
-  "cssTheme": "Blue Topaz",
-  "enabledCssSnippets": [
-    "dashboard"
-  ],
-  "theme": "moonstone"
+  "cssTheme": "Blue Topaz"
 }

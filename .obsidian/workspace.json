@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "260e8c2055fe8486",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "e44819ab651ed193",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "HomePage/Dashboard.md",
-                "mode": "source",
-                "source": false,
+                "mode": "preview",
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -32,33 +32,8 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
-          },
-          {
-            "id": "1f5d8c88ccd51165",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "部署推理服务——自定义镜像"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -268,15 +243,24 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "1f5d8c88ccd51165",
+  "active": "e44819ab651ed193",
   "lastOpenFiles": [
+    "XF/2026-03-16.md",
+    "HomePage/Dashboard.md",
+    "XF/具身智能/MA 相关/镜像/A100/制作 Ant1 镜像.md",
     "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
+    "HomePage/README.md",
+    "conflict-files-obsidian-git.md",
+    "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
+    "XF/具身智能/MA 相关/镜像/A100/做Ant1镜像相关.md",
+    "XF/具身智能/MA 相关/镜像/A100/MA-A100 镜像部署裸金属失败问题&解决.md",
+    "XF/具身智能/MA 相关/镜像/A100/2026-04-24 制作 A100 镜像需求.md",
+    "XF/具身智能/MA 相关/镜像/A100",
+    "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
+    "XF/具身智能/MA 相关/推理/qwen3vl-32b部署推理操作手册.md",
     "XF/具身智能/MA 相关/文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/文档/MA 模型的 训练 & 推理.md",
     "XF/具身智能/MA 相关/文档/人形机器人数据训练场建设规范/Q & A.md",
-    "HomePage/Dashboard.md",
-    "HomePage/README.md",
-    "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
     "IDEA/Plan/node_modules/@babel/helper-string-parser/README.md",
     "XF/具身智能/2026-04-28 GaussDB告警.md",
     "MD Help/MD 基本语法.md",
@@ -295,21 +279,12 @@
     "XF/具身智能/MA 相关/文档/人形机器人数据训练场建设规范",
     "XF/具身智能/MA 相关/交付文档/2026-07-15 MA-全文档修改对齐.md",
     "XF/具身智能/MA 相关/交付文档/需求规格文档——差异.md",
-    "XF/具身智能/MA 相关/登录 CDK.md",
     "XF/具身智能/MA 相关/推理",
-    "XF/具身智能/MA 相关/镜像/2026-04-24 制作 A100 镜像需求.md",
-    "XF/具身智能/MA 相关/Q & A.md",
-    "conflict-files-obsidian-git.md",
     "XF/报销/2026/8月/行程单.pdf",
     "XF/报销/2026/8月/电子发票.xml",
     "XF/报销/2026/8月/电子发票.pdf",
     "XF/报销/2026/8月/电子发票.ofd",
     "XF/报销/2026/8月/8月移动话费.xml",
-    "XF/报销/2026/8月/8月移动话费.pdf",
-    "杂/TestDataView.md",
-    "杂/GitHub 同步问题.md",
-    "杂/DataView.md",
-    "XF/具身智能/MA 相关/训练/PI0-Train/推理/部署到机器人.md",
     "XF/具身智能/MA 相关/img/Pasted image 20260826160738.png",
     "img/Pasted image 20260806143415.png",
     "img/Pasted image 20260806142803.png",
