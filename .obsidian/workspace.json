@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6088cf75a727f55b",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "736ab6aa0f7ff64e",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "ddc188c50845be53",
+            "id": "d19056c4516b5281",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/MA-日志告警.md",
+                "file": "XF/具身智能/MA 相关/推理/Qwen3vl/Qwen3-VL-32B 在线推理服务调用指南.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,35 +54,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MA-日志告警"
-            }
-          },
-          {
-            "id": "9f781c92a07ff2ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "qwen3vl-2b-910b-deploy-guide"
+              "title": "Qwen3-VL-32B 在线推理服务调用指南"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -292,13 +268,15 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "9f781c92a07ff2ea",
+  "active": "d19056c4516b5281",
   "lastOpenFiles": [
+    "HomePage/Dashboard.md",
+    "XF/具身智能/MA 相关/推理/Qwen3vl/Qwen3-VL-32B 在线推理服务调用指南.md",
+    "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/README.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/Qwen3vl 部署操作手册.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/操作手册所涉及脚本.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/未命名",
-    "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
     "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
     "XF/具身智能/MA 相关/推理/qwen3vl-32b部署推理操作手册.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/操作手册 (1).md",
@@ -311,7 +289,6 @@
     "XF/具身智能/MA 相关/登录 CDK.md",
     "XF/具身智能/MA 相关/MA-日志告警.md",
     "未命名.md",
-    "HomePage/Dashboard.md",
     "XF/具身智能/各账号密码.md",
     "XF/2026-03-16.md",
     "XF/具身智能/MA 相关/镜像/A100/制作 Ant1 镜像.md",
@@ -325,7 +302,6 @@
     "XF/具身智能/MA 相关/文档/MA 功能文档对齐——问题&解答.md",
     "XF/具身智能/MA 相关/文档/MA 模型的 训练 & 推理.md",
     "XF/具身智能/MA 相关/文档/人形机器人数据训练场建设规范/Q & A.md",
-    "IDEA/Plan/node_modules/@babel/helper-string-parser/README.md",
     "XF/MA 面评/img/Pasted image 20260908163357.png",
     "XF/MA 面评/img/Pasted image 20260908163354.png",
     "XF/MA 面评/img/Pasted image 20260908163337.png",
