@@ -185,10 +185,3 @@ TABLE file.day AS date, 1 AS value
 FROM ""
 SORT file.day ASC
 ```
-
-<!--
-  Dashboard v9 — 全随机 Banner 图片
-  使用 Picsum Photos API，每次加载页面随机取一张网络图片
-  不再固定图片列表，每次刷新都可能不同
-  图片加载失败时回退到渐变背景
--->
