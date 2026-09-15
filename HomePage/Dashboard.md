@@ -173,10 +173,3 @@ TABLE file.day AS date, 1 AS value
 FROM ""
 SORT file.day ASC
 ```
-
-<!--
-  Dashboard v6 — 主题跟随 Obsidian 外观设置
-  深色/浅色由 CSS body.theme-dark / body.theme-light 自动切换
-  无需手动按钮，无需 JS 干预，无需 localStorage
-  在 Obsidian 设置 → 外观 中切换主题，Dashboard 自动跟随
--->

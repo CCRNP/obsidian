@@ -32,33 +32,8 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
-          },
-          {
-            "id": "d19056c4516b5281",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/推理/Qwen3vl/Qwen3-VL-32B 在线推理服务调用指南.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Qwen3-VL-32B 在线推理服务调用指南"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -268,8 +243,9 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "d19056c4516b5281",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "未命名.md",
     "HomePage/Dashboard.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/Qwen3-VL-32B 在线推理服务调用指南.md",
     "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
@@ -288,7 +264,6 @@
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/具身智能/MA 相关/登录 CDK.md",
     "XF/具身智能/MA 相关/MA-日志告警.md",
-    "未命名.md",
     "XF/具身智能/各账号密码.md",
     "XF/2026-03-16.md",
     "XF/具身智能/MA 相关/镜像/A100/制作 Ant1 镜像.md",
