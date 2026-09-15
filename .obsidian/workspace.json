@@ -32,6 +32,54 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
+          },
+          {
+            "id": "76959156d4beae8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Qwen3-vl - 总结"
+            }
+          },
+          {
+            "id": "ac2d796f8a9e42c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/具身智能/MA 相关/Q & A.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Q & A"
+            }
           }
         ]
       }
@@ -69,8 +117,8 @@
               "state": {
                 "query": "",
                 "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
+                "explainSearch": true,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -98,7 +146,8 @@
               "title": "LifeOS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -245,8 +294,22 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "未命名.md",
+    "XF/具身智能/MA 相关/Q & A.md",
+    "XF/具身智能/MA 相关/文档/人形机器人数据训练场建设规范/Q & A.md",
+    "XF/具身智能/MA 相关/训练/PI0-Train/Q.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
+    "XF/MA 面评/Qwen.md",
+    "XF/MA 面评/Transformer.md",
+    "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
+    "XF/运通/登录.md",
+    "XF/运通/运通 Hosts.md",
+    "XF/运通/模型运营.md",
+    "XF/2026-03-16.md",
+    "XF/2026-03-17.md",
+    "XF/2026-03-25.md",
     "HomePage/Dashboard.md",
+    "未命名.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/Qwen3-VL-32B 在线推理服务调用指南.md",
     "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/README.md",
@@ -260,23 +323,9 @@
     "XF/具身智能/MA 相关/推理/Qwen3vl/build.sh",
     "XF/具身智能/MA 相关/推理/Qwen3vl/Dockerfile.txt",
     "XF/具身智能/MA 相关/推理/Qwen3vl",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/具身智能/MA 相关/MA 测试/MA-4.2 使用自定义镜像ARM-pytorch镜像创建NPU-Snt9B训练作业.md",
     "XF/具身智能/MA 相关/登录 CDK.md",
-    "XF/具身智能/MA 相关/MA-日志告警.md",
-    "XF/具身智能/各账号密码.md",
-    "XF/2026-03-16.md",
-    "XF/具身智能/MA 相关/镜像/A100/制作 Ant1 镜像.md",
-    "HomePage/README.md",
-    "conflict-files-obsidian-git.md",
-    "XF/具身智能/MA 相关/镜像/A100/做Ant1镜像相关.md",
-    "XF/具身智能/MA 相关/镜像/A100/MA-A100 镜像部署裸金属失败问题&解决.md",
-    "XF/具身智能/MA 相关/镜像/A100/2026-04-24 制作 A100 镜像需求.md",
     "XF/具身智能/MA 相关/镜像/A100",
-    "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
-    "XF/具身智能/MA 相关/文档/MA 功能文档对齐——问题&解答.md",
-    "XF/具身智能/MA 相关/文档/MA 模型的 训练 & 推理.md",
-    "XF/具身智能/MA 相关/文档/人形机器人数据训练场建设规范/Q & A.md",
     "XF/MA 面评/img/Pasted image 20260908163357.png",
     "XF/MA 面评/img/Pasted image 20260908163354.png",
     "XF/MA 面评/img/Pasted image 20260908163337.png",
