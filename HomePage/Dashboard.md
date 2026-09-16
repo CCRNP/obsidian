@@ -42,17 +42,10 @@ allPages
     });
 tasks.sort(function(a, b) { if (a.due && b.due) return a.due < b.due ? -1 : (a.due > b.due ? 1 : 0); if (a.due) return -1; if (b.due) return 1; return 0; });
 
-var bannerImages = [
-    'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1400&q=80',
-    'https://images.unsplash.com/photo-1614850523060-8da1d56ae167?w=1400&q=80',
-    'https://images.unsplash.com/photo-1635776062127-d379bfcba9f8?w=1400&q=80',
-    'https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=1400&q=80',
-    'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1400&q=80',
-    'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1400&q=80',
-    'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1400&q=80'
-];
-var dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 86400000);
-var bannerUrl = bannerImages[dayOfYear % bannerImages.length];
+// ===== 全随机 Banner 图片 =====
+// 使用 Picsum Photos，每次加载页面随机取一张网络图片
+var randomSeed = Math.floor(Math.random() * 1000000).toString();
+var bannerUrl = 'https://picsum.photos/seed/' + randomSeed + '/1400/400';
 
 var navData = [
     { icon: "🧠", text: "具身智能", path: "XF/具身智能" },
@@ -92,15 +85,34 @@ var rnHtml = '<div class="rh-card"><div class="rh-card-title">RECENT</div>' +
 
 var tasksHtml = '<div class="rh-card"><div class="rh-card-title">QUESTS</div><div id="rh-tasks-list"></div></div>';
 
-// ===== 渲染主结构（不再有主题切换按钮）=====
+// ===== 渲染主结构 =====
 dv.container.innerHTML =
-    '<div class="rh-banner" style="background-image: url(\'' + bannerUrl + '\'); background-size: cover; background-position: center; background-repeat: no-repeat;">' +
+    '<div class="rh-banner" id="rh-banner-elem">' +
     '<div class="rh-banner-content">' +
     '<h1>CCRNP KB</h1>' +
     '<p class="rh-banner-desc">&gt; Knowledge Base / 技术笔记 / 项目记录 / 学习成长</p>' +
     '<div class="rh-quote"><span id="rh-quote-text">LOADING...</span><span id="rh-quote-author"></span></div>' +
     '</div></div>' +
     '<div class="rh-grid"><div class="rh-left">' + overviewHtml + navHtml + rnHtml + '</div><div class="rh-right">' + tasksHtml + '</div></div>';
+
+// ===== 异步加载随机 Banner 图片 =====
+// 先放占位背景，图片加载后替换
+var bannerEl = dv.container.querySelector('#rh-banner-elem');
+if (bannerEl) {
+    bannerEl.style.background = '#0d1117';
+    var img = new Image();
+    img.onload = function() {
+        bannerEl.style.backgroundImage = 'url(\'' + bannerUrl + '\')';
+        bannerEl.style.backgroundSize = 'cover';
+        bannerEl.style.backgroundPosition = 'center';
+        bannerEl.style.backgroundRepeat = 'no-repeat';
+    };
+    img.onerror = function() {
+        // 加载失败，用默认渐变
+        bannerEl.style.background = 'linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1a1a2e 100%)';
+    };
+    img.src = bannerUrl;
+}
 
 // ===== 待办任务 =====
 var tasksList = dv.container.querySelector('#rh-tasks-list');
@@ -173,10 +185,3 @@ TABLE file.day AS date, 1 AS value
 FROM ""
 SORT file.day ASC
 ```
-
-<!--
-  Dashboard v6 — 主题跟随 Obsidian 外观设置
-  深色/浅色由 CSS body.theme-dark / body.theme-light 自动切换
-  无需手动按钮，无需 JS 干预，无需 localStorage
-  在 Obsidian 设置 → 外观 中切换主题，Dashboard 自动跟随
--->

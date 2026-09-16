@@ -57,7 +57,8 @@
               "title": "Qwen3-VL-32B 在线推理服务调用指南"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -267,11 +268,12 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "c33ee85db9e89dc9",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/Qwen3-VL-32B 在线推理服务调用指南.md",
-    "XF/具身智能/MA 相关/推理/Qwen3vl/操作手册所涉及脚本.md",
     "HomePage/Dashboard.md",
+    "XF/具身智能/MA 相关/推理/Qwen3vl/操作手册所涉及脚本.md",
     "XF/MA 面评/基于昇腾910B的Qwen3-VL-32B多模态推理服务部署.md",
     "XF/MA 面评/Qwen.md",
     "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
@@ -294,7 +296,6 @@
     "XF/2026-03-16.md",
     "XF/具身智能/MA 相关/镜像/A100/制作 Ant1 镜像.md",
     "HomePage/README.md",
-    "conflict-files-obsidian-git.md",
     "XF/具身智能/MA 相关/镜像/A100/做Ant1镜像相关.md",
     "XF/具身智能/MA 相关/镜像/A100/MA-A100 镜像部署裸金属失败问题&解决.md",
     "XF/具身智能/MA 相关/镜像/A100/2026-04-24 制作 A100 镜像需求.md",
