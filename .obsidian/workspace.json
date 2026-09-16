@@ -34,13 +34,13 @@
             }
           },
           {
-            "id": "d19056c4516b5281",
+            "id": "c33ee85db9e89dc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "XF/具身智能/MA 相关/推理/Qwen3vl/Qwen3-VL-32B 在线推理服务调用指南.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -57,8 +57,7 @@
               "title": "Qwen3-VL-32B 在线推理服务调用指南"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -268,14 +267,16 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "d19056c4516b5281",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "HomePage/Dashboard.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/Qwen3-VL-32B 在线推理服务调用指南.md",
+    "XF/具身智能/MA 相关/推理/Qwen3vl/操作手册所涉及脚本.md",
+    "HomePage/Dashboard.md",
+    "XF/MA 面评/基于昇腾910B的Qwen3-VL-32B多模态推理服务部署.md",
+    "XF/MA 面评/Qwen.md",
     "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/README.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/Qwen3vl 部署操作手册.md",
-    "XF/具身智能/MA 相关/推理/Qwen3vl/操作手册所涉及脚本.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/未命名",
     "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
     "XF/具身智能/MA 相关/推理/qwen3vl-32b部署推理操作手册.md",
@@ -300,8 +301,6 @@
     "XF/具身智能/MA 相关/镜像/A100",
     "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
     "XF/具身智能/MA 相关/文档/MA 功能文档对齐——问题&解答.md",
-    "XF/具身智能/MA 相关/文档/MA 模型的 训练 & 推理.md",
-    "XF/具身智能/MA 相关/文档/人形机器人数据训练场建设规范/Q & A.md",
     "XF/MA 面评/img/Pasted image 20260908163357.png",
     "XF/MA 面评/img/Pasted image 20260908163354.png",
     "XF/MA 面评/img/Pasted image 20260908163337.png",
