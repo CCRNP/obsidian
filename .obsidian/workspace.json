@@ -200,9 +200,33 @@
               "icon": "lucide-file",
               "title": "未命名"
             }
+          },
+          {
+            "id": "f07efeb7c01c430d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -412,12 +436,14 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "2bb90564a9118121",
+  "active": "f07efeb7c01c430d",
   "lastOpenFiles": [
+    "未命名.md",
+    "conflict-files-obsidian-git.md",
+    "XF/MA 面评/基于昇腾910B的Qwen3-VL-32B多模态推理服务部署.md",
     "未命名 3.md",
     "XF/人员一对一意识梳理.md",
     "XF/GIt push test.canvas",
-    "未命名.md",
     "XF/具身智能/MA 相关/模型测评/模型测评.md",
     "XF/具身智能/MA 相关/模型测评",
     "XF/具身智能/MRS 相关/HCIP-BigData.md",
@@ -442,8 +468,6 @@
     "XF/具身智能/MA 相关/资源池",
     "img/Pasted image 20260920165200.png",
     "XF/运通/登录.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/source-map-js/README.md",
-    "IDEA/瑗/今天吃什么-APP/node_modules/vue/README.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/未命名",
     "XF/具身智能/MA 相关/推理/Qwen3vl/run.sh",
     "XF/具身智能/MA 相关/推理/Qwen3vl/build.sh",
