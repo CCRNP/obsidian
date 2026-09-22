@@ -26,7 +26,7 @@ grep -n "AdamW" lerobot/common/optim/optimizers.py
 ```
 
 **预期输出**（约第 77 行）：
-```
+``` 
 77:from torch.optim import AdamW
 ```
 

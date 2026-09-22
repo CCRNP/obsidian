@@ -185,3 +185,4 @@ TABLE file.day AS date, 1 AS value
 FROM ""
 SORT file.day ASC
 ```
+p

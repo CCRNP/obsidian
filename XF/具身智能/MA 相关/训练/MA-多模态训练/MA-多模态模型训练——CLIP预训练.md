@@ -5,7 +5,7 @@ tags:
 
 CLIP预训练权重的下载。
 
-提供的代码是使用Hugging Face `transformers` 库下载模型的标准方法。考虑到国内网络环境可能不稳定，这里提供三种方法，通过配置国内镜像来加速下载，确保过程顺利。
+提供的代码是使用Hugging Face `transformers` 库下载模型的标准方法。考虑到国内网络环境可能不稳定，提供三种方法，通过配置国内镜像来加速下载，确保过程顺利。
 
 ### ⚙️ 准备工作：安装必要的库
 
@@ -30,7 +30,7 @@ pip install transformers torch Pillow
     ```python
     from transformers import CLIPModel, CLIPProcessor
 
-    # 1. 设置镜像源（关键一步！可大幅提升国内下载速度）
+    # 1. 设置镜像源
     import os
     os.environ["HF_ENDPOINT"] = "https://hf-mirror.com" # 设置Hugging Face镜像
 
@@ -52,11 +52,11 @@ pip install transformers torch Pillow
 
 3.  **在终端中运行这个脚本**：
 
-    ```bash
-    python download_clip.py
-    ```
+```bash
+python download_clip.py
+```
 
-脚本运行后，模型文件（包括`pytorch_model.bin`、`config.json`等）就会下载并保存到你指定的 `./my_clip_model` 文件夹中。
+脚本运行后，模型文件（包括`pytorch_model.bin`、`config.json`等）就会下载并保存到指定的 `./my_clip_model` 文件夹中。
 
 ### ⌨️ 方法二：使用 `huggingface-cli` 命令行工具 (推荐)
 
@@ -85,7 +85,7 @@ pip install transformers torch Pillow
     ```bash
     huggingface-cli download openai/clip-vit-base-patch32 --local-dir ./my_clip_model
     ```
-    这个命令会将模型所有文件完整地下载到你指定的 `./my_clip_model` 目录下。
+    这个命令会将模型所有文件完整地下载到指定的 `./my_clip_model` 目录下。
 
 ### 🌐 方法三：从Hugging Face网页手动下载
 
@@ -108,6 +108,6 @@ pip install transformers torch Pillow
 
 *   **`ModuleNotFoundError: No module named 'transformers'`**：说明 `transformers` 库未安装或未正确安装，请检查第一步。
 *   **下载速度慢或连接失败**：请务必确认已正确设置 `HF_ENDPOINT` 环境变量。如果仍不行，可以尝试更换网络或使用方法三。
-*   **`pytorch_model.bin` 文件不完整**：检查文件大小，完整的 `pytorch_model.bin` 大约577MB。如果大小不对，请删除后重新下载。
+*   **`pytorch_model.bin` 文件不完整**：检查文件大小，完整的 `pytorch_model.bin` 大约577MB。如果大小不对，删除后重新下载。
 
-下载好模型权重后，下一步就是把它和训练脚本一起上传到OBS，然后在ModelArts上创建训练作业了。如果遇到问题，随时可以再来问我。
+下载好模型权重后，下一步就是把它和训练脚本一起上传到OBS，然后在ModelArts上创建训练作业了。

@@ -89,3 +89,23 @@ KV Cache相当于**对话的临时草稿本**：第一次读完问题把全部�
 ### 训练框架
 
 #### PyTorch、TensorFlow、MindSpore
+
+
+
+## 模型测评
+
+### 模型迭代
+1. **验证微调是否有效**：将“未微调的原生模型”与“微调后的新模型”进行同步对比[](https://support.huaweicloud.com/intl/pt-br/model-evaluation-modelarts/model-evaluation-modelarts-0001.html#1)[](https://support.huaweicloud.com/model-evaluation-modelarts/%E6%A8%A1%E5%9E%8B%E8%AF%84%E6%B5%8B-pdf.pdf#1%231)[](https://support.huaweicloud.com/intl/zh-cn/model-evaluation-modelarts/model-evaluation-modelarts-0001.html#1)。比如，通过相同的问题，直观对比新旧模型的回答，看新模型是否真正掌握了新知识，或者是否出现了“灾难性遗忘”（学了新的忘了旧的）。
+2. **优化推理参数（A/B测试）**：对比同一个模型在不同参数（如 `Temperature` 控制随机性，`Top_P` 控制词汇多样性）下的输出差异[](https://support.huaweicloud.com/intl/pt-br/model-evaluation-modelarts/model-evaluation-modelarts-0001.html#1)[](https://support.huaweicloud.com/intl/zh-cn/model-evaluation-modelarts/model-evaluation-modelarts-0001.html#1)。这能帮您找到让模型表现最好的参数组合。
+
+### 离线数据评估
+简单来说，就是用一批**预先准备好的、模型从未见过的数据**（即“离线数据”或“验证集”）来测试模型，看看它的表现如何。这么做的主要目的是：
+
+- **模拟真实考试**：测试模型在未知数据上的泛化能力，避免它只是“背题”。
+    
+- **进行“体检”**：在上线前尽早发现问题（如准确率低）[](https://www.manning.com/preview/ai-model-evaluation/chapter-1)，并客观对比不同版本的模型。
+    
+- **回归验证**：当模型更新后，用同一批“考题”再测一遍，确保新版本没有“退步”[](https://www.amplitude.com/explore/analytics/what-is-an-offline-eval.md)。
+
+### 测评脚本
+

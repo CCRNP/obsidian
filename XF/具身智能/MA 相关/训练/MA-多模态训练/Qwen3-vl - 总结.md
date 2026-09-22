@@ -12,7 +12,7 @@ tags:
 ### 2.1 基础信息
 - **基础镜像**：`swr.cn-south-1.myhuaweicloud.com/ascendhub/mindspeed-mm:26.0.0-910b-openeuler24.03-py3.11-aarch64`
 - **最终镜像**：`swr.gdrising-global-1.air.gdrising.com.cn/ma-test/mindspeed-mm:full`
-- **硬件**：华为昇腾 910B NPU（单卡 32GB HBM2e 显存）
+- **硬件**：华为昇腾 910B NPU（单卡 64GB 显存）
 - **架构**：ARM (aarch64)
 
 ### 2.2 镜像制作流程（关键步骤）
@@ -41,13 +41,13 @@ docker push swr.../ma-test/mindspeed-mm:full
 
 ### 2.3 遇到的关键问题及解决
 
-| 问题 | 解决方案 |
-|------|----------|
-| **`ModuleNotFoundError: No module named 'mindspeed.fsdp'`** | 不是 pip 包，需要把 MindSpeed 的 `mindspeed/` 目录复制到 MindSpeed-MM，然后 `pip install -e .` |
-| **`ModuleNotFoundError: No module named 'megatron'`** | 必须安装 Megatron，因为 `mindspeed_mm/__init__.py` 导入时会触发 `import megatron`，无法绕过 |
-| **pip 下载慢/卡住** | 换国内 PyPI 源：`pip config set global.index-url https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple` |
-| **离线安装依赖** | 在有网机器下载 `.whl`，打包传到目标机器：`pip install --no-index --find-links=. 包名` |
-| **COCO 数据集下载慢** | 用 OpenDataLab 国内镜像站，或 aria2/axel 多线程下载 |
+| 问题                                                          | 解决方案                                                                                              |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| **`ModuleNotFoundError: No module named 'mindspeed.fsdp'`** | 不是 pip 包，需要把 MindSpeed 的 `mindspeed/` 目录复制到 MindSpeed-MM，然后 `pip install -e .`                    |
+| **`ModuleNotFoundError: No module named 'megatron'`**       | 必须安装 Megatron，因为 `mindspeed_mm/__init__.py` 导入时会触发 `import megatron`，无法绕过                         |
+| **pip 下载慢/卡住**                                              | 换国内 PyPI 源：`pip config set global.index-url https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple` |
+| **离线安装依赖**                                                  | 在有网机器下载 `.whl`，打包传到目标机器：`pip install --no-index --find-links=. 包名`                                |
+| **COCO 数据集下载慢**                                             | 用 OpenDataLab 国内镜像站，或 aria2/axel 多线程下载                                                            |
 
 
 ## 三、数据准备
@@ -152,12 +152,12 @@ python examples/qwen3vl/inference_demo.py
 
 ## 六、部署在线服务（规划）
 
-| 要素 | 要求 |
-|------|------|
+| 要素       | 要求                                    |
+| -------- | ------------------------------------- |
 | **推理镜像** | 需包含 HTTP 服务（Flask/FastAPI），监听 8080 端口 |
-| **模型挂载** | 通过 OBS 挂载 HuggingFace 格式权重到容器 |
-| **资源池** | 专属资源池，Ascend 规格 |
-| **架构** | ARM (aarch64) |
+| **模型挂载** | 通过 OBS 挂载 HuggingFace 格式权重到容器         |
+| **资源池**  | 专属资源池，Ascend 规格                       |
+| **架构**   | ARM (aarch64)                         |
 
 
 ## 七、已保存的镜像信息

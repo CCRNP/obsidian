@@ -16,5 +16,8 @@ IP:10.3.28.143,100.64.34.194
 3. 从ModelArts-Common-Proxy节点以**opsadmin**用户登录CDK Master节点。、
 
 ModelArts_Common_Region-POD-Master-0001 的账号密码:
-opsadmin / %MtC7GTI7ao79Ow
-root / %w3JTC15kPachC_
+~~opsadmin / %MtC7GTI7ao79Ow~~
+~~root / %w3JTC15kPachC_~~
+
+opsadmin / Jduyv6Ad%*xudCd
+root / c!NM19Q9n@nYlyy
