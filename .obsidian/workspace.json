@@ -34,36 +34,29 @@
             }
           },
           {
-            "id": "76959156d4beae8b",
+            "id": "1b65d759f47e828f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "XF/MA 面评/AI 中级 面评.canvas",
+                "viewState": {
+                  "x": -537.5,
+                  "y": -820,
+                  "zoom": -0.7428338221650531
                 }
               },
-              "icon": "lucide-file",
-              "title": "Qwen3-vl - 总结"
+              "icon": "lucide-layout-dashboard",
+              "title": "AI 中级 面评"
             }
           },
           {
-            "id": "ac2d796f8a9e42c3",
+            "id": "629567638798d7bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/Q & A.md",
+                "file": "XF/MA 面评/华为 AI 中级 面评 陈述稿.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,65 +71,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Q & A"
+              "title": "华为 AI 中级 面评 陈述稿"
             }
           },
           {
-            "id": "ae3a500d8211ffd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/推理/Qwen3vl/操作手册所涉及脚本.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "操作手册所涉及脚本"
-            }
-          },
-          {
-            "id": "0c526b56b2284849",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
-            }
-          },
-          {
-            "id": "1c4b9d950517764a",
+            "id": "04a90b570f48b92c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "XF/具身智能/MA 相关/模型测评/模型测评.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -154,12 +99,12 @@
             }
           },
           {
-            "id": "6e811feb3225540e",
+            "id": "e0913771d687a9fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/各账号密码.md",
+                "file": "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -174,16 +119,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "各账号密码"
+              "title": "2026-03-27 MA 测试"
             }
           },
           {
-            "id": "2bb90564a9118121",
+            "id": "491c968244206c92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "模型测评相关.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -198,35 +143,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "未命名"
-            }
-          },
-          {
-            "id": "f07efeb7c01c430d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "模型测评相关"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -260,8 +181,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ModelArts-Common-Proxy",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": false,
@@ -291,7 +212,8 @@
               "title": "LifeOS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -436,38 +358,39 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "f07efeb7c01c430d",
+  "active": "491c968244206c92",
   "lastOpenFiles": [
-    "未命名.md",
-    "conflict-files-obsidian-git.md",
+    "img/Pasted image 20260923180957.png",
+    "模型测评相关.md",
+    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "XF/具身智能/MA 相关/模型测评/模型测评.md",
+    "XF/MA 面评/华为 AI 中级 面评 陈述稿.md",
+    "XF/MA 面评/AI 中级 面评.canvas",
+    "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
+    "XF/具身智能/验收会——演讲（快速）.md",
     "XF/MA 面评/基于昇腾910B的Qwen3-VL-32B多模态推理服务部署.md",
+    "HomePage/Dashboard.md",
+    "未命名.md",
+    "XF/MA 面评/Transformer.md",
+    "XF/MA 面评/Qwen.md",
+    "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
+    "XF/具身智能/MA 相关/Q & A.md",
+    "XF/具身智能/MA 相关/推理/Qwen3vl/操作手册所涉及脚本.md",
+    "XF/具身智能/各账号密码.md",
+    "conflict-files-obsidian-git.md",
     "未命名 3.md",
     "XF/人员一对一意识梳理.md",
     "XF/GIt push test.canvas",
-    "XF/具身智能/MA 相关/模型测评/模型测评.md",
     "XF/具身智能/MA 相关/模型测评",
     "XF/具身智能/MRS 相关/HCIP-BigData.md",
     "XF/具身智能/MA 相关/GPU 驱动升级 操作记录.md",
     "XF/具身智能/具身智能-总结分析.md",
-    "XF/具身智能/验收会——演讲（快速）.md",
     "XF/具身智能/运维配置.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/部署 Qwen3-VL-32B-Instruct 在线推理服务的流程总结.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/README.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/Qwen3vl 部署操作手册.md",
-    "XF/具身智能/MA 相关/推理/Qwen3vl/Qwen3-VL-32B 在线推理服务调用指南.md",
-    "XF/具身智能/MA 相关/推理/Qwen3vl/操作手册所涉及脚本.md",
-    "XF/具身智能/MA 相关/推理/部署推理服务——自定义镜像.md",
-    "XF/具身智能/MA 相关/推理/qwen3vl-2b-910b-deploy-guide.md",
-    "未命名 4.md",
-    "XF/具身智能/各账号密码.md",
-    "XF/具身智能/MA 相关/登录 CDK.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "各账号密码｜MA二级VDC_承载租户用户.md",
-    "XF/具身智能/登录.md",
-    "XF/具身智能/MA 相关/MA-API.md",
     "XF/具身智能/MA 相关/资源池",
     "img/Pasted image 20260920165200.png",
-    "XF/运通/登录.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/未命名",
     "XF/具身智能/MA 相关/推理/Qwen3vl/run.sh",
     "XF/具身智能/MA 相关/推理/Qwen3vl/build.sh",

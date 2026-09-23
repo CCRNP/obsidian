@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"0774e377f41d3e41","type":"text","text":"讲清楚MindSpore/MindIE/CANN的分工","x":-740,"y":-935,"width":280,"height":80},
+		{"id":"47f0fd9117537305","type":"text","text":"CANN","x":-740,"y":-805,"width":250,"height":60},
+		{"id":"1e5edbb8b7436538","type":"text","text":"MindSpore","x":-740,"y":-720,"width":250,"height":60},
+		{"id":"665dda8242dd0279","type":"text","text":"MindIE","x":-740,"y":-640,"width":250,"height":60},
+		{"id":"7fe513dc70a78ac7","type":"text","text":"分离部署——PD分离","x":15,"y":-690,"width":250,"height":60},
+		{"id":"7938b6f3af515236","type":"text","text":"讲清楚PyTorch/vLLM更能体现“在这个平台上能干活”","x":-320,"y":-1060,"width":260,"height":70},
+		{"id":"14380787559c8b66","type":"file","file":"XF/MA 面评/Transformer.md","x":-1340,"y":-1040,"width":400,"height":400},
+		{"id":"d1231f82def290e1","type":"text","text":"BF16","x":-364,"y":-859,"width":250,"height":60},
+		{"id":"8a2b766c46c46985","type":"text","text":"KV Cache","x":-364,"y":-745,"width":250,"height":60},
+		{"id":"d41ebdd0d2de8998","type":"text","text":"torch_npu","x":-364,"y":-660,"width":250,"height":60}
+	],
+	"edges":[]
+}
