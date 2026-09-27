@@ -81,7 +81,7 @@
               "type": "markdown",
               "state": {
                 "file": "XF/具身智能/MA 相关/模型测评/模型测评.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -147,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -212,8 +212,7 @@
               "title": "LifeOS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -358,18 +357,18 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "491c968244206c92",
+  "active": "04a90b570f48b92c",
   "lastOpenFiles": [
-    "img/Pasted image 20260923180957.png",
-    "模型测评相关.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
+    "模型测评相关.md",
+    "HomePage/Dashboard.md",
+    "img/Pasted image 20260923180957.png",
     "XF/具身智能/MA 相关/模型测评/模型测评.md",
     "XF/MA 面评/华为 AI 中级 面评 陈述稿.md",
     "XF/MA 面评/AI 中级 面评.canvas",
     "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
     "XF/具身智能/验收会——演讲（快速）.md",
     "XF/MA 面评/基于昇腾910B的Qwen3-VL-32B多模态推理服务部署.md",
-    "HomePage/Dashboard.md",
     "未命名.md",
     "XF/MA 面评/Transformer.md",
     "XF/MA 面评/Qwen.md",
@@ -407,7 +406,6 @@
     "img/Pasted image 20260806143415.png",
     "img/Pasted image 20260806142803.png",
     "XF/报销/2026/6月/滴滴付款截图8.10.jpg",
-    "XF/报销/2026/6月/滴滴付款截图13.90.jpg",
     "未命名.canvas"
   ]
 }
