@@ -80,8 +80,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/模型测评/模型测评.md",
-                "mode": "preview",
+                "file": "模型测评相关.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -95,7 +95,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "模型测评"
+              "title": "模型测评相关"
             }
           },
           {
@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "模型测评相关.md",
+                "file": "未命名 3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -143,7 +143,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "模型测评相关"
+              "title": "未命名 3"
             }
           }
         ],
@@ -359,17 +359,30 @@
   },
   "active": "04a90b570f48b92c",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/模型测评/模型测评.md",
+    "未命名 3.md",
+    "未命名.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "模型测评相关.md",
+    "陈崇荣AI申请面试资料/4、考试截图/中国政企ASP服务规范性考试合格证书.pdf",
+    "陈崇荣AI申请面试资料/4、考试截图/中国区政企ASP服务规范性考试.png",
+    "陈崇荣AI申请面试资料/4、考试截图/Cyber Security Certificate for the Subcontractor Resources.pdf",
+    "陈崇荣AI申请面试资料/4、考试截图/CSC-服务分包资源网络安全资质认证.png",
+    "陈崇荣AI申请面试资料/4、考试截图",
+    "陈崇荣AI申请面试资料/1、ASP技能资格认证报名表【XF】202609.xlsx",
+    "陈崇荣AI申请面试资料/5、技能认证证书/HCIP-Big Data Developer.pdf",
+    "陈崇荣AI申请面试资料/5、技能认证证书",
+    "陈崇荣AI申请面试资料/3、社保或合同证明/劳动合同-陈崇荣.pdf",
+    "陈崇荣AI申请面试资料/3、社保或合同证明",
+    "陈崇荣AI申请面试资料/2、简历/9月入池-深圳讯方-陈崇荣-Ai中级.docx",
+    "陈崇荣AI申请面试资料/2、简历",
+    "XF/MA 面评/华为 AI 中级 面评 陈述稿.md",
     "HomePage/Dashboard.md",
     "img/Pasted image 20260923180957.png",
-    "XF/具身智能/MA 相关/模型测评/模型测评.md",
-    "XF/MA 面评/华为 AI 中级 面评 陈述稿.md",
     "XF/MA 面评/AI 中级 面评.canvas",
     "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
     "XF/具身智能/验收会——演讲（快速）.md",
     "XF/MA 面评/基于昇腾910B的Qwen3-VL-32B多模态推理服务部署.md",
-    "未命名.md",
     "XF/MA 面评/Transformer.md",
     "XF/MA 面评/Qwen.md",
     "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
@@ -377,10 +390,8 @@
     "XF/具身智能/MA 相关/推理/Qwen3vl/操作手册所涉及脚本.md",
     "XF/具身智能/各账号密码.md",
     "conflict-files-obsidian-git.md",
-    "未命名 3.md",
     "XF/人员一对一意识梳理.md",
     "XF/GIt push test.canvas",
-    "XF/具身智能/MA 相关/模型测评",
     "XF/具身智能/MRS 相关/HCIP-BigData.md",
     "XF/具身智能/MA 相关/GPU 驱动升级 操作记录.md",
     "XF/具身智能/具身智能-总结分析.md",
@@ -388,24 +399,13 @@
     "XF/具身智能/MA 相关/推理/Qwen3vl/部署 Qwen3-VL-32B-Instruct 在线推理服务的流程总结.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/README.md",
     "XF/具身智能/MA 相关/推理/Qwen3vl/Qwen3vl 部署操作手册.md",
-    "XF/具身智能/MA 相关/资源池",
     "img/Pasted image 20260920165200.png",
-    "XF/具身智能/MA 相关/推理/Qwen3vl/未命名",
-    "XF/具身智能/MA 相关/推理/Qwen3vl/run.sh",
-    "XF/具身智能/MA 相关/推理/Qwen3vl/build.sh",
-    "XF/具身智能/MA 相关/推理/Qwen3vl/Dockerfile.txt",
-    "XF/具身智能/MA 相关/推理/Qwen3vl",
-    "XF/具身智能/MA 相关/镜像/A100",
     "XF/MA 面评/img/Pasted image 20260908163357.png",
     "XF/MA 面评/img/Pasted image 20260908163354.png",
     "XF/MA 面评/img/Pasted image 20260908163337.png",
     "XF/MA 面评/img/Pasted image 20260908163327.png",
-    "XF/MA 面评/img",
-    "XF/具身智能/MA 相关/文档/初验前交付文档",
     "XF/具身智能/MA 相关/img/Pasted image 20260826160738.png",
     "img/Pasted image 20260806143415.png",
-    "img/Pasted image 20260806142803.png",
-    "XF/报销/2026/6月/滴滴付款截图8.10.jpg",
     "未命名.canvas"
   ]
 }
