@@ -123,6 +123,7 @@ https://gdrising-global-1-modelarts-common-region.obsv3.gdrising-global-1.air.gd
 
 ## 问题记录
 ### 升级问题
+#### 问题 1 平台升级完成，但实际没有升级成功
 平台升级显示成功，版本为 570，但实际 登录到该裸金属服务器通过 nvidia-smi 并没有升级成功。
 
 ![[Pasted image 20261016103404.png|234]]
@@ -150,3 +151,17 @@ https://gdrising-global-1-modelarts-common-region.obsv3.gdrising-global-1.air.gd
 ```
 
 可看到，根因为 **obs 文件权限有问题，文件无法让匿名用户访问**。
+
+> [!success] 🛠️ 解决方案
+> 使用 ma 二级承载租户登录 obs，重新设置其文件权限：
+> ![[Pasted image 20261016112103.png]]
+
+#### 问题2 升级完后，nvidia-smi 无法识别设备
+**从470升级到570失败，不是驱动本身的问题，而是新驱动依赖的GSP固件在HCE 2.0系统里缺失了。**
+- **470驱动（旧时代）**：470版本是比较早期的驱动，**默认不使用GSP**（GPU System Processor）来管理GPU，而是通过传统方式初始化。所以即使系统里没有GSP固件文件，470也能正常识别A100并工作。
+    
+- **570驱动（新时代）**：从535版本开始，NVIDIA为了提升性能，**默认启用GSP**来接管GPU的初始化任务。570版本也不例外，它启动时会强制去加载固件文件 `gsp_tu10x.bin`。**HCE 2.0系统默认没有这个文件**，所以内核直接报 `error -2`（找不到文件），导致 `nvidia-smi` 无法识别设备。
+
+> [!success] 🛠️ 解决方案
+> 具体操作详见：[[A100 - GPU驱动升级失败修复步骤总结]]
+

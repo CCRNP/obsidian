@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/具身智能/MA 相关/资源池/GPU 驱动升级 操作记录.md",
+                "file": "XF/具身智能/MA 相关/资源池/A100/GPU 驱动升级 操作记录.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -55,6 +55,30 @@
               },
               "icon": "lucide-file",
               "title": "GPU 驱动升级 操作记录"
+            }
+          },
+          {
+            "id": "7e3a374fbf7a8f40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD Help/Obsidian 笔记排版技巧：如何醒目展示“解决方案”.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian 笔记排版技巧：如何醒目展示“解决方案”"
             }
           },
           {
@@ -82,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CANN",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -186,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "模型测评相关.md",
+                "file": "XF/具身智能/MA 相关/资源池/A100/GPU 驱动升级 操作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -292,14 +316,19 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "dc576faba7544fbb",
+  "active": "cd8af3bedfa1ede8",
   "lastOpenFiles": [
+    "MD Help/Obsidian 笔记排版技巧：如何醒目展示“解决方案”.md",
+    "MD Help/MD 基本语法.md",
+    "XF/具身智能/MA 相关/资源池/A100/GPU 驱动升级 操作记录.md",
+    "XF/具身智能/MA 相关/资源池/A100/A100 - GPU驱动升级失败修复步骤总结.md",
+    "XF/具身智能/各账号密码.md",
+    "XF/具身智能/MA 相关/资源池/A100",
+    "XF/具身智能/MA 相关/资源池/img/Pasted image 20261016112103.png",
     "XF/具身智能/登录.md",
-    "XF/具身智能/MA 相关/资源池/GPU 驱动升级 操作记录.md",
     "XF/具身智能/MA 相关/资源池/img/Pasted image 20261016103404.png",
     "XF/具身智能/MA 相关/资源池/img/Pasted image 20261016103317.png",
     "XF/具身智能/MA 相关/资源池/img",
-    "XF/具身智能/各账号密码.md",
     "HomePage/Dashboard.md",
     "XF/MA 面评/华为 AI 中级 面评 陈述稿.md",
     "模型测评相关.md",
@@ -320,7 +349,6 @@
     "变更.md",
     "XF/具身智能/MA 相关/模型测评/模型测评.md",
     "未命名.md",
-    "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
     "XF/陈崇荣AI申请面试资料/4、考试截图/中国政企ASP服务规范性考试合格证书.pdf",
     "XF/陈崇荣AI申请面试资料/4、考试截图/中国区政企ASP服务规范性考试.png",
     "XF/陈崇荣AI申请面试资料/4、考试截图/Cyber Security Certificate for the Subcontractor Resources.pdf",
@@ -331,16 +359,13 @@
     "XF/陈崇荣AI申请面试资料/5、技能认证证书",
     "XF/陈崇荣AI申请面试资料/3、社保或合同证明/劳动合同-陈崇荣.pdf",
     "XF/陈崇荣AI申请面试资料/3、社保或合同证明",
-    "XF/陈崇荣AI申请面试资料/2、简历/9月入池-深圳讯方-陈崇荣-Ai中级.docx",
     "img/Pasted image 20260923180957.png",
     "XF/MA 面评/AI 中级 面评.canvas",
-    "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
     "XF/GIt push test.canvas",
     "img/Pasted image 20260920165200.png",
     "XF/MA 面评/img/Pasted image 20260908163357.png",
     "XF/MA 面评/img/Pasted image 20260908163354.png",
     "XF/MA 面评/img/Pasted image 20260908163337.png",
-    "XF/MA 面评/img/Pasted image 20260908163327.png",
     "未命名.canvas"
   ]
 }
