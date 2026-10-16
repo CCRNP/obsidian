@@ -2,7 +2,7 @@
 tags:
   - MA
 ---
-## 一、准备阶段
+## 📦一、准备阶段
 
 ### 1. 获取驱动包
 - 确认服务器CPU架构（x86_64 / ARM）和操作系统（RHEL/openEuler等）。
@@ -26,7 +26,7 @@ https://gdrising-global-1-modelarts-common-region.obsv3.gdrising-global-1.air.gd
 
 ---
 
-## 二、录入新驱动版本
+## ⚙️二、录入新驱动版本
 
 ### 1. 登录CDK master节点
 - 通过SSH登录到CDK master节点。[[登录 CDK]]
@@ -64,7 +64,7 @@ https://gdrising-global-1-modelarts-common-region.obsv3.gdrising-global-1.air.gd
 
 ---
 
-## 三、升级资源池驱动
+## 🚀三、升级资源池驱动
 
 ### 1. 进入ModelArts管理控制台
 - 使用管理员账号登录ModelArts管理控制台。
@@ -84,7 +84,7 @@ https://gdrising-global-1-modelarts-common-region.obsv3.gdrising-global-1.air.gd
 
 ---
 
-## 四、验证升级结果
+##  ✅ 四、验证升级结果
 
 ### 1. 检查驱动版本
 - 登录到GPU节点，执行：
@@ -102,7 +102,7 @@ https://gdrising-global-1-modelarts-common-region.obsv3.gdrising-global-1.air.gd
 
 ---
 
-## 五、常见问题与处理
+## 🐛 五、常见问题与处理
 
 | 问题 | 原因 | 解决 |
 |---|---|---|
@@ -120,8 +120,9 @@ https://gdrising-global-1-modelarts-common-region.obsv3.gdrising-global-1.air.gd
 ## 结果截图
 ![[Pasted image 20260920165200.png]]
 
+---
 
-## 问题记录
+##  📝问题记录
 ### 升级问题
 #### 问题 1 平台升级完成，但实际没有升级成功
 平台升级显示成功，版本为 570，但实际 登录到该裸金属服务器通过 nvidia-smi 并没有升级成功。

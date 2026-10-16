@@ -58,6 +58,30 @@
             }
           },
           {
+            "id": "e3c854a7bd686708",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XF/具身智能/MA 相关/资源池/A100/GPU 驱动升级 操作记录.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GPU 驱动升级 操作记录"
+            }
+          },
+          {
             "id": "7e3a374fbf7a8f40",
             "type": "leaf",
             "state": {
@@ -106,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -316,11 +340,12 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "cd8af3bedfa1ede8",
+  "active": "e3c854a7bd686708",
   "lastOpenFiles": [
+    "XF/具身智能/MA 相关/资源池/A100/未命名.md",
+    "XF/具身智能/MA 相关/资源池/A100/GPU 驱动升级 操作记录.md",
     "MD Help/Obsidian 笔记排版技巧：如何醒目展示“解决方案”.md",
     "MD Help/MD 基本语法.md",
-    "XF/具身智能/MA 相关/资源池/A100/GPU 驱动升级 操作记录.md",
     "XF/具身智能/MA 相关/资源池/A100/A100 - GPU驱动升级失败修复步骤总结.md",
     "XF/具身智能/各账号密码.md",
     "XF/具身智能/MA 相关/资源池/A100",
@@ -348,7 +373,6 @@
     "XF/MRS面评/ElasticSearch/ElasticSearch.md",
     "变更.md",
     "XF/具身智能/MA 相关/模型测评/模型测评.md",
-    "未命名.md",
     "XF/陈崇荣AI申请面试资料/4、考试截图/中国政企ASP服务规范性考试合格证书.pdf",
     "XF/陈崇荣AI申请面试资料/4、考试截图/中国区政企ASP服务规范性考试.png",
     "XF/陈崇荣AI申请面试资料/4、考试截图/Cyber Security Certificate for the Subcontractor Resources.pdf",
