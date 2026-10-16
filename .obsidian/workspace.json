@@ -39,6 +39,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "XF/具身智能/MA 相关/资源池/GPU 驱动升级 操作记录.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GPU 驱动升级 操作记录"
+            }
+          },
+          {
+            "id": "dc576faba7544fbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "XF/具身智能/各账号密码.md",
                 "mode": "source",
                 "source": false,
@@ -58,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -268,10 +292,14 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "cd8af3bedfa1ede8",
+  "active": "dc576faba7544fbb",
   "lastOpenFiles": [
     "XF/具身智能/登录.md",
-    "XF/具身智能/MA 相关/GPU 驱动升级 操作记录.md",
+    "XF/具身智能/MA 相关/资源池/GPU 驱动升级 操作记录.md",
+    "XF/具身智能/MA 相关/资源池/img/Pasted image 20261016103404.png",
+    "XF/具身智能/MA 相关/资源池/img/Pasted image 20261016103317.png",
+    "XF/具身智能/MA 相关/资源池/img",
+    "XF/具身智能/各账号密码.md",
     "HomePage/Dashboard.md",
     "XF/MA 面评/华为 AI 中级 面评 陈述稿.md",
     "模型测评相关.md",
@@ -304,20 +332,15 @@
     "XF/陈崇荣AI申请面试资料/3、社保或合同证明/劳动合同-陈崇荣.pdf",
     "XF/陈崇荣AI申请面试资料/3、社保或合同证明",
     "XF/陈崇荣AI申请面试资料/2、简历/9月入池-深圳讯方-陈崇荣-Ai中级.docx",
-    "XF/陈崇荣AI申请面试资料/2、简历",
     "img/Pasted image 20260923180957.png",
     "XF/MA 面评/AI 中级 面评.canvas",
     "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
-    "XF/具身智能/验收会——演讲（快速）.md",
-    "XF/MA 面评/基于昇腾910B的Qwen3-VL-32B多模态推理服务部署.md",
     "XF/GIt push test.canvas",
     "img/Pasted image 20260920165200.png",
     "XF/MA 面评/img/Pasted image 20260908163357.png",
     "XF/MA 面评/img/Pasted image 20260908163354.png",
     "XF/MA 面评/img/Pasted image 20260908163337.png",
     "XF/MA 面评/img/Pasted image 20260908163327.png",
-    "XF/具身智能/MA 相关/img/Pasted image 20260826160738.png",
-    "img/Pasted image 20260806143415.png",
     "未命名.canvas"
   ]
 }

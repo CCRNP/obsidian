@@ -121,3 +121,32 @@ https://gdrising-global-1-modelarts-common-region.obsv3.gdrising-global-1.air.gd
 ![[Pasted image 20260920165200.png]]
 
 
+## 问题记录
+### 升级问题
+平台升级显示成功，版本为 570，但实际 登录到该裸金属服务器通过 nvidia-smi 并没有升级成功。
+
+![[Pasted image 20261016103404.png|234]]
+![[Pasted image 20261016103317.png|816]]
+
+1. 登录 该服务器，查看有无升级的驱动文件，是否从 obs 下载到服务器上
+``` shell
+[root@os-node-created-js7s5 ~]# find / -name "*.run" 2>/dev/null | grep -i nvidia
+/usr/local/nvidia/nvidia.run
+```
+
+2. 如果无，可能 obs 路径错误，重新按照扩容指南操作。
+3. 如果有，查看该文件大小是否正常
+```shell
+[root@os-node-created-js7s5 ~]# ls -lh /usr/local/nvidia/nvidia.run
+-rw-r-----. 1 root root 263 Sep 20 17:27 /usr/local/nvidia/nvidia.run
+```
+可看到该文件只有 263 字节，**平台从 OBS 下载驱动时失败了，下载到的不是真正的驱动包**，验证这 263 字节是什么：
+```shell
+[root@os-node-created-js7s5 ~]# file /usr/local/nvidia/nvidia.run
+/usr/local/nvidia/nvidia.run: XML 1.0 document, ASCII text, with no line terminators
+
+[root@os-node-created-js7s5 ~]# cat /usr/local/nvidia/nvidia.run
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>000001A0BE24C4B4F004611E252899FE</RequestId><HostId>XIZjldjGj1ALcNDmbYFg90bsXZRUaIqdkpXXvf/4DZ063PW7yb5wOK9tild7FAX7</HostId></Error>
+```
+
+可看到，根因为 **obs 文件权限有问题，文件无法让匿名用户访问**。
