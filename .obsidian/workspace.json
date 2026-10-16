@@ -34,29 +34,12 @@
             }
           },
           {
-            "id": "1b65d759f47e828f",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "XF/MA 面评/AI 中级 面评.canvas",
-                "viewState": {
-                  "x": -537.5,
-                  "y": -820,
-                  "zoom": -0.7428338221650531
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI 中级 面评"
-            }
-          },
-          {
-            "id": "629567638798d7bc",
+            "id": "cd8af3bedfa1ede8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XF/MA 面评/华为 AI 中级 面评 陈述稿.md",
+                "file": "XF/具身智能/各账号密码.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -71,83 +54,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "华为 AI 中级 面评 陈述稿"
-            }
-          },
-          {
-            "id": "04a90b570f48b92c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "模型测评相关.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "模型测评相关"
-            }
-          },
-          {
-            "id": "e0913771d687a9fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-03-27 MA 测试"
-            }
-          },
-          {
-            "id": "491c968244206c92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名 3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "未命名 3"
+              "title": "各账号密码"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "CANN",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -251,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XF/具身智能/MA 相关/Q & A.md",
+                "file": "模型测评相关.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -357,48 +268,49 @@
       "periodic-para:LifeOS 创建": false
     }
   },
-  "active": "04a90b570f48b92c",
+  "active": "cd8af3bedfa1ede8",
   "lastOpenFiles": [
-    "XF/具身智能/MA 相关/模型测评/模型测评.md",
+    "XF/具身智能/登录.md",
+    "XF/具身智能/MA 相关/GPU 驱动升级 操作记录.md",
+    "HomePage/Dashboard.md",
+    "XF/MA 面评/华为 AI 中级 面评 陈述稿.md",
+    "模型测评相关.md",
+    "XF/MA 面评/Transformer.md",
+    "XF/具身智能/MA 相关/Q & A.md",
     "未命名 3.md",
+    "XF/具身智能/MRS 相关/MRS 改造遇到的问题.md",
+    "XF/具身智能/MRS 相关/MRS 测试/组件基础功能/组件基础功能测试.md",
+    "XF/具身智能/MRS 相关/MRS 测试/组件基础功能/ES 测试时遇到的一些问题 & 解决方法.md",
+    "XF/具身智能/MRS 相关/MRS 集群卸载/sh postset.md",
+    "XF/具身智能/MRS 相关/创建 MRS 自定义集群.md",
+    "XF/具身智能/MRS 相关/创建MRS自定义集群部分错误.md",
+    "XF/具身智能/MRS 相关/MRS 创建集群 截图.md",
+    "XF/具身智能/MRS 相关/HCIP-BigData.md",
+    "XF/具身智能/具身智能-总结分析.md",
+    "XF/MRS面评/3月11日/HDFS进阶与Yarn基础任务清单.md",
+    "XF/MRS面评/ElasticSearch/ElasticSearch.md",
+    "变更.md",
+    "XF/具身智能/MA 相关/模型测评/模型测评.md",
     "未命名.md",
     "XF/具身智能/MA 相关/MA 测试/2026-03-27 MA 测试.md",
-    "模型测评相关.md",
-    "陈崇荣AI申请面试资料/4、考试截图/中国政企ASP服务规范性考试合格证书.pdf",
-    "陈崇荣AI申请面试资料/4、考试截图/中国区政企ASP服务规范性考试.png",
-    "陈崇荣AI申请面试资料/4、考试截图/Cyber Security Certificate for the Subcontractor Resources.pdf",
-    "陈崇荣AI申请面试资料/4、考试截图/CSC-服务分包资源网络安全资质认证.png",
-    "陈崇荣AI申请面试资料/4、考试截图",
-    "陈崇荣AI申请面试资料/1、ASP技能资格认证报名表【XF】202609.xlsx",
-    "陈崇荣AI申请面试资料/5、技能认证证书/HCIP-Big Data Developer.pdf",
-    "陈崇荣AI申请面试资料/5、技能认证证书",
-    "陈崇荣AI申请面试资料/3、社保或合同证明/劳动合同-陈崇荣.pdf",
-    "陈崇荣AI申请面试资料/3、社保或合同证明",
-    "陈崇荣AI申请面试资料/2、简历/9月入池-深圳讯方-陈崇荣-Ai中级.docx",
-    "陈崇荣AI申请面试资料/2、简历",
-    "XF/MA 面评/华为 AI 中级 面评 陈述稿.md",
-    "HomePage/Dashboard.md",
+    "XF/陈崇荣AI申请面试资料/4、考试截图/中国政企ASP服务规范性考试合格证书.pdf",
+    "XF/陈崇荣AI申请面试资料/4、考试截图/中国区政企ASP服务规范性考试.png",
+    "XF/陈崇荣AI申请面试资料/4、考试截图/Cyber Security Certificate for the Subcontractor Resources.pdf",
+    "XF/陈崇荣AI申请面试资料/4、考试截图/CSC-服务分包资源网络安全资质认证.png",
+    "XF/陈崇荣AI申请面试资料/4、考试截图",
+    "XF/陈崇荣AI申请面试资料/1、ASP技能资格认证报名表【XF】202609.xlsx",
+    "XF/陈崇荣AI申请面试资料/5、技能认证证书/HCIP-Big Data Developer.pdf",
+    "XF/陈崇荣AI申请面试资料/5、技能认证证书",
+    "XF/陈崇荣AI申请面试资料/3、社保或合同证明/劳动合同-陈崇荣.pdf",
+    "XF/陈崇荣AI申请面试资料/3、社保或合同证明",
+    "XF/陈崇荣AI申请面试资料/2、简历/9月入池-深圳讯方-陈崇荣-Ai中级.docx",
+    "XF/陈崇荣AI申请面试资料/2、简历",
     "img/Pasted image 20260923180957.png",
     "XF/MA 面评/AI 中级 面评.canvas",
     "XF/MA 面评/PI0 模型昇腾 NPU 迁移适配 - 问题与解决方案总结.md",
     "XF/具身智能/验收会——演讲（快速）.md",
     "XF/MA 面评/基于昇腾910B的Qwen3-VL-32B多模态推理服务部署.md",
-    "XF/MA 面评/Transformer.md",
-    "XF/MA 面评/Qwen.md",
-    "XF/具身智能/MA 相关/训练/MA-多模态训练/Qwen3-vl - 总结.md",
-    "XF/具身智能/MA 相关/Q & A.md",
-    "XF/具身智能/MA 相关/推理/Qwen3vl/操作手册所涉及脚本.md",
-    "XF/具身智能/各账号密码.md",
-    "conflict-files-obsidian-git.md",
-    "XF/人员一对一意识梳理.md",
     "XF/GIt push test.canvas",
-    "XF/具身智能/MRS 相关/HCIP-BigData.md",
-    "XF/具身智能/MA 相关/GPU 驱动升级 操作记录.md",
-    "XF/具身智能/具身智能-总结分析.md",
-    "XF/具身智能/运维配置.md",
-    "XF/具身智能/MA 相关/推理/Qwen3vl/部署 Qwen3-VL-32B-Instruct 在线推理服务的流程总结.md",
-    "XF/具身智能/MA 相关/推理/Qwen3vl/README.md",
-    "XF/具身智能/MA 相关/推理/Qwen3vl/Qwen3vl 部署操作手册.md",
     "img/Pasted image 20260920165200.png",
     "XF/MA 面评/img/Pasted image 20260908163357.png",
     "XF/MA 面评/img/Pasted image 20260908163354.png",
